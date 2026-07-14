@@ -1,0 +1,30 @@
+{
+  "id": "github:stablyai/orca",
+  "title": "stablyai/orca",
+  "source": "github_trending",
+  "source_url": "https://github.com/stablyai/orca",
+  "author": "stablyai",
+  "published_at": null,
+  "collected_at": "2026-07-14T00:00:00+08:00",
+  "summary": "Orca 是面向并行编码 Agent 的桌面编排环境，可同时运行 Codex、Claude Code、OpenCode 或 Pi，并让每个任务工作在隔离的 Git worktree 中。它把 Agent 会话、终端、代码差异、GitHub 与 Linear 任务以及远程 SSH 工作区集中到一个界面，还提供移动端监控和后续指令能力。项目重点解决多 Agent 并行开发时的隔离、状态可见性、结果比较和人工审查问题。",
+  "tags": ["coding-agent", "multi-agent", "orchestration", "developer-tools", "git"],
+  "language": "zh-CN",
+  "status": "ready",
+  "score": 0.8,
+  "raw_file": "knowledge/raw/github-trending-2026-07-14.json",
+  "analysis": {
+    "why_it_matters": "并行 Agent 的隔离、监督和合并是当前 AI 编程工作流中的真实痛点，Orca 提供了较完整且可直接使用的解决方案。它主要改进开发体验和编排效率，而非提出新的模型或 Agent 范式，且复杂团队中的稳定性与治理效果仍需验证。",
+    "key_points": [
+      "可将同一任务并行分发给多个编码 Agent，并用独立 worktree 隔离修改",
+      "支持集中查看 Agent 状态、比较结果、审查差异并把行级反馈返回给 Agent",
+      "提供移动端监控、完成通知和远程跟进能力",
+      "集成终端、浏览器设计模式、GitHub、Linear 及 SSH 远程工作区"
+    ],
+    "model": null,
+    "analyzed_at": null
+  },
+  "distribution": {
+    "channels": [],
+    "published_at": null
+  }
+}

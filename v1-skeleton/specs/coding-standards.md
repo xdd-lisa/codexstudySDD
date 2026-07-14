@@ -33,7 +33,7 @@
 - 使用 Black 格式化并遵循 PEP 8；两者冲突时以 Black 输出为准。
 - Black 版本必须由项目依赖文件锁定，配置集中放在 `pyproject.toml`，至少指定 Python 3.12 目标版本。禁止开发者自行使用不同格式参数。
 - 导入按标准库、第三方库、项目内部模块分组；禁止通配符导入。
-- 模块、文件、函数和变量使用 `snake_case`，类使用 `PascalCase`，常量使用 `UPPER_SNAKE_CASE`。
+- Python 模块、源文件、函数和变量使用 `snake_case`，类使用 `PascalCase`，常量使用 `UPPER_SNAKE_CASE`。知识条目数据文件使用整理 Agent 定义的 `{date}-{source}-{slug}.json` 命名规范。
 - 禁止裸 `print()`；使用标准库 `logging` 或项目统一 logger，并使用参数化日志消息。
 
 ### 4.2 类型与接口

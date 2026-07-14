@@ -1,0 +1,30 @@
+{
+  "id": "github:madslorentzen/ai-job-search",
+  "title": "MadsLorentzen/ai-job-search",
+  "source": "github_trending",
+  "source_url": "https://github.com/MadsLorentzen/ai-job-search",
+  "author": "MadsLorentzen",
+  "published_at": null,
+  "collected_at": "2026-07-14T00:00:00+08:00",
+  "summary": "该项目把 Claude Code 组织成一套本地求职工作流，覆盖候选人资料建立、职位搜索与匹配评分、定制简历和求职信、材料复核以及面试准备。其价值不只是生成文本，而是用结构化命令、评价标准和起草者—复核者流程串联求职任务，并强调不虚构经历。核心流程可迁移到不同语言和国家，但现成职位搜索工具主要面向丹麦市场，且依赖 Claude Code、Python、Bun 和 LaTeX 等环境。",
+  "tags": ["agent", "claude-code", "workflow", "career", "automation"],
+  "language": "zh-CN",
+  "status": "ready",
+  "score": 0.7,
+  "raw_file": "knowledge/raw/github-trending-2026-07-14.json",
+  "analysis": {
+    "why_it_matters": "它为个人求职提供了可直接复用的 Agent 工作流和质量控制方法，对提示词工程及任务编排有实践价值；但应用领域较垂直，现成采集能力存在地区限制，且效果证据主要来自项目作者自身经历，因此属于“直接有帮助”而非改变格局。",
+    "key_points": [
+      "通过 setup、scrape、rank、apply 和 interview 等命令覆盖从资料准备到面试的完整求职流程",
+      "申请材料采用起草者—复核者双阶段工作流，并对最终 PDF 的版式和 ATS 文本层进行检查",
+      "职位匹配会显式呈现优势、差距和否决条件，而不是仅生成泛化申请文案",
+      "核心评价与材料生成模式可本地化，但内置职位门户工具偏向丹麦市场"
+    ],
+    "model": null,
+    "analyzed_at": null
+  },
+  "distribution": {
+    "channels": [],
+    "published_at": null
+  }
+}

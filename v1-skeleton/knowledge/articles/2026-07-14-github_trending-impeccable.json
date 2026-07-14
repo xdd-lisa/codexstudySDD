@@ -1,0 +1,31 @@
+{
+  "id": "github:pbakaus/impeccable",
+  "title": "pbakaus/impeccable",
+  "source": "github_trending",
+  "source_url": "https://github.com/pbakaus/impeccable",
+  "author": "pbakaus",
+  "published_at": null,
+  "collected_at": "2026-07-14T00:00:00+08:00",
+  "summary": "Impeccable 为 AI 编码 Agent 提供一套前端设计语言、项目上下文和可重复执行的设计命令，试图减少模型生成界面中的通用化与低质量模式。它通过 PRODUCT.md 和 DESIGN.md 持久化受众、品牌、色彩、排版与组件约束，并提供设计、审查、无障碍、响应式、性能和视觉调整等命令。除 LLM 评审外，项目还包含确定性检测规则和浏览器实时迭代能力，使部分设计质量检查可以在无模型 API 的情况下执行。",
+  "tags": ["frontend", "design-system", "coding-agent", "agent-skill", "ui-ux"],
+  "language": "zh-CN",
+  "status": "ready",
+  "score": 0.7,
+  "raw_file": "knowledge/raw/github-trending-2026-07-14.json",
+  "analysis": {
+    "why_it_matters": "该项目把主观设计指导转化为可复用上下文、命令和部分确定性规则，能直接改善 AI 前端开发流程。设计质量仍高度依赖项目语境和人工判断，规则能否跨产品稳定提升结果尚缺少广泛独立验证，因此评分为 7。",
+    "key_points": [
+      "通过 PRODUCT.md 和 DESIGN.md 为后续 Agent 任务持续提供产品与设计上下文",
+      "提供覆盖设计规划、审查、打磨、无障碍、性能和响应式适配的命令体系",
+      "包含 46 条确定性检测规则，可在不调用 LLM 的情况下执行部分检查",
+      "支持浏览器实时迭代，并适配 Claude Code、Codex、Cursor 等多种 Agent 宿主",
+      "明确列出常见 AI 生成界面反模式，为设计评审提供统一词汇"
+    ],
+    "model": null,
+    "analyzed_at": null
+  },
+  "distribution": {
+    "channels": [],
+    "published_at": null
+  }
+}

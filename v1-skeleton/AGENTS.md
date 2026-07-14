@@ -41,7 +41,7 @@ Python：
 
 - 使用 Black 格式化并遵循 PEP 8；两者冲突时以 Black 输出为准。Black 版本必须锁定，配置集中放在 `pyproject.toml` 并指定 Python 3.12 目标版本。
 - 导入按标准库、第三方库、项目内部模块分组，禁止通配符导入。
-- 模块、文件、函数和变量使用 `snake_case`；类使用 `PascalCase`；常量使用 `UPPER_SNAKE_CASE`。
+- Python 模块、源文件、函数和变量使用 `snake_case`；类使用 `PascalCase`；常量使用 `UPPER_SNAKE_CASE`。知识条目数据文件使用整理 Agent 定义的 `{date}-{source}-{slug}.json` 命名规范。
 - 公开函数必须标注全部参数和返回值类型；关键内部函数和数据边界也必须有类型。优先使用 Python 3.12 原生类型语法。
 - `Any` 只能出现在无法直接建模的输入边界，并在校验后尽快收窄。类型忽略必须限定具体错误码，并在同一行说明原因。
 - 公开模块、类、函数和方法必须使用 Google 风格 docstring，按实际契约说明用途、参数、返回值、可预期异常、边界和副作用。
@@ -134,7 +134,10 @@ diff-cover coverage.xml --fail-under=90
 ```text
 .
 ├── .codex/
-│   ├── subagents/          # 子 Agent 的角色定义、提示词与运行配置
+│   ├── agents/             # Agent 的角色定义、提示词与权限边界
+│   │   ├── analyzer.md     # 只读知识分析 Agent
+│   │   ├── collector.md    # 只读知识采集 Agent
+│   │   └── organizer.md    # 知识整理与持久化 Agent
 │   └── skills/             # 可复用技能及其说明、脚本和资源
 ├── knowledge/
 │   ├── raw/                # 原始采集结果；保留来源信息，原则上只追加
@@ -144,7 +147,10 @@ diff-cover coverage.xml --fail-under=90
 └── AGENTS.md
 ```
 
-- `.codex/subagents/` 中每个角色应职责单一，明确输入、输出与失败处理方式。
+- `.codex/agents/` 中每个角色应职责单一，明确输入、输出、允许与禁止权限以及失败处理方式。
+- `.codex/agents/collector.md` 定义只读的知识采集 Agent；它返回包含稳定 ID、真实采集时间和原始热度证据的候选 JSON，不直接写入知识库。
+- `.codex/agents/analyzer.md` 定义只读的知识分析 Agent；它生成摘要、亮点、证据、限制、`1-10` 评分、建议标签和状态建议，不直接写入知识库。
+- `.codex/agents/organizer.md` 定义知识整理 Agent；它只接受显式 JSON 交接，负责去重、schema 或字段契约校验，以及 `knowledge/articles/` 内的受限写入。
 - `.codex/skills/` 中的技能应可独立复用，不得把密钥或环境专属配置写入技能文件。
 - `knowledge/raw/` 保存可复现分析过程所需的原始数据；采集器不得在此阶段生成未经标识的 AI 推断内容。
 - `knowledge/articles/` 仅保存通过 schema 校验的知识条目。文件应使用 UTF-8 编码和 `.json` 后缀。
@@ -197,11 +203,13 @@ diff-cover coverage.xml --fail-under=90
 
 ## Agent 角色概览
 
+采集任务使用 [知识采集 Agent](.codex/agents/collector.md)，分析任务使用 [知识分析 Agent](.codex/agents/analyzer.md)，整理与持久化任务使用 [知识整理 Agent](.codex/agents/organizer.md)。采集和分析角色只读并返回 JSON；只有整理角色可以在完成去重和 schema 校验后写入 `knowledge/articles/`。
+
 | 角色 | 主要职责 | 输入 | 输出 |
 | --- | --- | --- | --- |
-| 采集 Agent | 从 GitHub Trending、Hacker News 拉取候选内容，保留来源元数据，规范化 URL，并进行初步去重 | 来源配置、采集时间窗、已有条目 ID/URL | `knowledge/raw/` 下的原始 JSON，状态为 `collected` 的候选记录 |
-| 分析 Agent | 判断 AI/LLM/Agent 相关性，生成摘要、关键点、标签和评分；明确拒绝低质量或无关内容 | 原始 JSON、分析规则、模型配置 | 补全 `summary`、`tags`、`score`、`analysis` 的记录，状态为 `analyzed` 或 `rejected` |
-| 整理 Agent | 校验 schema、合并重复内容、生成最终知识条目，并准备 Telegram/飞书分发数据 | 已分析记录、历史知识库、渠道模板 | `knowledge/articles/` 下的规范 JSON，状态推进至 `ready`；成功分发后更新为 `published` |
+| [采集 Agent](.codex/agents/collector.md) | 只读搜索 GitHub Trending 和 Hacker News，提取来源、原始热度和中文摘要，初步筛选、去重并按热度排序 | 来源配置、采集时间窗、已有条目 ID/URL | 包含稳定 ID、真实采集时间和热度依据的 JSON 数组；默认至少 15 条，用户指定 Top N 时以 N 为准 |
+| [分析 Agent](.codex/agents/analyzer.md) | 只读分析明确指定的 raw 数据，生成摘要、亮点、证据、限制、评分、标签和状态建议 | raw 文件或完整 JSON、分析规则、历史标签 | 包含分析元数据和 `recommended_status` 的显式 JSON 数组；不直接写入文件 |
+| [整理 Agent](.codex/agents/organizer.md) | 接收显式 raw 与分析 JSON，检查重复、校验数据契约并分类写入知识库 | raw 文件、分析 JSON、历史知识库、可用 schema | 按 `{date}-{source}-{slug}.json` 写入 `knowledge/articles/`，并返回含原因、校验依据和警告的处理清单 |
 
 Agent 之间只通过明确的数据契约交接，不依赖隐式内存或未持久化的上下文。任一阶段失败时，应记录可定位问题的错误信息，同时避免把密钥、令牌或完整敏感响应写入日志。
 

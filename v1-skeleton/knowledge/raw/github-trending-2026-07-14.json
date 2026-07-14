@@ -1,0 +1,72 @@
+[
+  {
+    "title": "MadsLorentzen/ai-job-search",
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "source": "github_trending",
+    "popularity": 100,
+    "summary": "基于 Claude Code 的本地 AI 求职框架，可评估职位匹配度、定制简历和求职信，并辅助准备面试。"
+  },
+  {
+    "title": "iOfficeAI/OfficeCLI",
+    "url": "https://github.com/iOfficeAI/OfficeCLI",
+    "source": "github_trending",
+    "popularity": 49,
+    "summary": "面向 AI Agent 的开源 Office 命令行工具，可读取、编辑和自动化处理 Word、Excel 与 PowerPoint 文件，无需安装 Office。"
+  },
+  {
+    "title": "asgeirtj/system_prompts_leaks",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "source": "github_trending",
+    "popularity": 41,
+    "summary": "收集并持续更新多个 AI 产品和开发工具的系统提示词样本，覆盖 Anthropic、OpenAI、Google 等厂商的相关产品。"
+  },
+  {
+    "title": "Zackriya-Solutions/meetily",
+    "url": "https://github.com/Zackriya-Solutions/meetily",
+    "source": "github_trending",
+    "popularity": 35,
+    "summary": "隐私优先的本地 AI 会议助手，支持实时语音转写、说话人分离和基于 Ollama 的会议摘要，可在 macOS 与 Windows 自托管运行。"
+  },
+  {
+    "title": "stablyai/orca",
+    "url": "https://github.com/stablyai/orca",
+    "source": "github_trending",
+    "popularity": 34,
+    "summary": "面向并行 Agent 集群的开发环境，可使用用户自己的订阅运行不同编码 Agent，并提供桌面端和移动端支持。"
+  },
+  {
+    "title": "diegosouzapw/OmniRoute",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "source": "github_trending",
+    "popularity": 28,
+    "summary": "统一接入多家模型提供商的 AI 网关，可连接 Claude Code、Codex、Cursor 等编码工具，并提供自动故障切换、令牌压缩及 MCP、A2A 和多模态接口。"
+  },
+  {
+    "title": "bradautomates/claude-video",
+    "url": "https://github.com/bradautomates/claude-video",
+    "source": "github_trending",
+    "popularity": 27,
+    "summary": "为 Claude 提供视频理解工作流，可下载视频、提取画面帧、生成转写文本，再将这些内容交给 Claude 分析。"
+  },
+  {
+    "title": "ogulcancelik/herdr",
+    "url": "https://github.com/ogulcancelik/herdr",
+    "source": "github_trending",
+    "popularity": 22,
+    "summary": "运行在终端中的 Agent 多路复用工具，用于集中组织和管理多个 Agent 会话。"
+  },
+  {
+    "title": "usestrix/strix",
+    "url": "https://github.com/usestrix/strix",
+    "source": "github_trending",
+    "popularity": 22,
+    "summary": "开源 AI 渗透测试工具，用于发现应用程序中的安全漏洞并辅助修复。"
+  },
+  {
+    "title": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
+    "source": "github_trending",
+    "popularity": 16,
+    "summary": "面向 AI 开发工具的设计语言与指导项目，旨在提升 AI 生成界面和产品设计的质量。"
+  }
+]

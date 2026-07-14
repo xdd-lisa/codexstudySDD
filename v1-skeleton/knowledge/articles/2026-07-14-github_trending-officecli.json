@@ -1,0 +1,30 @@
+{
+  "id": "github:iofficeai/officecli",
+  "title": "iOfficeAI/OfficeCLI",
+  "source": "github_trending",
+  "source_url": "https://github.com/iOfficeAI/OfficeCLI",
+  "author": "iOfficeAI",
+  "published_at": null,
+  "collected_at": "2026-07-14T00:00:00+08:00",
+  "summary": "OfficeCLI 为 AI Agent 提供统一的 Office 文档操作接口，可创建、读取、分析和修改 Word、Excel 与 PowerPoint 文件，并以结构化 JSON 返回文档内容。它还可把文档渲染为 HTML 或 PNG，使视觉模型能够执行“渲染—观察—修正”循环，而不只是操作底层文件结构。项目采用单二进制分发且不要求安装 Microsoft Office，降低了 Agent 自动化办公文档的环境门槛。",
+  "tags": ["agent", "office", "document-automation", "cli", "multimodal"],
+  "language": "zh-CN",
+  "status": "ready",
+  "score": 0.8,
+  "raw_file": "knowledge/raw/github-trending-2026-07-14.json",
+  "analysis": {
+    "why_it_matters": "Office 文档一直是 Agent 工具链中的高摩擦数据格式，该项目用统一接口和视觉反馈循环解决了明确且普遍的问题，能直接提升办公自动化 Agent 的可用性。项目对跨格式高保真和全功能支持的描述主要来自自身文档，实际兼容性仍需独立验证，因此评分为 8。",
+    "key_points": [
+      "用统一命令接口覆盖 docx、xlsx 和 pptx 的读取、修改与创建",
+      "既能读取文本、样式、公式和结构，也能操作图表、图片、布局及跨文档元素",
+      "内置 HTML 和 PNG 渲染能力，可让多模态 Agent 检查文档的视觉结果",
+      "提供结构化 JSON 输出、schema、SDK 和 Agent skill，便于接入自动化工作流"
+    ],
+    "model": null,
+    "analyzed_at": null
+  },
+  "distribution": {
+    "channels": [],
+    "published_at": null
+  }
+}

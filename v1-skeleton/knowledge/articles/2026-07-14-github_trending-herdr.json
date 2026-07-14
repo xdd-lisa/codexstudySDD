@@ -1,0 +1,31 @@
+{
+  "id": "github:ogulcancelik/herdr",
+  "title": "ogulcancelik/herdr",
+  "source": "github_trending",
+  "source_url": "https://github.com/ogulcancelik/herdr",
+  "author": "ogulcancelik",
+  "published_at": null,
+  "collected_at": "2026-07-14T00:00:00+08:00",
+  "summary": "herdr 是用 Rust 构建的终端 Agent 多路复用器，用一个界面展示多个 Agent 的工作、阻塞和完成状态，并保留真实终端会话。用户可以分离后让任务继续运行，再从其他终端或 SSH 重新连接；Agent 也可通过 socket API 创建窗格、读取输出和相互等待。它将传统终端复用能力针对多 Agent 协作进行了状态展示和自动化扩展。",
+  "tags": ["multi-agent", "terminal", "orchestration", "developer-tools", "rust"],
+  "language": "zh-CN",
+  "status": "ready",
+  "score": 0.7,
+  "raw_file": "knowledge/raw/github-trending-2026-07-14.json",
+  "analysis": {
+    "why_it_matters": "它能直接改善多 Agent 终端会话的可见性、持久性和协作控制，适合已经并行使用多个编码 Agent 的开发者。其主要创新是将终端复用器适配 Agent 工作流，影响范围偏工具层，尚不足以证明会改变 Agent 技术格局。",
+    "key_points": [
+      "集中展示多个 Agent 的工作、阻塞和完成状态，同时保留原始终端视图",
+      "会话可在分离或重启后继续运行，并支持通过 SSH 重新连接",
+      "提供 socket API，使 Agent 能创建窗格、读取输出并协调等待",
+      "单一 Rust 二进制运行于现有终端，不依赖 Electron",
+      "支持键盘、鼠标和插件扩展工作流"
+    ],
+    "model": null,
+    "analyzed_at": null
+  },
+  "distribution": {
+    "channels": [],
+    "published_at": null
+  }
+}

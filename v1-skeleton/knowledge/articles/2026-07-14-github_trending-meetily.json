@@ -1,0 +1,30 @@
+{
+  "id": "github:zackriya-solutions/meetily",
+  "title": "Zackriya-Solutions/meetily",
+  "source": "github_trending",
+  "source_url": "https://github.com/Zackriya-Solutions/meetily",
+  "author": "Zackriya-Solutions",
+  "published_at": null,
+  "collected_at": "2026-07-14T00:00:00+08:00",
+  "summary": "Meetily 是隐私优先的开源会议助手，可在用户控制的基础设施上完成会议录音、实时转写、说话人分离和摘要生成。转写可使用 Whisper 或 Parakeet，本地摘要可接入 Ollama，同时也支持 Claude、Groq、OpenRouter 和 OpenAI 兼容端点。其主要价值是让敏感会议数据不必默认上传到 SaaS 服务，并兼顾 macOS、Windows 和 Linux 使用场景。",
+  "tags": ["speech-to-text", "meeting-assistant", "local-ai", "privacy", "ollama"],
+  "language": "zh-CN",
+  "status": "ready",
+  "score": 0.8,
+  "raw_file": "knowledge/raw/github-trending-2026-07-14.json",
+  "analysis": {
+    "why_it_matters": "项目将语音识别、说话人分离和 LLM 摘要组合为可自托管的完整工具，对重视隐私的团队具有直接实用价值。实时性能、识别准确率和所谓性能提升主要依据项目自身说明，仍需在不同硬件和语言环境下验证，因此未评为 9 分。",
+    "key_points": [
+      "支持本地实时转写、说话人分离和会议摘要，核心流程可脱离云端运行",
+      "可选择 Ollama 本地模型或多种外部模型提供商，部署方式较灵活",
+      "覆盖 macOS、Windows 和 Linux，并提供自托管与源码构建路径",
+      "以数据主权为核心，适合对会议隐私和合规要求较高的团队"
+    ],
+    "model": null,
+    "analyzed_at": null
+  },
+  "distribution": {
+    "channels": [],
+    "published_at": null
+  }
+}

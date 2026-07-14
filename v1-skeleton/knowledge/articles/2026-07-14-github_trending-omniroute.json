@@ -1,0 +1,31 @@
+{
+  "id": "github:diegosouzapw/omniroute",
+  "title": "diegosouzapw/OmniRoute",
+  "source": "github_trending",
+  "source_url": "https://github.com/diegosouzapw/OmniRoute",
+  "author": "diegosouzapw",
+  "published_at": null,
+  "collected_at": "2026-07-14T00:00:00+08:00",
+  "summary": "OmniRoute 是面向编码工具和 Agent 的多模型网关，通过统一端点连接多家模型提供商，并提供自动故障切换、请求路由、限流恢复和令牌压缩能力。项目同时暴露 OpenAI 兼容、多模态、MCP 与 A2A 等接口，并提供桌面、PWA、Docker 和多种服务器部署方式。它试图降低多供应商接入和配额切换的运维成本，但提供商数量、免费额度及压缩比例等数据属于项目方统计，采用前需要独立核验。",
+  "tags": ["llm-gateway", "model-routing", "mcp", "a2a", "token-optimization", "resilience"],
+  "language": "zh-CN",
+  "status": "ready",
+  "score": 0.7,
+  "raw_file": "knowledge/raw/github-trending-2026-07-14.json",
+  "analysis": {
+    "why_it_matters": "统一模型接入、故障切换和成本控制能直接帮助多模型 Agent 系统，功能覆盖面也较完整；但大量供应商、免费额度和高比例压缩等核心卖点带有明显的项目自述性质，网关还会引入凭据集中、协议兼容和输出失真风险，因此评分保持在 7。",
+    "key_points": [
+      "通过一个网关连接 Claude Code、Codex、Cursor 等工具与多家模型提供商",
+      "提供自动故障切换、熔断、冷却和防惊群等韧性机制",
+      "支持多级令牌压缩策略，并保留原始输出恢复和校验相关设计",
+      "同时提供 OpenAI 兼容 API、MCP、A2A 和多模态接口",
+      "部署形态覆盖桌面端、PWA、Docker、虚拟机和移动终端"
+    ],
+    "model": null,
+    "analyzed_at": null
+  },
+  "distribution": {
+    "channels": [],
+    "published_at": null
+  }
+}

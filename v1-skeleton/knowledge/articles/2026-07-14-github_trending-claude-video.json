@@ -1,0 +1,30 @@
+{
+  "id": "github:bradautomates/claude-video",
+  "title": "bradautomates/claude-video",
+  "source": "github_trending",
+  "source_url": "https://github.com/bradautomates/claude-video",
+  "author": "bradautomates",
+  "published_at": null,
+  "collected_at": "2026-07-14T00:00:00+08:00",
+  "summary": "claude-video 提供一个可安装到 Claude Code、Codex、Cursor 等 Agent 宿主的 `/watch` 技能，把视频处理成模型可消费的转写文本和抽帧图像。工作流优先通过 yt-dlp 获取字幕，无字幕时可调用 Whisper，并使用 ffmpeg 根据场景变化、关键帧或时长抽取画面。它补足了文本型编码 Agent 无法直接理解视频视觉内容的能力，适用于教程提炼、演示审查和视频资料归档。",
+  "tags": ["video-understanding", "multimodal", "agent-skill", "speech-to-text", "claude"],
+  "language": "zh-CN",
+  "status": "ready",
+  "score": 0.7,
+  "raw_file": "knowledge/raw/github-trending-2026-07-14.json",
+  "analysis": {
+    "why_it_matters": "该技能解决了 Agent 视频理解的明确缺口，工作流透明且可直接复用，对视频教程和产品演示分析很实用。它本质上是现有下载、转写和抽帧工具的工程整合，并依赖字幕质量、外部站点兼容性或 Whisper 服务，因此属于“直接有帮助”。",
+    "key_points": [
+      "同时提取字幕与画面帧，避免只看转写而遗漏屏幕中的视觉信息",
+      "优先复用原生字幕，无字幕时才回退到 Whisper 转写，以降低处理成本",
+      "提供不同抽帧精度策略，可在速度、图像覆盖和模型 token 消耗之间权衡",
+      "以可移植 Agent skill 形式支持 Claude Code、Codex、Cursor 等多种宿主"
+    ],
+    "model": null,
+    "analyzed_at": null
+  },
+  "distribution": {
+    "channels": [],
+    "published_at": null
+  }
+}

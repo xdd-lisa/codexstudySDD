@@ -1,0 +1,31 @@
+{
+  "id": "github:usestrix/strix",
+  "title": "usestrix/strix",
+  "source": "github_trending",
+  "source_url": "https://github.com/usestrix/strix",
+  "author": "usestrix",
+  "published_at": null,
+  "collected_at": "2026-07-14T00:00:00+08:00",
+  "summary": "Strix 是面向应用安全测试的开源 Agent 系统，通过多 Agent 协作执行侦察、动态测试、漏洞利用和结果验证，并生成复现步骤、修复建议或补丁。其工具链包含 HTTP 拦截代理、浏览器自动化、代码分析、Python 沙箱以及常见漏洞知识库，可用于本地代码目录和 CI/CD 流程。相比仅依赖静态规则的扫描器，它强调通过可运行的概念验证降低误报，但实际准确率和安全边界仍需在受控环境中评估。",
+  "tags": ["ai-security", "penetration-testing", "multi-agent", "devsecops", "vulnerability-scanning"],
+  "language": "zh-CN",
+  "status": "ready",
+  "score": 0.8,
+  "raw_file": "knowledge/raw/github-trending-2026-07-14.json",
+  "analysis": {
+    "why_it_matters": "能验证漏洞而非只报告规则命中，对降低安全扫描误报和缩短渗透测试周期具有直接价值，多 Agent 安全工作流也值得关注。项目对准确率、速度和自动修复效果的描述主要来自自身材料，而且自治攻击工具具有较高运行风险，需严格授权和隔离，因此评分为 8。",
+    "key_points": [
+      "结合 SAST、DAST、浏览器测试、HTTP 拦截和漏洞利用验证",
+      "使用多个 AI 渗透测试 Agent 协作完成侦察、发现、利用与报告",
+      "为发现的问题生成可复现 PoC、修复指导和可选补丁",
+      "可集成 CI/CD，在代码进入生产前执行持续安全测试",
+      "执行真实攻击操作并需要模型 API 与 Docker，因此必须限定在获准目标和隔离环境"
+    ],
+    "model": null,
+    "analyzed_at": null
+  },
+  "distribution": {
+    "channels": [],
+    "published_at": null
+  }
+}

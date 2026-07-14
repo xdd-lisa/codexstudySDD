@@ -1,0 +1,30 @@
+{
+  "id": "github:asgeirtj/system_prompts_leaks",
+  "title": "asgeirtj/system_prompts_leaks",
+  "source": "github_trending",
+  "source_url": "https://github.com/asgeirtj/system_prompts_leaks",
+  "author": "asgeirtj",
+  "published_at": null,
+  "collected_at": "2026-07-14T00:00:00+08:00",
+  "summary": "该仓库按厂商和产品整理公开流传或提取出的 AI 系统提示词，覆盖 Anthropic、OpenAI、Google、Microsoft、Cursor、Perplexity 等多个生态。它可作为研究产品行为边界、工具调用设计和提示词演进的样本库，也有助于安全人员理解提示词泄露风险。由于不同样本的提取方式、版本对应关系和完整性未必具有统一验证标准，内容更适合作为研究线索，而不应直接视为厂商官方规范。",
+  "tags": ["system-prompt", "prompt-engineering", "ai-security", "dataset", "research"],
+  "language": "zh-CN",
+  "status": "ready",
+  "score": 0.6,
+  "raw_file": "knowledge/raw/github-trending-2026-07-14.json",
+  "analysis": {
+    "why_it_matters": "这是具有参考价值的提示词研究资料库，对安全分析和产品行为比较有帮助；但它本身不提供新的基础能力，且泄露样本的真实性、完整性和版本准确性可能不一致，因此属于“值得了解”。",
+    "key_points": [
+      "按厂商目录集中保存多个聊天产品和编码工具的系统提示词样本",
+      "持续记录近期模型和产品版本，便于观察提示词设计随版本变化",
+      "为 Agent 指令结构、工具定义和安全边界研究提供可比较材料",
+      "样本可能存在来源、完整性和时效性差异，使用时需要再次核验"
+    ],
+    "model": null,
+    "analyzed_at": null
+  },
+  "distribution": {
+    "channels": [],
+    "published_at": null
+  }
+}
