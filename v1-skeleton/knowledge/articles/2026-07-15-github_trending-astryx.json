@@ -1,0 +1,49 @@
+{
+  "id": "github:facebook/astryx",
+  "title": "facebook/astryx",
+  "source": "github_trending",
+  "source_url": "https://github.com/facebook/astryx",
+  "author": "facebook",
+  "published_at": null,
+  "collected_at": "2026-07-15T12:00:35+08:00",
+  "summary": "为应用和 Agent 提供可定制的开源设计系统。",
+  "tags": ["design-system", "agent", "frontend", "typescript"],
+  "language": "zh-CN",
+  "status": "analyzed",
+  "score": 0.7,
+  "raw_file": "knowledge/raw/github-trending-2026-07-15.json",
+  "popularity": 17,
+  "popularity_raw": 2189,
+  "popularity_unit": "stars_this_week",
+  "popularity_method": "linear_relative_to_batch_max",
+  "source_metrics": {
+    "stars_total": 8972,
+    "forks_total": 743,
+    "period_stars": 2189,
+    "period": "weekly",
+    "period_days": 7,
+    "stars_daily_avg_estimated": 312.7142857143,
+    "rank": 11,
+    "description": "An open source design system that's fully customizable and agent ready.",
+    "readme_summary": "Meta 开源的可定制设计系统，提供适合应用开发和 Agent 使用的组件、设计资源与开发工具链。",
+    "primary_language": "TypeScript",
+    "topics": [],
+    "license": "MIT",
+    "updated_at": null,
+    "recent_activity": {"pushed_at": null, "commits_30d": null, "method": "not_available_from_public_page_capture"},
+    "compliance_evidence": ["仓库公开页提供 MIT 许可证、贡献指南、安全策略及公开发布记录；使用其组件和品牌资源时仍需核对相关资源的具体许可。"]
+  },
+  "analysis": {
+    "why_it_matters": "Agent-ready 设计系统具有生态价值，但当前输入缺少具体集成机制和实际采用效果证据。",
+    "key_points": ["提供可定制的标准化界面组件与设计资源", "设计目标明确包含 Agent 使用场景", "配套开发工具链便于应用集成"],
+    "evidence": [
+      {"claim": "项目描述将其定义为完全可定制且 Agent-ready 的开源设计系统", "source_url": "https://github.com/facebook/astryx"},
+      {"claim": "README 摘要说明其由 Meta 开源并包含组件、资源和开发工具链", "source_url": "https://github.com/facebook/astryx"}
+    ],
+    "limitations": ["原始记录缺少 topics，具体 Agent 集成方式信息有限", "设计资源可能存在组件级或品牌相关许可要求", "采用成本取决于现有前端技术栈兼容性"],
+    "model": null,
+    "analysis_version": "1.0",
+    "analyzed_at": "2026-07-15T13:37:06+08:00"
+  },
+  "distribution": {"channels": [], "published_at": null}
+}

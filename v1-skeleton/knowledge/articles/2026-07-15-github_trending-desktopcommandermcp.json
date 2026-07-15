@@ -1,0 +1,49 @@
+{
+  "id": "github:wonderwhy-er/desktopcommandermcp",
+  "title": "wonderwhy-er/DesktopCommanderMCP",
+  "source": "github_trending",
+  "source_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "author": "wonderwhy-er",
+  "published_at": null,
+  "collected_at": "2026-07-15T12:00:35+08:00",
+  "summary": "通过 MCP 向 Claude 开放终端、文件搜索和差异编辑。",
+  "tags": ["mcp", "terminal", "filesystem", "agent-tools", "automation"],
+  "language": "zh-CN",
+  "status": "analyzed",
+  "score": 0.7,
+  "raw_file": "knowledge/raw/github-trending-2026-07-15.json",
+  "popularity": 15,
+  "popularity_raw": 2009,
+  "popularity_unit": "stars_this_week",
+  "popularity_method": "linear_relative_to_batch_max",
+  "source_metrics": {
+    "stars_total": 8257,
+    "forks_total": 1000,
+    "period_stars": 2009,
+    "period": "weekly",
+    "period_days": 7,
+    "stars_daily_avg_estimated": 287,
+    "rank": 13,
+    "description": "MCP server for Claude that gives it terminal control, file system search, and diff file editing capabilities.",
+    "readme_summary": "为 Claude 提供终端控制、文件系统搜索和差异化文件编辑能力的 MCP Server，并支持配置限制和遥测退出。",
+    "primary_language": "TypeScript",
+    "topics": ["agent", "ai", "mcp", "code-analysis", "code-generation", "terminal-ai", "terminal-automation", "vibe-coding", "gemini-cli-extension"],
+    "license": "MIT",
+    "updated_at": null,
+    "recent_activity": {"pushed_at": null, "commits_30d": null, "method": "not_available_from_public_page_capture"},
+    "compliance_evidence": ["仓库公开页提供 MIT 许可证和安全策略；README 披露不采集文件内容、路径或命令参数的匿名遥测及关闭方法，但终端与文件权限仍应最小化配置。"]
+  },
+  "analysis": {
+    "why_it_matters": "显著扩展桌面 Agent 执行能力，但安全风险较高，价值取决于严格的权限边界和人工确认。",
+    "key_points": ["将终端控制封装为 Claude 可调用的 MCP 工具", "提供文件系统搜索和差异化编辑能力", "支持权限配置限制和匿名遥测退出"],
+    "evidence": [
+      {"claim": "项目描述明确列出终端控制、文件搜索和差异编辑", "source_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"},
+      {"claim": "README 摘要说明项目支持配置限制与遥测退出", "source_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"}
+    ],
+    "limitations": ["终端和文件编辑属于高权限能力，需采用最小权限", "错误指令可能修改文件或执行危险命令", "遥测和可访问目录必须在部署前明确配置"],
+    "model": null,
+    "analysis_version": "1.0",
+    "analyzed_at": "2026-07-15T13:37:06+08:00"
+  },
+  "distribution": {"channels": [], "published_at": null}
+}

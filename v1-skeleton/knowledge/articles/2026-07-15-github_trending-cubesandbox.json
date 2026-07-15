@@ -1,0 +1,49 @@
+{
+  "id": "github:tencentcloud/cubesandbox",
+  "title": "TencentCloud/CubeSandbox",
+  "source": "github_trending",
+  "source_url": "https://github.com/TencentCloud/CubeSandbox",
+  "author": "TencentCloud",
+  "published_at": null,
+  "collected_at": "2026-07-15T12:00:35+08:00",
+  "summary": "为 Agent 提供快速、并发且轻量的隔离执行环境。",
+  "tags": ["agent", "sandbox", "container", "isolation", "rust"],
+  "language": "zh-CN",
+  "status": "analyzed",
+  "score": 0.9,
+  "raw_file": "knowledge/raw/github-trending-2026-07-15.json",
+  "popularity": 15,
+  "popularity_raw": 1944,
+  "popularity_unit": "stars_this_week",
+  "popularity_method": "linear_relative_to_batch_max",
+  "source_metrics": {
+    "stars_total": 10162,
+    "forks_total": 984,
+    "period_stars": 1944,
+    "period": "weekly",
+    "period_days": 7,
+    "stars_daily_avg_estimated": 277.7142857143,
+    "rank": 14,
+    "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+    "readme_summary": "为 AI Agent 提供快速启动、并发和轻量化隔离执行环境的沙箱项目，底层结合虚拟化与容器相关组件。",
+    "primary_language": "Rust",
+    "topics": ["sandbox", "container", "agents"],
+    "license": "Apache-2.0",
+    "updated_at": null,
+    "recent_activity": {"pushed_at": null, "commits_30d": null, "method": "not_available_from_public_page_capture"},
+    "compliance_evidence": ["README 明确项目采用 Apache License 2.0，并保留第三方组件版权声明；作为代码执行沙箱，实际部署仍需配置资源、网络和宿主机权限边界。"]
+  },
+  "analysis": {
+    "why_it_matters": "安全且高并发的 Agent 执行沙箱是关键基础能力，具有广泛影响潜力，但安全声明仍需审计。",
+    "key_points": ["面向 Agent 代码执行提供专用安全沙箱", "强调快速启动、并发能力和轻量化隔离", "结合虚拟化与容器组件构建执行边界"],
+    "evidence": [
+      {"claim": "项目描述明确强调即时、并发、安全和轻量", "source_url": "https://github.com/TencentCloud/CubeSandbox"},
+      {"claim": "README 摘要说明底层结合虚拟化与容器相关组件", "source_url": "https://github.com/TencentCloud/CubeSandbox"}
+    ],
+    "limitations": ["安全性不能只依据项目描述，需独立威胁建模", "实际隔离强度取决于网络、资源和宿主权限配置", "缺少当前输入可验证的性能与逃逸测试结果"],
+    "model": null,
+    "analysis_version": "1.0",
+    "analyzed_at": "2026-07-15T13:37:06+08:00"
+  },
+  "distribution": {"channels": [], "published_at": null}
+}

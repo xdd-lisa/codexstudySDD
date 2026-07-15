@@ -1,0 +1,49 @@
+{
+  "id": "github:openai/codex-plugin-cc",
+  "title": "openai/codex-plugin-cc",
+  "source": "github_trending",
+  "source_url": "https://github.com/openai/codex-plugin-cc",
+  "author": "openai",
+  "published_at": null,
+  "collected_at": "2026-07-15T12:00:35+08:00",
+  "summary": "在 Claude Code 中调用 Codex 审查或委派开发任务。",
+  "tags": ["codex", "claude-code", "coding-agent", "code-review", "delegation"],
+  "language": "zh-CN",
+  "status": "analyzed",
+  "score": 0.8,
+  "raw_file": "knowledge/raw/github-trending-2026-07-15.json",
+  "popularity": 16,
+  "popularity_raw": 2063,
+  "popularity_unit": "stars_this_week",
+  "popularity_method": "linear_relative_to_batch_max",
+  "source_metrics": {
+    "stars_total": 28648,
+    "forks_total": 1883,
+    "period_stars": 2063,
+    "period": "weekly",
+    "period_days": 7,
+    "stars_daily_avg_estimated": 294.7142857143,
+    "rank": 12,
+    "description": "Use Codex from Claude Code to review code or delegate tasks.",
+    "readme_summary": "允许在 Claude Code 中调用本地 Codex CLI 进行代码审查或委派任务，并复用用户已有的 Codex 登录和配置。",
+    "primary_language": "JavaScript",
+    "topics": [],
+    "license": "Apache-2.0",
+    "updated_at": null,
+    "recent_activity": {"pushed_at": null, "commits_30d": null, "method": "not_available_from_public_page_capture"},
+    "compliance_evidence": ["仓库公开页提供 Apache-2.0 许可证；README 说明插件复用本地 Codex CLI 的登录、API Key 或 base URL 配置，凭据不应写入项目或采集结果。"]
+  },
+  "analysis": {
+    "why_it_matters": "提供官方来源的跨编码 Agent 协作方式，对审查和任务分工直接有用，但能力范围较聚焦。",
+    "key_points": ["把 Codex 代码审查能力接入 Claude Code", "允许在两个编码 Agent 之间委派任务", "复用本地 Codex 登录和既有配置"],
+    "evidence": [
+      {"claim": "项目描述明确支持从 Claude Code 调用 Codex 进行审查或委派", "source_url": "https://github.com/openai/codex-plugin-cc"},
+      {"claim": "README 摘要说明插件复用本地 Codex CLI 登录和配置", "source_url": "https://github.com/openai/codex-plugin-cc"}
+    ],
+    "limitations": ["需要本地正确安装并授权 Codex CLI", "跨 Agent 委派会增加上下文传递和结果审查成本", "必须防止凭据或敏感配置进入项目数据"],
+    "model": null,
+    "analysis_version": "1.0",
+    "analyzed_at": "2026-07-15T13:37:06+08:00"
+  },
+  "distribution": {"channels": [], "published_at": null}
+}

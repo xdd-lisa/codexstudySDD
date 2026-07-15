@@ -1,0 +1,49 @@
+{
+  "id": "github:nutlope/hallmark",
+  "title": "Nutlope/hallmark",
+  "source": "github_trending",
+  "source_url": "https://github.com/Nutlope/hallmark",
+  "author": "Nutlope",
+  "published_at": null,
+  "collected_at": "2026-07-15T12:00:35+08:00",
+  "summary": "用设计技能和规则减少模板化 AI 界面输出。",
+  "tags": ["agent-skill", "frontend", "ui-ux", "design-quality"],
+  "language": "zh-CN",
+  "status": "analyzed",
+  "score": 0.6,
+  "raw_file": "knowledge/raw/github-trending-2026-07-15.json",
+  "popularity": 17,
+  "popularity_raw": 2274,
+  "popularity_unit": "stars_this_week",
+  "popularity_method": "linear_relative_to_batch_max",
+  "source_metrics": {
+    "stars_total": 6173,
+    "forks_total": 354,
+    "period_stars": 2274,
+    "period": "weekly",
+    "period_days": 7,
+    "stars_daily_avg_estimated": 324.8571428571,
+    "rank": 10,
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "readme_summary": "为 Claude Code、Cursor 和 Codex 提供的设计技能与规则集，目标是减少模板化、低质量的 AI 界面输出。",
+    "primary_language": "CSS",
+    "topics": [],
+    "license": "MIT",
+    "updated_at": null,
+    "recent_activity": {"pushed_at": null, "commits_30d": null, "method": "not_available_from_public_page_capture"},
+    "compliance_evidence": ["仓库公开页和 README 均标明 MIT 许可证；安装说明会把技能复制到本地 AI 工具配置目录，执行前应确认目标目录和修改范围。"]
+  },
+  "analysis": {
+    "why_it_matters": "关注的问题真实且工具接入简单，但当前证据显示其范围较窄，差异化和效果仍待验证。",
+    "key_points": ["针对常见 AI 生成界面反模式提供规则约束", "支持 Claude Code、Cursor 和 Codex", "以轻量技能形式嵌入现有编码工作流"],
+    "evidence": [
+      {"claim": "项目描述明确称其为面向三种编码 Agent 的反低质设计技能", "source_url": "https://github.com/Nutlope/hallmark"},
+      {"claim": "README 摘要说明目标是减少模板化和低质量界面输出", "source_url": "https://github.com/Nutlope/hallmark"}
+    ],
+    "limitations": ["缺少结构化 topics，功能细节证据有限", "设计偏好不一定适用于所有品牌和产品", "规则效果仍需通过真实项目对比验证"],
+    "model": null,
+    "analysis_version": "1.0",
+    "analyzed_at": "2026-07-15T13:37:06+08:00"
+  },
+  "distribution": {"channels": [], "published_at": null}
+}

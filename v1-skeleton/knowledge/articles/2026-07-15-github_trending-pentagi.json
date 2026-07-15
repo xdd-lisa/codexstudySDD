@@ -1,0 +1,53 @@
+{
+  "id": "github:vxcontrol/pentagi",
+  "title": "vxcontrol/pentagi",
+  "source": "github_trending",
+  "source_url": "https://github.com/vxcontrol/pentagi",
+  "author": "vxcontrol",
+  "published_at": null,
+  "collected_at": "2026-07-15T12:00:35+08:00",
+  "summary": "在 Docker 沙箱中编排多 Agent 执行复杂渗透测试。",
+  "tags": ["ai-security", "penetration-testing", "multi-agent", "security-automation", "sandbox"],
+  "language": "zh-CN",
+  "status": "analyzed",
+  "score": 0.8,
+  "raw_file": "knowledge/raw/github-trending-2026-07-15.json",
+  "popularity": 18,
+  "popularity_raw": 2347,
+  "popularity_unit": "stars_this_week",
+  "popularity_method": "linear_relative_to_batch_max",
+  "source_metrics": {
+    "stars_total": 20601,
+    "forks_total": 2718,
+    "period_stars": 2347,
+    "period": "weekly",
+    "period_days": 7,
+    "stars_daily_avg_estimated": 335.2857142857,
+    "rank": 9,
+    "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks.",
+    "readme_summary": "面向安全专业人员和研究人员的自动化渗透测试多 Agent 系统，在 Docker 沙箱中编排二十余种安全工具并支持多种模型。",
+    "primary_language": "Go",
+    "topics": ["react", "graphql", "golang", "open-source", "self-hosted", "penetration-testing", "openai", "gpt", "offensive-security", "autonomous-agents", "security-automation", "security-tools", "ai-agents", "security-testing", "multi-agent-system", "penetration-testing-tools", "anthropic", "ai-security-tool"],
+    "license": "MIT",
+    "updated_at": null,
+    "recent_activity": {
+      "pushed_at": null,
+      "commits_30d": null,
+      "method": "not_available_from_public_page_capture"
+    },
+    "compliance_evidence": ["仓库公开页提供 MIT 许可证，并注明部分云服务需要单独许可证及遵守服务条款；其渗透测试能力只能用于明确授权的目标。"]
+  },
+  "analysis": {
+    "why_it_matters": "多 Agent 安全自动化具有直接价值，但运行风险高，且准确率与隔离强度需要独立验证。",
+    "key_points": ["使用多 Agent 分工执行自动化渗透测试", "在 Docker 沙箱中集成二十余种安全工具", "支持多种模型以适配不同安全任务"],
+    "evidence": [
+      {"claim": "项目描述明确定位为自主 AI Agent 渗透测试系统", "source_url": "https://github.com/vxcontrol/pentagi"},
+      {"claim": "README 摘要说明其采用 Docker 沙箱并编排二十余种安全工具", "source_url": "https://github.com/vxcontrol/pentagi"}
+    ],
+    "limitations": ["只能用于获得明确授权的安全测试目标", "自动化攻击能力可能产生破坏性副作用", "工具发现的漏洞和修复建议必须由安全人员复核"],
+    "model": null,
+    "analysis_version": "1.0",
+    "analyzed_at": "2026-07-15T13:37:06+08:00"
+  },
+  "distribution": {"channels": [], "published_at": null}
+}

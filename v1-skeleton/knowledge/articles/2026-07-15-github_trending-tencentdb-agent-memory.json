@@ -1,0 +1,49 @@
+{
+  "id": "github:tencentcloud/tencentdb-agent-memory",
+  "title": "TencentCloud/TencentDB-Agent-Memory",
+  "source": "github_trending",
+  "source_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+  "author": "TencentCloud",
+  "published_at": null,
+  "collected_at": "2026-07-15T12:00:35+08:00",
+  "summary": "用四层渐进管线提供完全本地的 Agent 长期记忆。",
+  "tags": ["agent-memory", "long-term-memory", "local-first", "llm", "context-management"],
+  "language": "zh-CN",
+  "status": "analyzed",
+  "score": 0.9,
+  "raw_file": "knowledge/raw/github-trending-2026-07-15.json",
+  "popularity": 14,
+  "popularity_raw": 1790,
+  "popularity_unit": "stars_this_week",
+  "popularity_method": "linear_relative_to_batch_max",
+  "source_metrics": {
+    "stars_total": 8868,
+    "forks_total": 814,
+    "period_stars": 1790,
+    "period": "weekly",
+    "period_days": 7,
+    "stars_daily_avg_estimated": 255.7142857143,
+    "rank": 15,
+    "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+    "readme_summary": "为 AI Agent 提供本地长短期记忆，通过符号化短期记忆和分层长期记忆按需展开上下文，不依赖外部 API。",
+    "primary_language": "TypeScript",
+    "topics": ["agent", "memory", "embedding", "long-term-memory", "vector-search", "local-first", "ai-agent", "llm", "openclaw-plugin"],
+    "license": "MIT",
+    "updated_at": null,
+    "recent_activity": {"pushed_at": null, "commits_30d": null, "method": "not_available_from_public_page_capture"},
+    "compliance_evidence": ["仓库 README 徽章和 LICENSE 文件表明采用 MIT 许可证，并声明本地运行且无外部 API 依赖；记忆内容仍可能包含敏感上下文，应限制数据范围和访问权限。"]
+  },
+  "analysis": {
+    "why_it_matters": "长期记忆是 Agent 持续工作的基础能力，分层本地方案有广泛潜力，但基准与生产成熟度仍待验证。",
+    "key_points": ["结合符号化短期记忆和分层长期记忆", "按需展开上下文以控制信息加载范围", "本地运行且不依赖外部 API"],
+    "evidence": [
+      {"claim": "项目描述明确提出四层渐进管线和零外部 API 依赖", "source_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"},
+      {"claim": "README 摘要说明同时提供符号化短期记忆与分层长期记忆", "source_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"}
+    ],
+    "limitations": ["记忆质量、检索准确率和长期稳定性需独立评测", "本地存储仍可能包含敏感对话和业务上下文", "当前输入未提供可复现基准和资源开销数据"],
+    "model": null,
+    "analysis_version": "1.0",
+    "analyzed_at": "2026-07-15T13:37:06+08:00"
+  },
+  "distribution": {"channels": [], "published_at": null}
+}
