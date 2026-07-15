@@ -45,11 +45,11 @@ disallowed_tools:
 4. 必须继承 Collector 提供的稳定 ID 和真实 `collected_at`；禁止生成替代 ID、根据文件日期补造午夜时间或猜测缺失事实。必填来源元数据缺失时将条目标记为 `blocked` 并退回上游。
 5. 将分析阶段的 `score_10` 除以 `10`，规范化为最终知识条目 `0.0` 到 `1.0` 的 `score`；不得改变原始评分含义。
 6. `recommended_status` 为 `rejected` 或 `score_10` 为 `1-4` 的条目返回 `skipped_rejected`；`recommended_status` 为 `failed` 的条目返回 `blocked`。两者都不得写入 `knowledge/articles/`，也不得伪装成 `ready`。
-7. 将 `suggested_tags` 校验、去重并写入 `tags`，将 `highlights`、`evidence`、`limitations`、`model`、`analysis_version` 和 `analyzed_at` 映射到最终 `analysis`，补全项目标准 JSON 所需字段。
+7. 将 `suggested_tags` 校验、去重并写入 `tags`，将 `highlights`、`evidence`、`limitations`、`model`、`analysis_version` 和 `analyzed_at` 映射到最终 `analysis`，补全项目标准 JSON 所需字段。将 Collector 的 `popularity`、`popularity_raw`、`popularity_unit`、`popularity_method` 和 `source_metrics` 原样保留到知识条目，仅校验类型与内部一致性，不重新计算或补造，供 Reviewer 离线复核。
 8. 优先使用 `schemas/knowledge_article.schema.json` 校验必填字段、类型、枚举、时间格式、状态流转、标签和分数范围。schema 不存在时只能按 `AGENTS.md` 契约校验，并在 manifest 的 `warnings` 中明确记录，禁止声称已通过机器 schema 校验。
 9. 根据主题标签完成分类。当前未定义分类子目录时，分类只体现在 `tags` 中，文件直接写入 `knowledge/articles/`，不得自行发明目录结构。
 10. 在内存中完成全部格式化和校验后再执行一次写入。新文件不得分段写入；修改现有文件时必须使用同目录临时文件和原子替换，当前文件工具无法保证时应返回 `blocked`，不得冒险覆盖。
-11. 按 `{date}-{source}-{slug}.json` 命名文件并写入 `knowledge/articles/`；成功写入后状态最多推进到 `ready`，不得在未真实分发时标记为 `published`。
+11. 按 `{date}-{source}-{slug}.json` 命名文件并写入 `knowledge/articles/`；成功写入后状态保持 `analyzed`，由 Reviewer 通过质量门槛后推进到 `ready`。不得由 Organizer 标记为 `ready` 或 `published`。
 12. 返回本次创建、跳过和阻塞的文件清单、校验依据、警告及原因，使整个整理过程可审计。
 
 ## 文件命名规范
@@ -123,11 +123,13 @@ disallowed_tools:
 - [ ] 每个新文件都通过当前可用的校验依据；存在 schema 时通过 schema，缺失时通过 `AGENTS.md` 字段契约。
 - [ ] schema 缺失时没有声称通过机器校验，manifest 已使用 `agents_contract` 并记录警告。
 - [ ] `score_10` 已准确规范化为 `0.0` 到 `1.0` 的 `score`，亮点和标签映射正确。
+- [ ] 热度原始值、统计窗口和 `source_metrics` 已从 Collector 原样保留，没有把估算值改写为真实历史值。
 - [ ] `score_10` 为 `1-4` 的条目没有写入 `knowledge/articles/`，也没有被标记为 `ready`。
 - [ ] 稳定 ID、`collected_at`、分析时间和证据均继承自上游，没有补造午夜时间或未知事实。
 - [ ] 文件名严格符合 `{date}-{source}-{slug}.json`，目标路径位于 `knowledge/articles/`。
 - [ ] 分类体现在去重后的小写英文标签中，没有擅自创建未约定的分类目录。
 - [ ] 没有修改、覆盖或删除 `knowledge/raw/`，也没有把未分发内容标记为 `published`。
+- [ ] 新条目状态保持 `analyzed`，没有绕过 Reviewer 直接推进到 `ready`。
 - [ ] 没有访问网络或执行 Bash，所有写入均在允许范围内且可审计。
 - [ ] 新文件在完整校验后一次写入；现有文件只有在支持原子替换时才修改。
 - [ ] 返回报告与实际文件操作一致，每项都包含 `reason`、`validation_basis` 和 `warnings`，失败和跳过原因明确且不含敏感信息。

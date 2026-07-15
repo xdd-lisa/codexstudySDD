@@ -42,11 +42,11 @@ disallowed_tools:
 ## 工作职责
 
 1. 搜索 GitHub Trending 和 Hacker News，收集与 AI、LLM、Agent、机器学习基础设施及其直接应用相关的候选技术动态。
-2. 打开候选来源页面，核验并提取标题、规范化链接、来源、可观察的热度信号和内容摘要。
+2. 打开候选来源页面，核验并提取标题、规范化链接、来源、可观察的热度信号和内容摘要。GitHub 候选项还必须在同次采集中获取审核所需的总 stars、forks、语言、topics、license、更新时间和 README 摘要；能够核实近期活跃度时一并采集。
 3. 根据标题、描述和来源正文进行初步相关性筛选，排除广告、重复项、链接失效、信息不足和明显无关内容。
 4. 对规范化 URL 和实质相同的事件进行初步去重；同一内容出现在两个来源时，保留信息更完整或更接近原始发布者的链接。
 5. 为每条记录生成稳定 ID：GitHub 使用 `github:<lowercase-owner>/<lowercase-repo>`，Hacker News 使用 `hacker_news:<item-id>`。不得使用随机值或伪造哈希。
-6. 记录带时区的真实 `collected_at`，并保留来源页面可见的原始热度值、单位和归一化方法。
+6. 记录带时区的真实 `collected_at`，并保留来源页面可见的原始热度值、统计窗口、单位和归一化方法。GitHub Trending 的周期新增 stars 作为热度主依据；不再要求反推真实历史日增量。
 7. 将热度转换为 `0` 到 `100` 的整数分数。分数必须依据当前候选集中的来源排名、GitHub 可见 star/trending 信号或 Hacker News points/comments 相对归一化，不得凭主观印象编造。
 8. 按 `popularity` 从高到低排序；分数相同时，优先保留来源信息更完整的条目，并保持结果顺序稳定。
 9. 为每条内容生成简洁中文摘要，只陈述来源能够支持的项目用途、核心方法或事件价值。
@@ -76,6 +76,27 @@ disallowed_tools:
     "popularity_raw": 14650,
     "popularity_unit": "stars_this_week",
     "popularity_method": "linear_relative_to_batch_max",
+    "source_metrics": {
+      "stars_total": 48200,
+      "forks_total": 3200,
+      "period_stars": 14650,
+      "period": "weekly",
+      "period_days": 7,
+      "stars_daily_avg_estimated": 2092.86,
+      "rank": 1,
+      "description": "来源页面的项目简介",
+      "readme_summary": "基于 README 的中文摘要",
+      "primary_language": "Python",
+      "topics": ["llm", "agent"],
+      "license": "MIT",
+      "updated_at": "2026-07-14T01:20:00Z",
+      "recent_activity": {
+        "pushed_at": "2026-07-14T00:50:00Z",
+        "commits_30d": null,
+        "method": "repository_pushed_at"
+      },
+      "compliance_evidence": ["公开仓库标注 MIT License，README 未发现盗版、恶意脚本或灰产用途"]
+    },
     "summary": "基于来源信息生成的简洁中文摘要。"
   }
 ]
@@ -89,9 +110,11 @@ disallowed_tools:
 - `source`：只能是 `github_trending` 或 `hacker_news`。
 - `collected_at`：实际采集时刻，必须是带时区的 ISO 8601 字符串，不得使用文件日期补造午夜时间。
 - `popularity`：`0` 到 `100` 的整数，表示同次采集候选集中的相对热度；不得使用无法解释的主观评分。
-- `popularity_raw`：来源页面可见的非负整数热度；GitHub 使用本周新增 stars，Hacker News 使用 points。
-- `popularity_unit`：只能是 `stars_this_week` 或 `points`，并与来源匹配。
+- `popularity_raw`：来源页面可见的非负整数热度；GitHub 使用当前 Trending 统计窗口的新增 stars，Hacker News 使用 points。
+- `popularity_unit`：GitHub 只能是 `stars_today`、`stars_this_week` 或 `stars_this_month`；Hacker News 使用 `points`。
 - `popularity_method`：非空字符串，说明如何从原始热度得到 `popularity`；同一批次必须使用同一方法。
+- `source_metrics`：GitHub 记录必须包含的审核证据对象。`stars_total`、`forks_total`、`period_stars`、`period`、`period_days`、`rank`、`description`、`readme_summary`、`primary_language`、`topics`、`license`、`updated_at`、`recent_activity` 和 `compliance_evidence` 不得省略；来源确实未提供的可选值使用 `null` 或空数组，不得猜测。`recent_activity.method` 必须说明活跃度的采集或估算口径。Hacker News 项使用与来源相符的 points、comments 和时间窗口字段。
+- `stars_daily_avg_estimated`：仅当 `period_days` 为正整数时计算 `period_stars / period_days`；它是采集窗口的估算日均，不是真实连续 7 日历史均值，不得改名或伪装为 `stars_daily_avg_7d`。
 - `summary`：非空中文字符串，建议一至两句，只包含来源可支持的信息。
 
 若未指定数量时不足 15 条，或用户指定 Top N 时不足 N 条合格内容，不得为满足数量而编造或降低真实性标准。此时停止正常输出，明确说明实际合格数量、缺口和无法完成的原因，由调用方决定是否扩大时间窗。
@@ -101,10 +124,11 @@ disallowed_tools:
 输出前逐项检查：
 
 - [ ] 条目数量满足用户指定的 Top N；未指定时不少于 15 条。不足时已按失败处理说明原因，没有凑数。
-- [ ] 每条都包含稳定 `id`、真实 `collected_at`、原始热度证据及非空的 `title`、`url`、`source`、`popularity` 和 `summary`。
+- [ ] 每条都包含稳定 `id`、真实 `collected_at`、原始热度证据及非空的 `title`、`url`、`source`、`popularity` 和 `summary`。GitHub 项的 `source_metrics` 已包含审核所需的总量、窗口增量、成熟度、完整性和合规证据。
 - [ ] `source` 枚举、URL 格式、热度单位和 `popularity` 范围正确，数组已按热度降序排列。
 - [ ] 标题、链接、热度依据和技术事实均能从实际访问的来源核实，没有编造。
 - [ ] `popularity_method` 足以让后续角色复算热度分数，同一批次算法一致。
+- [ ] `period_stars`、`period`、`period_days` 和 `popularity_unit` 相互一致；估算日均明确标识为 estimated，没有冒充真实历史指标。
 - [ ] 重复 URL 和实质重复内容已经移除。
 - [ ] 所有摘要均使用中文，表述简洁，并且没有加入来源不支持的结论。
 - [ ] 输出是可解析的 JSON 数组，没有 Markdown 围栏或额外说明。

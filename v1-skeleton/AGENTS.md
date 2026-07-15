@@ -137,7 +137,8 @@ diff-cover coverage.xml --fail-under=90
 │   ├── agents/             # Agent 的角色定义、提示词与权限边界
 │   │   ├── analyzer.md     # 只读知识分析 Agent
 │   │   ├── collector.md    # 只读知识采集 Agent
-│   │   └── organizer.md    # 知识整理与持久化 Agent
+│   │   ├── organizer.md    # 知识整理与持久化 Agent
+│   │   └── reviewer.md     # 知识质量审核 Agent
 │   └── skills/             # 可复用技能及其说明、脚本和资源
 ├── knowledge/
 │   ├── raw/                # 原始采集结果；保留来源信息，原则上只追加
@@ -151,6 +152,7 @@ diff-cover coverage.xml --fail-under=90
 - `.codex/agents/collector.md` 定义只读的知识采集 Agent；它返回包含稳定 ID、真实采集时间和原始热度证据的候选 JSON，不直接写入知识库。
 - `.codex/agents/analyzer.md` 定义只读的知识分析 Agent；它生成摘要、亮点、证据、限制、`1-10` 评分、建议标签和状态建议，不直接写入知识库。
 - `.codex/agents/organizer.md` 定义知识整理 Agent；它只接受显式 JSON 交接，负责去重、schema 或字段契约校验，以及 `knowledge/articles/` 内的受限写入。
+- `.codex/agents/reviewer.md` 定义知识审核 Agent；它基于本地证据执行质量打分、硬门槛、异常与合规检查，并把审核结果写回知识条目。
 - `.codex/skills/` 中的技能应可独立复用，不得把密钥或环境专属配置写入技能文件。
 - `knowledge/raw/` 保存可复现分析过程所需的原始数据；采集器不得在此阶段生成未经标识的 AI 推断内容。
 - `knowledge/articles/` 仅保存通过 schema 校验的知识条目。文件应使用 UTF-8 编码和 `.json` 后缀。
@@ -172,9 +174,34 @@ diff-cover coverage.xml --fail-under=90
   "summary": "该项目解决的问题、核心方法及其潜在价值。",
   "tags": ["llm", "agent", "open-source"],
   "language": "zh-CN",
-  "status": "analyzed",
+  "status": "ready",
   "score": 0.91,
   "raw_file": "knowledge/raw/github_trending/2026-07-14/example-ai.json",
+  "popularity": 95,
+  "popularity_raw": 14650,
+  "popularity_unit": "stars_this_week",
+  "popularity_method": "linear_relative_to_batch_max",
+  "source_metrics": {
+    "stars_total": 48200,
+    "forks_total": 3200,
+    "period_stars": 14650,
+    "period": "weekly",
+    "period_days": 7,
+    "stars_daily_avg_estimated": 2092.86,
+    "rank": 1,
+    "description": "来源页面的项目简介",
+    "readme_summary": "基于 README 的中文摘要",
+    "primary_language": "Python",
+    "topics": ["llm", "agent"],
+    "license": "MIT",
+    "updated_at": "2026-07-14T01:20:00Z",
+    "recent_activity": {
+      "pushed_at": "2026-07-14T00:50:00Z",
+      "commits_30d": null,
+      "method": "repository_pushed_at"
+    },
+    "compliance_evidence": ["公开许可与用途检查依据"]
+  },
   "analysis": {
     "why_it_matters": "说明该动态为何值得关注。",
     "key_points": [
@@ -187,6 +214,24 @@ diff-cover coverage.xml --fail-under=90
   "distribution": {
     "channels": ["telegram", "feishu"],
     "published_at": null
+  },
+  "quality_review": {
+    "score": 82,
+    "tier": "quality",
+    "decision": "accepted",
+    "hard_gate_passed": true,
+    "hard_gate_failures": [],
+    "dimensions": {
+      "popularity": {"score": 30, "max_score": 35, "evidence": "同批次 weekly stars 增量及批次最大值"},
+      "maturity": {"score": 16, "max_score": 20, "evidence": "总 stars、fork 和提交活跃度"},
+      "information_completeness": {"score": 18, "max_score": 20, "evidence": "简介、README 摘要、语言和 topics"},
+      "scarcity_value": {"score": 8, "max_score": 15, "evidence": "与同批次项目对比后的差异化判断"},
+      "compliance": {"score": 10, "max_score": 10, "evidence": "本地合规检查依据"}
+    },
+    "anomaly_flags": [],
+    "missing_inputs": [],
+    "review_version": "1.1",
+    "reviewed_at": "2026-07-14T10:00:00+08:00"
   }
 }
 ```
@@ -199,17 +244,23 @@ diff-cover coverage.xml --fail-under=90
 - `status` 仅允许 `collected`、`analyzed`、`ready`、`published`、`rejected`、`failed`。
 - `score` 取值范围为 `0.0` 至 `1.0`，表示内容与项目主题的相关度或综合价值评分。
 - `summary` 和 `analysis` 必须基于来源内容，不得虚构来源未提供的事实。
-- 状态按 `collected -> analyzed -> ready -> published` 推进；不符合收录标准的条目标记为 `rejected`，处理失败且需要排查的条目标记为 `failed`。
+- GitHub 采集结果必须保留 `popularity_raw`、`popularity_unit` 和 `source_metrics`，使 Reviewer 可在不联网的情况下复算热度、成熟度、完整性与合规分。
+- `stars_daily_avg_estimated` 只表示 `period_stars / period_days` 的窗口估算日均，不是真实连续 7 日历史均值，不得用于冒充历史趋势证据。
+- Organizer 写入的新条目保持 `analyzed`；Reviewer 审核分数不低于 60 且通过全部硬门槛后才可推进到 `ready`。
+- `quality_review.score` 为 `0-100` 的综合质量分，与顶层 `score` 的 `0.0-1.0` 内容价值分相互独立，不得混用。
+- `quality_review` 的五个维度满分依次为 35、20、20、15、10；合规干净度必须为 `10/10`，硬门槛失败时条目标记为 `rejected`。
+- 状态按 `collected -> analyzed -> ready -> published` 推进；40–59 分保持 `analyzed` 等待复核，低于 40 分或不符合硬门槛的条目标记为 `rejected`，处理失败且需要排查的条目标记为 `failed`。
 
 ## Agent 角色概览
 
-采集任务使用 [知识采集 Agent](.codex/agents/collector.md)，分析任务使用 [知识分析 Agent](.codex/agents/analyzer.md)，整理与持久化任务使用 [知识整理 Agent](.codex/agents/organizer.md)。采集和分析角色只读并返回 JSON；只有整理角色可以在完成去重和 schema 校验后写入 `knowledge/articles/`。
+采集任务使用 [知识采集 Agent](.codex/agents/collector.md)，分析任务使用 [知识分析 Agent](.codex/agents/analyzer.md)，整理与持久化任务使用 [知识整理 Agent](.codex/agents/organizer.md)，质量准入使用 [知识审核 Agent](.codex/agents/reviewer.md)。采集和分析角色只读并返回 JSON；整理角色写入 `analyzed` 条目，审核角色打分后决定是否推进到 `ready`。
 
 | 角色 | 主要职责 | 输入 | 输出 |
 | --- | --- | --- | --- |
-| [采集 Agent](.codex/agents/collector.md) | 只读搜索 GitHub Trending 和 Hacker News，提取来源、原始热度和中文摘要，初步筛选、去重并按热度排序 | 来源配置、采集时间窗、已有条目 ID/URL | 包含稳定 ID、真实采集时间和热度依据的 JSON 数组；默认至少 15 条，用户指定 Top N 时以 N 为准 |
+| [采集 Agent](.codex/agents/collector.md) | 只读搜索 GitHub Trending 和 Hacker News，同次提取来源、窗口热度、成熟度、完整性与合规审核证据，初步筛选、去重并排序 | 来源配置、采集时间窗、已有条目 ID/URL | 包含稳定 ID、真实采集时间、原始热度及 `source_metrics` 的 JSON 数组；默认至少 15 条，用户指定 Top N 时以 N 为准 |
 | [分析 Agent](.codex/agents/analyzer.md) | 只读分析明确指定的 raw 数据，生成摘要、亮点、证据、限制、评分、标签和状态建议 | raw 文件或完整 JSON、分析规则、历史标签 | 包含分析元数据和 `recommended_status` 的显式 JSON 数组；不直接写入文件 |
-| [整理 Agent](.codex/agents/organizer.md) | 接收显式 raw 与分析 JSON，检查重复、校验数据契约并分类写入知识库 | raw 文件、分析 JSON、历史知识库、可用 schema | 按 `{date}-{source}-{slug}.json` 写入 `knowledge/articles/`，并返回含原因、校验依据和警告的处理清单 |
+| [整理 Agent](.codex/agents/organizer.md) | 接收显式 raw 与分析 JSON，检查重复、校验数据契约并分类写入知识库 | raw 文件、分析 JSON、历史知识库、可用 schema | 按 `{date}-{source}-{slug}.json` 写入状态为 `analyzed` 的条目，并返回含原因、校验依据和警告的处理清单 |
+| [审核 Agent](.codex/agents/reviewer.md) | 读取本地知识条目，执行硬门槛、异常与合规检查，按五个维度计算质量分 | `knowledge/articles/`、对应 raw、本地指标和审核规则 | 写回 `quality_review`；合格条目推进到 `ready`，待复核保持 `analyzed`，废弃条目标记为 `rejected` |
 
 Agent 之间只通过明确的数据契约交接，不依赖隐式内存或未持久化的上下文。任一阶段失败时，应记录可定位问题的错误信息，同时避免把密钥、令牌或完整敏感响应写入日志。
 
