@@ -13,7 +13,7 @@ from typing import Any
 
 
 REQUIRED_FIELDS: dict[str, type] = {
-    "id": str,
+    "id": int,
     "title": str,
     "source_url": str,
     "summary": str,
@@ -21,9 +21,16 @@ REQUIRED_FIELDS: dict[str, type] = {
     "status": str,
 }
 
-ID_PATTERN = re.compile(r"^[A-Za-z0-9_-]+-\d{8}-\d{3}$")
 URL_PATTERN = re.compile(r"^https?://\S+$", re.IGNORECASE)
-VALID_STATUSES = {"draft", "review", "published", "archived"}
+VALID_STATUSES = {
+    "draft",
+    "collected",
+    "analyzed",
+    "ready",
+    "published",
+    "rejected",
+    "failed",
+}
 VALID_AUDIENCES = {"beginner", "intermediate", "advanced"}
 
 
@@ -58,7 +65,7 @@ def validate_required_fields(data: dict[str, Any]) -> list[str]:
     for field, expected_type in REQUIRED_FIELDS.items():
         if field not in data:
             errors.append(f"missing required field: {field}")
-        elif not isinstance(data[field], expected_type):
+        elif type(data[field]) is not expected_type:
             errors.append(
                 f"field '{field}' must be {expected_type.__name__}, "
                 f"got {type(data[field]).__name__}"
@@ -72,11 +79,8 @@ def validate_entry(data: dict[str, Any]) -> list[str]:
     errors = validate_required_fields(data)
 
     entry_id = data.get("id")
-    if isinstance(entry_id, str) and not ID_PATTERN.fullmatch(entry_id):
-        errors.append(
-            "field 'id' must match {source}-{YYYYMMDD}-{NNN}, "
-            "for example github-20260317-001"
-        )
+    if type(entry_id) is int and entry_id <= 0:
+        errors.append("field 'id' must be a positive integer")
 
     status = data.get("status")
     if isinstance(status, str) and status not in VALID_STATUSES:
@@ -100,9 +104,9 @@ def validate_entry(data: dict[str, Any]) -> list[str]:
         if (
             isinstance(score, bool)
             or not isinstance(score, (int, float))
-            or not 1 <= score <= 10
+            or not 0 <= score <= 1
         ):
-            errors.append("field 'score' must be a number between 1 and 10")
+            errors.append("field 'score' must be a number between 0 and 1")
 
     if "audience" in data:
         audience = data["audience"]

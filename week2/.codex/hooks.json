@@ -1,0 +1,18 @@
+{
+  "description": "Validate knowledge article JSON after file reads and writes.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "^(Bash|Read|Write|Edit|apply_patch|read_file|write_file|edit_file)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$(git rev-parse --show-toplevel)/week2/.codex/scripts/validate_knowledge_json.py\"",
+            "timeout": 15,
+            "statusMessage": "Validating knowledge article JSON"
+          }
+        ]
+      }
+    ]
+  }
+}

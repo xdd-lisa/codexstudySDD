@@ -160,11 +160,11 @@ diff-cover coverage.xml --fail-under=90
 
 ## 知识条目 JSON 格式
 
-每个知识条目使用一个 JSON 对象表示。时间字段统一为带时区的 ISO 8601 字符串；未知的可选值使用 `null`，不得用空字符串冒充。`id` 必须稳定且可复现，建议根据标准化后的 `source_url` 生成哈希。
+每个知识条目使用一个 JSON 对象表示。时间字段统一为带时区的 ISO 8601 字符串；未知的可选值使用 `null`，不得用空字符串冒充。`id` 必须是稳定、可复现的正整数，建议将标准化后的 `source_url` 哈希确定性地转换为整数。
 
 ```json
 {
-  "id": "sha256:8f3c...",
+  "id": 1761916831204887,
   "title": "Example AI Project",
   "source": "github_trending",
   "source_url": "https://github.com/example/example-ai",
@@ -239,9 +239,10 @@ diff-cover coverage.xml --fail-under=90
 字段约束：
 
 - `id`、`title`、`source`、`source_url`、`collected_at`、`summary`、`tags`、`status` 为必填字段。
+- `id` 必须为正整数，并由稳定输入确定性生成；不得使用运行时随机值。
 - `source` 当前允许 `github_trending`、`hacker_news`，扩展来源时同步更新 schema 与测试。
 - `tags` 使用去重后的小写英文短标签；不得包含同义重复标签。
-- `status` 仅允许 `collected`、`analyzed`、`ready`、`published`、`rejected`、`failed`。
+- `status` 仅允许 `draft`、`collected`、`analyzed`、`ready`、`published`、`rejected`、`failed`。
 - `score` 取值范围为 `0.0` 至 `1.0`，表示内容与项目主题的相关度或综合价值评分。
 - `summary` 和 `analysis` 必须基于来源内容，不得虚构来源未提供的事实。
 - GitHub 采集结果必须保留 `popularity_raw`、`popularity_unit` 和 `source_metrics`，使 Reviewer 可在不联网的情况下复算热度、成熟度、完整性与合规分。
@@ -249,7 +250,7 @@ diff-cover coverage.xml --fail-under=90
 - Organizer 写入的新条目保持 `analyzed`；Reviewer 审核分数不低于 60 且通过全部硬门槛后才可推进到 `ready`。
 - `quality_review.score` 为 `0-100` 的综合质量分，与顶层 `score` 的 `0.0-1.0` 内容价值分相互独立，不得混用。
 - `quality_review` 的五个维度满分依次为 35、20、20、15、10；合规干净度必须为 `10/10`，硬门槛失败时条目标记为 `rejected`。
-- 状态按 `collected -> analyzed -> ready -> published` 推进；40–59 分保持 `analyzed` 等待复核，低于 40 分或不符合硬门槛的条目标记为 `rejected`，处理失败且需要排查的条目标记为 `failed`。
+- 状态按 `draft -> collected -> analyzed -> ready -> published` 推进；40–59 分保持 `analyzed` 等待复核，低于 40 分或不符合硬门槛的条目标记为 `rejected`，处理失败且需要排查的条目标记为 `failed`。
 
 ## Agent 角色概览
 

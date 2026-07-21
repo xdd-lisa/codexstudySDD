@@ -14,9 +14,16 @@ from pathlib import Path
 from typing import Any
 
 
-ID_PATTERN = re.compile(r"^[A-Za-z0-9_-]+-\d{8}-\d{3}$")
 URL_PATTERN = re.compile(r"^https?://\S+$", re.IGNORECASE)
-VALID_STATUSES = {"draft", "review", "published", "archived"}
+VALID_STATUSES = {
+    "draft",
+    "collected",
+    "analyzed",
+    "ready",
+    "published",
+    "rejected",
+    "failed",
+}
 
 STANDARD_TAGS = {
     "ai",
@@ -202,21 +209,21 @@ def score_summary(data: dict[str, Any]) -> DimensionScore:
 
 
 def score_technical_depth(data: dict[str, Any]) -> DimensionScore:
-    """Map the article score range 1-10 linearly onto 0-25."""
+    """Map the article score range 0-1 linearly onto 0-25."""
     article_score = data.get("score")
     if (
         isinstance(article_score, bool)
         or not isinstance(article_score, (int, float))
-        or not 1 <= article_score <= 10
+        or not 0 <= article_score <= 1
     ):
         return DimensionScore(
             "技术深度",
             0.0,
             25,
-            ["score 缺失或不在 1-10 范围内"],
+            ["score 缺失或不在 0-1 范围内"],
         )
 
-    score = round((float(article_score) - 1.0) / 9.0 * 25.0, 1)
+    score = round(float(article_score) * 25.0, 1)
     return DimensionScore(
         "技术深度",
         score,
@@ -238,10 +245,10 @@ def is_valid_timestamp(value: Any) -> bool:
 
 def score_format(data: dict[str, Any]) -> DimensionScore:
     """Award four points for each valid format field."""
+    entry_id = data.get("id")
     status = data.get("status")
     checks = {
-        "id": isinstance(data.get("id"), str)
-        and bool(ID_PATTERN.fullmatch(data["id"])),
+        "id": type(entry_id) is int and entry_id > 0,
         "title": isinstance(data.get("title"), str)
         and bool(data["title"].strip()),
         "source_url": isinstance(data.get("source_url"), str)
