@@ -6,6 +6,7 @@ import argparse
 import json
 import logging
 import re
+import sys
 from collections.abc import Mapping, Sequence
 from pathlib import Path
 from typing import Any
@@ -13,14 +14,20 @@ from urllib.parse import urlsplit, urlunsplit
 
 import httpx
 
-from knowledge_base.repository import ArticleRepository
+# Support the documented direct invocation: ``python pipeline/pipeline.py``.
+if __package__ in {None, ""}:
+    project_root = Path(__file__).resolve().parents[1]
+    sys.path.insert(0, str(project_root))
+    sys.path.insert(0, str(project_root / "src"))
+
+from knowledge_base.repository import ArticleRepository  # noqa: I001
 from knowledge_base.schema import (
     ARTICLE_SCHEMA_VERSION,
     assert_valid_article,
     normalize_timestamp,
 )
 
-from .collector import (
+from pipeline.collector import (
     RSS_CONFIG_PATH,
     collect_github,
     collect_rss,
@@ -28,8 +35,8 @@ from .collector import (
     short_hash,
     utc_now,
 )
-from .model_client import LLMProvider, LLMResponse, chat_with_retry, create_provider
-from .storage import (
+from pipeline.model_client import LLMProvider, LLMResponse, chat_with_retry, create_provider
+from pipeline.storage import (
     load_checkpoint,
     next_raw_path,
     record_failure,
