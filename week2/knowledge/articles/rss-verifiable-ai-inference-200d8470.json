@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "200d8470833c9611",
+  "title": "Verifiable AI inference",
+  "source": "rss",
+  "source_url": "https://blog.vrypan.net/2026/07/14/verifiable-ai-inference",
+  "published_at": "2026-07-14T13:31:07-05:00",
+  "collected_at": "2026-07-22T07:41:09+00:00",
+  "summary": "探讨可验证的人工智能推理方法，确保输出可信与透明。",
+  "score": 7.0,
+  "tags": [
+    "verifiable",
+    "ai",
+    "inference",
+    "cryptography",
+    "trust"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

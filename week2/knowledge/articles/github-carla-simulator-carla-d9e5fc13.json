@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "d9e5fc13dd803a2b",
+  "title": "carla-simulator/carla",
+  "source": "github",
+  "source_url": "https://github.com/carla-simulator/carla",
+  "published_at": "2026-07-22T10:02:45+00:00",
+  "collected_at": "2026-07-22T10:10:07+00:00",
+  "summary": "CARLA是一个用于自动驾驶研究的开源模拟器，主要使用C++开发，拥有超过14000颗GitHub星标，广泛应用于自动驾驶算法测试与开发。",
+  "score": 9.0,
+  "tags": [
+    "autonomous-driving",
+    "simulator",
+    "open-source",
+    "research",
+    "c++"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

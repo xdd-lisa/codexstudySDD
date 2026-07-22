@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "66ac737528c0445a",
+  "title": "China’s open-weights AI strategy is winning",
+  "source": "rss",
+  "source_url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
+  "published_at": "2026-07-20T14:21:47+00:00",
+  "collected_at": "2026-07-22T07:41:09+00:00",
+  "summary": "中国开放权重AI策略正取得优势，美国专有AI模式面临挑战。",
+  "score": 8.0,
+  "tags": [
+    "china",
+    "ai",
+    "open-source",
+    "strategy",
+    "comparison"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

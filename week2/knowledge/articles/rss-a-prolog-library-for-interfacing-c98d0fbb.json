@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "c98d0fbb2d72509c",
+  "title": "A Prolog library for interfacing with LLMs",
+  "source": "rss",
+  "source_url": "https://github.com/vagos/llmpl",
+  "published_at": "2026-07-09T08:52:12-05:00",
+  "collected_at": "2026-07-22T10:10:14+00:00",
+  "summary": "这个Prolog库提供了与大型语言模型接口的功能，使得逻辑编程与AI结合。",
+  "score": 7.0,
+  "tags": [
+    "prolog",
+    "llm",
+    "library",
+    "interface"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "2db32f3d455b61ad",
+  "title": "SyntheticAutonomicMind/CLIO",
+  "source": "github",
+  "source_url": "https://github.com/SyntheticAutonomicMind/CLIO",
+  "published_at": "2026-07-22T09:35:46+00:00",
+  "collected_at": "2026-07-22T10:10:07+00:00",
+  "summary": "一个运行在终端、支持多种AI模型和提供商、以Perl编写的编程辅助代理工具",
+  "score": 7.0,
+  "tags": [
+    "ai-assisted-coding",
+    "terminal",
+    "perl",
+    "developer-tools",
+    "multi-provider"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

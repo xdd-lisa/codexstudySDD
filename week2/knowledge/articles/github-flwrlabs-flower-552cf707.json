@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "552cf707410491b0",
+  "title": "flwrlabs/flower",
+  "source": "github",
+  "source_url": "https://github.com/flwrlabs/flower",
+  "published_at": "2026-07-22T09:37:51+00:00",
+  "collected_at": "2026-07-22T10:10:07+00:00",
+  "summary": "一个友好的联邦AI框架，支持多种机器学习库，便于联合训练与隐私保护。",
+  "score": 7.0,
+  "tags": [
+    "federated-learning",
+    "ai-framework",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

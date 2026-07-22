@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "89e37030d83dd130",
+  "title": "ikaijua/Awesome-AITools",
+  "source": "github",
+  "source_url": "https://github.com/ikaijua/Awesome-AITools",
+  "published_at": "2026-07-22T07:03:39+00:00",
+  "collected_at": "2026-07-22T07:41:01+00:00",
+  "summary": "收集大量AI相关实用工具的GitHub仓库，社区活跃欢迎贡献，主要使用Python。",
+  "score": 8.0,
+  "tags": [
+    "ai-tools",
+    "python",
+    "collection",
+    "utilities"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

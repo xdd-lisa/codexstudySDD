@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "500f5765fef392e6",
+  "title": "l33tdawg/sage",
+  "source": "github",
+  "source_url": "https://github.com/l33tdawg/sage",
+  "published_at": "2026-07-22T07:31:57+00:00",
+  "collected_at": "2026-07-22T07:41:01+00:00",
+  "summary": "SAGE是一个基于Go语言开发的主权代理治理体验框架，目前在GitHub上获得241颗星标。",
+  "score": 6.0,
+  "tags": [
+    "sage",
+    "agent",
+    "governance",
+    "go",
+    "framework"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

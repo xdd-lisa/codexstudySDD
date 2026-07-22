@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b5dccf873b99f9d1",
+  "title": "sonos/tract",
+  "source": "github",
+  "source_url": "https://github.com/sonos/tract",
+  "published_at": "2026-07-22T09:42:35+00:00",
+  "collected_at": "2026-07-22T10:10:07+00:00",
+  "summary": "这是一个轻量级、自包含的Rust语言TensorFlow和ONNX推理引擎，设计简洁高效，无冗余依赖，适用于嵌入式与低资源场景。",
+  "score": 9.0,
+  "tags": [
+    "inference-engine",
+    "tensorflow",
+    "onnx",
+    "rust",
+    "lightweight"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

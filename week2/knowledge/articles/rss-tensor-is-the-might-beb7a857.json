@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "beb7a857d3055e19",
+  "title": "Tensor is the might",
+  "source": "rss",
+  "source_url": "https://zserge.com/posts/tensor",
+  "published_at": "2026-07-14T07:56:11-05:00",
+  "collected_at": "2026-07-22T07:41:09+00:00",
+  "summary": "这篇文章深入探讨了张量在机器学习和数学中的重要作用和强大能力。",
+  "score": 7.0,
+  "tags": [
+    "tensor",
+    "mathematics",
+    "machine-learning",
+    "data-science"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
