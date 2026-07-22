@@ -1,0 +1,6 @@
+"""Formal ``python -m pipeline`` entry point."""
+
+from .pipeline import main
+
+if __name__ == "__main__":
+    raise SystemExit(main())

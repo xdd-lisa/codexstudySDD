@@ -3,7 +3,7 @@
   "title": "Ask an AI expert: What exactly is the full stack?",
   "source": "rss",
   "source_url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer",
-  "published_at": "Mon, 29 Jun 2026 16:00:00 +0000",
+  "published_at": "2026-06-29T16:00:00+00:00",
   "collected_at": "2026-07-22T02:16:51+00:00",
   "summary": "Google专家解释全栈AI方法及其重要性。",
   "score": 8.0,
@@ -17,5 +17,6 @@
   "analysis": {
     "provider": "deepseek",
     "model": "deepseek-v4-flash"
-  }
+  },
+  "schema_version": 1
 }

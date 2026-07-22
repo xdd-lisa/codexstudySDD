@@ -170,9 +170,10 @@ def apply_safe_fixes(path: Path) -> tuple[list[str], str | None]:
     entry_id = data.get("id")
     if isinstance(entry_id, str):
         normalized_id = entry_id.strip()
-        if normalized_id.isdecimal() and int(normalized_id) > 0:
-            data["id"] = int(normalized_id)
-            fixes.append("converted id to a positive integer")
+        if value := normalized_id.casefold():
+            if value != entry_id:
+                data["id"] = value
+                fixes.append("normalized id")
 
     for field_name in ("title", "summary", "source_url"):
         value = data.get(field_name)
@@ -209,18 +210,9 @@ def apply_safe_fixes(path: Path) -> tuple[list[str], str | None]:
             normalized_score = float(score.strip())
         except ValueError:
             normalized_score = -1.0
-        if 0 <= normalized_score <= 1:
+        if 0 <= normalized_score <= 10:
             data["score"] = normalized_score
             fixes.append("converted score to a number")
-
-    collected_at = data.get("collected_at")
-    if "timestamp" not in data and isinstance(collected_at, str):
-        if "T" in collected_at and (
-            collected_at.endswith("Z")
-            or re.search(r"[+-]\d{2}:\d{2}$", collected_at)
-        ):
-            data["timestamp"] = collected_at
-            fixes.append("copied collected_at to timestamp")
 
     if not fixes:
         return [], None

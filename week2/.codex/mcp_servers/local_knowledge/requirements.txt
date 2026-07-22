@@ -1,1 +1,2 @@
-# This MCP server uses only the Python standard library.
+# Install the project itself; dependencies and entry points live in pyproject.toml.
+-e ../../..

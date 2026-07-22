@@ -3,7 +3,7 @@
   "title": "fairlearn/fairlearn",
   "source": "github",
   "source_url": "https://github.com/fairlearn/fairlearn",
-  "published_at": "2026-07-22T01:37:53Z",
+  "published_at": "2026-07-22T01:37:53+00:00",
   "collected_at": "2026-07-22T02:16:45+00:00",
   "summary": "fairlearn 是一个用于评估和提升机器学习模型公平性的 Python 包，在 GitHub 上拥有 2258 颗星。",
   "score": 8.0,
@@ -18,5 +18,6 @@
   "analysis": {
     "provider": "deepseek",
     "model": "deepseek-v4-flash"
-  }
+  },
+  "schema_version": 1
 }

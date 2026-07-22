@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "0123456789abcdef",
+  "title": "Python Agent Framework",
+  "source": "test",
+  "source_url": "https://example.com/articles/python-agent",
+  "published_at": "2026-07-22T01:00:00+00:00",
+  "collected_at": "2026-07-22T02:00:00+00:00",
+  "summary": "这是一篇用于自动化测试的 Python Agent Framework 技术文章摘要。",
+  "score": 8.0,
+  "tags": ["python", "ai"],
+  "status": "draft",
+  "analysis": {
+    "provider": "test",
+    "model": "fixture-model"
+  }
+}

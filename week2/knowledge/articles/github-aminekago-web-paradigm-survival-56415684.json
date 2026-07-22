@@ -3,7 +3,7 @@
   "title": "aminekago-web/Paradigm-Survival-Arena",
   "source": "github",
   "source_url": "https://github.com/aminekago-web/Paradigm-Survival-Arena",
-  "published_at": "2026-07-22T02:10:12Z",
+  "published_at": "2026-07-22T02:10:12+00:00",
   "collected_at": "2026-07-22T02:16:45+00:00",
   "summary": "一个关于2026年顶级AI范式生存竞争的HTML项目，星星151个。",
   "score": 6.0,
@@ -17,5 +17,6 @@
   "analysis": {
     "provider": "deepseek",
     "model": "deepseek-v4-flash"
-  }
+  },
+  "schema_version": 1
 }

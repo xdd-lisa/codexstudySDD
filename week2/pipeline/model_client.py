@@ -12,8 +12,9 @@ import os
 import re
 import time
 from abc import ABC, abstractmethod
+from collections.abc import Mapping, Sequence
 from dataclasses import dataclass
-from typing import Any, Mapping, Sequence
+from typing import Any
 
 import httpx
 
@@ -147,9 +148,7 @@ DEFAULT_PRICING: dict[tuple[str, str], ModelPricing] = {
     ("deepseek", "deepseek-v4-pro"): ModelPricing(0.435, 0.87),
 }
 
-_CJK_PATTERN = re.compile(
-    r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]"
-)
+_CJK_PATTERN = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
 
 
 def estimate_tokens(text: str) -> int:
@@ -204,9 +203,7 @@ def calculate_cost_usd(usage: Usage, pricing: ModelPricing) -> float:
     """
 
     input_cost = usage.prompt_tokens * pricing.input_per_million / 1_000_000
-    output_cost = (
-        usage.completion_tokens * pricing.output_per_million / 1_000_000
-    )
+    output_cost = usage.completion_tokens * pricing.output_per_million / 1_000_000
     return input_cost + output_cost
 
 
@@ -362,11 +359,7 @@ class OpenAICompatibleProvider(LLMProvider):
 
         content = _content_to_text(message.get("content"))
         usage = _parse_usage(payload.get("usage"), messages, content)
-        cost = (
-            calculate_cost_usd(usage, self.pricing)
-            if self.pricing is not None
-            else None
-        )
+        cost = calculate_cost_usd(usage, self.pricing) if self.pricing is not None else None
         response_model = payload.get("model")
         if not isinstance(response_model, str) or not response_model:
             response_model = self.model
@@ -411,31 +404,16 @@ def create_provider(provider_name: str | None = None) -> LLMProvider:
             f"Unsupported LLM provider {selected_name!r}; choose {supported}"
         )
 
-    api_key = _first_environment_value(
-        ("LLM_API_KEY", *config.api_key_variables)
-    )
+    api_key = _first_environment_value(("LLM_API_KEY", *config.api_key_variables))
     if api_key is None:
         variables = ", ".join(("LLM_API_KEY", *config.api_key_variables))
         detail = ""
         if normalized_name == "chatgpt":
-            detail = (
-                " A ChatGPT browser login is not an API credential; provide "
-                "an OpenAI API key."
-            )
-        raise LLMConfigurationError(
-            f"Missing API key; set one of: {variables}.{detail}"
-        )
+            detail = " A ChatGPT browser login is not an API credential; provide an OpenAI API key."
+        raise LLMConfigurationError(f"Missing API key; set one of: {variables}.{detail}")
 
-    base_url = (
-        os.getenv("LLM_BASE_URL")
-        or os.getenv(config.base_url_variable)
-        or config.base_url
-    )
-    model = (
-        os.getenv("LLM_MODEL")
-        or os.getenv(config.model_variable)
-        or config.default_model
-    )
+    base_url = os.getenv("LLM_BASE_URL") or os.getenv(config.base_url_variable) or config.base_url
+    model = os.getenv("LLM_MODEL") or os.getenv(config.model_variable) or config.default_model
     pricing = _resolve_pricing(normalized_name, model)
 
     return OpenAICompatibleProvider(
@@ -562,13 +540,9 @@ def _validate_messages(messages: Sequence[Message]) -> None:
     for index, message in enumerate(messages):
         role = message.get("role")
         if not isinstance(role, str) or not role:
-            raise LLMConfigurationError(
-                f"messages[{index}].role must be a non-empty string"
-            )
+            raise LLMConfigurationError(f"messages[{index}].role must be a non-empty string")
         if "content" not in message:
-            raise LLMConfigurationError(
-                f"messages[{index}] must include content"
-            )
+            raise LLMConfigurationError(f"messages[{index}] must include content")
 
 
 def _content_to_text(content: Any) -> str:
@@ -598,9 +572,7 @@ def _parse_usage(
 
     if isinstance(raw_usage, Mapping):
         prompt_tokens = _nonnegative_int(raw_usage.get("prompt_tokens"))
-        completion_tokens = _nonnegative_int(
-            raw_usage.get("completion_tokens")
-        )
+        completion_tokens = _nonnegative_int(raw_usage.get("completion_tokens"))
         if prompt_tokens is not None and completion_tokens is not None:
             total_tokens = _nonnegative_int(raw_usage.get("total_tokens"))
             if total_tokens is None:
@@ -648,16 +620,13 @@ def _resolve_pricing(provider_name: str, model: str) -> ModelPricing | None:
         return DEFAULT_PRICING.get((provider_name, model))
     if input_value is None or output_value is None:
         raise LLMConfigurationError(
-            "Set both LLM_INPUT_COST_PER_MILLION and "
-            "LLM_OUTPUT_COST_PER_MILLION"
+            "Set both LLM_INPUT_COST_PER_MILLION and LLM_OUTPUT_COST_PER_MILLION"
         )
 
     try:
         pricing = ModelPricing(float(input_value), float(output_value))
     except ValueError as error:
-        raise LLMConfigurationError(
-            "LLM cost variables must be valid numbers"
-        ) from error
+        raise LLMConfigurationError("LLM cost variables must be valid numbers") from error
     if pricing.input_per_million < 0 or pricing.output_per_million < 0:
         raise LLMConfigurationError("LLM cost variables must not be negative")
     return pricing
