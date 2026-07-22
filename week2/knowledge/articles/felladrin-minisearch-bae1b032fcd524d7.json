@@ -1,0 +1,22 @@
+{
+  "id": "bae1b032fcd524d7",
+  "title": "felladrin/MiniSearch",
+  "source": "github",
+  "source_url": "https://github.com/felladrin/MiniSearch",
+  "published_at": "2026-07-22T01:57:32Z",
+  "collected_at": "2026-07-22T02:16:45+00:00",
+  "summary": "一个极简的网页搜索平台，内建AI助手，直接在浏览器中运行。",
+  "score": 7.0,
+  "tags": [
+    "search",
+    "ai",
+    "minimal",
+    "browser",
+    "typescript"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

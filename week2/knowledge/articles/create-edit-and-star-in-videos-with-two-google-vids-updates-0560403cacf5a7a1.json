@@ -1,0 +1,21 @@
+{
+  "id": "0560403cacf5a7a1",
+  "title": "Create, edit and star in videos with two Google Vids updates",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
+  "published_at": "Thu, 16 Jul 2026 16:00:00 +0000",
+  "collected_at": "2026-07-22T02:16:51+00:00",
+  "summary": "Google Vids 新增 Gemini Omni 和个人头像功能，简化视频制作过程。",
+  "score": 8.0,
+  "tags": [
+    "google-vids",
+    "gemini-omni",
+    "avatars",
+    "video"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

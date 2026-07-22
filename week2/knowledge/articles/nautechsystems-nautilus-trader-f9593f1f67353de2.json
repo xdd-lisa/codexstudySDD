@@ -1,0 +1,21 @@
+{
+  "id": "f9593f1f67353de2",
+  "title": "nautechsystems/nautilus_trader",
+  "source": "github",
+  "source_url": "https://github.com/nautechsystems/nautilus_trader",
+  "published_at": "2026-07-22T02:07:05Z",
+  "collected_at": "2026-07-22T02:16:45+00:00",
+  "summary": "一个生产级、基于Rust的原生交易引擎，采用确定性事件驱动架构，GitHub星标24881。",
+  "score": 9.0,
+  "tags": [
+    "trading",
+    "rust",
+    "engine",
+    "event-driven"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

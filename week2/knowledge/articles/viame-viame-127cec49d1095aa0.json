@@ -1,0 +1,22 @@
+{
+  "id": "127cec49d1095aa0",
+  "title": "VIAME/VIAME",
+  "source": "github",
+  "source_url": "https://github.com/VIAME/VIAME",
+  "published_at": "2026-07-22T01:44:33Z",
+  "collected_at": "2026-07-22T02:16:45+00:00",
+  "summary": "多环境视频图像分析工具，主语言Python，GitHub星数336。",
+  "score": 6.0,
+  "tags": [
+    "video",
+    "image",
+    "analytics",
+    "python",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

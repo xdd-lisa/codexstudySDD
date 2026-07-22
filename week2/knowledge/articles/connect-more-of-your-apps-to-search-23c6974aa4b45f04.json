@@ -1,0 +1,22 @@
+{
+  "id": "23c6974aa4b45f04",
+  "title": "Connect more of your apps to Search",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/connected-apps",
+  "published_at": "Thu, 16 Jul 2026 16:00:00 +0000",
+  "collected_at": "2026-07-22T02:16:51+00:00",
+  "summary": "用户将能够在AI模式下安全地链接和直接使用常用服务。",
+  "score": 7.5,
+  "tags": [
+    "google",
+    "search",
+    "ai",
+    "apps",
+    "integration"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

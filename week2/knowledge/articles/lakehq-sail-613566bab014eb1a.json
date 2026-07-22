@@ -1,0 +1,22 @@
+{
+  "id": "613566bab014eb1a",
+  "title": "lakehq/sail",
+  "source": "github",
+  "source_url": "https://github.com/lakehq/sail",
+  "published_at": "2026-07-22T01:53:01Z",
+  "collected_at": "2026-07-22T02:16:45+00:00",
+  "summary": "一个用Rust编写的Apache Spark替代品，统一批处理、流处理和高计算AI工作负载。",
+  "score": 8.0,
+  "tags": [
+    "spark",
+    "rust",
+    "batch-processing",
+    "stream-processing",
+    "ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

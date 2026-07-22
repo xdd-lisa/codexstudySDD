@@ -1,0 +1,22 @@
+{
+  "id": "f64e2fd8a1805bea",
+  "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit",
+  "published_at": "Wed, 01 Jul 2026 16:00:00 +0000",
+  "collected_at": "2026-07-22T02:16:51+00:00",
+  "summary": "谷歌与纽约就业CEO理事会及城市大会在谷歌办公室举办AI峰会，150位教育及行业领袖共议AI在课堂的未来。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "education",
+    "summit",
+    "google",
+    "nyc"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

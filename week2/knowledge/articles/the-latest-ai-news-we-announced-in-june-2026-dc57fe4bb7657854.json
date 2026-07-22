@@ -1,0 +1,21 @@
+{
+  "id": "dc57fe4bb7657854",
+  "title": "The latest AI news we announced in June 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026",
+  "published_at": "Wed, 01 Jul 2026 18:15:00 +0000",
+  "collected_at": "2026-07-22T02:16:51+00:00",
+  "summary": "Google 在2026年6月发布了一系列最新AI更新。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "google",
+    "updates",
+    "june2026"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

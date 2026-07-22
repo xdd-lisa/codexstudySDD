@@ -1,0 +1,20 @@
+{
+  "id": "ff1a584be3d120d5",
+  "title": "apache/texera",
+  "source": "github",
+  "source_url": "https://github.com/apache/texera",
+  "published_at": "2026-07-22T02:16:28Z",
+  "collected_at": "2026-07-22T02:16:45+00:00",
+  "summary": "Apache Texera是一个基于视觉工作流的人工智能与人类协作的数据科学平台，主要使用Scala语言，拥有262个GitHub星标。",
+  "score": 6.0,
+  "tags": [
+    "data-science",
+    "visual-workflow",
+    "scala"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

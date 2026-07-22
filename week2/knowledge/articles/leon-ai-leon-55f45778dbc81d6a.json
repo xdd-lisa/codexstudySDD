@@ -1,0 +1,21 @@
+{
+  "id": "55f45778dbc81d6a",
+  "title": "leon-ai/leon",
+  "source": "github",
+  "source_url": "https://github.com/leon-ai/leon",
+  "published_at": "2026-07-22T01:59:18Z",
+  "collected_at": "2026-07-22T02:16:45+00:00",
+  "summary": "Leon是一个开源的个性化AI助手，主要使用TypeScript开发，在GitHub上拥有17370颗星。",
+  "score": 9.0,
+  "tags": [
+    "assistant",
+    "open-source",
+    "typescript",
+    "ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
