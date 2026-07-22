@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "75e4f986943b76d1",
+  "title": "agnt-gg/agnt",
+  "source": "github",
+  "source_url": "https://github.com/agnt-gg/agnt",
+  "published_at": "2026-07-22T07:23:19+00:00",
+  "collected_at": "2026-07-22T07:41:01+00:00",
+  "summary": "一个本地优先的操作系统，用于构建、运行和改进AI代理、工作流和自主目标。",
+  "score": 7.0,
+  "tags": [
+    "local-first",
+    "ai-agents",
+    "workflows",
+    "javascript",
+    "operating-system"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

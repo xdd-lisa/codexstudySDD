@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "c0344b99cf813034",
+  "title": "simstudioai/sim",
+  "source": "github",
+  "source_url": "https://github.com/simstudioai/sim",
+  "published_at": "2026-07-22T07:10:40+00:00",
+  "collected_at": "2026-07-22T07:41:01+00:00",
+  "summary": "Sim是一个用于构建、部署和编排AI代理的中央智能层，使用TypeScript开发，拥有大量GitHub星标。",
+  "score": 9.0,
+  "tags": [
+    "ai",
+    "agents",
+    "orchestration",
+    "typescript"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

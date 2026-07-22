@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "014216b2538f3c17",
+  "title": "huggingface/datasets",
+  "source": "github",
+  "source_url": "https://github.com/huggingface/datasets",
+  "published_at": "2026-07-22T07:10:18+00:00",
+  "collected_at": "2026-07-22T07:41:01+00:00",
+  "summary": "Hugging Face提供的大型数据集库，支持快速、易用的数据处理，用于AI模型训练。",
+  "score": 9.0,
+  "tags": [
+    "datasets",
+    "ai",
+    "python",
+    "machine-learning",
+    "huggingface"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

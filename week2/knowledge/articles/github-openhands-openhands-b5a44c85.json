@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b5a44c85aa774585",
+  "title": "OpenHands/OpenHands",
+  "source": "github",
+  "source_url": "https://github.com/OpenHands/OpenHands",
+  "published_at": "2026-07-22T07:40:21+00:00",
+  "collected_at": "2026-07-22T07:41:01+00:00",
+  "summary": "OpenHands是一个基于人工智能驱动的开发平台，主要使用Python，GitHub星数超过8万。",
+  "score": 9.0,
+  "tags": [
+    "ai-driven",
+    "development",
+    "python",
+    "github",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

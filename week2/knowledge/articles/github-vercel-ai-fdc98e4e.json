@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "fdc98e4e70aebb2d",
+  "title": "vercel/ai",
+  "source": "github",
+  "source_url": "https://github.com/vercel/ai",
+  "published_at": "2026-07-22T07:23:19+00:00",
+  "collected_at": "2026-07-22T07:41:01+00:00",
+  "summary": "来自Next.js团队的AI工具包，用于构建AI驱动的应用和代理，免费开源，支持TypeScript。",
+  "score": 9.0,
+  "tags": [
+    "ai",
+    "typescript",
+    "nextjs",
+    "open-source",
+    "sdk"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a975e214554621b4",
+  "title": "Triton language for Alibaba SAIL",
+  "source": "rss",
+  "source_url": "https://github.com/t-head/triton-for-sail",
+  "published_at": "2026-07-19T06:43:23-05:00",
+  "collected_at": "2026-07-22T07:41:09+00:00",
+  "summary": "Triton语言在阿里SAIL芯片上的适配与优化，提升AI计算效率。",
+  "score": 7.0,
+  "tags": [
+    "triton",
+    "alibaba",
+    "sail",
+    "gpu",
+    "programming"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "aea12527477ebe6f",
+  "title": "dyad-sh/dyad",
+  "source": "github",
+  "source_url": "https://github.com/dyad-sh/dyad",
+  "published_at": "2026-07-22T07:40:03+00:00",
+  "collected_at": "2026-07-22T07:41:01+00:00",
+  "summary": "本地开源AI应用构建器，面向高级用户，类似v0等替代品。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "app-builder",
+    "open-source",
+    "typescript",
+    "developer-tools"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

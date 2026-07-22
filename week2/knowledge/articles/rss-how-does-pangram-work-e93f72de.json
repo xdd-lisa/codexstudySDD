@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "e93f72de79abf2d7",
+  "title": "How does Pangram work?",
+  "source": "rss",
+  "source_url": "https://pangram.substack.com/p/how-does-pangram-work",
+  "published_at": "2026-07-18T01:17:08-05:00",
+  "collected_at": "2026-07-22T07:41:09+00:00",
+  "summary": "该文章介绍了Pangram这一服务的工作原理，涵盖了其核心功能和运作机制，帮助用户理解如何有效使用。",
+  "score": 7.0,
+  "tags": [
+    "pangram",
+    "substack",
+    "newsletter",
+    "writing",
+    "tool"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
