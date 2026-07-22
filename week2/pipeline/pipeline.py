@@ -35,7 +35,7 @@ from pipeline.collector import (
     short_hash,
     utc_now,
 )
-from pipeline.model_client import LLMProvider, LLMResponse, chat_with_retry, create_provider
+from pipeline.model_client import LLMProvider, LLMResponse, chat_with_retry, create_provider, tracker
 from pipeline.storage import (
     load_checkpoint,
     next_raw_path,
@@ -217,6 +217,7 @@ def run_pipeline(
             save_checkpoint(checkpoint)
 
     LOGGER.info("Pipeline complete: %d saved, %d failed", succeeded, len(failed))
+    tracker.report(provider=getattr(provider, "provider_name", "deepseek"))
     return 0 if succeeded or not pending else 1
 
 

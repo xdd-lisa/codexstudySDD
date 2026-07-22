@@ -56,6 +56,94 @@ class Usage:
     estimated: bool = False
 
 
+RMB_PRICING_PER_MILLION: dict[str, tuple[float, float]] = {
+    "deepseek": (1.0, 2.0),
+    "qwen": (4.0, 12.0),
+    "openai": (150.0, 600.0),
+}
+
+
+class CostTracker:
+    """Track cumulative token usage and estimated LLM cost in CNY.
+
+    OpenAI pricing uses the requested ``gpt-4o-mini`` estimate. The tracker
+    groups the ``chatgpt`` provider alias under ``openai``.
+    """
+
+    def __init__(self) -> None:
+        """Initialize an empty set of provider usage totals."""
+
+        self._usage: dict[str, Usage] = {}
+        self._calls: dict[str, int] = {}
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """Record token usage from one successful API call.
+
+        Args:
+            usage: Prompt, completion, and total token counts for the call.
+            provider: LLM provider name, such as ``deepseek`` or ``qwen``.
+        """
+
+        normalized_provider = self._normalize_provider(provider)
+        current = self._usage.get(normalized_provider, Usage(0, 0, 0))
+        self._usage[normalized_provider] = Usage(
+            prompt_tokens=current.prompt_tokens + usage.prompt_tokens,
+            completion_tokens=current.completion_tokens + usage.completion_tokens,
+            total_tokens=current.total_tokens + usage.total_tokens,
+            estimated=current.estimated or usage.estimated,
+        )
+        self._calls[normalized_provider] = self._calls.get(normalized_provider, 0) + 1
+
+    def estimated_cost(self, provider: str) -> float:
+        """Return the provider's cumulative estimated cost in CNY.
+
+        Args:
+            provider: LLM provider whose cost should be calculated.
+
+        Returns:
+            Estimated cost in Chinese yuan.
+        """
+
+        normalized_provider = self._normalize_provider(provider)
+        usage = self._usage.get(normalized_provider, Usage(0, 0, 0))
+        input_price, output_price = RMB_PRICING_PER_MILLION[normalized_provider]
+        return (
+            usage.prompt_tokens * input_price
+            + usage.completion_tokens * output_price
+        ) / 1_000_000
+
+    def report(self, provider: str) -> None:
+        """Print a cumulative token and cost report for one provider.
+
+        Args:
+            provider: LLM provider whose report should be printed.
+        """
+
+        normalized_provider = self._normalize_provider(provider)
+        usage = self._usage.get(normalized_provider, Usage(0, 0, 0))
+        print(f"Provider: {normalized_provider}")
+        print(f"Calls: {self._calls.get(normalized_provider, 0)}")
+        print(f"Input tokens: {usage.prompt_tokens}")
+        print(f"Output tokens: {usage.completion_tokens}")
+        print(f"Total tokens: {usage.total_tokens}")
+        print(f"Estimated cost: ¥{self.estimated_cost(normalized_provider):.6f}")
+
+    @staticmethod
+    def _normalize_provider(provider: str) -> str:
+        """Normalize and validate a provider name."""
+
+        normalized_provider = provider.strip().lower()
+        if normalized_provider == "chatgpt":
+            normalized_provider = "openai"
+        if normalized_provider not in RMB_PRICING_PER_MILLION:
+            supported = ", ".join(sorted(RMB_PRICING_PER_MILLION))
+            raise ValueError(f"Unsupported cost provider {provider!r}; choose {supported}")
+        return normalized_provider
+
+
+tracker = CostTracker()
+
+
 @dataclass(frozen=True)
 class ModelPricing:
     """Model prices in USD per one million tokens.
@@ -330,7 +418,9 @@ class OpenAICompatibleProvider(LLMProvider):
             )
             response.raise_for_status()
 
-        return self._parse_response(response, messages)
+        parsed_response = self._parse_response(response, messages)
+        tracker.record(parsed_response.usage, parsed_response.provider)
+        return parsed_response
 
     def _parse_response(
         self,

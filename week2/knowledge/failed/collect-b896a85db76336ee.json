@@ -1,0 +1,10 @@
+{
+  "stage": "collect",
+  "source": {
+    "name": "Hacker News Best (AI)",
+    "url": "https://hnrss.org/best?q=AI",
+    "category": "综合技术"
+  },
+  "error": "[Errno 1] Operation not permitted",
+  "occurred_at": "2026-07-22T09:02:03+00:00"
+}

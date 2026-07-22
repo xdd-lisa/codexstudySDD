@@ -1,0 +1,10 @@
+{
+  "stage": "collect",
+  "source": {
+    "name": "OpenAI Blog",
+    "url": "https://openai.com/news/rss.xml",
+    "category": "公司博客"
+  },
+  "error": "[Errno 1] Operation not permitted",
+  "occurred_at": "2026-07-22T09:02:03+00:00"
+}
