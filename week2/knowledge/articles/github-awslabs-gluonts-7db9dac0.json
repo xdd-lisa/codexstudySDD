@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "7db9dac0f1732105",
+  "title": "awslabs/gluonts",
+  "source": "github",
+  "source_url": "https://github.com/awslabs/gluonts",
+  "published_at": "2026-07-22T09:37:43+00:00",
+  "collected_at": "2026-07-22T10:10:07+00:00",
+  "summary": "GluonTS是AWS Labs开发的概率时间序列建模Python库，支持多种深度学习模型。",
+  "score": 9.0,
+  "tags": [
+    "time-series",
+    "probabilistic",
+    "python",
+    "deep-learning",
+    "forecasting"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

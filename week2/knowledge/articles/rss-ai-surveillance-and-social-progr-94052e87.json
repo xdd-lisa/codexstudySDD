@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "94052e8780ddecdd",
+  "title": "AI Surveillance and Social Progress",
+  "source": "rss",
+  "source_url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+  "published_at": "2026-07-11T04:40:40-05:00",
+  "collected_at": "2026-07-22T10:10:14+00:00",
+  "summary": "本文探讨了人工智能监控对社会进步的潜在影响，分析利弊。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "surveillance",
+    "social",
+    "technology"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

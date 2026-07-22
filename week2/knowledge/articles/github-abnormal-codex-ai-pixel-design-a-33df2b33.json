@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "33df2b3358d024be",
+  "title": "abnormal-codex/Ai-Pixel-Design-Archive",
+  "source": "github",
+  "source_url": "https://github.com/abnormal-codex/Ai-Pixel-Design-Archive",
+  "published_at": "2026-07-22T09:33:25+00:00",
+  "collected_at": "2026-07-22T10:10:07+00:00",
+  "summary": "一个为专业设计提供最佳AI图像生成的像素设计档案库，包含HTML代码和151个GitHub星标。",
+  "score": 6.5,
+  "tags": [
+    "ai",
+    "pixel-art",
+    "design",
+    "archive",
+    "image-generation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

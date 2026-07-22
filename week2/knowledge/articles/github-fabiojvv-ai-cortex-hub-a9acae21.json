@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "a9acae219324a8a7",
+  "title": "Fabiojvv/ai-cortex-hub",
+  "source": "github",
+  "source_url": "https://github.com/Fabiojvv/ai-cortex-hub",
+  "published_at": "2026-07-22T09:30:23+00:00",
+  "collected_at": "2026-07-22T10:10:07+00:00",
+  "summary": "AI工具发现平台，自动策展和实时排行榜，方便用户探索最新AI工具。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "tools",
+    "discovery",
+    "curation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
