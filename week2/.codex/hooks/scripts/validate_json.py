@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate one or more knowledge-entry JSON files."""
+"""Validate one or more knowledge-entry JSON files for the Codex hook."""
 
 from __future__ import annotations
 

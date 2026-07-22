@@ -70,7 +70,7 @@ def collect_command_paths(tool_input: Any) -> list[str]:
         if not isinstance(value, str):
             continue
         paths.extend(PATCH_PATH_PATTERN.findall(value))
-        if "hooks/validate_json.py" not in value:
+        if ".codex/hooks/scripts/validate_json.py" not in value:
             paths.extend(COMMAND_PATH_PATTERN.findall(value))
     return paths
 
@@ -110,14 +110,16 @@ def resolve_paths(candidates: list[str], cwd: Path) -> list[Path]:
 
 
 def find_validator(target: Path, cwd: Path) -> Path | None:
-    """Find hooks/validate_json.py from the target or session directory."""
+    """Find the project JSON validator from the target or session directory."""
     search_roots = [target.parent, *target.parents, cwd, *cwd.parents]
     seen: set[Path] = set()
     for root in search_roots:
         if root in seen:
             continue
         seen.add(root)
-        validator = root / "hooks" / "validate_json.py"
+        validator = (
+            root / ".codex" / "hooks" / "scripts" / "validate_json.py"
+        )
         if validator.is_file():
             return validator
     return None
@@ -127,7 +129,7 @@ def validate_file(path: Path, cwd: Path) -> str | None:
     """Validate one file and return feedback when validation fails."""
     validator = find_validator(path, cwd)
     if validator is None:
-        return f"{path}: hooks/validate_json.py not found"
+        return f"{path}: .codex/hooks/scripts/validate_json.py not found"
 
     try:
         result = subprocess.run(

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Score the quality of one or more knowledge-entry JSON files."""
+"""Score knowledge-entry JSON quality for the Codex hook workflow."""
 
 from __future__ import annotations
 

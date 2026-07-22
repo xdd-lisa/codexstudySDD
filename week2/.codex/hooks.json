@@ -7,7 +7,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$(git rev-parse --show-toplevel)/week2/.codex/scripts/validate_knowledge_json.py\"",
+            "command": "python3 \"$(git rev-parse --show-toplevel)/week2/.codex/hooks/scripts/validate_knowledge_json.py\"",
             "timeout": 15,
             "statusMessage": "Validating knowledge article JSON"
           }

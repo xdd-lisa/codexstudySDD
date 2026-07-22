@@ -1,0 +1,1 @@
+# This MCP server uses only the Python standard library.
