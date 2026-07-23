@@ -32,8 +32,17 @@
     "github:fabiojvv/ai-cortex-hub": "a9acae219324a8a7",
     "rss:7e25f80225e67887": "e4f8f2afe6a9bc9e",
     "rss:95d5a67df7996783": "94052e8780ddecdd",
-    "rss:af3c2b91e3d6135a": "c98d0fbb2d72509c"
+    "rss:af3c2b91e3d6135a": "c98d0fbb2d72509c",
+    "github:kudoai/chatgpt.js": "d5183a6aa98ff13e",
+    "github:microsoft/semantic-kernel": "92c9b5cfe3d86014",
+    "github:jsonbored/awesome-claude": "a5d3a50a6bad6bab",
+    "github:tphakala/birdnet-go": "66449094637513ec",
+    "github:ls1intum/artemis": "ecc0466d0cdfaf83",
+    "github:kornia/kornia": "6a4c2b74532102f0",
+    "github:sailresearch/awesome-ai-leaderboard": "894e83802bafb3e9",
+    "rss:be6bba14ea6c66a8": "7f9dc1e90f192aac",
+    "rss:88352b98f29cce13": "5916e26d5db13cdb"
   },
   "failed": {},
-  "updated_at": "2026-07-22T10:11:00+00:00"
+  "updated_at": "2026-07-23T10:09:22+00:00"
 }

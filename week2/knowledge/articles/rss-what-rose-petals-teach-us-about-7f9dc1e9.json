@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "7f9dc1e90f192aac",
+  "title": "What Rose Petals Teach Us about Induction",
+  "source": "rss",
+  "source_url": "https://www.oranlooney.com/post/rose-petals",
+  "published_at": "2026-07-22T23:02:57-05:00",
+  "collected_at": "2026-07-23T10:08:38+00:00",
+  "summary": "文章以玫瑰花瓣的斐波那契数列为例，深入浅出地讲解了数学归纳法的核心思想与实际应用。",
+  "score": 7.0,
+  "tags": [
+    "mathematical-induction",
+    "fibonacci",
+    "analogy",
+    "education",
+    "mathematics"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

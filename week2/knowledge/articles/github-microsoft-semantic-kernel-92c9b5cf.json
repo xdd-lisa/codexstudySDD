@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "92c9b5cfe3d86014",
+  "title": "microsoft/semantic-kernel",
+  "source": "github",
+  "source_url": "https://github.com/microsoft/semantic-kernel",
+  "published_at": "2026-07-23T10:02:58+00:00",
+  "collected_at": "2026-07-23T10:08:35+00:00",
+  "summary": "微软开源语义内核，轻松集成最新LLM技术，C#语言，GitHub星数28350。",
+  "score": 8.0,
+  "tags": [
+    "llm",
+    "csharp",
+    "sdk",
+    "ai",
+    "integration"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

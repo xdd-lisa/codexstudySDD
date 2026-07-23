@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "66449094637513ec",
+  "title": "tphakala/birdnet-go",
+  "source": "github",
+  "source_url": "https://github.com/tphakala/birdnet-go",
+  "published_at": "2026-07-23T09:59:44+00:00",
+  "collected_at": "2026-07-23T10:08:35+00:00",
+  "summary": "这是一个自托管的实时声景分析工具，支持鸟类、蝙蝠等野生动物识别，基于本地AI模型，可全天候在树莓派上运行。",
+  "score": 8.0,
+  "tags": [
+    "bird-detection",
+    "wildlife-monitoring",
+    "real-time",
+    "edge-ai",
+    "self-hosted"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

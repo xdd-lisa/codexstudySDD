@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "5916e26d5db13cdb",
+  "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
+  "source": "rss",
+  "source_url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+  "published_at": "2026-07-22T05:09:50-05:00",
+  "collected_at": "2026-07-23T10:08:38+00:00",
+  "summary": "Notion的向量搜索在两年内实现规模扩大10倍，成本降至十分之一。",
+  "score": 8.0,
+  "tags": [
+    "vector-search",
+    "scalability",
+    "cost-reduction",
+    "notion",
+    "ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
