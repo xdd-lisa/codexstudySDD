@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "3a2472ad9780c8de",
+  "title": "chigwell/llm7.io",
+  "source": "github",
+  "source_url": "https://github.com/chigwell/llm7.io",
+  "published_at": "2026-07-24T09:49:34+00:00",
+  "collected_at": "2026-07-24T10:03:18+00:00",
+  "summary": "LLM7.io提供单一API网关，连接多个顶尖AI模型提供商，使用TypeScript开发。",
+  "score": 7.0,
+  "tags": [
+    "api-gateway",
+    "ai-models",
+    "llm",
+    "typescript",
+    "unified-api"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

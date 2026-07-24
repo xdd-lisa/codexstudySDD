@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "f51835eb4fdf800c",
+  "title": "A tour of MLIR: The Dialect Stack Everyone Depends On",
+  "source": "rss",
+  "source_url": "https://hiraditya.github.io/posts/mlir-dialect-stack-for-ml",
+  "published_at": "2026-07-23T23:54:16-05:00",
+  "collected_at": "2026-07-24T10:03:20+00:00",
+  "summary": "MLIR的dialect堆栈为机器学习编译器提供了灵活的多层中间表示，支持高效代码生成和硬件适配。",
+  "score": 8.0,
+  "tags": [
+    "mlir",
+    "compiler",
+    "dialect",
+    "machine-learning",
+    "intermediate-representation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

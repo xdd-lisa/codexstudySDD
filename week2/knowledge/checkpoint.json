@@ -41,8 +41,45 @@
     "github:kornia/kornia": "6a4c2b74532102f0",
     "github:sailresearch/awesome-ai-leaderboard": "894e83802bafb3e9",
     "rss:be6bba14ea6c66a8": "7f9dc1e90f192aac",
-    "rss:88352b98f29cce13": "5916e26d5db13cdb"
+    "rss:88352b98f29cce13": "5916e26d5db13cdb",
+    "github:wanaku-ai/wanaku": "f7341935a26473a0",
+    "github:albumentations-team/albucore": "69b0aac788f7824f",
+    "github:chigwell/llm7.io": "3a2472ad9780c8de",
+    "github:kserve/kserve": "bfb82f4462f890bb",
+    "github:xorbitsai/inference": "8be4856f1ef9bede",
+    "github:crespum/edge-ai": "9bb2032366ea8e12",
+    "github:sujal-142/ai-image-clean-eraser": "b5865058b24d43db",
+    "rss:0cca0d71cd74e3b4": "f51835eb4fdf800c",
+    "rss:48b029b0d7a6c1b5": "acc73f6b5b7e2cff"
   },
-  "failed": {},
-  "updated_at": "2026-07-23T10:09:22+00:00"
+  "failed": {
+    "github:0xplaygrounds/rig": {
+      "stage": "process",
+      "external_id": "github:0xplaygrounds/rig",
+      "item": {
+        "external_id": "github:0xplaygrounds/rig",
+        "title": "0xPlaygrounds/rig",
+        "source": "github",
+        "source_url": "https://github.com/0xPlaygrounds/rig",
+        "published_at": "2026-07-24T09:22:20Z",
+        "collected_at": "2026-07-24T10:03:18+00:00",
+        "content": "⚙️🦀 Build modular and scalable LLM Applications in Rust Primary language: Rust. GitHub stars: 8030.",
+        "source_tags": [
+          "agent",
+          "ai",
+          "artificial-intelligence",
+          "automation",
+          "generative-ai",
+          "large-language-model",
+          "llm",
+          "llmops",
+          "rust",
+          "scalable-ai"
+        ]
+      },
+      "error": "LLM analysis for '0xPlaygrounds/rig' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
+      "attempts": 1
+    }
+  },
+  "updated_at": "2026-07-24T10:04:27+00:00"
 }

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "bfb82f4462f890bb",
+  "title": "kserve/kserve",
+  "source": "github",
+  "source_url": "https://github.com/kserve/kserve",
+  "published_at": "2026-07-24T09:44:35+00:00",
+  "collected_at": "2026-07-24T10:03:18+00:00",
+  "summary": "KServe为Kubernetes提供标准化分布式生成式及预测性AI推理平台，支持多框架部署。",
+  "score": 9.0,
+  "tags": [
+    "inference",
+    "kubernetes",
+    "ai",
+    "ml",
+    "go"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

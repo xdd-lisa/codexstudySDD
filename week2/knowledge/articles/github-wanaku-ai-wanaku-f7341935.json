@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "f7341935a26473a0",
+  "title": "wanaku-ai/wanaku",
+  "source": "github",
+  "source_url": "https://github.com/wanaku-ai/wanaku",
+  "published_at": "2026-07-24T09:59:33+00:00",
+  "collected_at": "2026-07-24T10:03:18+00:00",
+  "summary": "Wanaku是一个基于Java的MCP路由器开源项目，用于简化模型上下文协议的通信路由。",
+  "score": 6.0,
+  "tags": [
+    "mcp",
+    "router",
+    "java",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

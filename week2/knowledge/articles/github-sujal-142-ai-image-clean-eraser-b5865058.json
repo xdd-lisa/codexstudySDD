@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b5865058b24d43db",
+  "title": "Sujal-142/ai-image-clean-eraser",
+  "source": "github",
+  "source_url": "https://github.com/Sujal-142/ai-image-clean-eraser",
+  "published_at": "2026-07-24T09:22:03+00:00",
+  "collected_at": "2026-07-24T10:03:18+00:00",
+  "summary": "一个基于人工智能的图像文字擦除工具，支持自动检测和手动精确去除，输出高清质量。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "text-remover",
+    "image-editing",
+    "object-removal",
+    "hd-quality"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

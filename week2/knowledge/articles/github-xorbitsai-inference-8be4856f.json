@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8be4856f1ef9bede",
+  "title": "xorbitsai/inference",
+  "source": "github",
+  "source_url": "https://github.com/xorbitsai/inference",
+  "published_at": "2026-07-24T09:24:02+00:00",
+  "collected_at": "2026-07-24T10:03:18+00:00",
+  "summary": "Xinference提供统一API，可轻松切换多种开源大语言模型，支持云端、本地部署。",
+  "score": 9.0,
+  "tags": [
+    "machine-learning",
+    "inference",
+    "llm",
+    "open-source",
+    "api"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
