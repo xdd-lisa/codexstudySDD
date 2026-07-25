@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "50f7411ddcbd55fb",
+  "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
+  "source": "rss",
+  "source_url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
+  "published_at": "2026-07-23T13:00:03+00:00",
+  "collected_at": "2026-07-25T09:23:42+00:00",
+  "summary": "OpenAI和Anthropic联合反对开放权重的AI模型，担心这会损害其商业利益并增加来自中国的竞争风险。",
+  "score": 7.0,
+  "tags": [
+    "openai",
+    "anthropic",
+    "open-weight",
+    "ai-risks",
+    "business"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

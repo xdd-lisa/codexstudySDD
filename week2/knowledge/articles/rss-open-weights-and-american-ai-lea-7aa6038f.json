@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "7aa6038f86ced768",
+  "title": "Open Weights and American AI Leadership",
+  "source": "rss",
+  "source_url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight",
+  "published_at": "2026-07-24T09:01:24-05:00",
+  "collected_at": "2026-07-25T09:23:42+00:00",
+  "summary": "微软公司探讨开放权重模型对维持美国人工智能领导地位的战略意义与政策建议。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "open-weights",
+    "american-leadership",
+    "policy"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

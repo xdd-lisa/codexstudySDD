@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "e3d4281bc1e8014e",
+  "title": "The arguments against open source AI are bad",
+  "source": "rss",
+  "source_url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad",
+  "published_at": "2026-07-23T16:49:57+00:00",
+  "collected_at": "2026-07-25T09:23:42+00:00",
+  "summary": "文章反驳了反对开源人工智能的主要论点，认为这些批评缺乏依据，强调开源对AI发展的积极影响。",
+  "score": 8.0,
+  "tags": [
+    "open-source",
+    "ai",
+    "critique",
+    "debate"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

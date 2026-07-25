@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "c41c4788bbe79370",
+  "title": "alvinreal/awesome-opensource-ai",
+  "source": "github",
+  "source_url": "https://github.com/alvinreal/awesome-opensource-ai",
+  "published_at": "2026-07-25T09:09:47+00:00",
+  "collected_at": "2026-07-25T09:23:41+00:00",
+  "summary": "精选真正开源的人工智能项目、模型、工具和基础设施的列表，每日更新。",
+  "score": 8.0,
+  "tags": [
+    "open-source",
+    "ai",
+    "curated-list",
+    "python",
+    "tools"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

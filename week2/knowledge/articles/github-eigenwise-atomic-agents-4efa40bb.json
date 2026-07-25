@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "4efa40bb21e1745f",
+  "title": "Eigenwise/atomic-agents",
+  "source": "github",
+  "source_url": "https://github.com/Eigenwise/atomic-agents",
+  "published_at": "2026-07-25T09:00:37+00:00",
+  "collected_at": "2026-07-25T09:23:41+00:00",
+  "summary": "该仓库提供以原子化方式构建AI智能体的框架，强调模块化、简洁性和可重用性。",
+  "score": 9.0,
+  "tags": [
+    "ai",
+    "agents",
+    "framework",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

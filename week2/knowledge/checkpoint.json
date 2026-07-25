@@ -50,7 +50,19 @@
     "github:crespum/edge-ai": "9bb2032366ea8e12",
     "github:sujal-142/ai-image-clean-eraser": "b5865058b24d43db",
     "rss:0cca0d71cd74e3b4": "f51835eb4fdf800c",
-    "rss:48b029b0d7a6c1b5": "acc73f6b5b7e2cff"
+    "rss:48b029b0d7a6c1b5": "acc73f6b5b7e2cff",
+    "github:alvinreal/awesome-opensource-ai": "c41c4788bbe79370",
+    "github:spiceai/spiceai": "806c3ee15ad5d39c",
+    "github:askimo-ai/askimo": "ebe3641f3e550ebb",
+    "github:eigenwise/atomic-agents": "4efa40bb21e1745f",
+    "github:flowiseai/flowise": "22c27291c0ff8f7a",
+    "github:apache/texera": "ff1a584be3d120d5",
+    "rss:68282f0dab8f89e4": "e3d4281bc1e8014e",
+    "rss:c4776f75bfef21f4": "5b3b2271e75b1abb",
+    "rss:faaab45bfef90ed9": "df4a10a522824508",
+    "rss:e84d72094364b8b6": "c2b72901f9de6df7",
+    "rss:89cff2764e190b8e": "50f7411ddcbd55fb",
+    "rss:68f52abab33ba34c": "7aa6038f86ced768"
   },
   "failed": {
     "github:0xplaygrounds/rig": {
@@ -81,5 +93,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-07-24T10:04:27+00:00"
+  "updated_at": "2026-07-25T09:24:40+00:00"
 }
