@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "d923a364b09ddb01",
+  "title": "Open-weight AI is having its Kubernetes moment",
+  "source": "rss",
+  "source_url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment",
+  "published_at": "2026-07-25T14:49:49+00:00",
+  "collected_at": "2026-07-26T09:48:35+00:00",
+  "summary": "开放权重人工智能正经历类似Kubernetes的标准化与生态整合阶段，推动行业快速发展。",
+  "score": 8.0,
+  "tags": [
+    "open-weight",
+    "ai",
+    "kubernetes",
+    "standardization",
+    "ecosystem"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

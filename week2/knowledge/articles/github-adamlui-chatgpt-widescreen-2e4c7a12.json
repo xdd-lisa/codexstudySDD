@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "2e4c7a12555df5c2",
+  "title": "adamlui/chatgpt-widescreen",
+  "source": "github",
+  "source_url": "https://github.com/adamlui/chatgpt-widescreen",
+  "published_at": "2026-07-26T09:41:56+00:00",
+  "collected_at": "2026-07-26T09:48:34+00:00",
+  "summary": "这是一个获奖的浏览器扩展，用于增强ChatGPT显示模式，支持宽屏、全屏和高屏，并集成垃圾信息拦截功能。",
+  "score": 7.0,
+  "tags": [
+    "chrome-extension",
+    "chatgpt",
+    "productivity",
+    "ui-enhancement"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

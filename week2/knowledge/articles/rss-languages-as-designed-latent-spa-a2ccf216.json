@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a2ccf2167a0daa53",
+  "title": "Languages as designed latent spaces",
+  "source": "rss",
+  "source_url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
+  "published_at": "2026-07-25T10:13:27-05:00",
+  "collected_at": "2026-07-26T09:48:36+00:00",
+  "summary": "语言被视为设计好的潜在空间，探讨语言结构如何影响思维和表达。",
+  "score": 8.0,
+  "tags": [
+    "languages",
+    "latent-spaces",
+    "design",
+    "machine-learning",
+    "linguistics"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

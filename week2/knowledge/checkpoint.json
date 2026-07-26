@@ -62,7 +62,14 @@
     "rss:faaab45bfef90ed9": "df4a10a522824508",
     "rss:e84d72094364b8b6": "c2b72901f9de6df7",
     "rss:89cff2764e190b8e": "50f7411ddcbd55fb",
-    "rss:68f52abab33ba34c": "7aa6038f86ced768"
+    "rss:68f52abab33ba34c": "7aa6038f86ced768",
+    "github:holaboss-ai/holaos": "4a0bba59f2decb48",
+    "github:adamlui/chatgpt-widescreen": "2e4c7a12555df5c2",
+    "github:adamlui/chatgpt-infinity": "275c8da8c0d4a2c6",
+    "github:frontman-ai/frontman": "79b12ac42d123620",
+    "github:mars-sim/mars-sim": "90a05d8013406aa1",
+    "rss:f1b5f1d2207ba76f": "d923a364b09ddb01",
+    "rss:2db85cfa1ccb58c9": "a2ccf2167a0daa53"
   },
   "failed": {
     "github:0xplaygrounds/rig": {
@@ -93,5 +100,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-07-25T09:24:40+00:00"
+  "updated_at": "2026-07-26T09:49:18+00:00"
 }
