@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "5b3b2271e75b1abb",
+  "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+  "source": "rss",
+  "source_url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+  "published_at": "2026-07-23T15:18:40+00:00",
+  "collected_at": "2026-07-25T09:23:42+00:00",
+  "summary": "美国初创公司创始人呼吁政府不要切断中国开源AI模型，认为此举将损害创新与竞争。",
+  "score": 8.5,
+  "tags": [
+    "china",
+    "ai",
+    "open-source",
+    "regulation",
+    "startups"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

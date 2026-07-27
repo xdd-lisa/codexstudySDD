@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "275c8da8c0d4a2c6",
+  "title": "adamlui/chatgpt-infinity",
+  "source": "github",
+  "source_url": "https://github.com/adamlui/chatgpt-infinity",
+  "published_at": "2026-07-26T09:41:21+00:00",
+  "collected_at": "2026-07-26T09:48:34+00:00",
+  "summary": "一个生成无限ChatGPT答案的JavaScript项目，可覆盖任意话题。GitHub星标356。",
+  "score": 7.0,
+  "tags": [
+    "chatgpt",
+    "javascript",
+    "openai",
+    "infinite-answers",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

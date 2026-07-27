@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a5d3a50a6bad6bab",
+  "title": "JSONbored/awesome-claude",
+  "source": "github",
+  "source_url": "https://github.com/JSONbored/awesome-claude",
+  "published_at": "2026-07-23T10:05:05+00:00",
+  "collected_at": "2026-07-23T10:08:35+00:00",
+  "summary": "JSONbored/awesome-claude 是一个精心策划的 Claude 和 AI 工作流资产注册表，包含代理、MCP 服务器、技能、命令、钩子、规则、指南、工具等。",
+  "score": 7.0,
+  "tags": [
+    "claude",
+    "ai-workflow",
+    "mcp",
+    "agents",
+    "tools"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

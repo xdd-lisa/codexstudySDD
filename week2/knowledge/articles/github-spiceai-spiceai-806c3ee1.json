@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "806c3ee15ad5d39c",
+  "title": "spiceai/spiceai",
+  "source": "github",
+  "source_url": "https://github.com/spiceai/spiceai",
+  "published_at": "2026-07-25T08:58:36+00:00",
+  "collected_at": "2026-07-25T09:23:41+00:00",
+  "summary": "Spice是一个用Rust编写的可移植加速SQL查询、搜索和LLM推理引擎，用于数据驱动的AI应用和代理。",
+  "score": 9.0,
+  "tags": [
+    "rust",
+    "sql",
+    "llm",
+    "analytics",
+    "ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

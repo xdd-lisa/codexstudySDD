@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "6a4c2b74532102f0",
+  "title": "kornia/kornia",
+  "source": "github",
+  "source_url": "https://github.com/kornia/kornia",
+  "published_at": "2026-07-23T09:50:45+00:00",
+  "collected_at": "2026-07-23T10:08:35+00:00",
+  "summary": "Kornia是一个基于PyTorch的几何计算机视觉库，专注于空间AI应用，提供多种图像处理和分析功能。",
+  "score": 9.0,
+  "tags": [
+    "computer-vision",
+    "geometry",
+    "pytorch",
+    "spatial-ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

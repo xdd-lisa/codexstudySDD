@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "90a05d8013406aa1",
+  "title": "mars-sim/mars-sim",
+  "source": "github",
+  "source_url": "https://github.com/mars-sim/mars-sim",
+  "published_at": "2026-07-26T09:01:10+00:00",
+  "collected_at": "2026-07-26T09:48:34+00:00",
+  "summary": "一个用Java编写的火星模拟项目官方网站代码库，包含完整的模拟逻辑。",
+  "score": 6.0,
+  "tags": [
+    "mars",
+    "simulation",
+    "java",
+    "space",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

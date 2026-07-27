@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "df4a10a522824508",
+  "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
+  "source": "rss",
+  "source_url": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23",
+  "published_at": "2026-07-23T13:10:02+00:00",
+  "collected_at": "2026-07-25T09:23:42+00:00",
+  "summary": "Alphabet现金消耗加速引发市场对大型科技公司AI支出过高的担忧，投资者警惕盈利压力。",
+  "score": 7.0,
+  "tags": [
+    "alphabet",
+    "cash-burn",
+    "ai-spending",
+    "big-tech",
+    "earnings-risk"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

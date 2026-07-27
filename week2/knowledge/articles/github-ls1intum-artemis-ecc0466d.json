@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "ecc0466d0cdfaf83",
+  "title": "ls1intum/Artemis",
+  "source": "github",
+  "source_url": "https://github.com/ls1intum/Artemis",
+  "published_at": "2026-07-23T09:42:05+00:00",
+  "collected_at": "2026-07-23T10:08:35+00:00",
+  "summary": "Artemis是一个交互式学习平台，提供自动化反馈，主要使用Java开发。",
+  "score": 7.0,
+  "tags": [
+    "java",
+    "learning",
+    "feedback",
+    "interactive"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

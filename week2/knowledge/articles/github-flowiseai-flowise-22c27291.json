@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "22c27291c0ff8f7a",
+  "title": "FlowiseAI/Flowise",
+  "source": "github",
+  "source_url": "https://github.com/FlowiseAI/Flowise",
+  "published_at": "2026-07-25T08:49:16+00:00",
+  "collected_at": "2026-07-25T09:23:41+00:00",
+  "summary": "Flowise是一个可视化构建AI代理的低代码平台，支持TypeScript，GitHub星标超过5万。",
+  "score": 8.0,
+  "tags": [
+    "low-code",
+    "ai-agents",
+    "visual",
+    "typescript",
+    "opensource"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

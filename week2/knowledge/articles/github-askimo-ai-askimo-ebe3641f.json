@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ebe3641f3e550ebb",
+  "title": "askimo-ai/askimo",
+  "source": "github",
+  "source_url": "https://github.com/askimo-ai/askimo",
+  "published_at": "2026-07-25T08:55:52+00:00",
+  "collected_at": "2026-07-25T09:23:41+00:00",
+  "summary": "Askimo是一个基于Kotlin的AI客户端，支持聊天、RAG、计划、MCP工具和多模型代理，功能全面且可扩展。",
+  "score": 8.0,
+  "tags": [
+    "ai-client",
+    "kotlin",
+    "rag",
+    "mcp",
+    "multi-provider"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

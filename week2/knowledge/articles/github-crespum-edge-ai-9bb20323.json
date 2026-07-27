@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "9bb2032366ea8e12",
+  "title": "crespum/edge-ai",
+  "source": "github",
+  "source_url": "https://github.com/crespum/edge-ai",
+  "published_at": "2026-07-24T09:23:52+00:00",
+  "collected_at": "2026-07-24T10:03:18+00:00",
+  "summary": "这是一个关于嵌入式AI资源的精选列表，涵盖工具与框架。",
+  "score": 7.0,
+  "tags": [
+    "curated-list",
+    "embedded-ai",
+    "resources",
+    "ai",
+    "edge-computing"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

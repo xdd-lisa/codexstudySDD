@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "c2b72901f9de6df7",
+  "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+  "source": "rss",
+  "source_url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+  "published_at": "2026-07-23T13:09:10+00:00",
+  "collected_at": "2026-07-25T09:23:42+00:00",
+  "summary": "AI公司通过资产负债表外手段隐藏巨额债务，引发财务透明度担忧。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "debt",
+    "finance",
+    "transparency",
+    "accounting"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
