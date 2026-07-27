@@ -69,7 +69,12 @@
     "github:frontman-ai/frontman": "79b12ac42d123620",
     "github:mars-sim/mars-sim": "90a05d8013406aa1",
     "rss:f1b5f1d2207ba76f": "d923a364b09ddb01",
-    "rss:2db85cfa1ccb58c9": "a2ccf2167a0daa53"
+    "rss:2db85cfa1ccb58c9": "a2ccf2167a0daa53",
+    "github:verisimilitudex/dnanalyzer": "f778479bae1e1b54",
+    "github:aminekago-web/paradigm-survival-arena": "5641568491d38179",
+    "github:jupyter-naas/abi": "265fa17a06f2c57d",
+    "github:jaimasih05-commits/swarm-foraging-qlearn": "027a013c237425e5",
+    "github:okesipoke/manuscript-phoneme-decipher": "5a984db560076f5a"
   },
   "failed": {
     "github:0xplaygrounds/rig": {
@@ -100,5 +105,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-07-26T09:49:18+00:00"
+  "updated_at": "2026-07-27T10:59:16+00:00"
 }

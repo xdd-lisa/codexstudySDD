@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "265fa17a06f2c57d",
+  "title": "jupyter-naas/abi",
+  "source": "github",
+  "source_url": "https://github.com/jupyter-naas/abi",
+  "published_at": "2026-07-27T10:45:02+00:00",
+  "collected_at": "2026-07-27T10:59:02+00:00",
+  "summary": "一个基于本体论的AI操作系统，用于整合数据、模型、工作流和系统。",
+  "score": 6.0,
+  "tags": [
+    "ai",
+    "ontology",
+    "data-integration",
+    "workflow",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

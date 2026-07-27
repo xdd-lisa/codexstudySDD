@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "027a013c237425e5",
+  "title": "jaimasih05-commits/swarm-foraging-qlearn",
+  "source": "github",
+  "source_url": "https://github.com/jaimasih05-commits/swarm-foraging-qlearn",
+  "published_at": "2026-07-27T10:43:50+00:00",
+  "collected_at": "2026-07-27T10:59:02+00:00",
+  "summary": "该项目使用Q学习实现多智能体在动态网格环境中的群体觅食，具有151个星标。",
+  "score": 8.0,
+  "tags": [
+    "q-learning",
+    "swarm-intelligence",
+    "multi-agent-rl",
+    "grid-environment",
+    "reinforcement-learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
