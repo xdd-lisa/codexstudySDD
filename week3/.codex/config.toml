@@ -1,0 +1,4 @@
+[mcp_servers.local_knowledge]
+command = "python3"
+args = [".codex/mcp_servers/local_knowledge/main.py"]
+cwd = "."
