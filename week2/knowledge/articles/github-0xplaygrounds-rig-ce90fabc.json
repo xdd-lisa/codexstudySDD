@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ce90fabcc03fdc26",
+  "title": "0xPlaygrounds/rig",
+  "source": "github",
+  "source_url": "https://github.com/0xPlaygrounds/rig",
+  "published_at": "2026-07-28T10:07:06+00:00",
+  "collected_at": "2026-07-28T10:18:03+00:00",
+  "summary": "一个用于在Rust中构建模块化、可扩展的LLM应用的开源框架",
+  "score": 9.0,
+  "tags": [
+    "rust",
+    "llm",
+    "modular",
+    "scalable",
+    "application"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

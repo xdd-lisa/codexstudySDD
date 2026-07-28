@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "c60f3865d0456499",
+  "title": "AI companies spend record sums on Washington lobbying",
+  "source": "rss",
+  "source_url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+  "published_at": "2026-07-27T14:07:48+00:00",
+  "collected_at": "2026-07-28T10:18:07+00:00",
+  "summary": "人工智能公司在华盛顿的游说支出创下历史新高，显示其政策影响力日益增强。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "lobbying",
+    "politics",
+    "regulation",
+    "spending"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
