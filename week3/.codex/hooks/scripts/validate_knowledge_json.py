@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the week2 JSON validator for knowledge article tool targets."""
+"""Run the week3 JSON validator for knowledge article tool targets."""
 
 from __future__ import annotations
 

@@ -23,7 +23,7 @@ import httpx
 
 # 直接运行 ``python pipeline/pipeline.py`` 时 Python 不会自动加入项目根和 src。
 if __package__ in {None, ""}:
-    # pipeline.py 的上两级即 week2 项目根目录。
+    # pipeline.py 的上两级即 week3 项目根目录。
     project_root = Path(__file__).resolve().parents[1]
     # 加入根目录以导入 pipeline 包。
     sys.path.insert(0, str(project_root))
