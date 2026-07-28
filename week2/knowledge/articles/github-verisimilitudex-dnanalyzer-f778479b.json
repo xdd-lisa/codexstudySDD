@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "f778479bae1e1b54",
+  "title": "VerisimilitudeX/DNAnalyzer",
+  "source": "github",
+  "source_url": "https://github.com/VerisimilitudeX/DNAnalyzer",
+  "published_at": "2026-07-27T10:49:41+00:00",
+  "collected_at": "2026-07-27T10:59:02+00:00",
+  "summary": "该开源项目提供精准基因组分析，采用私有AI技术，主要使用Java语言，已在GitHub获得181颗星。",
+  "score": 7.0,
+  "tags": [
+    "genomics",
+    "dna-analysis",
+    "ai",
+    "java",
+    "privacy"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
