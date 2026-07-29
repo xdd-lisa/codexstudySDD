@@ -79,8 +79,12 @@
     "github:marimo-team/marimo": "83128184b0c8fba3",
     "rss:2824df7b35c430f3": "c918bc481ed35419",
     "rss:2f80ae3a1ded964c": "c60f3865d0456499",
-    "rss:b0c48bbb2539c6d0": "23072d09f70e646c"
+    "rss:b0c48bbb2539c6d0": "23072d09f70e646c",
+    "github:timefoldai/timefold-solver": "f6ec6444409c2a58",
+    "github:aleksnestu/ai-real-estate-assistant": "68d97578f932e78b",
+    "github:matrixhub-ai/matrixhub": "a91e1477b5a834fd",
+    "github:unicity-sphere/sphere-sdk": "32a6e6db1ce4e97e"
   },
   "failed": {},
-  "updated_at": "2026-07-28T10:18:20+00:00"
+  "updated_at": "2026-07-29T10:24:21+00:00"
 }

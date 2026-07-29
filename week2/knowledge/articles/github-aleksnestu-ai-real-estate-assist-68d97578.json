@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "68d97578f932e78b",
+  "title": "AleksNeStu/ai-real-estate-assistant",
+  "source": "github",
+  "source_url": "https://github.com/AleksNeStu/ai-real-estate-assistant",
+  "published_at": "2026-07-29T10:07:26+00:00",
+  "collected_at": "2026-07-29T10:24:06+00:00",
+  "summary": "一个开源的AI房地产搜索助手，集成RAG、向量搜索和多提供商LLM。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "real-estate",
+    "rag",
+    "vector-search",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

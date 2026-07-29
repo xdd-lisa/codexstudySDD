@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a91e1477b5a834fd",
+  "title": "matrixhub-ai/matrixhub",
+  "source": "github",
+  "source_url": "https://github.com/matrixhub-ai/matrixhub",
+  "published_at": "2026-07-29T10:05:31+00:00",
+  "collected_at": "2026-07-29T10:24:06+00:00",
+  "summary": "一个开源的自托管AI模型中心，兼容Hugging Face，加速vLLM和SGLang性能。主要语言Go。",
+  "score": 7.0,
+  "tags": [
+    "open-source",
+    "self-hosted",
+    "ai",
+    "model-hub",
+    "go"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
