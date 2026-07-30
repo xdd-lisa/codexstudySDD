@@ -83,8 +83,15 @@
     "github:timefoldai/timefold-solver": "f6ec6444409c2a58",
     "github:aleksnestu/ai-real-estate-assistant": "68d97578f932e78b",
     "github:matrixhub-ai/matrixhub": "a91e1477b5a834fd",
-    "github:unicity-sphere/sphere-sdk": "32a6e6db1ce4e97e"
+    "github:unicity-sphere/sphere-sdk": "32a6e6db1ce4e97e",
+    "github:di-sukharev/opencommit": "3312ac4726bc3a01",
+    "github:felladrin/minisearch": "bae1b032fcd524d7",
+    "github:lakehq/sail": "613566bab014eb1a",
+    "github:wasmedge/wasmedge": "a18e925f0e250034",
+    "github:onlyoneshakibul/magic-eraser-studio": "201358043fe28594",
+    "rss:25dd1a33fceb52a9": "4095f61d03c5a5a8",
+    "rss:055d5e1ab3732a61": "119813105b52d4e7"
   },
   "failed": {},
-  "updated_at": "2026-07-29T10:24:21+00:00"
+  "updated_at": "2026-07-30T10:08:20+00:00"
 }

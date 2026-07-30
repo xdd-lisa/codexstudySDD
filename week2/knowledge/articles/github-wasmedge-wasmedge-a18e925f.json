@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a18e925f0e250034",
+  "title": "WasmEdge/WasmEdge",
+  "source": "github",
+  "source_url": "https://github.com/WasmEdge/WasmEdge",
+  "published_at": "2026-07-30T09:43:52+00:00",
+  "collected_at": "2026-07-30T10:07:43+00:00",
+  "summary": "WasmEdge是一个轻量、高性能、可扩展的WebAssembly运行时，适用于云原生、边缘计算和去中心化应用。",
+  "score": 9.0,
+  "tags": [
+    "webassembly",
+    "runtime",
+    "cloud-native",
+    "edge",
+    "serverless"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

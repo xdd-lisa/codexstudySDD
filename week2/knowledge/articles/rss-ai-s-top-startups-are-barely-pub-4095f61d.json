@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4095f61d03c5a5a8",
+  "title": "AI's top startups are barely publishing their research",
+  "source": "rss",
+  "source_url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+  "published_at": "2026-07-29T21:25:40+00:00",
+  "collected_at": "2026-07-30T10:07:47+00:00",
+  "summary": "顶尖人工智能初创企业很少公开发布研究成果，这对学术透明度和行业发展构成挑战。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "startups",
+    "research",
+    "publication",
+    "transparency"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
