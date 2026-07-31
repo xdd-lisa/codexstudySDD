@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "1e09ecc78087134b",
+  "title": "semantica-agi/semantica",
+  "source": "github",
+  "source_url": "https://github.com/semantica-agi/semantica",
+  "published_at": "2026-07-31T10:13:42+00:00",
+  "collected_at": "2026-07-31T10:24:27+00:00",
+  "summary": "面向上下文与可问责AI系统的图原生基础设施，基于Python实现，获得1449星关注。",
+  "score": 8.0,
+  "tags": [
+    "graph",
+    "ai",
+    "infrastructure",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

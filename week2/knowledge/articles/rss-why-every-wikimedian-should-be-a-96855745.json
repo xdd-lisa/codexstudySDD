@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "96855745b035add6",
+  "title": "Why every Wikimedian should be a toolmaker",
+  "source": "rss",
+  "source_url": "https://www.haykranen.nl/2026/07/30/wikimania-2026-every-wikimedian-toolmaker",
+  "published_at": "2026-07-30T07:14:59-05:00",
+  "collected_at": "2026-07-31T10:24:28+00:00",
+  "summary": "文章主张每位维基媒体人都应成为工具制造者，强调参与技术开发的重要性。",
+  "score": 6.0,
+  "tags": [
+    "wikimedia",
+    "toolmaking",
+    "community",
+    "technology"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

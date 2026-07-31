@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "e2123091d67cce7d",
+  "title": "Large Language Models and the Future of Programming by Peter Norvig (2023)",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=ia6aJIplmtc",
+  "published_at": "2026-07-29T01:00:21-05:00",
+  "collected_at": "2026-07-31T10:24:28+00:00",
+  "summary": "Peter Norvig探讨大型语言模型对编程未来的影响，分析机遇与挑战。",
+  "score": 8.0,
+  "tags": [
+    "llm",
+    "programming",
+    "future",
+    "peter-norvig"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
