@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "fbe935c4f0f2983a",
+  "title": "KudoAI/bravegpt",
+  "source": "github",
+  "source_url": "https://github.com/KudoAI/bravegpt",
+  "published_at": "2026-08-01T09:42:03+00:00",
+  "collected_at": "2026-08-01T09:46:53+00:00",
+  "summary": "这是一个为Brave搜索提供AI聊天和搜索摘要功能的开源项目，基于最新大型语言模型，主要使用JavaScript开发，目前在GitHub上有210颗星。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "search",
+    "brave",
+    "javascript",
+    "llm"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
