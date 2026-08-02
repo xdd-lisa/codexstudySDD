@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "163463a0973be727",
+  "title": "AI doesn't generate working products, that's still your job",
+  "source": "rss",
+  "source_url": "https://weeraman.com/the-prototype-isnt-the-product",
+  "published_at": "2026-08-01T07:52:10+00:00",
+  "collected_at": "2026-08-02T09:46:22+00:00",
+  "summary": "AI能够快速生成原型或代码片段，但构建一个完整、稳定、可交付的产品仍需开发者负责整合、测试、修复和长期维护。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "development",
+    "product",
+    "prototype",
+    "engineering"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

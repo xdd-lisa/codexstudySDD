@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "f907581a5203eafc",
+  "title": "Why we write our own C and C++ inference engines",
+  "source": "rss",
+  "source_url": "https://localai.io/blog/why-we-write-our-own-engines",
+  "published_at": "2026-07-31T11:17:44-05:00",
+  "collected_at": "2026-08-02T09:46:22+00:00",
+  "summary": "文章讨论团队自行开发C和C++推理引擎的原因，可能涉及性能、控制力或特定需求。",
+  "score": 6.0,
+  "tags": [
+    "inference",
+    "c-plus-plus",
+    "c",
+    "engineering",
+    "performance"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

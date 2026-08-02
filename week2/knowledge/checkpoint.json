@@ -105,8 +105,17 @@
     "github:kudoai/bravegpt": "fbe935c4f0f2983a",
     "github:kudoai/duckduckgpt": "cf460a4cb091d5fb",
     "github:codewithcj/sparkyfitness": "c54a763899427f5c",
-    "rss:29faad8d26c29b0f": "dd1e3017801dae9a"
+    "rss:29faad8d26c29b0f": "dd1e3017801dae9a",
+    "github:samuraigpt/text-to-video-ai": "34c7186cb1e789da",
+    "github:samuraigpt/ai-influencer-generator": "5257c6ab6e4274db",
+    "github:samuraigpt/ai-faceless-video-generator": "add2b4b91e2e8062",
+    "github:klaatai/klaatcode": "90e0643b23535655",
+    "rss:cce2484319bb1135": "0d78e02a307de63f",
+    "rss:64a5dcf459049afd": "163463a0973be727",
+    "rss:1fdd763a230c6278": "b7534fef03b25a7f",
+    "rss:8bdc09ed5bbe527f": "22468750d97f4628",
+    "rss:7cd6dc2402293b66": "f907581a5203eafc"
   },
   "failed": {},
-  "updated_at": "2026-08-01T09:47:07+00:00"
+  "updated_at": "2026-08-02T09:46:43+00:00"
 }

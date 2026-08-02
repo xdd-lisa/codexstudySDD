@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "add2b4b91e2e8062",
+  "title": "SamurAIGPT/AI-Faceless-Video-Generator",
+  "source": "github",
+  "source_url": "https://github.com/SamurAIGPT/AI-Faceless-Video-Generator",
+  "published_at": "2026-08-02T09:37:05+00:00",
+  "collected_at": "2026-08-02T09:46:17+00:00",
+  "summary": "这是一个利用AI生成视频脚本、语音和说话人脸的开源项目，基于Jupyter Notebook实现，拥有473颗星，适合快速创建无脸视频内容。",
+  "score": 7.0,
+  "tags": [
+    "ai-video",
+    "text-to-video",
+    "voice-generation",
+    "talking-face",
+    "jupyter-notebook"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

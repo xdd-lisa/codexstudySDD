@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b7534fef03b25a7f",
+  "title": "Flint: A Visualization Language for the AI Era",
+  "source": "rss",
+  "source_url": "https://microsoft.github.io/flint-chart",
+  "published_at": "2026-08-01T02:45:09+00:00",
+  "collected_at": "2026-08-02T09:46:22+00:00",
+  "summary": "Flint是微软推出的面向AI时代的可视化语言，旨在简化图表创建并提升人机交互效率，支持自然语言生成可视化。",
+  "score": 8.0,
+  "tags": [
+    "visualization",
+    "ai",
+    "microsoft",
+    "language",
+    "charts"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

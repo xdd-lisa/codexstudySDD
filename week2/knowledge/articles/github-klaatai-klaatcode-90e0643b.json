@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "90e0643b23535655",
+  "title": "KlaatAI/klaatcode",
+  "source": "github",
+  "source_url": "https://github.com/KlaatAI/klaatcode",
+  "published_at": "2026-08-02T08:27:22+00:00",
+  "collected_at": "2026-08-02T09:46:17+00:00",
+  "summary": "开源的终端AI编程代理，支持多种模型智能路由，可降低10倍成本，提供接近Claude Code的准确性。",
+  "score": 7.0,
+  "tags": [
+    "ai-coding-agent",
+    "terminal",
+    "model-routing",
+    "open-source",
+    "typescript"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
