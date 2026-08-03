@@ -1,0 +1,2 @@
+# Install the project itself; dependencies and entry points live in pyproject.toml.
+-e ../../..

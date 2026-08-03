@@ -1,0 +1,46 @@
+sources:
+  # HNRSS 的 best feed，并通过关键词仅保留 AI 相关条目。
+  - name: Hacker News Best (AI)
+    url: https://hnrss.org/best?q=AI
+    category: 综合技术
+    enabled: true
+
+  # Lobsters 当前存在 ai 标签；machine_learning 标签地址返回 404。
+  - name: Lobsters AI/ML
+    url: https://lobste.rs/t/ai.rss
+    category: 综合技术
+    enabled: true
+
+  # 每日论文量较大，默认关闭，按需启用。
+  - name: arXiv cs.AI
+    url: https://export.arxiv.org/rss/cs.AI
+    category: AI 研究
+    enabled: false
+
+  - name: OpenAI Blog
+    url: https://openai.com/news/rss.xml
+    category: 公司博客
+    enabled: true
+
+  # Anthropic 当前未提供官方 RSS；使用社区自动生成的 Research feed。
+  - name: Anthropic Research
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml
+    category: 公司博客
+    enabled: true
+
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    category: 公司博客
+    enabled: true
+
+  # 当前会跳转到数据服务页面，不直接返回 RSS，确认订阅地址后再启用。
+  - name: 机器之心
+    url: https://www.jiqizhixin.com/rss
+    category: 中文社区
+    enabled: false
+
+  # 当前请求返回 403，确认可稳定采集后再启用。
+  - name: 量子位
+    url: https://www.qbitai.com/feed/
+    category: 中文社区
+    enabled: false
