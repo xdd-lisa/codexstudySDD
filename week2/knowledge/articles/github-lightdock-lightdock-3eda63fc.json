@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "3eda63fc2ccbf76c",
+  "title": "lightdock/lightdock",
+  "source": "github",
+  "source_url": "https://github.com/lightdock/lightdock",
+  "published_at": "2026-08-03T10:58:25+00:00",
+  "collected_at": "2026-08-03T11:01:23+00:00",
+  "summary": "基于GSO算法的蛋白质-蛋白质、多肽和DNA对接框架，用Python实现，提供分子对接模拟功能。",
+  "score": 7.0,
+  "tags": [
+    "bioinformatics",
+    "protein-docking",
+    "gso",
+    "python",
+    "framework"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

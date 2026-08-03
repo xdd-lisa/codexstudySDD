@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "e289e003b7316fb0",
+  "title": "spring-projects/spring-ai",
+  "source": "github",
+  "source_url": "https://github.com/spring-projects/spring-ai",
+  "published_at": "2026-08-03T10:51:32+00:00",
+  "collected_at": "2026-08-03T11:01:23+00:00",
+  "summary": "Spring AI是面向Java生态的AI工程应用框架，提供与主流模型集成的抽象和工具，简化AI功能开发。",
+  "score": 9.0,
+  "tags": [
+    "java",
+    "ai",
+    "framework",
+    "spring"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
