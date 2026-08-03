@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "5156b733acd8331a",
+  "title": "ouspg/cloud-containers-aimodels-documentation",
+  "source": "container_ai",
+  "source_url": "https://github.com/ouspg/cloud-containers-aimodels-documentation",
+  "published_at": "2025-08-12T11:51:07+00:00",
+  "collected_at": "2026-07-29T07:07:36+00:00",
+  "summary": "一个面向初学者的云基础设施、容器化和AI模型集成指南，以Python为主要语言，内容全面且易于理解。",
+  "score": 6.0,
+  "tags": [
+    "cloud",
+    "containers",
+    "ai",
+    "documentation",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -14,6 +14,7 @@ import logging
 import re
 import sys
 from collections.abc import Mapping, Sequence
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlsplit, urlunsplit
@@ -21,48 +22,59 @@ from urllib.parse import urlsplit, urlunsplit
 # httpx 同时用于采集 HTTP 会话及精确捕获网络异常。
 import httpx
 
-# 直接运行 ``python pipeline/pipeline.py`` 时 Python 不会自动加入项目根和 src。
-if __package__ in {None, ""}:
-    # pipeline.py 的上两级即 week3 项目根目录。
-    project_root = Path(__file__).resolve().parents[1]
-    # 加入根目录以导入 pipeline 包。
+# 无论通过模块还是脚本启动，都优先使用当前项目的共享领域包，避免误用其他
+# editable install 指向的同名 knowledge_base。
+project_root = Path(__file__).resolve().parents[1]
+src_root = project_root / "src"
+if str(src_root) not in sys.path:
+    sys.path.insert(0, str(src_root))
+# 直接运行 ``python pipeline/pipeline.py`` 时 Python 还不会自动加入项目根。
+if __package__ in {None, ""} and str(project_root) not in sys.path:
     sys.path.insert(0, str(project_root))
-    # 加入 src 目录以导入共享 knowledge_base 领域包。
-    sys.path.insert(0, str(project_root / "src"))
 
 # 正式文章必须通过共享 Repository 保存，不能在编排层自行拼接文件名。
-from knowledge_base.repository import ArticleRepository  # noqa: I001
+from knowledge_base.repository import ArticleRepository  # noqa: E402, I001
 # Schema 版本、校验器和时间规范化均来自唯一领域事实源。
-from knowledge_base.schema import (
+from knowledge_base.schema import (  # noqa: E402
     ARTICLE_SCHEMA_VERSION,
     assert_valid_article,
     normalize_timestamp,
 )
 
 # collector 模块封装来源协议；本模块只负责选择来源和组合结果。
-from pipeline.collector import (
+from pipeline.collector import (  # noqa: E402
     RSS_CONFIG_PATH,
+    collect_container_ai,
     collect_github,
+    collect_github_trending,
     collect_rss,
     load_rss_sources,
     short_hash,
     utc_now,
 )
 # model_client 对业务暴露统一 Provider 接口、重试和成本跟踪。
-from pipeline.model_client import LLMProvider, LLMResponse, chat_with_retry, create_provider, tracker
+from pipeline.model_client import (  # noqa: E402
+    LLMProvider,
+    LLMResponse,
+    chat_with_retry,
+    create_provider,
+    tracker,
+)
 # storage 模块负责 raw、failed、checkpoint 的安全持久化。
-from pipeline.storage import (
+from pipeline.storage import (  # noqa: E402
     load_checkpoint,
     next_raw_path,
     record_failure,
     save_checkpoint,
     save_raw,
+    save_weekly_container_ai,
 )
 
 # 使用固定 logger 名称，便于命令行统一过滤流水线日志。
 LOGGER = logging.getLogger("knowledge_pipeline")
 # 命令行只接受实现并测试过的来源。
-SUPPORTED_SOURCES = ("github", "rss")
+SUPPORTED_SOURCES = ("github", "github-trending", "container-ai", "rss")
+DEFAULT_SOURCES = ("github", "rss")
 # 采集阶段整个 HTTP 操作的超时时间，防止单个来源无限阻塞。
 HTTP_TIMEOUT_SECONDS = 30.0
 # 模型返回成功但格式错误时，最多进行三轮对话纠正。
@@ -182,6 +194,45 @@ def run_pipeline(
                 # 网络或响应数据错误被降级为来源级失败。
                 collection_failures.append(
                     {"stage": "collect", "source": "github", "error": str(error)}
+                )
+        # Trending 使用周榜页面证据和仓库 API 元数据，不与通用 GitHub Search 混用。
+        if "github-trending" in sources:
+            try:
+                collected.extend(
+                    collect_github_trending(client, source_limits["github-trending"])
+                )
+            except (httpx.HTTPError, ValueError) as error:
+                collection_failures.append(
+                    {
+                        "stage": "collect",
+                        "source": "github-trending",
+                        "error": str(error),
+                    }
+                )
+        # Container AI 成功保存专用周快照后，才允许条目进入公共 raw 和分析流程。
+        if "container-ai" in sources:
+            try:
+                container_items = collect_container_ai(
+                    client, source_limits["container-ai"]
+                )
+                snapshot_time = (
+                    datetime.fromisoformat(container_items[0]["collected_at"])
+                    if container_items
+                    else None
+                )
+                save_weekly_container_ai(
+                    container_items,
+                    now=snapshot_time,
+                    dry_run=dry_run,
+                )
+                collected.extend(container_items)
+            except (httpx.HTTPError, OSError, ValueError) as error:
+                collection_failures.append(
+                    {
+                        "stage": "collect",
+                        "source": "container-ai",
+                        "error": str(error),
+                    }
                 )
         # RSS 与 GitHub 相互隔离，即使前者或后者失败仍继续执行。
         if "rss" in sources:
@@ -309,7 +360,7 @@ def build_parser() -> argparse.ArgumentParser:
     # description 会展示在 ``--help`` 的开头。
     parser = argparse.ArgumentParser(description="Collect and analyze AI knowledge articles.")
     # parse_sources 同时负责逗号拆分、去重和白名单校验。
-    parser.add_argument("--sources", type=parse_sources, default=list(SUPPORTED_SOURCES))
+    parser.add_argument("--sources", type=parse_sources, default=list(DEFAULT_SOURCES))
     # positive_int 保证采集总额度始终大于零。
     parser.add_argument("--limit", type=positive_int, default=20)
     # Path 允许调用方使用自定义 RSS YAML 配置。
@@ -483,7 +534,10 @@ def parse_sources(value: str) -> list[str]:
     unsupported = [source for source in sources if source not in SUPPORTED_SOURCES]
     # argparse.ArgumentTypeError 会让 CLI 展示标准用法和可读错误。
     if not sources or unsupported:
-        raise argparse.ArgumentTypeError("sources must be a comma-separated subset of github,rss")
+        choices = ",".join(SUPPORTED_SOURCES)
+        raise argparse.ArgumentTypeError(
+            f"sources must be a comma-separated subset of {choices}"
+        )
     # 保留用户指定的来源顺序，因为额度余数按顺序分配。
     return sources
 

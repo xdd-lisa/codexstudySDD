@@ -69,7 +69,21 @@
     "github:frontman-ai/frontman": "79b12ac42d123620",
     "github:mars-sim/mars-sim": "90a05d8013406aa1",
     "rss:f1b5f1d2207ba76f": "d923a364b09ddb01",
-    "rss:2db85cfa1ccb58c9": "a2ccf2167a0daa53"
+    "rss:2db85cfa1ccb58c9": "a2ccf2167a0daa53",
+    "github:kaito-project/kaito": "2722278e6d5c05b5",
+    "github:cncf/k8s-ai-conformance": "34fdae4a6f1016b4",
+    "github:heoooooon/lazy-starter-kit": "c17923aeb1f0bc29",
+    "github:yastman/rag": "9518dc57b5cf0118",
+    "github:socialgouv/iterion": "2a22e7bf84ae2a50",
+    "github:hodanov/my-pde": "888e19edf528d6df",
+    "github:kdubois/kubernetes-aiops-agent": "93ea8c71774dd31a",
+    "github:ouspg/cloud-containers-aimodels-documentation": "5156b733acd8331a",
+    "github:ajeetraina/labspace-docker-ai-governance": "843b86922a57a8c5",
+    "github:azizsyed666-cmd/ai-pmo-automation": "70c2a48427e6881d",
+    "github:bayzso6694/mini-ats": "b26c27853ae6761c",
+    "github:dawidkrysa/envelo": "c51c29d0447b5cc2",
+    "github:jasmeralia/docker-ai-cli-agents": "7df831368e5426cd",
+    "github:jasmeralia/docker-ai-export-requester": "90f1ab14e9dfc054"
   },
   "failed": {
     "github:0xplaygrounds/rig": {
@@ -98,7 +112,40 @@
       },
       "error": "LLM analysis for '0xPlaygrounds/rig' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
       "attempts": 1
+    },
+    "github:hemanthkp98/kubenova": {
+      "stage": "process",
+      "external_id": "github:hemanthkp98/kubenova",
+      "item": {
+        "external_id": "github:hemanthkp98/kubenova",
+        "title": "hemanthkp98/kubenova",
+        "source": "container_ai",
+        "source_url": "https://github.com/hemanthkp98/kubenova",
+        "published_at": "2026-06-28T23:00:58Z",
+        "collected_at": "2026-07-29T07:07:36+00:00",
+        "content": "Open-source Kubernetes AI assistant — talk to your cluster in plain English, see resources live, and approve kubectl commands before they run. Runs locally in two steps with Docker. Primary language: Python. GitHub current total stars: 1.",
+        "source_tags": [],
+        "source_metrics": {
+          "metric": "current_total_stars",
+          "stars_total": 1,
+          "forks_total": 0,
+          "candidate_window": "created_or_pushed_last_7_days",
+          "window_cutoff": "2026-07-22T07:07:36Z",
+          "matched_windows": [
+            "pushed"
+          ],
+          "created_at": "2026-06-28T23:00:58Z",
+          "pushed_at": "2026-07-27T13:14:06Z",
+          "updated_at": "2026-07-27T12:46:48Z",
+          "query_methods": [
+            "github_search_created",
+            "github_search_pushed"
+          ]
+        }
+      },
+      "error": "LLM analysis for 'hemanthkp98/kubenova' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
+      "attempts": 1
     }
   },
-  "updated_at": "2026-07-26T09:49:18+00:00"
+  "updated_at": "2026-07-29T07:08:57+00:00"
 }

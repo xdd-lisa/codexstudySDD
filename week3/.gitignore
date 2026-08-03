@@ -1,0 +1,3 @@
+# The parent repository ignores .env.example; this project intentionally tracks
+# a credentials-free template documented by README.md and AGENTS.md.
+!.env.example

@@ -1,0 +1,484 @@
+[
+  {
+    "external_id": "github:kaito-project/kaito",
+    "title": "kaito-project/kaito",
+    "source": "container_ai",
+    "source_url": "https://github.com/kaito-project/kaito",
+    "published_at": "2023-09-09T01:53:38Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "Kubernetes AI Toolchain Operator Primary language: Go. GitHub current total stars: 990.",
+    "source_tags": [
+      "ai",
+      "gpu",
+      "kubernetes",
+      "operator"
+    ],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 990,
+      "forks_total": 175,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2023-09-09T01:53:38Z",
+      "pushed_at": "2026-07-29T02:04:57Z",
+      "updated_at": "2026-07-29T06:47:09Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:cncf/k8s-ai-conformance",
+    "title": "cncf/k8s-ai-conformance",
+    "source": "container_ai",
+    "source_url": "https://github.com/cncf/k8s-ai-conformance",
+    "published_at": "2025-05-08T19:35:33Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "Kubernetes AI Conformance Primary language: Go. GitHub current total stars: 299.",
+    "source_tags": [
+      "ai",
+      "certification",
+      "conformance",
+      "kubernetes"
+    ],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 299,
+      "forks_total": 88,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2025-05-08T19:35:33Z",
+      "pushed_at": "2026-07-29T01:11:58Z",
+      "updated_at": "2026-07-29T02:05:28Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:heoooooon/lazy-starter-kit",
+    "title": "heoooooon/lazy-starter-kit",
+    "source": "container_ai",
+    "source_url": "https://github.com/heoooooon/lazy-starter-kit",
+    "published_at": "2026-06-27T07:58:26Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "One command turns a fresh Mac, Linux, or Windows PC into a complete dev environment — runtimes, shell, containers, AI coding agents. Idempotent, dry-run first, e2e-tested in CI on 6 platforms. Primary language: Shell. GitHub current total stars: 62.",
+    "source_tags": [
+      "ai-agents",
+      "automation",
+      "bootstrap",
+      "codex",
+      "cross-platform",
+      "dev-environment",
+      "developer-tools",
+      "dotfiles",
+      "homebrew",
+      "korean",
+      "linux",
+      "macos",
+      "mise",
+      "powershell",
+      "setup-script",
+      "starship",
+      "windows",
+      "winget",
+      "zsh"
+    ],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 62,
+      "forks_total": 11,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2026-06-27T07:58:26Z",
+      "pushed_at": "2026-07-29T04:09:44Z",
+      "updated_at": "2026-07-29T04:25:57Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:yastman/rag",
+    "title": "yastman/rag",
+    "source": "container_ai",
+    "source_url": "https://github.com/yastman/rag",
+    "published_at": "2025-10-29T15:23:40Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "AI real-estate automation platform: Telegram bot, RAG, apartment search, CRM workflows, voice agent, Langfuse observability, and Dockerized AI runtime. Primary language: Python. GitHub current total stars: 11.",
+    "source_tags": [
+      "ai-agents",
+      "aiogram",
+      "bge-m3",
+      "crm",
+      "docker",
+      "fastapi",
+      "hybrid-search",
+      "kommo",
+      "langfuse",
+      "langgraph",
+      "livekit",
+      "llm",
+      "python",
+      "qdrant",
+      "rag",
+      "real-estate",
+      "redis",
+      "semantic-cache",
+      "telegram-bot",
+      "voice-ai"
+    ],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 11,
+      "forks_total": 0,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2025-10-29T15:23:40Z",
+      "pushed_at": "2026-07-27T18:46:24Z",
+      "updated_at": "2026-07-27T18:45:05Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:socialgouv/iterion",
+    "title": "socialgouv/iterion",
+    "source": "container_ai",
+    "source_url": "https://github.com/socialgouv/iterion",
+    "published_at": "2026-03-20T11:27:50Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "The control plane for AI agents. Apps have Linux. The cloud has Kubernetes. AI agents have Iterion. Primary language: Go. GitHub current total stars: 6.",
+    "source_tags": [],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 6,
+      "forks_total": 0,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2026-03-20T11:27:50Z",
+      "pushed_at": "2026-07-29T07:00:01Z",
+      "updated_at": "2026-07-29T06:41:03Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:hodanov/my-pde",
+    "title": "hodanov/my-pde",
+    "source": "container_ai",
+    "source_url": "https://github.com/hodanov/my-pde",
+    "published_at": "2019-07-22T23:25:44Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "Personal Development Environment: Neovim on Docker + AI agent integration, managed as a mise monorepo. Primary language: Go. GitHub current total stars: 3.",
+    "source_tags": [],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 3,
+      "forks_total": 1,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2019-07-22T23:25:44Z",
+      "pushed_at": "2026-07-28T22:03:21Z",
+      "updated_at": "2026-07-28T22:04:13Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:kdubois/kubernetes-aiops-agent",
+    "title": "kdubois/kubernetes-aiops-agent",
+    "source": "container_ai",
+    "source_url": "https://github.com/kdubois/kubernetes-aiops-agent",
+    "published_at": "2026-02-25T11:18:33Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "Kubernetes AIOps Agent - AI-powered Kubernetes operations and progressive delivery, powered by Quarkus LangChain4j Agentic Primary language: Java. GitHub current total stars: 3.",
+    "source_tags": [],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 3,
+      "forks_total": 2,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2026-02-25T11:18:33Z",
+      "pushed_at": "2026-07-28T07:28:33Z",
+      "updated_at": "2026-07-29T03:39:17Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:ouspg/cloud-containers-aimodels-documentation",
+    "title": "ouspg/cloud-containers-aimodels-documentation",
+    "source": "container_ai",
+    "source_url": "https://github.com/ouspg/cloud-containers-aimodels-documentation",
+    "published_at": "2025-08-12T11:51:07Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "This project serves as a comprehensive, beginner-friendly guide for individuals or teams working with cloud infrastructure, containerization, and AI model integration. Primary language: Python. GitHub current total stars: 2.",
+    "source_tags": [],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 2,
+      "forks_total": 1,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2025-08-12T11:51:07Z",
+      "pushed_at": "2026-07-22T09:15:31Z",
+      "updated_at": "2026-07-22T09:17:13Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:ajeetraina/labspace-docker-ai-governance",
+    "title": "ajeetraina/labspace-docker-ai-governance",
+    "source": "container_ai",
+    "source_url": "https://github.com/ajeetraina/labspace-docker-ai-governance",
+    "published_at": "2026-07-08T16:50:53Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "Docker AI Governance Labspace Primary language: HTML. GitHub current total stars: 1.",
+    "source_tags": [],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 1,
+      "forks_total": 0,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2026-07-08T16:50:53Z",
+      "pushed_at": "2026-07-23T10:29:12Z",
+      "updated_at": "2026-07-23T10:55:36Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:azizsyed666-cmd/ai-pmo-automation",
+    "title": "azizsyed666-cmd/ai-pmo-automation",
+    "source": "container_ai",
+    "source_url": "https://github.com/azizsyed666-cmd/ai-pmo-automation",
+    "published_at": "2026-07-26T17:42:01Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "AI-powered PMO automation projects using n8n, Docker, AI models, Power BI, and workflow automation GitHub current total stars: 1.",
+    "source_tags": [],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 1,
+      "forks_total": 0,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "created",
+        "pushed"
+      ],
+      "created_at": "2026-07-26T17:42:01Z",
+      "pushed_at": "2026-07-27T16:32:21Z",
+      "updated_at": "2026-07-27T16:34:20Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:bayzso6694/mini-ats",
+    "title": "bayzso6694/mini-ats",
+    "source": "container_ai",
+    "source_url": "https://github.com/bayzso6694/mini-ats",
+    "published_at": "2026-05-01T18:01:17Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "Manage job applications with this Dockerized AI-powered applicant tracking system built with FastAPI, Celery, and machine learning. Primary language: Python. GitHub current total stars: 1.",
+    "source_tags": [
+      "applicant-tracking-system",
+      "celery",
+      "docker-compose",
+      "fastapi",
+      "hr-tech",
+      "machine-learning",
+      "nlp",
+      "postgresql",
+      "redis",
+      "resume-parser",
+      "scikit-learn",
+      "websocket"
+    ],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 1,
+      "forks_total": 0,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2026-05-01T18:01:17Z",
+      "pushed_at": "2026-07-27T11:02:24Z",
+      "updated_at": "2026-07-28T16:04:23Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:dawidkrysa/envelo",
+    "title": "dawidkrysa/envelo",
+    "source": "container_ai",
+    "source_url": "https://github.com/dawidkrysa/envelo",
+    "published_at": "2026-07-18T16:15:34Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "Self-hosted budgeting app inspired by YNAB's envelope method. Python microservices (FastAPI), event-driven with Redis/RabbitMQ, PostgreSQL, Dockerized, AI-powered transaction categorization and proactive overspending alerts. Primary language: Python. GitHub current total stars: 1.",
+    "source_tags": [
+      "budgeting",
+      "docker",
+      "fastapi",
+      "fintech",
+      "machine-learning",
+      "microservices",
+      "personal-finance",
+      "postgresql",
+      "python",
+      "redis",
+      "ynab"
+    ],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 1,
+      "forks_total": 0,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2026-07-18T16:15:34Z",
+      "pushed_at": "2026-07-23T19:31:28Z",
+      "updated_at": "2026-07-23T19:31:45Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:hemanthkp98/kubenova",
+    "title": "hemanthkp98/kubenova",
+    "source": "container_ai",
+    "source_url": "https://github.com/hemanthkp98/kubenova",
+    "published_at": "2026-06-28T23:00:58Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "Open-source Kubernetes AI assistant — talk to your cluster in plain English, see resources live, and approve kubectl commands before they run. Runs locally in two steps with Docker. Primary language: Python. GitHub current total stars: 1.",
+    "source_tags": [],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 1,
+      "forks_total": 0,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2026-06-28T23:00:58Z",
+      "pushed_at": "2026-07-27T13:14:06Z",
+      "updated_at": "2026-07-27T12:46:48Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:jasmeralia/docker-ai-cli-agents",
+    "title": "jasmeralia/docker-ai-cli-agents",
+    "source": "container_ai",
+    "source_url": "https://github.com/jasmeralia/docker-ai-cli-agents",
+    "published_at": "2026-03-13T12:23:50Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "Primary language: Shell. GitHub current total stars: 1.",
+    "source_tags": [],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 1,
+      "forks_total": 0,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2026-03-13T12:23:50Z",
+      "pushed_at": "2026-07-29T04:24:23Z",
+      "updated_at": "2026-07-27T22:00:41Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  },
+  {
+    "external_id": "github:jasmeralia/docker-ai-export-requester",
+    "title": "jasmeralia/docker-ai-export-requester",
+    "source": "container_ai",
+    "source_url": "https://github.com/jasmeralia/docker-ai-export-requester",
+    "published_at": "2026-03-13T10:15:07Z",
+    "collected_at": "2026-07-29T07:07:36+00:00",
+    "content": "Primary language: Python. GitHub current total stars: 1.",
+    "source_tags": [],
+    "source_metrics": {
+      "metric": "current_total_stars",
+      "stars_total": 1,
+      "forks_total": 0,
+      "candidate_window": "created_or_pushed_last_7_days",
+      "window_cutoff": "2026-07-22T07:07:36Z",
+      "matched_windows": [
+        "pushed"
+      ],
+      "created_at": "2026-03-13T10:15:07Z",
+      "pushed_at": "2026-07-23T23:23:35Z",
+      "updated_at": "2026-07-23T23:23:04Z",
+      "query_methods": [
+        "github_search_created",
+        "github_search_pushed"
+      ]
+    }
+  }
+]

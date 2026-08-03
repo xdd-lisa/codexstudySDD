@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "70c2a48427e6881d",
+  "title": "azizsyed666-cmd/ai-pmo-automation",
+  "source": "container_ai",
+  "source_url": "https://github.com/azizsyed666-cmd/ai-pmo-automation",
+  "published_at": "2026-07-26T17:42:01+00:00",
+  "collected_at": "2026-07-29T07:07:36+00:00",
+  "summary": "这是一个基于AI的项目管理办公室自动化项目，使用n8n、Docker、AI模型、Power BI和工作流自动化技术。",
+  "score": 3.0,
+  "tags": [
+    "ai",
+    "pmo",
+    "automation",
+    "n8n",
+    "docker"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

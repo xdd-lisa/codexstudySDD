@@ -9,12 +9,15 @@ from collections.abc import Mapping, Sequence
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 KNOWLEDGE_DIR = PROJECT_ROOT / "knowledge"
 RAW_DIR = KNOWLEDGE_DIR / "raw"
+WEEKLY_DIR = KNOWLEDGE_DIR / "weekly"
 FAILED_DIR = KNOWLEDGE_DIR / "failed"
 CHECKPOINT_PATH = KNOWLEDGE_DIR / "checkpoint.json"
+PROJECT_TIMEZONE = ZoneInfo("Asia/Shanghai")
 
 
 def save_raw(items: Sequence[Mapping[str, Any]], dry_run: bool = False) -> Path | None:
@@ -36,6 +39,34 @@ def next_raw_path(now: datetime | None = None) -> Path:
         if (match := pattern.fullmatch(path.name))
     ]
     return RAW_DIR / f"raw_{date_part}_{max(sequences, default=0) + 1:03d}.json"
+
+
+def weekly_container_ai_path(now: datetime | None = None) -> Path:
+    """Return the bounded project-local path for a Container AI weekly snapshot."""
+
+    current = now or datetime.now(UTC)
+    if current.tzinfo is None:
+        raise ValueError("weekly snapshot time must include timezone information")
+    filename = f"{current.astimezone(PROJECT_TIMEZONE):%y%m%d-%H%M}-cai.json"
+    if len(Path(filename).stem) > 15:
+        raise ValueError("weekly snapshot filename stem exceeds 15 characters")
+    return WEEKLY_DIR / filename
+
+
+def save_weekly_container_ai(
+    items: Sequence[Mapping[str, Any]],
+    *,
+    now: datetime | None = None,
+    dry_run: bool = False,
+) -> Path | None:
+    """Atomically save one weekly Container AI batch without overwriting."""
+
+    if dry_run:
+        return None
+    path = weekly_container_ai_path(now)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    write_json_atomic(path, list(items), overwrite=False)
+    return path
 
 
 def load_checkpoint(path: Path = CHECKPOINT_PATH) -> dict[str, Any]:
@@ -74,10 +105,24 @@ def record_failure(failure: Mapping[str, Any], directory: Path = FAILED_DIR) -> 
     return path
 
 
-def write_json_atomic(path: Path, payload: Any) -> None:
+def write_json_atomic(path: Path, payload: Any, *, overwrite: bool = True) -> None:
+    """Write JSON atomically, optionally requiring an unused destination."""
+
     temporary = path.with_name(f".{path.name}.{os.getpid()}.tmp")
-    temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    temporary.replace(path)
+    try:
+        temporary.write_text(
+            json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        if overwrite:
+            temporary.replace(path)
+        else:
+            try:
+                os.link(temporary, path)
+            except FileExistsError as error:
+                raise FileExistsError(f"refusing to overwrite existing file: {path}") from error
+    finally:
+        temporary.unlink(missing_ok=True)
 
 
 def slugify(value: str) -> str:

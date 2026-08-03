@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "2a22e7bf84ae2a50",
+  "title": "socialgouv/iterion",
+  "source": "container_ai",
+  "source_url": "https://github.com/socialgouv/iterion",
+  "published_at": "2026-03-20T11:27:50+00:00",
+  "collected_at": "2026-07-29T07:07:36+00:00",
+  "summary": "Iterion是AI智能体的控制平面，基于Go语言开发，当前GitHub星级为6。",
+  "score": 5.0,
+  "tags": [
+    "ai",
+    "control-plane",
+    "go",
+    "kubernetes",
+    "agents"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

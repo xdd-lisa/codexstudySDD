@@ -21,6 +21,40 @@ python .codex/mcp_servers/local_knowledge/main.py
 
 RSS 默认读取 `pipeline/rss_sources.yaml` 中 `enabled: true` 的条目。可用 `--rss-config PATH` 指定另一份配置。
 
+### GitHub Trending 周榜
+
+GitHub Trending 是显式可选来源，不会改变默认的 `github,rss` 来源组合：
+
+```bash
+python -m pipeline --sources github-trending --limit 15
+```
+
+该来源读取 GitHub Trending 周榜展示的排名和 “stars this week”，再通过公开 GitHub API 补全仓库描述、总 Star、Fork、语言、Topics、License 和活跃时间。结果仅保留与 AI、LLM、Agent、模型训练、推理、评估或相关基础设施直接相关的项目，并排除 Awesome 清单和链接索引。
+
+`popularity_raw` 与 `source_metrics.period_stars` 均表示同一周榜窗口的新增 Star；`popularity` 按本批最大值线性归一化到 0–100。分数相同时按规范化仓库 URL 排序。符合条件的项目不足 `--limit` 时会如实返回较少结果，不会补齐。
+
+此来源不会把 GitHub Search 的总 Star 或更新时间称为 GitHub Trending 排名。未配置凭证时使用公开接口限额；可以导出 `GITHUB_TOKEN` 环境变量以提高仓库元数据请求限额。Token 只用于请求头，不会写入 raw、失败记录或日志。
+
+### Container AI 周度项目
+
+Container AI 是显式可选来源，默认来源仍保持 `github,rss`：
+
+```bash
+python -m pipeline --sources container-ai --limit 20
+```
+
+该来源通过 GitHub 公共 Search API 分别搜索最近七天创建和最近七天推送的候选仓库，合并后按采集时的当前总 Star 降序排列。这里的“更新”明确指 `pushed_at` 代码活动；总 Star 不表示最近七天新增 Star。
+
+仓库必须同时具有容器领域证据（例如 Container、Kubernetes、Docker、OCI 或容器运行时）和 AI 生命周期证据（例如模型训练、推理、Serving、部署或 GPU 加速）。已归档仓库、Awesome/资源清单和以教程为主要目的的仓库会被排除。相同 `owner/repository` 只保留一次，Star 相同时按规范化 GitHub URL 排序。
+
+该来源最多返回 `min(分配到的 --limit, 15)` 条；单独以默认全局额度运行时得到 Top 15，不足时不会补造数据。成功结果会先原子保存到：
+
+```text
+knowledge/weekly/YYMMDD-HHMM-cai.json
+```
+
+文件时间使用项目时区 `Asia/Shanghai`，文件名 stem 长度为 15，`.json` 不计入限制。同一分钟已有文件时运行会报告冲突，不覆盖旧文件；`--dry-run` 不写周文件。任一必需 Search 或周文件保存失败时，Container AI 批次不会部分进入分析，但其他来源仍会继续。可通过 `GITHUB_TOKEN` 提高 GitHub API 请求限额。
+
 ## 目录与职责
 
 ```text
@@ -41,6 +75,7 @@ src/knowledge_base/
 
 knowledge/
 ├── raw/             # 原始采集批次
+├── weekly/          # Container AI 等主题周度原始快照
 ├── articles/        # 仅存放符合 Schema 的正式文章
 ├── failed/          # 按条目隔离的最近失败记录
 └── checkpoint.json  # 已完成 ID 与失败重试状态

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "c17923aeb1f0bc29",
+  "title": "heoooooon/lazy-starter-kit",
+  "source": "container_ai",
+  "source_url": "https://github.com/heoooooon/lazy-starter-kit",
+  "published_at": "2026-06-27T07:58:26+00:00",
+  "collected_at": "2026-07-29T07:07:36+00:00",
+  "summary": "一个命令即可在Mac、Linux、Windows上部署完整开发环境，包含运行时、shell、容器和AI编码代理，幂等且支持空运行，CI覆盖6平台。",
+  "score": 7.0,
+  "tags": [
+    "dev-environment-setup",
+    "shell",
+    "container",
+    "ai-agent",
+    "idempotent"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

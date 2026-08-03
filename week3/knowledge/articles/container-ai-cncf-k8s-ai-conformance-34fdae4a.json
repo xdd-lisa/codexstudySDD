@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "34fdae4a6f1016b4",
+  "title": "cncf/k8s-ai-conformance",
+  "source": "container_ai",
+  "source_url": "https://github.com/cncf/k8s-ai-conformance",
+  "published_at": "2025-05-08T19:35:33+00:00",
+  "collected_at": "2026-07-29T07:07:36+00:00",
+  "summary": "这是一个由CNCF维护的Go语言项目，用于验证AI工作负载在Kubernetes上的兼容性。",
+  "score": 7.0,
+  "tags": [
+    "kubernetes",
+    "ai",
+    "conformance",
+    "cncf",
+    "go"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

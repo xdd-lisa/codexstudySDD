@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b26c27853ae6761c",
+  "title": "bayzso6694/mini-ats",
+  "source": "container_ai",
+  "source_url": "https://github.com/bayzso6694/mini-ats",
+  "published_at": "2026-05-01T18:01:17+00:00",
+  "collected_at": "2026-07-29T07:07:36+00:00",
+  "summary": "一个基于FastAPI、Celery和机器学习的Docker化AI申请者跟踪系统，用于高效管理职位申请。",
+  "score": 6.0,
+  "tags": [
+    "ats",
+    "fastapi",
+    "celery",
+    "machine-learning",
+    "docker"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
