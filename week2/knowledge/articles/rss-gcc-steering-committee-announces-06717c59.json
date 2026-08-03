@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "06717c596604f3e7",
+  "title": "GCC steering committee announces AI policy",
+  "source": "rss",
+  "source_url": "https://lwn.net/Articles/1086041",
+  "published_at": "2026-07-30T11:45:44+00:00",
+  "collected_at": "2026-07-31T10:24:28+00:00",
+  "summary": "GCC指导委员会公布AI政策，规范AI生成代码的贡献与审查标准，引发社区讨论。",
+  "score": 8.0,
+  "tags": [
+    "gcc",
+    "ai",
+    "policy",
+    "open-source",
+    "compiler"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

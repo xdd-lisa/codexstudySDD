@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "3312ac4726bc3a01",
+  "title": "di-sukharev/opencommit",
+  "source": "github",
+  "source_url": "https://github.com/di-sukharev/opencommit",
+  "published_at": "2026-07-30T10:06:42+00:00",
+  "collected_at": "2026-07-30T10:07:43+00:00",
+  "summary": "该项目是一个用于Git的GPT包装器，能在一秒内生成提交信息，支持Claude、GPT等提供者和本地Ollama模型。",
+  "score": 9.0,
+  "tags": [
+    "gpt",
+    "git",
+    "commit-messages",
+    "llm",
+    "javascript"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

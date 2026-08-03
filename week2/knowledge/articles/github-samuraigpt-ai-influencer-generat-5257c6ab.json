@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "5257c6ab6e4274db",
+  "title": "SamurAIGPT/AI-Influencer-Generator",
+  "source": "github",
+  "source_url": "https://github.com/SamurAIGPT/AI-Influencer-Generator",
+  "published_at": "2026-08-02T09:37:36+00:00",
+  "collected_at": "2026-08-02T09:46:17+00:00",
+  "summary": "这是一个开源的AI网红生成器，使用Jupyter Notebook开发，可以根据需求创建和定制虚拟网红形象，目前有275个星标。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "influencer",
+    "generation",
+    "open-source",
+    "notebook"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

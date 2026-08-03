@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "34c7186cb1e789da",
+  "title": "SamurAIGPT/Text-To-Video-AI",
+  "source": "github",
+  "source_url": "https://github.com/SamurAIGPT/Text-To-Video-AI",
+  "published_at": "2026-08-02T09:37:17+00:00",
+  "collected_at": "2026-08-02T09:46:17+00:00",
+  "summary": "一个利用AI从文本生成视频的开源项目，使用Jupyter Notebook编写，在GitHub上获得了791颗星。",
+  "score": 7.0,
+  "tags": [
+    "text-to-video",
+    "ai",
+    "github",
+    "jupyter"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

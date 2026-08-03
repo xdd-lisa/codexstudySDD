@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "b1969cd7e76cd75c",
+  "title": "The Dark Night of Mathematics",
+  "source": "rss",
+  "source_url": "https://kirwinhampshire.substack.com/p/the-dark-night-of-mathematics",
+  "published_at": "2026-07-29T07:35:26-05:00",
+  "collected_at": "2026-07-31T10:24:28+00:00",
+  "summary": "文章标题涉及数学的黑暗时刻，但内容仅包含评论链接，缺乏具体论述。",
+  "score": 5.0,
+  "tags": [
+    "mathematics",
+    "philosophy"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

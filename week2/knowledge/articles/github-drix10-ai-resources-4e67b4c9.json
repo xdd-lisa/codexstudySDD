@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4e67b4c9b47dd249",
+  "title": "Drix10/ai-resources",
+  "source": "github",
+  "source_url": "https://github.com/Drix10/ai-resources",
+  "published_at": "2026-07-31T10:22:14+00:00",
+  "collected_at": "2026-07-31T10:24:27+00:00",
+  "summary": "每日更新的跨领域AI资源集合，涵盖机器学习、开发、教育等多个方面，由爱好者精选整理。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "resources",
+    "curated",
+    "github",
+    "machine-learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

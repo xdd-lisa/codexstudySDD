@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "dd1e3017801dae9a",
+  "title": "vLLM for Baidu Kunlun",
+  "source": "rss",
+  "source_url": "https://github.com/baidu/vLLM-Kunlun",
+  "published_at": "2026-07-31T03:01:26-05:00",
+  "collected_at": "2026-08-01T09:46:54+00:00",
+  "summary": "百度昆仑芯片的vLLM适配项目，旨在让vLLM支持百度昆仑AI加速器。",
+  "score": 7.0,
+  "tags": [
+    "vllm",
+    "baidu",
+    "kunlun",
+    "inference",
+    "hardware"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b3761cff8f353248",
+  "title": "rishabhops/CipherElite",
+  "source": "github",
+  "source_url": "https://github.com/rishabhops/CipherElite",
+  "published_at": "2026-08-01T09:46:14+00:00",
+  "collected_at": "2026-08-01T09:46:53+00:00",
+  "summary": "CipherElite是一个基于Python和Telethon的Telegram用户机器人，集成了高级AI插件，支持自动化任务、群组管理和AI应答，可在Heroku、VPS和Termux上部署，目前拥有210个星标。",
+  "score": 6.0,
+  "tags": [
+    "telegram",
+    "userbot",
+    "ai",
+    "python",
+    "automation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

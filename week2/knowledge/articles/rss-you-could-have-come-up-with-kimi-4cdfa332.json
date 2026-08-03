@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "4cdfa332f6724f2f",
+  "title": "You Could Have Come Up With Kimi Delta Attention",
+  "source": "rss",
+  "source_url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+  "published_at": "2026-07-28T12:01:39-05:00",
+  "collected_at": "2026-07-31T10:24:28+00:00",
+  "summary": "探讨Kimi Delta Attention的构思过程，说明读者亦可独立推导出该注意力机制改进方案。",
+  "score": 7.5,
+  "tags": [
+    "attention",
+    "deep-learning",
+    "kimi",
+    "research"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

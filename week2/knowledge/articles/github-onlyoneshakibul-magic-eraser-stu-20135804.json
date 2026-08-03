@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "201358043fe28594",
+  "title": "onlyoneshakibul/magic-eraser-studio",
+  "source": "github",
+  "source_url": "https://github.com/onlyoneshakibul/magic-eraser-studio",
+  "published_at": "2026-07-30T09:32:24+00:00",
+  "collected_at": "2026-07-30T10:07:43+00:00",
+  "summary": "一款基于AI的图像物体移除工具，可消除干扰并保持高清画质。",
+  "score": 6.0,
+  "tags": [
+    "object-removal",
+    "ai",
+    "image-processing",
+    "html",
+    "tool"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

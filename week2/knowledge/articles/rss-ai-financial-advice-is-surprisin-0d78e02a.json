@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "0d78e02a307de63f",
+  "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+  "source": "rss",
+  "source_url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+  "published_at": "2026-08-01T22:25:12+00:00",
+  "collected_at": "2026-08-02T09:46:22+00:00",
+  "summary": "研究表明AI财务建议质量不错，尤其是提问方式得当；来自麻省理工斯隆管理学院的见解。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "finance",
+    "advice",
+    "investing",
+    "research"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

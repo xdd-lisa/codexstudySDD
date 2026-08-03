@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "c54a763899427f5c",
+  "title": "CodeWithCJ/SparkyFitness",
+  "source": "github",
+  "source_url": "https://github.com/CodeWithCJ/SparkyFitness",
+  "published_at": "2026-08-01T09:03:53+00:00",
+  "collected_at": "2026-08-01T09:46:53+00:00",
+  "summary": "面向家庭的AI健身应用，可追踪饮食、运动、饮水与健康数据，功能全面且开源。",
+  "score": 8.5,
+  "tags": [
+    "fitness",
+    "health",
+    "ai",
+    "family",
+    "typescript"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

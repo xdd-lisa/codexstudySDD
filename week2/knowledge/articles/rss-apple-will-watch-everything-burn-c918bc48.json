@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "c918bc481ed35419",
+  "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
+  "source": "rss",
+  "source_url": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts",
+  "published_at": "2026-07-27T14:42:41+00:00",
+  "collected_at": "2026-07-28T10:18:07+00:00",
+  "summary": "文章讨论AI泡沫即将破裂时苹果的观望姿态，可能造成巨大影响。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "apple",
+    "bubble",
+    "technology",
+    "finance"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

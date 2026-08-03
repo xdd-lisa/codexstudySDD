@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "7132612e8cf70441",
+  "title": "The AI Aesthetic",
+  "source": "rss",
+  "source_url": "https://blog.jim-nielsen.com/2026/ai-aesthetic",
+  "published_at": "2026-07-30T23:22:16+00:00",
+  "collected_at": "2026-07-31T10:24:28+00:00",
+  "summary": "这篇文章探讨了人工智能生成内容所特有的美学风格，分析AI图像和设计如何形成一种可识别的视觉语言，并讨论了这种新审美对设计行业和创作者的影响。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "aesthetics",
+    "design",
+    "technology",
+    "art"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

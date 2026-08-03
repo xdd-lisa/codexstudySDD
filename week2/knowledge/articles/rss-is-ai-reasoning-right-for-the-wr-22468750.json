@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "22468750d97f4628",
+  "title": "Is AI reasoning right for the wrong reasons?",
+  "source": "rss",
+  "source_url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731",
+  "published_at": "2026-07-31T15:29:39+00:00",
+  "collected_at": "2026-08-02T09:46:22+00:00",
+  "summary": "探讨人工智能推理是否基于正确逻辑还是偶然因素，引发对AI可靠性的思考。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "reasoning",
+    "machine-learning",
+    "reliability",
+    "epistemology"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

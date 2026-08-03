@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "660d90767330a47c",
+  "title": "pegaltier/awesome-utils-dev",
+  "source": "github",
+  "source_url": "https://github.com/pegaltier/awesome-utils-dev",
+  "published_at": "2026-07-31T10:15:16+00:00",
+  "collected_at": "2026-07-31T10:24:27+00:00",
+  "summary": "一个精选的开发者工具与实用资源列表，涵盖生产力和开发效率提升的各类链接、笔记与技巧。",
+  "score": 7.0,
+  "tags": [
+    "awesome-list",
+    "developer-tools",
+    "productivity",
+    "resources"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
