@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "8c22953cbd4c81db",
+  "title": "oracle-devrel/oracle-ai-developer-hub",
+  "source": "github",
+  "source_url": "https://github.com/oracle-devrel/oracle-ai-developer-hub",
+  "published_at": "2026-08-04T10:07:50+00:00",
+  "collected_at": "2026-08-04T10:23:45+00:00",
+  "summary": "Oracle AI开发者中心，提供使用Oracle AI数据库和OCI服务构建AI应用、代理和系统的技术资源。",
+  "score": 9.0,
+  "tags": [
+    "oracle",
+    "ai",
+    "developer",
+    "resources"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

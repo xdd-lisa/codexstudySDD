@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "e5fc29ee7a32a3bd",
+  "title": "Categorization with NLP",
+  "source": "rss",
+  "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp",
+  "published_at": "2026-08-03T13:10:54-05:00",
+  "collected_at": "2026-08-04T10:23:53+00:00",
+  "summary": "这篇文章讨论了使用自然语言处理技术进行文本分类的方法与挑战。",
+  "score": 7.0,
+  "tags": [
+    "nlp",
+    "categorization",
+    "text-classification"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "7a03d112f8bc915d",
+  "title": "deven96/ahnlich",
+  "source": "github",
+  "source_url": "https://github.com/deven96/ahnlich",
+  "published_at": "2026-08-04T10:18:55+00:00",
+  "collected_at": "2026-08-04T10:23:45+00:00",
+  "summary": "一个基于Rust的内存向量数据存储与AI代理工具套件，提供高性能相似性搜索和AI接口转发功能。",
+  "score": 8.0,
+  "tags": [
+    "vector-database",
+    "ai-proxy",
+    "rust",
+    "in-memory",
+    "similarity-search"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

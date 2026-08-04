@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "de9f118d6662875c",
+  "title": "asavinov/intelligent-trading-bot",
+  "source": "github",
+  "source_url": "https://github.com/asavinov/intelligent-trading-bot",
+  "published_at": "2026-08-04T09:35:17+00:00",
+  "collected_at": "2026-08-04T10:23:45+00:00",
+  "summary": "这是一个基于机器学习和特征工程自动生成交易信号并执行交易的智能交易机器人，使用Python开发，在GitHub上获得1842颗星，受到广泛关注和认可。",
+  "score": 8.0,
+  "tags": [
+    "trading",
+    "machine-learning",
+    "python",
+    "signals",
+    "bot"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
