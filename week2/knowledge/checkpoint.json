@@ -124,8 +124,13 @@
     "github:asavinov/intelligent-trading-bot": "de9f118d6662875c",
     "rss:f88b426925a14e71": "e5fc29ee7a32a3bd",
     "rss:5ba1b9d0c3622a2d": "b4b36658ed619bbd",
-    "rss:1828ac72bbb8b25d": "4dbeddcd45ebb980"
+    "rss:1828ac72bbb8b25d": "4dbeddcd45ebb980",
+    "github:stefan-jansen/machine-learning-for-trading": "1fac5f2066af4e66",
+    "github:autowarefoundation/auto_e2e": "0f10fc7b01695587",
+    "github:potpie-ai/potpie": "378f454d978fad8c",
+    "github:amusementclub/vs-mlrt": "c49601ddbf598a1b",
+    "rss:93e37cbdc3a880aa": "b58e629cd1682c98"
   },
   "failed": {},
-  "updated_at": "2026-08-04T10:24:05+00:00"
+  "updated_at": "2026-08-05T10:19:53+00:00"
 }

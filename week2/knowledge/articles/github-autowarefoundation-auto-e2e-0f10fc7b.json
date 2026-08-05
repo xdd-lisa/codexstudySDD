@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "0f10fc7b01695587",
+  "title": "autowarefoundation/auto_e2e",
+  "source": "github",
+  "source_url": "https://github.com/autowarefoundation/auto_e2e",
+  "published_at": "2026-08-05T09:53:26+00:00",
+  "collected_at": "2026-08-05T10:19:40+00:00",
+  "summary": "开源自动驾驶端到端AI模型，基于Python实现，星标150，专注自驱动技术。",
+  "score": 6.0,
+  "tags": [
+    "self-driving",
+    "end-to-end",
+    "ai",
+    "autonomous-driving",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

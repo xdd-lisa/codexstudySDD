@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "378f454d978fad8c",
+  "title": "potpie-ai/potpie",
+  "source": "github",
+  "source_url": "https://github.com/potpie-ai/potpie",
+  "published_at": "2026-08-05T09:53:33+00:00",
+  "collected_at": "2026-08-05T10:19:40+00:00",
+  "summary": "potpie是一个用于AI原生软件开发生命周期的上下文图工具，使用Python开发，在GitHub上获得5532颗星。",
+  "score": 8.0,
+  "tags": [
+    "context-graph",
+    "ai",
+    "sdlc",
+    "python",
+    "developer-tools"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

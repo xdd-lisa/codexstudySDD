@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "1fac5f2066af4e66",
+  "title": "stefan-jansen/machine-learning-for-trading",
+  "source": "github",
+  "source_url": "https://github.com/stefan-jansen/machine-learning-for-trading",
+  "published_at": "2026-08-05T09:57:22+00:00",
+  "collected_at": "2026-08-05T10:19:40+00:00",
+  "summary": "此仓库提供《机器学习交易》第三版的配套代码，涵盖从数据获取到实盘执行的完整流程，使用Jupyter Notebook实现大量示例。",
+  "score": 9.0,
+  "tags": [
+    "machine-learning",
+    "trading",
+    "jupyter-notebook",
+    "finance",
+    "quantitative-finance"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
