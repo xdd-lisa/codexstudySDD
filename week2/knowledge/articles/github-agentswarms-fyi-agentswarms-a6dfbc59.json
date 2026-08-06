@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "a6dfbc59c1b54387",
+  "title": "AgentSwarms-fyi/agentswarms",
+  "source": "github",
+  "source_url": "https://github.com/AgentSwarms-fyi/agentswarms",
+  "published_at": "2026-08-06T10:13:02+00:00",
+  "collected_at": "2026-08-06T10:21:39+00:00",
+  "summary": "一个统一的智能体AI与商业智能平台，使用TypeScript开发，目前关注度较低。",
+  "score": 4.0,
+  "tags": [
+    "agentic-ai",
+    "business-intelligence",
+    "typescript",
+    "platform"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

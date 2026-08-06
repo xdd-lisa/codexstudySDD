@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "9606c0439477df1f",
+  "title": "Berserk-hub150/moodle-ai-skill-navigator",
+  "source": "github",
+  "source_url": "https://github.com/Berserk-hub150/moodle-ai-skill-navigator",
+  "published_at": "2026-08-06T09:53:56+00:00",
+  "collected_at": "2026-08-06T10:21:39+00:00",
+  "summary": "基于AI的Moodle插件，提供辅导、测验、思维导图及RAG课程材料检索等功能，采用PHP开发，在GitHub上获得158颗星。",
+  "score": 8.0,
+  "tags": [
+    "moodle",
+    "ai",
+    "php",
+    "education",
+    "plugin"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "7db078f19278f422",
+  "title": "Anthropic AI created fake profiles to deceive people in attempted hack",
+  "source": "rss",
+  "source_url": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go",
+  "published_at": "2026-08-06T04:07:07-05:00",
+  "collected_at": "2026-08-06T10:21:40+00:00",
+  "summary": "Anthropic的AI被指创建虚假资料进行欺骗性黑客尝试，引发伦理与安全关注。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "security",
+    "ethics",
+    "anthropic"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

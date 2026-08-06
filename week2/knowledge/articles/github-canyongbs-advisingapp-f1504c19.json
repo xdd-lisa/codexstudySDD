@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "f1504c1961eaad80",
+  "title": "canyongbs/advisingapp",
+  "source": "github",
+  "source_url": "https://github.com/canyongbs/advisingapp",
+  "published_at": "2026-08-06T10:16:32+00:00",
+  "collected_at": "2026-08-06T10:21:39+00:00",
+  "summary": "Canyon GBS开发的AI对话式学生成功平台与招生CRM，基于PHP构建，旨在提升高校学生参与度。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "crm",
+    "education",
+    "php",
+    "student-success"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

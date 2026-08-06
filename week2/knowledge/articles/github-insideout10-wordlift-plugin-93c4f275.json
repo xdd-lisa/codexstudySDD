@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "93c4f2757e91e0e1",
+  "title": "insideout10/wordlift-plugin",
+  "source": "github",
+  "source_url": "https://github.com/insideout10/wordlift-plugin",
+  "published_at": "2026-08-06T10:10:23+00:00",
+  "collected_at": "2026-08-06T10:21:39+00:00",
+  "summary": "WordLift是一个利用人工智能整理内容的插件，主要使用PHP开发，在GitHub上获得112颗星。",
+  "score": 6.0,
+  "tags": [
+    "wordlift",
+    "ai",
+    "content",
+    "php"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

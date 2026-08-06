@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b323c71ed3d014cc",
+  "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+  "source": "rss",
+  "source_url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery",
+  "published_at": "2026-08-05T19:47:26+00:00",
+  "collected_at": "2026-08-06T10:21:39+00:00",
+  "summary": "报道称Meta广告系统投放了包含AI生成儿童性虐待图像的广告，研究人员发现平台内容审核机制存在严重漏洞，Meta回应称已移除内容并加强检测。",
+  "score": 8.0,
+  "tags": [
+    "meta",
+    "ai",
+    "csam",
+    "ads",
+    "moderation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
