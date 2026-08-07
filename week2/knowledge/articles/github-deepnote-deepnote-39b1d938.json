@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "39b1d9382d4a7be5",
+  "title": "deepnote/deepnote",
+  "source": "github",
+  "source_url": "https://github.com/deepnote/deepnote",
+  "published_at": "2026-08-07T08:40:00+00:00",
+  "collected_at": "2026-08-07T08:42:56+00:00",
+  "summary": "Deepnote是一个AI优先的Jupyter替代品，支持本地IDE扩展和云端实时协作，集成Python、R、SQL及数据应用部署。",
+  "score": 8.0,
+  "tags": [
+    "jupyter",
+    "ai",
+    "data-science",
+    "collaboration",
+    "sql"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "01da3728f6acffd2",
+  "title": "Software development with AI is starting to feel like cooking steak",
+  "source": "rss",
+  "source_url": "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak",
+  "published_at": "2026-08-06T15:30:48+00:00",
+  "collected_at": "2026-08-07T08:42:56+00:00",
+  "summary": "文章以烹饪牛排类比AI辅助编程，指出AI降低了技术门槛但无法替代核心判断力，开发者仍需理解底层原理才能产出高质量软件。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "software-development",
+    "analogy",
+    "skill"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

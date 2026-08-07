@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "6a5678e8e70f561d",
+  "title": "explosion/spaCy",
+  "source": "github",
+  "source_url": "https://github.com/explosion/spaCy",
+  "published_at": "2026-08-07T08:19:39+00:00",
+  "collected_at": "2026-08-07T08:42:56+00:00",
+  "summary": "工业级Python自然语言处理库，功能强大，广受欢迎。",
+  "score": 9.5,
+  "tags": [
+    "nlp",
+    "python",
+    "library",
+    "text-processing",
+    "machine-learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

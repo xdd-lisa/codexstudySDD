@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "2167e632020d6164",
+  "title": "affige/genmusic_demo_list",
+  "source": "github",
+  "source_url": "https://github.com/affige/genmusic_demo_list",
+  "published_at": "2026-08-07T08:06:34+00:00",
+  "collected_at": "2026-08-07T08:42:56+00:00",
+  "summary": "这是一个收集自动音乐生成研究领域演示网站的列表，包含相关项目链接，目前在GitHub上获得795颗星。",
+  "score": 8.0,
+  "tags": [
+    "music-generation",
+    "demo",
+    "research",
+    "awesome-list"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

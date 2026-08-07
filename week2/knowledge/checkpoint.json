@@ -137,8 +137,16 @@
     "rss:861c70a28fead5c9": "b323c71ed3d014cc",
     "rss:ccee10c0ee7c1999": "efa7670b068ecf31",
     "rss:6b2dc586c591a4c4": "7db078f19278f422",
-    "rss:117b10fdb53b0b85": "06e02ed5c17aae3e"
+    "rss:117b10fdb53b0b85": "06e02ed5c17aae3e",
+    "github:deepnote/deepnote": "39b1d9382d4a7be5",
+    "github:explosion/spacy": "6a5678e8e70f561d",
+    "github:wjq-learning/cbramod": "03635ca17b9412ef",
+    "github:affige/genmusic_demo_list": "2167e632020d6164",
+    "github:hexabot-ai/hexabot": "5b63dff9f3e431e5",
+    "rss:11f020a26e89fc93": "01da3728f6acffd2",
+    "rss:03ceb85e8d282b13": "a4f2be4eb8ff3459",
+    "rss:fd447f23177b6c44": "01a09d9b9955951c"
   },
   "failed": {},
-  "updated_at": "2026-08-06T10:21:58+00:00"
+  "updated_at": "2026-08-07T08:43:19+00:00"
 }

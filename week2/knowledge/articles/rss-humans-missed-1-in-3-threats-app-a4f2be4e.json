@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a4f2be4eb8ff3459",
+  "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+  "source": "rss",
+  "source_url": "https://scalex.dev/blog/ai-agent-permissions-stats",
+  "published_at": "2026-08-06T11:58:07+00:00",
+  "collected_at": "2026-08-07T08:42:56+00:00",
+  "summary": "研究发现人类在审批AI代理命令时遗漏了约三分之一的安全威胁，基于4万次游戏运行的实验数据，警示人机协作中的监督风险。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "security",
+    "human-factor",
+    "permissions",
+    "agents"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "01a09d9b9955951c",
+  "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
+  "source": "rss",
+  "source_url": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website",
+  "published_at": "2026-08-05T12:41:47+00:00",
+  "collected_at": "2026-08-07T08:42:56+00:00",
+  "summary": "TIME杂志向AI爬虫提供含内嵌广告的定制网页，而非普通用户看到的页面，引发关于内容差异化和广告伦理的讨论。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "ads",
+    "media",
+    "bots",
+    "time"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
