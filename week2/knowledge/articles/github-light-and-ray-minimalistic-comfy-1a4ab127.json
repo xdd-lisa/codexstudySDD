@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "1a4ab127f103d0c4",
+  "title": "light-and-ray/Minimalistic-Comfy-Wrapper-WebUI",
+  "source": "github",
+  "source_url": "https://github.com/light-and-ray/Minimalistic-Comfy-Wrapper-WebUI",
+  "published_at": "2026-08-08T08:02:38+00:00",
+  "collected_at": "2026-08-08T08:24:16+00:00",
+  "summary": "为ComfyUI提供非节点式界面，专注于推理，支持稳定UI状态、预设与高级队列，基于Gradio和Python。",
+  "score": 7.0,
+  "tags": [
+    "comfyui",
+    "gradio",
+    "inference",
+    "queue",
+    "webui"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

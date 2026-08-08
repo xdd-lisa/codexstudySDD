@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "d30bef288e2bc7b0",
+  "title": "Managing AI Coding Costs at Scale",
+  "source": "rss",
+  "source_url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+  "published_at": "2026-08-07T18:25:17+00:00",
+  "collected_at": "2026-08-08T08:24:17+00:00",
+  "summary": "本文探讨企业在大规模使用AI编程工具时如何降低成本，包括模型选择、提示优化和基础设施调整等策略。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "coding",
+    "cost",
+    "scale",
+    "databricks"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

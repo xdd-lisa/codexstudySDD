@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "5c970cc4af2cfed0",
+  "title": "Oracle bans AI-generated code from OpenJDK",
+  "source": "rss",
+  "source_url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+  "published_at": "2026-08-07T17:36:30+00:00",
+  "collected_at": "2026-08-08T08:24:17+00:00",
+  "summary": "Oracle禁止OpenJDK贡献者提交AI生成代码，尽管埃里森声称Oracle本身不编写自己的代码，引发社区对政策一致性的讨论。",
+  "score": 7.0,
+  "tags": [
+    "oracle",
+    "openjdk",
+    "ai",
+    "policy"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

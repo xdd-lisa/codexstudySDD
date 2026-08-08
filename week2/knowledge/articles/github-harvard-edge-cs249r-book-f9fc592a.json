@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "f9fc592ad5493e68",
+  "title": "harvard-edge/cs249r_book",
+  "source": "github",
+  "source_url": "https://github.com/harvard-edge/cs249r_book",
+  "published_at": "2026-08-08T08:07:21+00:00",
+  "collected_at": "2026-08-08T08:24:16+00:00",
+  "summary": "哈佛大学CS249r课程的开源书籍，专注于机器学习系统的设计与实现，使用Python，GitHub上拥有超过2.7万星标。",
+  "score": 9.0,
+  "tags": [
+    "machine-learning",
+    "systems",
+    "education",
+    "python",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

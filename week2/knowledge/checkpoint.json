@@ -145,8 +145,15 @@
     "github:hexabot-ai/hexabot": "5b63dff9f3e431e5",
     "rss:11f020a26e89fc93": "01da3728f6acffd2",
     "rss:03ceb85e8d282b13": "a4f2be4eb8ff3459",
-    "rss:fd447f23177b6c44": "01a09d9b9955951c"
+    "rss:fd447f23177b6c44": "01a09d9b9955951c",
+    "github:cvhub520/x-anylabeling": "2189aa4707201179",
+    "github:fegennari/3dworld": "6d4b9dcada57f40b",
+    "github:harvard-edge/cs249r_book": "f9fc592ad5493e68",
+    "github:light-and-ray/minimalistic-comfy-wrapper-webui": "1a4ab127f103d0c4",
+    "rss:1111811c960e1d54": "d30bef288e2bc7b0",
+    "rss:d2d820db6ba703de": "5c970cc4af2cfed0",
+    "rss:ad39b4e5b510f41b": "f64b352c62805295"
   },
   "failed": {},
-  "updated_at": "2026-08-07T08:43:19+00:00"
+  "updated_at": "2026-08-08T08:24:40+00:00"
 }

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "f64b352c62805295",
+  "title": "social media rabbit holes, clusters, and the relative mixing times of random walks",
+  "source": "rss",
+  "source_url": "https://notes.hella.cheap/twitter-isnt-a-town-square-its-a-high-school-cafeteria.html",
+  "published_at": "2026-08-07T16:22:54-05:00",
+  "collected_at": "2026-08-08T08:24:17+00:00",
+  "summary": "文章探讨社交媒体中的信息茧房与集群现象，借助随机游走混合时间分析用户行为路径，揭示平台互动结构特征。",
+  "score": 6.0,
+  "tags": [
+    "social-media",
+    "random-walks",
+    "clusters",
+    "networks",
+    "behavior"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

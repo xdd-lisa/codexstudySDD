@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "6d4b9dcada57f40b",
+  "title": "fegennari/3DWorld",
+  "source": "github",
+  "source_url": "https://github.com/fegennari/3DWorld",
+  "published_at": "2026-08-08T08:11:21+00:00",
+  "collected_at": "2026-08-08T08:24:16+00:00",
+  "summary": "3DWorld是一个基于OpenGL的3D程序化游戏引擎，使用C++开发，在GitHub上获得1407颗星，展示了良好的社区认可度。",
+  "score": 8.0,
+  "tags": [
+    "3d",
+    "game-engine",
+    "opengl",
+    "procedural",
+    "cpp"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

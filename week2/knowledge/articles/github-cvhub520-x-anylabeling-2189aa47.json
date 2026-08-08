@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "2189aa4707201179",
+  "title": "CVHub520/X-AnyLabeling",
+  "source": "github",
+  "source_url": "https://github.com/CVHub520/X-AnyLabeling",
+  "published_at": "2026-08-08T08:22:06+00:00",
+  "collected_at": "2026-08-08T08:24:16+00:00",
+  "summary": "X-AnyLabeling 是一款轻量高效的跨平台标注工具，集成多种视觉模型，支持文本、图像、视频及多模态数据标注，并提供灵活的导出格式。",
+  "score": 9.0,
+  "tags": [
+    "annotation",
+    "ai",
+    "python",
+    "cross-platform"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
