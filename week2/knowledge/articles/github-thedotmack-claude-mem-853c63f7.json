@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "853c63f738f0cecf",
+  "title": "thedotmack/claude-mem",
+  "source": "github",
+  "source_url": "https://github.com/thedotmack/claude-mem",
+  "published_at": "2026-08-10T09:01:09+00:00",
+  "collected_at": "2026-08-10T09:03:18+00:00",
+  "summary": "为AI代理提供跨会话持久记忆，自动压缩并注入相关上下文，支持多种工具。",
+  "score": 9.0,
+  "tags": [
+    "memory",
+    "context",
+    "ai",
+    "agents",
+    "claude"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

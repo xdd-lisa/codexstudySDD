@@ -152,8 +152,11 @@
     "github:light-and-ray/minimalistic-comfy-wrapper-webui": "1a4ab127f103d0c4",
     "rss:1111811c960e1d54": "d30bef288e2bc7b0",
     "rss:d2d820db6ba703de": "5c970cc4af2cfed0",
-    "rss:ad39b4e5b510f41b": "f64b352c62805295"
+    "rss:ad39b4e5b510f41b": "f64b352c62805295",
+    "github:geminilight/awesome-ai-llm4education": "102e85965eb7e76a",
+    "github:thedotmack/claude-mem": "853c63f738f0cecf",
+    "rss:d7e95d81ea69fb1c": "3cddb8b896ab036b"
   },
   "failed": {},
-  "updated_at": "2026-08-08T08:24:40+00:00"
+  "updated_at": "2026-08-10T09:03:26+00:00"
 }

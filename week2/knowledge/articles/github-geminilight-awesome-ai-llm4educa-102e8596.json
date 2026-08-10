@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "102e85965eb7e76a",
+  "title": "GeminiLight/awesome-ai-llm4education",
+  "source": "github",
+  "source_url": "https://github.com/GeminiLight/awesome-ai-llm4education",
+  "published_at": "2026-08-10T08:57:16+00:00",
+  "collected_at": "2026-08-10T09:03:18+00:00",
+  "summary": "这是一个关于人工智能与大型语言模型在教育领域应用的论文资源列表，包含相关文献和工具，主要语言为Jupyter Notebook，在GitHub上获得210颗星。",
+  "score": 7.0,
+  "tags": [
+    "education",
+    "llm",
+    "ai",
+    "awesome-list",
+    "papers"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

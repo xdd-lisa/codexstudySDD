@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "3cddb8b896ab036b",
+  "title": "How do programming languages impact token efficiency and correctness?",
+  "source": "rss",
+  "source_url": "https://danluu.com/pl-tokens",
+  "published_at": "2026-08-10T02:47:36-05:00",
+  "collected_at": "2026-08-10T09:03:20+00:00",
+  "summary": "探讨编程语言设计如何影响令牌使用效率及程序正确性，涉及语法紧凑性与潜在错误风险之间的权衡。",
+  "score": 7.0,
+  "tags": [
+    "programming-languages",
+    "token-efficiency",
+    "correctness",
+    "syntax"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
