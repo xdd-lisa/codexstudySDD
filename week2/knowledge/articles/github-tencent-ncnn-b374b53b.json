@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b374b53bbe7e022f",
+  "title": "Tencent/ncnn",
+  "source": "github",
+  "source_url": "https://github.com/Tencent/ncnn",
+  "published_at": "2026-08-11T08:37:03+00:00",
+  "collected_at": "2026-08-11T08:40:58+00:00",
+  "summary": "ncnn是腾讯开源的高性能移动端神经网络推理框架，使用C++编写，在GitHub上获得23685颗星，专注于移动平台优化。",
+  "score": 9.0,
+  "tags": [
+    "neural-network",
+    "inference",
+    "mobile",
+    "cpp",
+    "framework"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
