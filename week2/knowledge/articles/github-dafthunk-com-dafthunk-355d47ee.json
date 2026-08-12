@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "355d47eeb02f95eb",
+  "title": "dafthunk-com/dafthunk",
+  "source": "github",
+  "source_url": "https://github.com/dafthunk-com/dafthunk",
+  "published_at": "2026-08-12T08:31:11+00:00",
+  "collected_at": "2026-08-12T08:56:54+00:00",
+  "summary": "基于Cloudflare基础设施的工作流执行平台，使用TypeScript构建，支持自动化流程编排。",
+  "score": 6.0,
+  "tags": [
+    "workflow",
+    "cloudflare",
+    "typescript",
+    "automation",
+    "platform"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "6ff3229159799fd6",
+  "title": "Cloudflare OS, is it worth?",
+  "source": "rss",
+  "source_url": "https://blog.emre.xyz/posts/2be69f5e",
+  "published_at": "2026-08-12T01:57:55-05:00",
+  "collected_at": "2026-08-12T08:56:55+00:00",
+  "summary": "本文探讨Cloudflare OS（边缘计算平台）是否值得投入，分析其性能、成本及生态优势，并给出使用建议。",
+  "score": 7.0,
+  "tags": [
+    "cloudflare",
+    "serverless",
+    "edge-computing",
+    "review"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

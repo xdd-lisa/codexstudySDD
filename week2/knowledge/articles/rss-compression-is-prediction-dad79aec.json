@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "dad79aeca39c5980",
+  "title": "Compression is prediction",
+  "source": "rss",
+  "source_url": "https://ngrok.com/blog/compression-is-prediction",
+  "published_at": "2026-08-11T14:35:12-05:00",
+  "collected_at": "2026-08-12T08:56:55+00:00",
+  "summary": "文章探讨压缩与预测之间的关系，指出压缩本质上是一种预测过程，并可能涉及相关技术讨论。",
+  "score": 7.0,
+  "tags": [
+    "compression",
+    "prediction",
+    "machine-learning",
+    "data"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

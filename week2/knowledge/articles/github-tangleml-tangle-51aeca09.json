@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "51aeca095f361801",
+  "title": "TangleML/tangle",
+  "source": "github",
+  "source_url": "https://github.com/TangleML/tangle",
+  "published_at": "2026-08-12T08:31:10+00:00",
+  "collected_at": "2026-08-12T08:56:54+00:00",
+  "summary": "Tangle是一个无需搭建开发环境即可构建和运行机器学习管道的Web应用，主要使用Python开发。",
+  "score": 7.0,
+  "tags": [
+    "machine-learning",
+    "pipeline",
+    "web-app",
+    "python",
+    "no-code"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

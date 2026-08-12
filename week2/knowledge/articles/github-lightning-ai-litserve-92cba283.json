@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "92cba283be6904fc",
+  "title": "Lightning-AI/LitServe",
+  "source": "github",
+  "source_url": "https://github.com/Lightning-AI/LitServe",
+  "published_at": "2026-08-12T08:35:48+00:00",
+  "collected_at": "2026-08-12T08:56:54+00:00",
+  "summary": "LitServe是一个轻量级Python框架，用于构建自定义AI推理服务器，提供对逻辑、批处理和扩展的完全控制。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "inference",
+    "python",
+    "framework"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
