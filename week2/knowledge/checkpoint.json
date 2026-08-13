@@ -162,8 +162,11 @@
     "github:tangleml/tangle": "51aeca095f361801",
     "rss:d21c02d794004f1f": "6ff3229159799fd6",
     "rss:5c58101f25a990d2": "dad79aeca39c5980",
-    "rss:ac568ec535224ea3": "f59269e1e439e025"
+    "rss:ac568ec535224ea3": "f59269e1e439e025",
+    "github:robotology/yarp": "3a59ac7b9835d832",
+    "rss:f3ce92bdc0a8d16f": "f490af65ba5d37d7",
+    "rss:a9279657e62f98a3": "ae75d56298f388c7"
   },
   "failed": {},
-  "updated_at": "2026-08-12T08:57:07+00:00"
+  "updated_at": "2026-08-13T08:59:16+00:00"
 }

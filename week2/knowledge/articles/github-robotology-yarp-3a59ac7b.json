@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "3a59ac7b9835d832",
+  "title": "robotology/yarp",
+  "source": "github",
+  "source_url": "https://github.com/robotology/yarp",
+  "published_at": "2026-08-13T08:24:13+00:00",
+  "collected_at": "2026-08-13T08:58:28+00:00",
+  "summary": "YARP是一个面向机器人软件开发的C++中间件平台，提供模块化通信与设备抽象，支持多机器人应用。",
+  "score": 7.0,
+  "tags": [
+    "robot",
+    "middleware",
+    "cpp",
+    "robotics",
+    "platform"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

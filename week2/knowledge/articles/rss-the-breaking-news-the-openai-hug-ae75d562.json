@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "ae75d56298f388c7",
+  "title": "The 'Breaking' News: The OpenAI–Hugging Face Incident",
+  "source": "rss",
+  "source_url": "https://youtu.be/87DyyMV0kCY",
+  "published_at": "2026-08-11T11:50:09-05:00",
+  "collected_at": "2026-08-13T08:58:58+00:00",
+  "summary": "该视频报道了OpenAI与Hugging Face之间发生的冲突事件，可能涉及技术或商业层面的争议，引发社区关注。",
+  "score": 6.0,
+  "tags": [
+    "openai",
+    "huggingface",
+    "news",
+    "ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

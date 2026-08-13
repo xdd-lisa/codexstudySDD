@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "f490af65ba5d37d7",
+  "title": "Introducing chestnut",
+  "source": "rss",
+  "source_url": "https://blog.comma.ai/chestnut",
+  "published_at": "2026-08-12T21:43:46-05:00",
+  "collected_at": "2026-08-13T08:58:58+00:00",
+  "summary": "comma.ai博客发布文章介绍其新项目Chestnut，引发社区讨论，可能涉及自动驾驶相关技术。",
+  "score": 7.0,
+  "tags": [
+    "comma.ai",
+    "chestnut",
+    "self-driving",
+    "technology"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
