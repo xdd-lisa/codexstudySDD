@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "00c0e268b0149c00",
+  "title": "dralgroup/mlatom",
+  "source": "github",
+  "source_url": "https://github.com/dralgroup/mlatom",
+  "published_at": "2026-08-14T08:45:31+00:00",
+  "collected_at": "2026-08-14T08:54:10+00:00",
+  "summary": "MLatom是一款基于Python的AI增强计算化学工具，集成机器学习与量子化学方法，支持多种原子间势能模型与分子动力学模拟。",
+  "score": 7.5,
+  "tags": [
+    "computational-chemistry",
+    "machine-learning",
+    "python",
+    "molecular-dynamics"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

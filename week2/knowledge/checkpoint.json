@@ -165,8 +165,11 @@
     "rss:ac568ec535224ea3": "f59269e1e439e025",
     "github:robotology/yarp": "3a59ac7b9835d832",
     "rss:f3ce92bdc0a8d16f": "f490af65ba5d37d7",
-    "rss:a9279657e62f98a3": "ae75d56298f388c7"
+    "rss:a9279657e62f98a3": "ae75d56298f388c7",
+    "github:dralgroup/mlatom": "00c0e268b0149c00",
+    "rss:fc11a60d82e3eba5": "de5acd99dd765901",
+    "rss:b605b7aa165f5d67": "d10ea54f06e0c371"
   },
   "failed": {},
-  "updated_at": "2026-08-13T08:59:16+00:00"
+  "updated_at": "2026-08-14T08:54:24+00:00"
 }

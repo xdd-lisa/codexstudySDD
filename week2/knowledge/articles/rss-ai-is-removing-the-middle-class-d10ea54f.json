@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "d10ea54f06e0c371",
+  "title": "AI is removing the middle class of software engineering?",
+  "source": "rss",
+  "source_url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+  "published_at": "2026-08-12T13:20:05+00:00",
+  "collected_at": "2026-08-14T08:54:17+00:00",
+  "summary": "文章探讨AI对软件工程行业的影响，认为其正在消除中级开发者岗位，导致职业结构两极分化。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "software-engineering",
+    "career",
+    "technology"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
