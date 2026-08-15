@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8a71b5023d34706f",
+  "title": "DrVrej/VJ-Base",
+  "source": "github",
+  "source_url": "https://github.com/DrVrej/VJ-Base",
+  "published_at": "2026-08-15T07:40:14+00:00",
+  "collected_at": "2026-08-15T08:12:05+00:00",
+  "summary": "VJ-Base是Garry's Mod的一个扩展插件，提供多种基础框架，方便开发者创建不同类型的附加内容。主要使用Lua编写，在GitHub上拥有122颗星。",
+  "score": 7.0,
+  "tags": [
+    "gmod",
+    "lua",
+    "addon",
+    "framework",
+    "development"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

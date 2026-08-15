@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "2b71cb6d2f467db8",
+  "title": "AI by Hand",
+  "source": "rss",
+  "source_url": "https://www.byhand.ai/",
+  "published_at": "2026-08-14T15:58:59+00:00",
+  "collected_at": "2026-08-15T08:12:05+00:00",
+  "summary": "AI by Hand 是一个展示手工制作AI工具或可视化教学资源的网站，在Hacker News上获得287分，引发了社区讨论。",
+  "score": 7.5,
+  "tags": [
+    "ai",
+    "education",
+    "tutorial",
+    "tools",
+    "visual"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

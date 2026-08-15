@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8ad8cdf20609a5f0",
+  "title": "Google is making private AI practical with homomorphic encryption",
+  "source": "rss",
+  "source_url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+  "published_at": "2026-08-14T15:43:10+00:00",
+  "collected_at": "2026-08-15T08:12:05+00:00",
+  "summary": "谷歌正在推动同态加密技术，使人工智能能在加密数据上直接运行，从而实现实用化的隐私保护AI应用。",
+  "score": 8.0,
+  "tags": [
+    "homomorphic-encryption",
+    "privacy",
+    "ai",
+    "google",
+    "security"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
