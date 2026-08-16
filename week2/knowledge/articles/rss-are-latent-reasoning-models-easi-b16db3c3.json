@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "b16db3c374778d50",
+  "title": "Are Latent Reasoning Models Easily Interpretable?",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.04902",
+  "published_at": "2026-08-15T11:17:13-05:00",
+  "collected_at": "2026-08-16T08:13:20+00:00",
+  "summary": "研究表明潜在推理模型在逻辑任务中并不依赖隐藏推理步骤，但在数学任务中隐藏状态包含可解释的标准步骤。",
+  "score": 8.0,
+  "tags": [
+    "interpretability",
+    "latent-reasoning",
+    "llm",
+    "reasoning-models"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
