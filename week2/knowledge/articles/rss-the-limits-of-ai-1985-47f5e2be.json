@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "47f5e2be0c497172",
+  "title": "The Limits of AI (1985)",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=ePsQksj99LM",
+  "published_at": "2026-08-16T19:20:07-05:00",
+  "collected_at": "2026-08-17T08:27:28+00:00",
+  "summary": "探讨1985年时对人工智能局限性的早期认识，反映当时技术能力与预期差距。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "history",
+    "limits",
+    "machine-learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

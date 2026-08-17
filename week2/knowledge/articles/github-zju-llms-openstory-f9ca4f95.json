@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "f9ca4f955c4e4bf9",
+  "title": "ZJU-LLMs/OpenStory",
+  "source": "github",
+  "source_url": "https://github.com/ZJU-LLMs/OpenStory",
+  "published_at": "2026-08-17T07:59:34+00:00",
+  "collected_at": "2026-08-17T08:27:28+00:00",
+  "summary": "开源的多智能体框架，利用大语言模型驱动交互式故事世界模拟，支持动态演化，使用Python实现。",
+  "score": 7.5,
+  "tags": [
+    "multi-agent",
+    "llm",
+    "storytelling",
+    "simulation",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

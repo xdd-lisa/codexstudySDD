@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8e156d1b98042e60",
+  "title": "airbus/scikit-decide",
+  "source": "github",
+  "source_url": "https://github.com/airbus/scikit-decide",
+  "published_at": "2026-08-17T08:17:00+00:00",
+  "collected_at": "2026-08-17T08:27:28+00:00",
+  "summary": "scikit-decide是Airbus开源的AI框架，专注于强化学习、自动规划与调度，基于Python实现。",
+  "score": 6.5,
+  "tags": [
+    "reinforcement-learning",
+    "planning",
+    "scheduling",
+    "ai-framework",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

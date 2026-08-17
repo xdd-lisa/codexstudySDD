@@ -174,8 +174,12 @@
     "github:drvrej/vj-base": "8a71b5023d34706f",
     "rss:376da9d17953b553": "2b71cb6d2f467db8",
     "rss:a69e651a6f01ec13": "8ad8cdf20609a5f0",
-    "rss:4b7a5abbc7794bd7": "b16db3c374778d50"
+    "rss:4b7a5abbc7794bd7": "b16db3c374778d50",
+    "github:jeinlee1991/chinese-llm-benchmark": "034464d3fc7ad363",
+    "github:airbus/scikit-decide": "8e156d1b98042e60",
+    "github:zju-llms/openstory": "f9ca4f955c4e4bf9",
+    "rss:4e375b3d2ce28c81": "47f5e2be0c497172"
   },
   "failed": {},
-  "updated_at": "2026-08-16T08:13:23+00:00"
+  "updated_at": "2026-08-17T08:27:40+00:00"
 }

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "034464d3fc7ad363",
+  "title": "jeinlee1991/chinese-llm-benchmark",
+  "source": "github",
+  "source_url": "https://github.com/jeinlee1991/chinese-llm-benchmark",
+  "published_at": "2026-08-17T08:19:12+00:00",
+  "collected_at": "2026-08-17T08:27:28+00:00",
+  "summary": "持续更新的中文大模型评测基准，包含374个模型及超200万缺陷库，提供排行榜和深度分析，覆盖商用与开源模型。",
+  "score": 8.5,
+  "tags": [
+    "llm",
+    "benchmark",
+    "chinese",
+    "evaluation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
