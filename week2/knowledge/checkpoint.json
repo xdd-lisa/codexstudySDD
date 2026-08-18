@@ -178,8 +178,14 @@
     "github:jeinlee1991/chinese-llm-benchmark": "034464d3fc7ad363",
     "github:airbus/scikit-decide": "8e156d1b98042e60",
     "github:zju-llms/openstory": "f9ca4f955c4e4bf9",
-    "rss:4e375b3d2ce28c81": "47f5e2be0c497172"
+    "rss:4e375b3d2ce28c81": "47f5e2be0c497172",
+    "rss:fff6f5dfc5d6aa63": "afbb84ca6d46ccd4",
+    "rss:4c2d11f62e6b595e": "7d49aacaa67b4da8",
+    "rss:971e396b84c84765": "76963b852e28c23f",
+    "rss:c5d2e13a3652317a": "3fa94f9b3ff7db6a",
+    "rss:5e8c3e7221f40155": "16ac10544a8682f6",
+    "rss:31471bfb57b8bd53": "80605906fea60f1e"
   },
   "failed": {},
-  "updated_at": "2026-08-17T08:27:40+00:00"
+  "updated_at": "2026-08-18T08:20:03+00:00"
 }

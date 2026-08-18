@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "3fa94f9b3ff7db6a",
+  "title": "How to disable or avoid intrusive AI",
+  "source": "rss",
+  "source_url": "https://www.librarian.net/notoai",
+  "published_at": "2026-08-17T14:07:56+00:00",
+  "collected_at": "2026-08-18T08:19:43+00:00",
+  "summary": "这篇文章讨论如何禁用或避免侵入性人工智能，提供实用的方法与建议以保护用户隐私和自主权。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "privacy",
+    "howto"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

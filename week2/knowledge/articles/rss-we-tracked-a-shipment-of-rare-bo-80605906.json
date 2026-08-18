@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "80605906fea60f1e",
+  "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+  "source": "rss",
+  "source_url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra",
+  "published_at": "2026-08-17T12:54:19-05:00",
+  "collected_at": "2026-08-18T08:19:43+00:00",
+  "summary": "追踪一批稀有书籍的物流轨迹，最终发现它们被送往亚马逊AI训练设施，引发关于AI训练使用版权材料的担忧。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "amazon",
+    "copyright",
+    "books",
+    "tracking"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

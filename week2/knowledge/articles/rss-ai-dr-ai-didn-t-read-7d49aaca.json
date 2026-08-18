@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "7d49aacaa67b4da8",
+  "title": "AI;DR (AI; Didn't Read)",
+  "source": "rss",
+  "source_url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+  "published_at": "2026-08-17T19:47:15+00:00",
+  "collected_at": "2026-08-18T08:19:43+00:00",
+  "summary": "本文介绍AI;DR，即用AI自动生成文章摘要，类似TL;DR，引发关于阅读与信息处理的讨论。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "summarizer",
+    "tldr",
+    "productivity",
+    "reading"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

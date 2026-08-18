@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "afbb84ca6d46ccd4",
+  "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+  "source": "rss",
+  "source_url": "https://responsiblestatecraft.org/israel-influence-chatgpt",
+  "published_at": "2026-08-17T20:46:10+00:00",
+  "collected_at": "2026-08-18T08:19:43+00:00",
+  "summary": "报道称以色列建立虚假智库，试图误导人工智能聊天机器人，引发对信息操纵的担忧。",
+  "score": 7.0,
+  "tags": [
+    "israel",
+    "misinformation",
+    "ai",
+    "politics"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

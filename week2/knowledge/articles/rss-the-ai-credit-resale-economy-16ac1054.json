@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "16ac10544a8682f6",
+  "title": "The AI Credit Resale Economy",
+  "source": "rss",
+  "source_url": "https://vectoral.com/blog/who-are-the-token-brokers",
+  "published_at": "2026-08-16T14:44:55+00:00",
+  "collected_at": "2026-08-18T08:19:43+00:00",
+  "summary": "探讨AI信用转售经济中的代币经纪人角色，分析其市场影响与潜在风险。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "credits",
+    "economy",
+    "brokers",
+    "resale"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
