@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4ce5aee024f2b3e2",
+  "title": "But what is cross-entropy? | Compression is Intelligence Part 2 - YouTube",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
+  "published_at": "2026-08-18T23:49:02-05:00",
+  "collected_at": "2026-08-19T08:20:27+00:00",
+  "summary": "深入浅出地讲解交叉熵概念，并将其与数据压缩和智能的本质联系起来，适合理解信息论与机器学习基础。",
+  "score": 9.0,
+  "tags": [
+    "cross-entropy",
+    "compression",
+    "information-theory",
+    "machine-learning",
+    "entropy"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
