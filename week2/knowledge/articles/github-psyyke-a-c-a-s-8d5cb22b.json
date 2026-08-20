@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8d5cb22b3a6f953d",
+  "title": "Psyyke/A.C.A.S",
+  "source": "github",
+  "source_url": "https://github.com/Psyyke/A.C.A.S",
+  "published_at": "2026-08-20T08:10:06+00:00",
+  "collected_at": "2026-08-20T08:21:55+00:00",
+  "summary": "高级国际象棋辅助系统，支持多平台一键安装，无需下载，兼容所有设备和浏览器。",
+  "score": 7.5,
+  "tags": [
+    "chess",
+    "assistant",
+    "browser-extension",
+    "lichess",
+    "chess.com"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

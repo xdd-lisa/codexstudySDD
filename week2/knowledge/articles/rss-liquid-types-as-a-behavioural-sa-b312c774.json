@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b312c7743d658762",
+  "title": "Liquid Types as a behavioural sandbox for agents",
+  "source": "rss",
+  "source_url": "https://wiki.alcidesfonseca.com/blog/aeonbox-logical-guardrails-for-agents",
+  "published_at": "2026-08-19T05:16:54-05:00",
+  "collected_at": "2026-08-20T08:21:58+00:00",
+  "summary": "利用liquid types为AI智能体提供行为层面的类型约束，从而在运行时验证和限制其动作空间，实现逻辑围栏。",
+  "score": 7.0,
+  "tags": [
+    "liquid-types",
+    "agents",
+    "ai-safety",
+    "type-systems",
+    "guardrails"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

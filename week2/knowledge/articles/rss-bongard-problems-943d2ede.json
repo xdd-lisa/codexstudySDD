@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "943d2ededc730fb0",
+  "title": "Bongard Problems",
+  "source": "rss",
+  "source_url": "https://matthodges.com/posts/2026-08-19-bongard-problems",
+  "published_at": "2026-08-19T17:12:09-05:00",
+  "collected_at": "2026-08-20T08:21:58+00:00",
+  "summary": "介绍Bongard问题的文章，探讨视觉推理与模式识别的挑战。",
+  "score": 6.0,
+  "tags": [
+    "bongard",
+    "puzzles",
+    "reasoning",
+    "visual"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
