@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "dffe5f667ba9f0cc",
+  "title": "OpenHUTB/hutb",
+  "source": "github",
+  "source_url": "https://github.com/OpenHUTB/hutb",
+  "published_at": "2026-08-21T08:11:01+00:00",
+  "collected_at": "2026-08-21T08:22:48+00:00",
+  "summary": "人车模拟器项目，使用C++开发，提供智能交通仿真环境，在GitHub上受到广泛关注。",
+  "score": 8.0,
+  "tags": [
+    "simulator",
+    "cpp",
+    "intelligent-transportation",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

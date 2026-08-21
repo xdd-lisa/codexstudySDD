@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "3f6eb2865858d181",
+  "title": "onnx/onnx",
+  "source": "github",
+  "source_url": "https://github.com/onnx/onnx",
+  "published_at": "2026-08-21T07:49:22+00:00",
+  "collected_at": "2026-08-21T08:22:48+00:00",
+  "summary": "ONNX是开放的机器学习模型互操作性标准，支持主流框架模型转换，Python实现，社区活跃。",
+  "score": 9.0,
+  "tags": [
+    "interoperability",
+    "machine-learning",
+    "model-conversion",
+    "standard",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
