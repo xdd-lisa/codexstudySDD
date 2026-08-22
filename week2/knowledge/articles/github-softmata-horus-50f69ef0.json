@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "50f69ef0d9811efa",
+  "title": "softmata/horus",
+  "source": "github",
+  "source_url": "https://github.com/softmata/horus",
+  "published_at": "2026-08-22T07:35:34+00:00",
+  "collected_at": "2026-08-22T08:13:58+00:00",
+  "summary": "HORUS是一个用Rust编写的快速机器人运行时系统，旨在为机器人提供类似Android对手机的操作系统支持。",
+  "score": 9.0,
+  "tags": [
+    "robotics",
+    "runtime",
+    "rust"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -191,8 +191,10 @@
     "rss:b0533030825d292c": "943d2ededc730fb0",
     "rss:b11f1399e7f01c1c": "b312c7743d658762",
     "github:openhutb/hutb": "dffe5f667ba9f0cc",
-    "github:onnx/onnx": "3f6eb2865858d181"
+    "github:onnx/onnx": "3f6eb2865858d181",
+    "github:atlascloudai/awesome-seedance-2.5-prompts-skills": "301e01df016e57b7",
+    "github:softmata/horus": "50f69ef0d9811efa"
   },
   "failed": {},
-  "updated_at": "2026-08-21T08:22:52+00:00"
+  "updated_at": "2026-08-22T08:14:05+00:00"
 }

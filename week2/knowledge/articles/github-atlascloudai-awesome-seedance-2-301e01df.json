@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "301e01df016e57b7",
+  "title": "AtlasCloudAI/awesome-seedance-2.5-prompts-skills",
+  "source": "github",
+  "source_url": "https://github.com/AtlasCloudAI/awesome-seedance-2.5-prompts-skills",
+  "published_at": "2026-08-22T07:49:02+00:00",
+  "collected_at": "2026-08-22T08:13:58+00:00",
+  "summary": "提供100多个Seedance 2.5精选提示词及真实视频预览，附带可安装的Agent技能，用于优化提示、制作故事板并生成视频。",
+  "score": 8.0,
+  "tags": [
+    "seedance",
+    "prompts",
+    "video-generation",
+    "typescript",
+    "agent"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
