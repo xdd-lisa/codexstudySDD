@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "636d373226d7062b",
+  "title": "theexperiencecompany/gaia",
+  "source": "github",
+  "source_url": "https://github.com/theexperiencecompany/gaia",
+  "published_at": "2026-08-23T07:53:16+00:00",
+  "collected_at": "2026-08-23T08:14:17+00:00",
+  "summary": "Gaia 是一款基于 Python 开发的主动式个人 AI 助手，旨在提升日常生产力，提供陪伴式交互体验。",
+  "score": 6.0,
+  "tags": [
+    "ai",
+    "assistant",
+    "productivity",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

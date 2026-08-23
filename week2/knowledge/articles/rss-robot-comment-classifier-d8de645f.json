@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "d8de645fd91769f5",
+  "title": "Robot comment classifier",
+  "source": "rss",
+  "source_url": "https://entropicthoughts.com/ai-comment-classifier",
+  "published_at": "2026-08-22T05:18:39-05:00",
+  "collected_at": "2026-08-23T08:14:22+00:00",
+  "summary": "文章讨论使用LLM输出训练逻辑回归和支持向量机分类器来识别机器人评论，并提及缺少统计标签的问题。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "machine-learning",
+    "classifier",
+    "llm"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
