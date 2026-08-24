@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b007265302fcdb2b",
+  "title": "AI Chip Architectures",
+  "source": "rss",
+  "source_url": "https://www.jepeake.com/ai-chip-architectures",
+  "published_at": "2026-08-23T20:37:10-05:00",
+  "collected_at": "2026-08-24T08:33:07+00:00",
+  "summary": "文章讨论AI芯片架构设计，涉及硬件优化与计算效率。",
+  "score": 5.0,
+  "tags": [
+    "ai",
+    "chip",
+    "architecture",
+    "hardware",
+    "compute"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

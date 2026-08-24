@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "cb2e17afe6503e90",
+  "title": "limbonaut/limboai",
+  "source": "github",
+  "source_url": "https://github.com/limbonaut/limboai",
+  "published_at": "2026-08-24T08:21:41+00:00",
+  "collected_at": "2026-08-24T08:33:00+00:00",
+  "summary": "LimboAI是面向Godot 4的高性能行为树与状态机插件，采用C++实现，提供灵活的可视化编辑和运行时调试功能。",
+  "score": 9.0,
+  "tags": [
+    "godot",
+    "behavior-trees",
+    "state-machines",
+    "plugin",
+    "cpp"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

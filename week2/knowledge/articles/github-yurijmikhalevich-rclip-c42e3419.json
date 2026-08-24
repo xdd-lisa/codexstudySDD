@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "c42e3419426f863e",
+  "title": "yurijmikhalevich/rclip",
+  "source": "github",
+  "source_url": "https://github.com/yurijmikhalevich/rclip",
+  "published_at": "2026-08-24T08:12:38+00:00",
+  "collected_at": "2026-08-24T08:33:00+00:00",
+  "summary": "rclip是一个基于语义搜索的命令行照片查找工具，利用AI理解图片内容，支持自然语言查询。",
+  "score": 8.0,
+  "tags": [
+    "semantic-search",
+    "photo",
+    "command-line",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

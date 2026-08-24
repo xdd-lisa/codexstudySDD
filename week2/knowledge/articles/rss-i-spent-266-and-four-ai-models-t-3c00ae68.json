@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "3c00ae683aeda19d",
+  "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
+  "source": "rss",
+  "source_url": "https://ericpardee.github.io/fire-hd-ownership",
+  "published_at": "2026-08-23T14:23:09+00:00",
+  "collected_at": "2026-08-24T08:33:07+00:00",
+  "summary": "作者花费266美元和四个AI模型成功解锁亚马逊平板，GLM-5.3一天内完成，实现完全自主掌控设备。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "tablet",
+    "jailbreak",
+    "amazon",
+    "diy"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
