@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "22528a452df06307",
+  "title": "leofan90/Awesome-World-Models",
+  "source": "github",
+  "source_url": "https://github.com/leofan90/Awesome-World-Models",
+  "published_at": "2026-08-25T08:14:58+00:00",
+  "collected_at": "2026-08-25T08:25:46+00:00",
+  "summary": "精选世界模型相关论文列表，涵盖视频生成、具身智能与自动驾驶等领域。",
+  "score": 8.5,
+  "tags": [
+    "world-models",
+    "paper-list",
+    "ai",
+    "video-generation",
+    "autonomous-driving"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

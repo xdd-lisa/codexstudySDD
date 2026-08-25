@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "8317e1187afa3abd",
+  "title": "Coding expertise is going to collapse from AI reliance",
+  "source": "rss",
+  "source_url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+  "published_at": "2026-08-24T15:52:33+00:00",
+  "collected_at": "2026-08-25T08:25:46+00:00",
+  "summary": "文章认为过度依赖AI编程工具会削弱开发者的深层编码技能,导致专家经验难以积累,长期来看可能引发软件开发专业能力的系统性退化。",
+  "score": 6.5,
+  "tags": [
+    "ai",
+    "coding-expertise",
+    "software-development",
+    "learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

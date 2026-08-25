@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8397f1b970dd3ec7",
+  "title": "I built a low-latency AI companion that plays Skyrim with me",
+  "source": "rss",
+  "source_url": "https://pantel.is/projects/ai-gaming-companion",
+  "published_at": "2026-08-23T23:18:17+00:00",
+  "collected_at": "2026-08-25T08:25:46+00:00",
+  "summary": "作者构建了一个低延迟AI伙伴，能实时参与《天际》游戏，提升互动体验。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "gaming",
+    "companion",
+    "low-latency",
+    "skyrim"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
