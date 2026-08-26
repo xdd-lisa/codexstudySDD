@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "c9ad041cedfbe656",
+  "title": "Apple's new desktop computers are designed specifically for local AI development",
+  "source": "rss",
+  "source_url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference",
+  "published_at": "2026-08-25T10:04:08-05:00",
+  "collected_at": "2026-08-26T08:26:48+00:00",
+  "summary": "苹果新款Mac Studio和Mac Mini专为本地AI推理设计，强化内存与算力。",
+  "score": 8.0,
+  "tags": [
+    "apple",
+    "ai",
+    "mac",
+    "hardware"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

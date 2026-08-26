@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "2bdab5be337a9dcc",
+  "title": "How much of HN is AI?",
+  "source": "rss",
+  "source_url": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
+  "published_at": "2026-08-25T15:23:41+00:00",
+  "collected_at": "2026-08-26T08:26:47+00:00",
+  "summary": "文章分析黑客新闻中AI相关帖子的占比，探讨AI内容是否主导社区讨论。",
+  "score": 8.5,
+  "tags": [
+    "ai",
+    "hacker-news",
+    "content-analysis",
+    "online-community"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "f2c41c03f24945a5",
+  "title": "AI At Home Part 2: Multi GPU Drifting",
+  "source": "rss",
+  "source_url": "https://jdagostino.github.io/ai-pt2-multi-gpu-drifting/index.html",
+  "published_at": "2026-08-25T13:20:38-05:00",
+  "collected_at": "2026-08-26T08:26:48+00:00",
+  "summary": "这篇文章介绍了在家中使用多GPU进行AI推理的经验，讨论了相关技术和潜在问题。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "gpu",
+    "multi-gpu",
+    "home-lab",
+    "inference"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

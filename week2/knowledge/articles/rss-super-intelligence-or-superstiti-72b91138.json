@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "72b911386e92bb7b",
+  "title": "Super-intelligence or Superstition? Exploring Psychological Factors Influencing Belief in AI Predictions about Personal Behavior",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2408.06602",
+  "published_at": "2026-08-25T10:03:24-05:00",
+  "collected_at": "2026-08-26T08:26:48+00:00",
+  "summary": "探讨心理因素如何影响人们对AI预测个人行为的信任，质疑其科学性与迷信倾向。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "psychology",
+    "prediction",
+    "belief"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

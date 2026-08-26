@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ed52f81de70c4b47",
+  "title": "A Manifesto for Responsible Agentic Coding",
+  "source": "rss",
+  "source_url": "https://www.techwerkers.nl/en/posts/manifesto-responsible-agentic-coding",
+  "published_at": "2026-08-25T12:17:14-05:00",
+  "collected_at": "2026-08-26T08:26:48+00:00",
+  "summary": "该文章提出了一份关于负责任智能体编码的宣言，强调在开发和使用AI编程代理时需遵循伦理准则、确保安全性与可控性，并提倡透明、问责和人类监督，以降低自动化编码带来的潜在风险。",
+  "score": 7.0,
+  "tags": [
+    "ai-agents",
+    "coding",
+    "ethics",
+    "responsibility",
+    "safety"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

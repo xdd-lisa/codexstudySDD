@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "f5d101f17afed34a",
+  "title": "hotosm/fAIr",
+  "source": "github",
+  "source_url": "https://github.com/hotosm/fAIr",
+  "published_at": "2026-08-26T08:10:23+00:00",
+  "collected_at": "2026-08-26T08:26:44+00:00",
+  "summary": "fAIr是HOT开发的AI辅助制图工具，旨在通过机器学习提升OpenStreetMap数据标注效率。采用TypeScript构建，提供自动化特征检测与人工审核结合的工作流。",
+  "score": 6.5,
+  "tags": [
+    "ai",
+    "mapping",
+    "openstreetmap",
+    "humanitarian",
+    "typescript"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
