@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "cb7e4bbf99b47a30",
+  "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+  "source": "rss",
+  "source_url": "https://github.com/SenteLabsAI/OpenExecutive",
+  "published_at": "2026-08-27T01:46:22+00:00",
+  "collected_at": "2026-08-27T18:26:04+00:00",
+  "summary": "开发者以开源AI CEO回应CEO裁员引入AI的举动，讽刺性极强，引发热议。",
+  "score": 9.0,
+  "tags": [
+    "ai",
+    "opensource",
+    "satire",
+    "protest",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

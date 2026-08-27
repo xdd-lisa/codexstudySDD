@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8704752fca7b065f",
+  "title": "stillwater-sc/universal",
+  "source": "github",
+  "source_url": "https://github.com/stillwater-sc/universal",
+  "published_at": "2026-08-27T18:10:58+00:00",
+  "collected_at": "2026-08-27T18:26:03+00:00",
+  "summary": "通用数制系统库，支持混合精度算法开发，适用于AI、机器学习、信号处理等领域，提供自定义算术优化。",
+  "score": 8.0,
+  "tags": [
+    "c++",
+    "numerical",
+    "precision",
+    "machine-learning",
+    "signal-processing"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

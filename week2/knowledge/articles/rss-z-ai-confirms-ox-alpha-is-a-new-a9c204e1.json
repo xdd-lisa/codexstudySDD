@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a9c204e117f936d5",
+  "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+  "source": "rss",
+  "source_url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+  "published_at": "2026-08-26T10:04:55+00:00",
+  "collected_at": "2026-08-27T18:26:04+00:00",
+  "summary": "Z.ai确认Ox Alpha为GLM系列新模型，性能对标DeepSeek，并计划开源权重，引发开发者社区广泛关注。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "open-source",
+    "glm",
+    "z.ai",
+    "deepseek"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

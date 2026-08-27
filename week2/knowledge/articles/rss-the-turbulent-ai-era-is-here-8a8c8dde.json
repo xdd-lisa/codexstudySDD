@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8a8c8dde8aad5d4f",
+  "title": "The turbulent AI era is here",
+  "source": "rss",
+  "source_url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+  "published_at": "2026-08-26T15:55:15+00:00",
+  "collected_at": "2026-08-27T18:26:04+00:00",
+  "summary": "比尔·盖茨探讨AI时代的到来及其带来的关键抉择，强调需要谨慎应对。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "technology",
+    "policy",
+    "future",
+    "gates"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

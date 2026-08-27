@@ -210,8 +210,14 @@
     "rss:4eb4da38cbc4cf4c": "f2c41c03f24945a5",
     "rss:238574604534e2a2": "ed52f81de70c4b47",
     "rss:fa994c5a336ce6f9": "c9ad041cedfbe656",
-    "rss:2fc34a674461e373": "72b911386e92bb7b"
+    "rss:2fc34a674461e373": "72b911386e92bb7b",
+    "github:stillwater-sc/universal": "8704752fca7b065f",
+    "github:lucidrains/transfusion-pytorch": "ba6bba1102d28f86",
+    "rss:55412da5303cf73c": "cb7e4bbf99b47a30",
+    "rss:e34d0e42d10cb773": "8a8c8dde8aad5d4f",
+    "rss:a1912c1cd47252dd": "a9c204e117f936d5",
+    "rss:9e0294de7f544436": "8e94f98b07fe49fd"
   },
   "failed": {},
-  "updated_at": "2026-08-26T08:27:07+00:00"
+  "updated_at": "2026-08-27T18:26:18+00:00"
 }
