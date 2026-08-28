@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "1ade48e88b04dbd3",
+  "title": "Jamessdevops/micracode",
+  "source": "github",
+  "source_url": "https://github.com/Jamessdevops/micracode",
+  "published_at": "2026-08-28T18:40:10+00:00",
+  "collected_at": "2026-08-28T19:38:59+00:00",
+  "summary": "一个开源的低代码/无代码开发平台，旨在替代Lovable、v0等工具，使用TypeScript构建，目前在GitHub上获得254颗星。",
+  "score": 6.0,
+  "tags": [
+    "open-source",
+    "low-code",
+    "typescript",
+    "alternative",
+    "builder"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
