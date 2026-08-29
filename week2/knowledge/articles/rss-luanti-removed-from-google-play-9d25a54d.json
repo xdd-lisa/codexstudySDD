@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "9d25a54db4e5ca3d",
+  "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+  "source": "rss",
+  "source_url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai",
+  "published_at": "2026-08-28T06:33:57+00:00",
+  "collected_at": "2026-08-29T13:25:22+00:00",
+  "summary": "开源游戏Luanti因AI生成的虚假版权投诉被Google Play下架，暴露了滥用AI通知的风险。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "copyright",
+    "dmca",
+    "google-play",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

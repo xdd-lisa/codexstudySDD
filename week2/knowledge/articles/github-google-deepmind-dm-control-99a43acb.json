@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "99a43acbe19783b2",
+  "title": "google-deepmind/dm_control",
+  "source": "github",
+  "source_url": "https://github.com/google-deepmind/dm_control",
+  "published_at": "2026-08-29T12:23:19+00:00",
+  "collected_at": "2026-08-29T13:25:04+00:00",
+  "summary": "Google DeepMind开发的基于MuJoCo的物理模拟与强化学习环境软件栈，提供丰富的控制任务和基准测试。",
+  "score": 8.0,
+  "tags": [
+    "physics",
+    "simulation",
+    "reinforcement-learning",
+    "mujoco"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

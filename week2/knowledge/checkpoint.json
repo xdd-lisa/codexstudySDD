@@ -218,8 +218,13 @@
     "rss:a1912c1cd47252dd": "a9c204e117f936d5",
     "rss:9e0294de7f544436": "8e94f98b07fe49fd",
     "github:ramakm/ai-hands-on": "2ea72827e110d56e",
-    "github:jamessdevops/micracode": "1ade48e88b04dbd3"
+    "github:jamessdevops/micracode": "1ade48e88b04dbd3",
+    "github:yamadashy/repomix": "4a925ee01de97881",
+    "github:google-deepmind/dm_control": "99a43acbe19783b2",
+    "github:ai-collection/ai-collection": "9e3563d58ecc4bfc",
+    "rss:eae188fd5259e201": "9d25a54db4e5ca3d",
+    "rss:c35579d8959d2b30": "721cd4a83c28fb5e"
   },
   "failed": {},
-  "updated_at": "2026-08-28T19:39:04+00:00"
+  "updated_at": "2026-08-29T13:25:32+00:00"
 }

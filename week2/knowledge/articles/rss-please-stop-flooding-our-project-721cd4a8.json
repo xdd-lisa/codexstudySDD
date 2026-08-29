@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "721cd4a83c28fb5e",
+  "title": "Please stop flooding our projects with AI slop to furnish your CV",
+  "source": "rss",
+  "source_url": "https://neilalexander.dev/2026/06/30/flooding-contributions",
+  "published_at": "2026-08-28T03:49:33+00:00",
+  "collected_at": "2026-08-29T13:25:22+00:00",
+  "summary": "文章批评开发者用AI生成的低质量代码批量提交开源项目，仅为了充实个人简历，呼吁停止这种污染行为。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "open-source",
+    "quality",
+    "contributions",
+    "ethics"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "9e3563d58ecc4bfc",
+  "title": "ai-collection/ai-collection",
+  "source": "github",
+  "source_url": "https://github.com/ai-collection/ai-collection",
+  "published_at": "2026-08-29T12:47:48+00:00",
+  "collected_at": "2026-08-29T13:25:04+00:00",
+  "summary": "一个收集了众多生成式AI应用的项目，为开发者提供全面的AI工具索引和参考。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "collection",
+    "generative",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
