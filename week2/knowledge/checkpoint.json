@@ -223,8 +223,10 @@
     "github:google-deepmind/dm_control": "99a43acbe19783b2",
     "github:ai-collection/ai-collection": "9e3563d58ecc4bfc",
     "rss:eae188fd5259e201": "9d25a54db4e5ca3d",
-    "rss:c35579d8959d2b30": "721cd4a83c28fb5e"
+    "rss:c35579d8959d2b30": "721cd4a83c28fb5e",
+    "github:e-m-b-a/emba": "868c25ec3ac4a313",
+    "github:maximevandegar/papers-in-100-lines-of-code": "3006e05aa3892498"
   },
   "failed": {},
-  "updated_at": "2026-08-29T13:25:32+00:00"
+  "updated_at": "2026-08-30T13:21:38+00:00"
 }

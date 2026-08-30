@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "868c25ec3ac4a313",
+  "title": "e-m-b-a/emba",
+  "source": "github",
+  "source_url": "https://github.com/e-m-b-a/emba",
+  "published_at": "2026-08-30T13:20:10+00:00",
+  "collected_at": "2026-08-30T13:21:31+00:00",
+  "summary": "EMBA是一款开源的固件安全分析工具，能够自动检测固件中的漏洞、后门和恶意代码，并提供详细的审计报告。",
+  "score": 9.0,
+  "tags": [
+    "firmware",
+    "security",
+    "analyzer",
+    "shell",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
