@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "0b97d8c4ac3dc3fc",
+  "title": "recommenders-team/recommenders",
+  "source": "github",
+  "source_url": "https://github.com/recommenders-team/recommenders",
+  "published_at": "2026-08-31T15:16:38+00:00",
+  "collected_at": "2026-08-31T15:33:05+00:00",
+  "summary": "推荐系统最佳实践库，提供丰富的算法实现与评估工具，适合研究与生产使用。",
+  "score": 9.0,
+  "tags": [
+    "recommendation",
+    "machine-learning",
+    "python",
+    "tools"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

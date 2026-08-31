@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "600bc068467c3398",
+  "title": "I attended a conference recently and AI use by academics was absurd",
+  "source": "rss",
+  "source_url": "https://lobste.rs/s/qn7jtv/i_attended_conference_recently_ai_use_by",
+  "published_at": "2026-08-31T10:22:00-05:00",
+  "collected_at": "2026-08-31T15:33:06+00:00",
+  "summary": "作者参加学术会议时发现多数人用AI代答提问，认为这是对讲者和学术思考的极大不尊重，并对此深感失望。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "academia",
+    "conference",
+    "ethics",
+    "laziness"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

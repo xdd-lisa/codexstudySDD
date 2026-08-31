@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "57127ff1936db34e",
+  "title": "voxel51/fiftyone",
+  "source": "github",
+  "source_url": "https://github.com/voxel51/fiftyone",
+  "published_at": "2026-08-31T15:00:12+00:00",
+  "collected_at": "2026-08-31T15:33:05+00:00",
+  "summary": "用于构建高质量数据集和可视化AI模型的开源工具，功能强大。",
+  "score": 8.0,
+  "tags": [
+    "computer-vision",
+    "datasets",
+    "mlops"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
