@@ -228,8 +228,11 @@
     "github:maximevandegar/papers-in-100-lines-of-code": "3006e05aa3892498",
     "github:recommenders-team/recommenders": "0b97d8c4ac3dc3fc",
     "github:voxel51/fiftyone": "57127ff1936db34e",
-    "rss:f4ec17e2cc6fb169": "600bc068467c3398"
+    "rss:f4ec17e2cc6fb169": "600bc068467c3398",
+    "github:tinyhumansai/openhuman": "8ed2cce02536b2fa",
+    "github:tinyhumansai/opencompany": "548c8adb9a3903a9",
+    "github:caipe-io/ai-platform-engineering": "d052c32301d97259"
   },
   "failed": {},
-  "updated_at": "2026-08-31T15:33:11+00:00"
+  "updated_at": "2026-09-01T12:49:15+00:00"
 }

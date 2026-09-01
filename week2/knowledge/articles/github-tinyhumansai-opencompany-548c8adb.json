@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "548c8adb9a3903a9",
+  "title": "tinyhumansai/opencompany",
+  "source": "github",
+  "source_url": "https://github.com/tinyhumansai/opencompany",
+  "published_at": "2026-09-01T12:42:05+00:00",
+  "collected_at": "2026-09-01T12:49:07+00:00",
+  "summary": "用单人运行十亿美元初创公司的开源项目，基于OpenHuman代理和Medulla，使用Rust语言开发。",
+  "score": 7.0,
+  "tags": [
+    "ai-agents",
+    "rust",
+    "startup",
+    "automation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

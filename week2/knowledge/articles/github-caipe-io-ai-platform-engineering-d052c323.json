@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "d052c32301d97259",
+  "title": "caipe-io/ai-platform-engineering",
+  "source": "github",
+  "source_url": "https://github.com/caipe-io/ai-platform-engineering",
+  "published_at": "2026-09-01T12:21:07+00:00",
+  "collected_at": "2026-09-01T12:49:07+00:00",
+  "summary": "CAIPE是一个开源的AI平台，专注于构建、部署和管理AI代理及代理工作流，适用于平台工程等场景。",
+  "score": 7.0,
+  "tags": [
+    "ai-platform",
+    "open-source",
+    "agentic-workflows",
+    "platform-engineering",
+    "typescript"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

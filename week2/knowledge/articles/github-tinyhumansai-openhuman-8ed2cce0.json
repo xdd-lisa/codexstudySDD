@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8ed2cce02536b2fa",
+  "title": "tinyhumansai/openhuman",
+  "source": "github",
+  "source_url": "https://github.com/tinyhumansai/openhuman",
+  "published_at": "2026-09-01T12:47:23+00:00",
+  "collected_at": "2026-09-01T12:49:07+00:00",
+  "summary": "这是一个用Rust构建的个人AI超级智能，专注本地优先记忆、代理编排和深度研究，GitHub星标近4万。",
+  "score": 9.0,
+  "tags": [
+    "ai",
+    "rust",
+    "personal-assistant",
+    "local-first",
+    "orchestration"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
