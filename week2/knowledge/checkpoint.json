@@ -231,8 +231,13 @@
     "rss:f4ec17e2cc6fb169": "600bc068467c3398",
     "github:tinyhumansai/openhuman": "8ed2cce02536b2fa",
     "github:tinyhumansai/opencompany": "548c8adb9a3903a9",
-    "github:caipe-io/ai-platform-engineering": "d052c32301d97259"
+    "github:caipe-io/ai-platform-engineering": "d052c32301d97259",
+    "github:elevenlabs/elevenlabs-python": "e1728cc13c4a61f3",
+    "github:elevenlabs/elevenlabs-js": "d8d52739295b62da",
+    "github:lfai/lfai-landscape": "9eb25ed0979b8173",
+    "rss:c6540e7492309fc8": "3b394461a74f9876",
+    "rss:824abb4df0324c26": "7e470a706467e654"
   },
   "failed": {},
-  "updated_at": "2026-09-01T12:49:15+00:00"
+  "updated_at": "2026-09-02T12:19:04+00:00"
 }

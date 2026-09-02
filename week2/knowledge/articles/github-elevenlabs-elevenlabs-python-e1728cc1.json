@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "e1728cc13c4a61f3",
+  "title": "elevenlabs/elevenlabs-python",
+  "source": "github",
+  "source_url": "https://github.com/elevenlabs/elevenlabs-python",
+  "published_at": "2026-09-02T12:18:23+00:00",
+  "collected_at": "2026-09-02T12:18:54+00:00",
+  "summary": "ElevenLabs官方Python SDK，用于集成其文本转语音API，支持语音合成与克隆。",
+  "score": 8.0,
+  "tags": [
+    "python",
+    "text-to-speech",
+    "api-sdk",
+    "elevenlabs"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

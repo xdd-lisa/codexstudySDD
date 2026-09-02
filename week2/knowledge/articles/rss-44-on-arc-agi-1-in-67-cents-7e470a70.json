@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "7e470a706467e654",
+  "title": "44% on ARC-AGI-1 in 67 cents",
+  "source": "rss",
+  "source_url": "https://mvakde.github.io/blog/44-on-arc-1",
+  "published_at": "2026-09-01T12:15:18-05:00",
+  "collected_at": "2026-09-02T12:18:55+00:00",
+  "summary": "文章介绍了一种以极低成本（67美分）在ARC-AGI-1基准上达到44%准确率的方法，可能涉及高效的推理或多模态策略，展示了在预算受限条件下的性能突破。",
+  "score": 7.0,
+  "tags": [
+    "arc-agi",
+    "efficient-ai",
+    "benchmark",
+    "low-cost",
+    "reasoning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
