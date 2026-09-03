@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "85839b0d6555a009",
+  "title": "lucidrains/vit-pytorch",
+  "source": "github",
+  "source_url": "https://github.com/lucidrains/vit-pytorch",
+  "published_at": "2026-09-03T12:06:11+00:00",
+  "collected_at": "2026-09-03T12:16:55+00:00",
+  "summary": "这是一个用PyTorch实现Vision Transformer的高星项目，仅用单一Transformer编码器即可在图像分类任务中达到最先进水平，代码清晰且易用。",
+  "score": 10.0,
+  "tags": [
+    "vision-transformer",
+    "pytorch",
+    "image-classification",
+    "deep-learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "be520ad51470e30b",
+  "title": "Dwarf Fortress' creator says the industry's in shambles over AI",
+  "source": "rss",
+  "source_url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis",
+  "published_at": "2026-09-01T15:53:42+00:00",
+  "collected_at": "2026-09-03T12:17:00+00:00",
+  "summary": "《矮人要塞》创作者批评游戏行业因AI和裁员潮陷入混乱，认为老板们正逐渐变得精神失常。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "game-industry",
+    "layoffs",
+    "dwarf-fortress",
+    "ceos"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

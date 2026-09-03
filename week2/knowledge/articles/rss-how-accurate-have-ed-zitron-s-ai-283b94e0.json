@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "283b94e044de8052",
+  "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+  "source": "rss",
+  "source_url": "https://danluu.com/zitron",
+  "published_at": "2026-09-01T18:35:15+00:00",
+  "collected_at": "2026-09-03T12:17:00+00:00",
+  "summary": "Dan Luu 分析了 Ed Zitron 对 AI 行业的悲观预测，指出其部分预测正确但多数过于夸大，准确度参差不齐。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "skeptic",
+    "predictions",
+    "accuracy"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

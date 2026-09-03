@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4311f5b57dd88121",
+  "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+  "source": "rss",
+  "source_url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations",
+  "published_at": "2026-09-02T13:59:59+00:00",
+  "collected_at": "2026-09-03T12:17:00+00:00",
+  "summary": "报告揭露三个网站生成超过21万张AI最佳软件推荐页面，Perplexity等AI搜索引擎广泛引用这些机器制造的低质内容，导致用户被误导并破坏信息可信度。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "seo",
+    "spam",
+    "misinformation",
+    "search"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

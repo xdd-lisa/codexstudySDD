@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "6af63aca0d3f9e50",
+  "title": "Researchers use AI to ‘democratize’ 3D printing of crucial metal alloy",
+  "source": "rss",
+  "source_url": "https://news.wsu.edu/news/2026/08/24/researchers-use-ai-to-democratize-3d-printing-of-crucial-metal-alloy",
+  "published_at": "2026-09-01T17:42:12-05:00",
+  "collected_at": "2026-09-03T12:17:01+00:00",
+  "summary": "研究人员利用人工智能降低关键金属合金3D打印门槛，推动该技术普及。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "3d-printing",
+    "metal-alloy",
+    "research"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

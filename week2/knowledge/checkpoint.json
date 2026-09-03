@@ -236,8 +236,13 @@
     "github:elevenlabs/elevenlabs-js": "d8d52739295b62da",
     "github:lfai/lfai-landscape": "9eb25ed0979b8173",
     "rss:c6540e7492309fc8": "3b394461a74f9876",
-    "rss:824abb4df0324c26": "7e470a706467e654"
+    "rss:824abb4df0324c26": "7e470a706467e654",
+    "github:lucidrains/vit-pytorch": "85839b0d6555a009",
+    "rss:1c499920dfd0a98c": "4311f5b57dd88121",
+    "rss:b803ece7f8a2cd48": "283b94e044de8052",
+    "rss:edd14aa0ec8c505f": "be520ad51470e30b",
+    "rss:0fe6f8540525dceb": "6af63aca0d3f9e50"
   },
   "failed": {},
-  "updated_at": "2026-09-02T12:19:04+00:00"
+  "updated_at": "2026-09-03T12:17:12+00:00"
 }
