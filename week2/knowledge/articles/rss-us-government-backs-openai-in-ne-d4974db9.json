@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "d4974db97ec962ef",
+  "title": "US government backs OpenAI in New York Times copyright case",
+  "source": "rss",
+  "source_url": "https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02",
+  "published_at": "2026-09-02T20:13:14-05:00",
+  "collected_at": "2026-09-04T12:17:35+00:00",
+  "summary": "美国政府在《纽约时报》诉OpenAI版权案中表态支持OpenAI，认为其合理使用可能成立，案件结果将影响AI训练与版权法平衡。",
+  "score": 7.0,
+  "tags": [
+    "copyright",
+    "openai",
+    "us-government",
+    "nytimes",
+    "ai-legal"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

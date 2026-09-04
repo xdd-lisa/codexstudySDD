@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "3e443943ee03543f",
+  "title": "ccfddl/ccf-deadlines",
+  "source": "github",
+  "source_url": "https://github.com/ccfddl/ccf-deadlines",
+  "published_at": "2026-09-04T12:12:01+00:00",
+  "collected_at": "2026-09-04T12:17:33+00:00",
+  "summary": "开源项目，用于跟踪全球学术会议截止日期，支持网站、Python CLI和微信小程序，主要用Rust开发，星标超9千。",
+  "score": 8.0,
+  "tags": [
+    "conference",
+    "deadlines",
+    "rust",
+    "developer-tools",
+    "tracking"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

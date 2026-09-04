@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "5e8d258a0f8644bf",
+  "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+  "source": "rss",
+  "source_url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+  "published_at": "2026-09-03T01:11:22+00:00",
+  "collected_at": "2026-09-04T12:17:34+00:00",
+  "summary": "韩国围棋高手申真谞在让两子的情况下击败AI KataGo，引发对人机差距及AI弱点的新讨论。",
+  "score": 7.0,
+  "tags": [
+    "go",
+    "ai",
+    "katago",
+    "handicap",
+    "human-vs-ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

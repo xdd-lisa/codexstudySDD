@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "34e62ff4c7cf4def",
+  "title": "The Hugging Face incident and the road ahead",
+  "source": "rss",
+  "source_url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+  "published_at": "2026-09-04T06:06:19-05:00",
+  "collected_at": "2026-09-04T12:17:35+00:00",
+  "summary": "文章探讨了Hugging Face事件的影响及未来发展路径，分析AI安全与开源社区的挑战。",
+  "score": 6.5,
+  "tags": [
+    "ai-safety",
+    "hugging-face",
+    "openai",
+    "incident"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
