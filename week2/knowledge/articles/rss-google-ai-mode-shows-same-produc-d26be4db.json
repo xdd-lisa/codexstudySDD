@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "d26be4db00d9b182",
+  "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+  "source": "rss",
+  "source_url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
+  "published_at": "2026-09-04T11:59:15+00:00",
+  "collected_at": "2026-09-05T11:25:07+00:00",
+  "summary": "一项测试发现Google AI模式推荐的商品比传统搜索平均贵21.6%，引发对AI搜索公正性的担忧。",
+  "score": 7.0,
+  "tags": [
+    "google",
+    "ai",
+    "search",
+    "pricing",
+    "ecommerce"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

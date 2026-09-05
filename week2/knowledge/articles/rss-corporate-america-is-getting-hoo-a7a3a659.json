@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "a7a3a65935fc9627",
+  "title": "Corporate America is getting hooked on open-source AI",
+  "source": "rss",
+  "source_url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+  "published_at": "2026-09-04T15:33:45+00:00",
+  "collected_at": "2026-09-05T11:25:07+00:00",
+  "summary": "《纽约时报》报道指出，美国企业正日益依赖开源人工智能模型，以降低成本并避免供应商锁定。此举反映了科技行业权力分散的趋势，但也引发了对安全性和可持续性的担忧。",
+  "score": 8.0,
+  "tags": [
+    "open-source",
+    "ai",
+    "corporate",
+    "adoption"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

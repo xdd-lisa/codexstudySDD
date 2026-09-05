@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "7dd6001a5a2597ad",
+  "title": "taranis-ai/taranis-ai",
+  "source": "github",
+  "source_url": "https://github.com/taranis-ai/taranis-ai",
+  "published_at": "2026-09-05T10:59:57+00:00",
+  "collected_at": "2026-09-05T11:24:59+00:00",
+  "summary": "Taranis AI是一个先进的开源情报工具，利用人工智能增强信息收集与态势分析，主要使用Python开发，在GitHub上获得1208颗星。",
+  "score": 8.0,
+  "tags": [
+    "osint",
+    "ai",
+    "python",
+    "intelligence",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

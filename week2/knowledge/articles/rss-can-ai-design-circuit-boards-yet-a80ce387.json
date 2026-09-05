@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a80ce387a37e291c",
+  "title": "Can AI design circuit boards yet?",
+  "source": "rss",
+  "source_url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet",
+  "published_at": "2026-09-04T19:48:29+00:00",
+  "collected_at": "2026-09-05T11:25:07+00:00",
+  "summary": "探讨当前人工智能在电路板设计领域的能力边界与挑战，分析其可行性。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "eda",
+    "pcb",
+    "circuit-design",
+    "automation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

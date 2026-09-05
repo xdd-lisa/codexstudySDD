@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "03a46ad4501ef320",
+  "title": "yoshoku/rumale",
+  "source": "github",
+  "source_url": "https://github.com/yoshoku/rumale",
+  "published_at": "2026-09-05T10:54:44+00:00",
+  "collected_at": "2026-09-05T11:24:59+00:00",
+  "summary": "Rumale是一款用Ruby实现的机器学习库，提供多种算法与工具，在GitHub上获得917颗星。",
+  "score": 8.0,
+  "tags": [
+    "ruby",
+    "machine-learning",
+    "library"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

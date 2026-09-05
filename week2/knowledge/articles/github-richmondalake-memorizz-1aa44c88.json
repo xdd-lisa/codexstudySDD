@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "1aa44c88ba399414",
+  "title": "RichmondAlake/memorizz",
+  "source": "github",
+  "source_url": "https://github.com/RichmondAlake/memorizz",
+  "published_at": "2026-09-05T11:01:52+00:00",
+  "collected_at": "2026-09-05T11:24:59+00:00",
+  "summary": "MemoRizz是用于AI应用的内存层Python库，集成多种数据库与存储方案，提供高效的数据管理工具类和方法。",
+  "score": 8.0,
+  "tags": [
+    "python",
+    "memory",
+    "ai",
+    "database",
+    "utilities"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b44f069d39d1aff6",
+  "title": "Using machine learning on my Guitar Hero Controller",
+  "source": "rss",
+  "source_url": "https://p0ly.com/ml_strummer.html",
+  "published_at": "2026-09-04T10:23:26-05:00",
+  "collected_at": "2026-09-05T11:25:07+00:00",
+  "summary": "作者利用机器学习技术处理吉他英雄控制器，进行有趣的项目实验。",
+  "score": 7.0,
+  "tags": [
+    "machine-learning",
+    "games",
+    "music",
+    "electronics",
+    "fun"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
