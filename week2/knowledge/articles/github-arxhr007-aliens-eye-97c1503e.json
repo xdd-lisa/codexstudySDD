@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "97c1503ec49a58b6",
+  "title": "arxhr007/Aliens_eye",
+  "source": "github",
+  "source_url": "https://github.com/arxhr007/Aliens_eye",
+  "published_at": "2026-09-06T11:39:48+00:00",
+  "collected_at": "2026-09-06T11:46:25+00:00",
+  "summary": "Aliens_eye是一个利用人工智能搜索超过840个社交媒体账号的开源工具，主要使用Python开发，在GitHub上获得了约3836颗星。",
+  "score": 8.0,
+  "tags": [
+    "osint",
+    "social-media",
+    "ai",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

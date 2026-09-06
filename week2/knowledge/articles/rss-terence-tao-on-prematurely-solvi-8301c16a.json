@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "8301c16ab4485302",
+  "title": "Terence Tao on “prematurely solving [a maths] problem by purely AI-powered methods”",
+  "source": "rss",
+  "source_url": "https://mathstodon.xyz/@tao/117207856734787448",
+  "published_at": "2026-09-06T02:45:24-05:00",
+  "collected_at": "2026-09-06T11:46:34+00:00",
+  "summary": "引用陶哲轩观点：用纯AI方法过早解决数学问题有风险，对编程同理，需谨慎。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "mathematics",
+    "programming"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

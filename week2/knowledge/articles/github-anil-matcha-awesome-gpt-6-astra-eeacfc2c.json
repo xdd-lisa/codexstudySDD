@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "eeacfc2cb2a1a056",
+  "title": "Anil-matcha/awesome-gpt-6-astra",
+  "source": "github",
+  "source_url": "https://github.com/Anil-matcha/awesome-gpt-6-astra",
+  "published_at": "2026-09-06T11:39:21+00:00",
+  "collected_at": "2026-09-06T11:46:25+00:00",
+  "summary": "该仓库汇集了OpenAI GPT-6 Astra的实证用例、提示词、集成方案、评估方法及安全注意事项，为开发者提供全面参考。",
+  "score": 8.0,
+  "tags": [
+    "openai",
+    "gpt-6",
+    "awesome-list",
+    "safety",
+    "resources"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
