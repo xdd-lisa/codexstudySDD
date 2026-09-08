@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "8ae45b1246a92ba1",
+  "title": "xlang-ai/OSWorld-V2",
+  "source": "github",
+  "source_url": "https://github.com/xlang-ai/OSWorld-V2",
+  "published_at": "2026-09-08T11:40:41+00:00",
+  "collected_at": "2026-09-08T12:18:56+00:00",
+  "summary": "OSWorld 2.0是一个用于评估计算机使用代理在长时程真实世界任务中表现的基准测试平台。",
+  "score": 8.0,
+  "tags": [
+    "benchmark",
+    "computer-use",
+    "agents",
+    "evaluation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
