@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "d30ab09b3c362794",
+  "title": "Serving LLMs on Tenstorrent Hardware: Inside the vLLM TT Plugin",
+  "source": "rss",
+  "source_url": "https://vllm.ai/blog/2026-09-07-vllm-tt-plugin",
+  "published_at": "2026-09-09T03:18:10-05:00",
+  "collected_at": "2026-09-09T12:30:40+00:00",
+  "summary": "介绍vLLM针对Tenstorrent硬件的插件实现，探讨其架构与推理优化。",
+  "score": 7.0,
+  "tags": [
+    "vllm",
+    "tenstorrent",
+    "llm-inference",
+    "hardware"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

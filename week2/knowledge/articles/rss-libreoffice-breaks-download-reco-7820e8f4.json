@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "7820e8f414dc3361",
+  "title": "LibreOffice breaks download records after declaring it has no AI features",
+  "source": "rss",
+  "source_url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai",
+  "published_at": "2026-09-08T14:05:57+00:00",
+  "collected_at": "2026-09-09T12:30:40+00:00",
+  "summary": "LibreOffice 在声明不包含 AI 功能后下载量创纪录，表明用户更看重隐私和简洁而非人工智能。",
+  "score": 8.0,
+  "tags": [
+    "libreoffice",
+    "ai",
+    "privacy",
+    "software",
+    "downloads"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

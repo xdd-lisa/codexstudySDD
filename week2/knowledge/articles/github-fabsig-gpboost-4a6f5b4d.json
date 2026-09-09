@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4a6f5b4d6b8ab963",
+  "title": "fabsig/GPBoost",
+  "source": "github",
+  "source_url": "https://github.com/fabsig/GPBoost",
+  "published_at": "2026-09-09T12:26:53+00:00",
+  "collected_at": "2026-09-09T12:30:38+00:00",
+  "summary": "GPBoost是结合梯度提升树、高斯过程与混合效应模型的C++库，适用于处理分组依赖和非独立数据，提供灵活的统计与机器学习集成方法。",
+  "score": 7.0,
+  "tags": [
+    "gaussian-processes",
+    "tree-boosting",
+    "mixed-models",
+    "cpp",
+    "machine-learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

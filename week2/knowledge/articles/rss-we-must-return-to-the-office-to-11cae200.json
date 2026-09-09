@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "11cae200297a9940",
+  "title": "We Must Return to the Office to Use AI in Person",
+  "source": "rss",
+  "source_url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
+  "published_at": "2026-09-08T13:41:25+00:00",
+  "collected_at": "2026-09-09T12:30:40+00:00",
+  "summary": "讽刺企业以AI为由强制员工回到办公室，揭示背后控制欲与荒谬逻辑。",
+  "score": 8.0,
+  "tags": [
+    "satire",
+    "remote-work",
+    "ai",
+    "office-culture"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

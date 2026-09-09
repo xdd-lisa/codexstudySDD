@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "711af1fbdbef2017",
+  "title": "Tao: Open math problems being non-renewably mined by AI",
+  "source": "rss",
+  "source_url": "https://mathstodon.xyz/@tao/117237320796901560",
+  "published_at": "2026-09-08T21:00:52+00:00",
+  "collected_at": "2026-09-09T12:30:40+00:00",
+  "summary": "陶哲轩指出公开数学问题正被AI以不可再生方式快速消耗，引发对研究可持续性的讨论。",
+  "score": 8.0,
+  "tags": [
+    "mathematics",
+    "ai",
+    "research",
+    "terence-tao"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}

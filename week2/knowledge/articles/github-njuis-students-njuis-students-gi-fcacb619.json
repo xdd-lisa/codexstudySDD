@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "fcacb619ecbf0a42",
+  "title": "NJUIS-Students/NJUIS-Students.github.io",
+  "source": "github",
+  "source_url": "https://github.com/NJUIS-Students/NJUIS-Students.github.io",
+  "published_at": "2026-09-09T11:35:30+00:00",
+  "collected_at": "2026-09-09T12:30:38+00:00",
+  "summary": "南京大学智能科学与技术学院开源知识库，提供课程攻略与学习资源，助力学生高效学习。",
+  "score": 8.0,
+  "tags": [
+    "open-source",
+    "education",
+    "course-guides",
+    "nju",
+    "knowledge-base"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash"
+  }
+}
