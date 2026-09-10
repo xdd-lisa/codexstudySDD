@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "5a2b2b0a84018ddb",
+  "title": "Better AI code comment detector",
+  "source": "rss",
+  "source_url": "https://entropicthoughts.com/better-ai-comment-classifier",
+  "published_at": "2026-09-09T13:27:24-05:00",
+  "collected_at": "2026-09-10T12:24:14+00:00",
+  "summary": "文章介绍了一种更好的 AI 代码注释检测器，作者通过在 LLM 输出上训练逻辑回归来区分 AI 生成的代码注释，并提到使用了 AI 与 vibecoding 标签。",
+  "score": 6.0,
+  "tags": [
+    "ai",
+    "code-comments",
+    "logistic-regression",
+    "llm",
+    "detection"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

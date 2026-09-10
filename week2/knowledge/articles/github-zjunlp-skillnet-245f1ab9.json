@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "245f1ab947d75afd",
+  "title": "zjunlp/SkillNet",
+  "source": "github",
+  "source_url": "https://github.com/zjunlp/SkillNet",
+  "published_at": "2026-09-10T11:30:08+00:00",
+  "collected_at": "2026-09-10T12:24:12+00:00",
+  "summary": "zjunlp/SkillNet 是一个用 Python 实现的 AI 技能创建、评估与连接开源项目，获得约 1256 个 GitHub 星标，适合研究智能体技能组合与复用。",
+  "score": 7.5,
+  "tags": [
+    "ai",
+    "skills",
+    "python",
+    "agents",
+    "nlp"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

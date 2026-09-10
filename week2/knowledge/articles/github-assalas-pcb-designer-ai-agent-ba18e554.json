@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ba18e554432077d7",
+  "title": "assalas/pcb-designer-ai-agent",
+  "source": "github",
+  "source_url": "https://github.com/assalas/pcb-designer-ai-agent",
+  "published_at": "2026-09-10T12:22:33+00:00",
+  "collected_at": "2026-09-10T12:24:12+00:00",
+  "summary": "该项目是一个基于机器学习的AI驱动PCB设计自动化工具，支持元件布局、布线优化和信号完整性分析，并集成KiCad、Altium Designer和Eagle CAD，使用Python开发，GitHub获得115颗星。",
+  "score": 6.5,
+  "tags": [
+    "pcb-design",
+    "ai",
+    "eda",
+    "python",
+    "automation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

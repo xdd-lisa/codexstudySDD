@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "415f8f1af13b2f4b",
+  "title": "An alignment assessment of recent cybersecurity incidents",
+  "source": "rss",
+  "source_url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+  "published_at": "2026-09-09T15:54:41-05:00",
+  "collected_at": "2026-09-10T12:24:14+00:00",
+  "summary": "该条目仅提供 Lobste.rs 评论链接，缺少 Anthropic 文章的正文内容，无法评估近期网络安全事件与对齐问题的具体关系。",
+  "score": 3.0,
+  "tags": [
+    "cybersecurity",
+    "alignment",
+    "incidents",
+    "anthropic"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -267,8 +267,13 @@
     "rss:807c0c1ef479bc03": "080cedd90d470c4d",
     "rss:93fde6e87cb15969": "7820e8f414dc3361",
     "rss:cd9d1c5464dd4d30": "11cae200297a9940",
-    "rss:dbb4b942cf949870": "d30ab09b3c362794"
+    "rss:dbb4b942cf949870": "d30ab09b3c362794",
+    "github:assalas/pcb-designer-ai-agent": "ba18e554432077d7",
+    "github:zjunlp/skillnet": "245f1ab947d75afd",
+    "rss:5335d2f1063c3019": "415f8f1af13b2f4b",
+    "rss:e31d720cd169c201": "db8b741b4fc5a11f",
+    "rss:0154b056f3100b87": "5a2b2b0a84018ddb"
   },
   "failed": {},
-  "updated_at": "2026-09-09T12:30:56+00:00"
+  "updated_at": "2026-09-10T12:24:42+00:00"
 }

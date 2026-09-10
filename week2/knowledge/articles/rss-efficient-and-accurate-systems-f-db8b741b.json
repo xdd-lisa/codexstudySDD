@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "db8b741b4fc5a11f",
+  "title": "Efficient and accurate systems for querying unstructured data",
+  "source": "rss",
+  "source_url": "https://stacks.stanford.edu/file/fk030tb6783/thesis-augmented.pdf",
+  "published_at": "2026-09-09T15:38:35-05:00",
+  "collected_at": "2026-09-10T12:24:14+00:00",
+  "summary": "该论文针对非结构化数据查询中机器学习分析成本高、结果不可靠且技术门槛大的问题，提出利用可容忍近似与成本差异，通过廉价近似方法返回具有统计有效性保证的近似答案，支持选择、聚合和限制等查询，并显著降低查询成本。",
+  "score": 7.0,
+  "tags": [
+    "unstructured-data",
+    "machine-learning",
+    "approximate-query",
+    "data-systems",
+    "efficiency"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
