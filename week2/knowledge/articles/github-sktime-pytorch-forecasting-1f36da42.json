@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "1f36da4241f6bea9",
+  "title": "sktime/pytorch-forecasting",
+  "source": "github",
+  "source_url": "https://github.com/sktime/pytorch-forecasting",
+  "published_at": "2026-09-11T12:15:42+00:00",
+  "collected_at": "2026-09-11T12:22:44+00:00",
+  "summary": "基于 PyTorch 的时间序列预测库，使用 Python 开发，GitHub 获得约 4988 颗星，适合构建深度学习预测模型。",
+  "score": 8.5,
+  "tags": [
+    "pytorch",
+    "time-series",
+    "forecasting",
+    "python",
+    "deep-learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

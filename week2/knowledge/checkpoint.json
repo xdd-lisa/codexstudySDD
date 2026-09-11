@@ -272,8 +272,9 @@
     "github:zjunlp/skillnet": "245f1ab947d75afd",
     "rss:5335d2f1063c3019": "415f8f1af13b2f4b",
     "rss:e31d720cd169c201": "db8b741b4fc5a11f",
-    "rss:0154b056f3100b87": "5a2b2b0a84018ddb"
+    "rss:0154b056f3100b87": "5a2b2b0a84018ddb",
+    "github:sktime/pytorch-forecasting": "1f36da4241f6bea9"
   },
   "failed": {},
-  "updated_at": "2026-09-10T12:24:42+00:00"
+  "updated_at": "2026-09-11T12:22:50+00:00"
 }
