@@ -273,8 +273,11 @@
     "rss:5335d2f1063c3019": "415f8f1af13b2f4b",
     "rss:e31d720cd169c201": "db8b741b4fc5a11f",
     "rss:0154b056f3100b87": "5a2b2b0a84018ddb",
-    "github:sktime/pytorch-forecasting": "1f36da4241f6bea9"
+    "github:sktime/pytorch-forecasting": "1f36da4241f6bea9",
+    "github:caviraoss/longmemory": "4e34e907864db02a",
+    "github:viveknaskar/everything-ai-ml": "c523bc18cd8d98da",
+    "rss:884b3cf4397121ff": "cd4275fac97b5fd9"
   },
   "failed": {},
-  "updated_at": "2026-09-11T12:22:50+00:00"
+  "updated_at": "2026-09-12T11:44:47+00:00"
 }

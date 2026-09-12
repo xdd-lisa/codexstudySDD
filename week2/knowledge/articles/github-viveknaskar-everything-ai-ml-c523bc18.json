@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "c523bc18cd8d98da",
+  "title": "viveknaskar/everything-ai-ml",
+  "source": "github",
+  "source_url": "https://github.com/viveknaskar/everything-ai-ml",
+  "published_at": "2026-09-12T10:26:52+00:00",
+  "collected_at": "2026-09-12T11:44:24+00:00",
+  "summary": "该项目是一个面向生成式AI、机器学习、智能体、LLM、RAG、微调与MLOps等方向的学习资源合集，使用TypeScript，当前约449星，适合作为入门与进阶资料索引。",
+  "score": 7.5,
+  "tags": [
+    "ai",
+    "machine-learning",
+    "llm",
+    "resources",
+    "mlops"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

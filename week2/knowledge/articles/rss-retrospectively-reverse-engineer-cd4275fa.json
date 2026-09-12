@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "cd4275fac97b5fd9",
+  "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+  "source": "rss",
+  "source_url": "https://eiln.github.io/posts/ane.html",
+  "published_at": "2026-09-11T12:23:45-05:00",
+  "collected_at": "2026-09-12T11:44:32+00:00",
+  "summary": "本文回顾性地逆向工程苹果神经引擎，探讨其架构、指令集与开发工具，并分享相关发现与经验。",
+  "score": 8.0,
+  "tags": [
+    "apple",
+    "neural-engine",
+    "reverse-engineering",
+    "hardware"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

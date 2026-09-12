@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4e34e907864db02a",
+  "title": "CaviraOSS/LongMemory",
+  "source": "github",
+  "source_url": "https://github.com/CaviraOSS/LongMemory",
+  "published_at": "2026-09-12T11:02:34+00:00",
+  "collected_at": "2026-09-12T11:44:24+00:00",
+  "summary": "LongMemory 是一个面向 LLM 应用的本地持久化记忆存储项目，支持 Claude Desktop、GitHub Copilot、Codex 等工具，使用 TypeScript 开发，GitHub 星标约 4492。",
+  "score": 7.5,
+  "tags": [
+    "llm",
+    "memory",
+    "typescript",
+    "local-first",
+    "developer-tools"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
