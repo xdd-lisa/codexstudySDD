@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "3eff2219dd791777",
+  "title": "Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources",
+  "source": "github",
+  "source_url": "https://github.com/Carl-McBride-Ellis/Compendium-of-free-ML-reading-resources",
+  "published_at": "2026-09-13T11:40:11+00:00",
+  "collected_at": "2026-09-13T12:52:18+00:00",
+  "summary": "这是一个汇集免费机器学习阅读资源的GitHub仓库，拥有567颗星，适合学习者查找和参考相关资料。",
+  "score": 7.0,
+  "tags": [
+    "machine-learning",
+    "resources",
+    "awesome-list",
+    "education",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

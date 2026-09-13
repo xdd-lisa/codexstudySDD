@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "874a2fd905ea6c7b",
+  "title": "We Must Pace the Frontier",
+  "source": "rss",
+  "source_url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+  "published_at": "2026-09-12T09:35:49-05:00",
+  "collected_at": "2026-09-13T12:52:21+00:00",
+  "summary": "文章讨论前沿人工智能发展速度与安全治理，主张对最强大模型的研发进行审慎节奏控制，以降低潜在风险并推动负责任创新。",
+  "score": 7.0,
+  "tags": [
+    "ai-safety",
+    "ai-governance",
+    "frontier-ai",
+    "dario-amodei"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "90d04263fd8f7f54",
+  "title": "Everyone should slow down AI development except for me",
+  "source": "rss",
+  "source_url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me",
+  "published_at": "2026-09-12T19:53:30-05:00",
+  "collected_at": "2026-09-13T12:52:21+00:00",
+  "summary": "文章批评一种双重标准：呼吁别人放缓AI开发，却为自己保留加速空间，反映AI治理中的虚伪与利益冲突。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "policy",
+    "hypocrisy",
+    "technology"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

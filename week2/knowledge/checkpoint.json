@@ -276,8 +276,45 @@
     "github:sktime/pytorch-forecasting": "1f36da4241f6bea9",
     "github:caviraoss/longmemory": "4e34e907864db02a",
     "github:viveknaskar/everything-ai-ml": "c523bc18cd8d98da",
-    "rss:884b3cf4397121ff": "cd4275fac97b5fd9"
+    "rss:884b3cf4397121ff": "cd4275fac97b5fd9",
+    "github:pkalivas/radiate": "9358f3919077e5fd",
+    "github:carl-mcbride-ellis/compendium-of-free-ml-reading-resources": "3eff2219dd791777",
+    "rss:4869cd4bb3a2a1f3": "90d04263fd8f7f54",
+    "rss:6a1f29f1c9cdc2f9": "874a2fd905ea6c7b"
   },
-  "failed": {},
-  "updated_at": "2026-09-12T11:44:47+00:00"
+  "failed": {
+    "github:twinnydotdev/twinny": {
+      "stage": "process",
+      "external_id": "github:twinnydotdev/twinny",
+      "item": {
+        "external_id": "github:twinnydotdev/twinny",
+        "title": "twinnydotdev/twinny",
+        "source": "github",
+        "source_url": "https://github.com/twinnydotdev/twinny",
+        "published_at": "2026-09-13T12:50:07Z",
+        "collected_at": "2026-09-13T12:52:18+00:00",
+        "content": "The most no-nonsense, locally or API-hosted AI code completion plugin for Visual Studio Code - like GitHub Copilot but 100% free. Primary language: TypeScript. GitHub stars: 3638.",
+        "source_tags": [
+          "artificial-intelligence",
+          "code-chat",
+          "code-completion",
+          "code-generation",
+          "codellama",
+          "copilot",
+          "free",
+          "llama2",
+          "llamacpp",
+          "ollama",
+          "ollama-api",
+          "ollama-chat",
+          "private",
+          "symmetry",
+          "vscode-extension"
+        ]
+      },
+      "error": "LLM analysis for 'twinnydotdev/twinny' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
+      "attempts": 1
+    }
+  },
+  "updated_at": "2026-09-13T12:52:53+00:00"
 }

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "9358f3919077e5fd",
+  "title": "pkalivas/radiate",
+  "source": "github",
+  "source_url": "https://github.com/pkalivas/radiate",
+  "published_at": "2026-09-13T12:42:42+00:00",
+  "collected_at": "2026-09-13T12:52:18+00:00",
+  "summary": "Radiate 是一个用 Rust 编写的高效灵活进化引擎，支持人工进化和遗传编程等技术，目前在 GitHub 上获得约 255 颗星。",
+  "score": 7.5,
+  "tags": [
+    "rust",
+    "evolution-engine",
+    "genetic-programming",
+    "machine-learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
