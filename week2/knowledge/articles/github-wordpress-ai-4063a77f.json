@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4063a77f129ff6d8",
+  "title": "WordPress/ai",
+  "source": "github",
+  "source_url": "https://github.com/WordPress/ai",
+  "published_at": "2026-09-14T14:10:07+00:00",
+  "collected_at": "2026-09-14T14:27:51+00:00",
+  "summary": "WordPress 官方 AI 功能与实验仓库，提供用于测试 AI 能力的模块化 PHP 框架，目前获得约 339 个 GitHub 星标。",
+  "score": 7.5,
+  "tags": [
+    "wordpress",
+    "ai",
+    "php",
+    "framework",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

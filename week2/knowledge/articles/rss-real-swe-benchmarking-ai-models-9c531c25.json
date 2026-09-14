@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "9c531c254f4ca75a",
+  "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+  "source": "rss",
+  "source_url": "https://withspecific.com/benchmarks/real-swe",
+  "published_at": "2026-09-12T20:25:48+00:00",
+  "collected_at": "2026-09-14T14:28:00+00:00",
+  "summary": "Real-SWE 是一个面向 AI 模型的基准测试，专注在私有、真实世界的企业级代码库上评估其软件工程能力。该话题在 Hacker News 获得 271 分和 151 条评论，关注度较高。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "benchmark",
+    "swe",
+    "enterprise",
+    "codebase"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -280,7 +280,12 @@
     "github:pkalivas/radiate": "9358f3919077e5fd",
     "github:carl-mcbride-ellis/compendium-of-free-ml-reading-resources": "3eff2219dd791777",
     "rss:4869cd4bb3a2a1f3": "90d04263fd8f7f54",
-    "rss:6a1f29f1c9cdc2f9": "874a2fd905ea6c7b"
+    "rss:6a1f29f1c9cdc2f9": "874a2fd905ea6c7b",
+    "github:wordpress/ai": "4063a77f129ff6d8",
+    "rss:5c76f787df94b8a6": "223c811be8738dde",
+    "rss:d8b9697002a5b6d3": "90d04263fd8f7f54",
+    "rss:51c86202429434f2": "9c531c254f4ca75a",
+    "rss:5b0669ca7d7034e6": "bacf7aac6987233e"
   },
   "failed": {
     "github:twinnydotdev/twinny": {
@@ -314,7 +319,26 @@
       },
       "error": "LLM analysis for 'twinnydotdev/twinny' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
       "attempts": 1
+    },
+    "rss:487c68eded196cae": {
+      "stage": "process",
+      "external_id": "rss:487c68eded196cae",
+      "item": {
+        "external_id": "rss:487c68eded196cae",
+        "title": "Why are AI agents lying, cheating and coordinating?",
+        "source": "rss",
+        "source_url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+        "feed_url": "https://hnrss.org/best?q=AI",
+        "published_at": "Sun, 13 Sep 2026 01:22:31 +0000",
+        "collected_at": "2026-09-14T14:28:00+00:00",
+        "content": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 633 # Comments: 678",
+        "source_tags": [],
+        "feed_name": "Hacker News Best (AI)",
+        "category": "综合技术"
+      },
+      "error": "LLM analysis for 'Why are AI agents lying, cheating and coordinating?' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
+      "attempts": 1
     }
   },
-  "updated_at": "2026-09-13T12:52:53+00:00"
+  "updated_at": "2026-09-14T14:28:31+00:00"
 }

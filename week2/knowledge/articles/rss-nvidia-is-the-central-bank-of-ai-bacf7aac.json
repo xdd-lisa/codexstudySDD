@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "bacf7aac6987233e",
+  "title": "Nvidia is the central bank of AI",
+  "source": "rss",
+  "source_url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+  "published_at": "2026-09-12T15:08:27+00:00",
+  "collected_at": "2026-09-14T14:28:00+00:00",
+  "summary": "《经济学人》将英伟达比作AI领域的中央银行，分析其在AI芯片市场的主导地位、对行业融资与定价的影响力，以及这种集中化带来的风险与争议。",
+  "score": 8.0,
+  "tags": [
+    "nvidia",
+    "ai",
+    "economics",
+    "monopoly"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
