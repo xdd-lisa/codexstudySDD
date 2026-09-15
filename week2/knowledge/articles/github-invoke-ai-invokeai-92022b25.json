@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "92022b258211b4ce",
+  "title": "invoke-ai/InvokeAI",
+  "source": "github",
+  "source_url": "https://github.com/invoke-ai/InvokeAI",
+  "published_at": "2026-09-15T12:27:10+00:00",
+  "collected_at": "2026-09-15T12:55:19+00:00",
+  "summary": "InvokeAI 是面向 Stable Diffusion 的领先创意引擎，提供行业级 WebUI，支持专业艺术家与爱好者生成视觉媒体，并作为多个商业产品的基础；主要语言为 Python，GitHub 星标约 28222。",
+  "score": 9.0,
+  "tags": [
+    "stable-diffusion",
+    "generative-ai",
+    "webui",
+    "python",
+    "image-generation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

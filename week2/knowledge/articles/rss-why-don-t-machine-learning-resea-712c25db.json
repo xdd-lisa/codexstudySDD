@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "712c25db4c998bf9",
+  "title": "Why don’t machine learning research agents overfit?",
+  "source": "rss",
+  "source_url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+  "published_at": "2026-09-14T12:19:19-05:00",
+  "collected_at": "2026-09-15T12:55:26+00:00",
+  "summary": "文章探讨机器学习研究智能体为何不会像传统模型那样过拟合，可能涉及研究任务、评估方式与泛化机制等因素。",
+  "score": 7.0,
+  "tags": [
+    "machine-learning",
+    "research-agents",
+    "overfitting",
+    "amazon-science"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

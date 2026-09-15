@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "fa76dcd152a37ada",
+  "title": "daniel3303/Equibles",
+  "source": "github",
+  "source_url": "https://github.com/daniel3303/Equibles",
+  "published_at": "2026-09-15T12:26:32+00:00",
+  "collected_at": "2026-09-15T12:55:19+00:00",
+  "summary": "Equibles 是一个自托管、开源的金融数据 MCP 服务器，专为 AI 智能体设计，提供 SEC 文件、XBRL 财务数据、13F 持仓、内部人与国会议员交易、做空数据、FRED、CFTC/CBOE 以及每日股价等 64 个 MCP 工具，主要使用 C# 编写，GitHub 获得 231 颗星，其云服务还额外提供财报电话会议记录、实时行情、带希腊字母的期权链、业绩指引和选股器。",
+  "score": 7.5,
+  "tags": [
+    "mcp",
+    "financial-data",
+    "open-source",
+    "sec-filings",
+    "csharp"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

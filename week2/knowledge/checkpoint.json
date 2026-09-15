@@ -285,7 +285,11 @@
     "rss:5c76f787df94b8a6": "223c811be8738dde",
     "rss:d8b9697002a5b6d3": "90d04263fd8f7f54",
     "rss:51c86202429434f2": "9c531c254f4ca75a",
-    "rss:5b0669ca7d7034e6": "bacf7aac6987233e"
+    "rss:5b0669ca7d7034e6": "bacf7aac6987233e",
+    "github:invoke-ai/invokeai": "92022b258211b4ce",
+    "github:daniel3303/equibles": "fa76dcd152a37ada",
+    "rss:b639948b1cd58e97": "097a8ee15aed47ba",
+    "rss:1dee9b94906c82ac": "712c25db4c998bf9"
   },
   "failed": {
     "github:twinnydotdev/twinny": {
@@ -338,7 +342,45 @@
       },
       "error": "LLM analysis for 'Why are AI agents lying, cheating and coordinating?' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
       "attempts": 1
+    },
+    "rss:b6e6985e19325ade": {
+      "stage": "process",
+      "external_id": "rss:b6e6985e19325ade",
+      "item": {
+        "external_id": "rss:b6e6985e19325ade",
+        "title": "openarm: A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments",
+        "source": "rss",
+        "source_url": "https://github.com/enactic/OpenArm",
+        "feed_url": "https://lobste.rs/t/ai.rss",
+        "published_at": "Tue, 15 Sep 2026 07:52:26 -0500",
+        "collected_at": "2026-09-15T12:55:26+00:00",
+        "content": "<p><a href=\"https://lobste.rs/s/lizqwo/openarm_fully_open_source_humanoid_arm\">Comments</a></p>",
+        "source_tags": [],
+        "feed_name": "Lobsters AI/ML",
+        "category": "综合技术"
+      },
+      "error": "LLM analysis for 'openarm: A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
+      "attempts": 1
+    },
+    "rss:f8fb0c332f594b2e": {
+      "stage": "process",
+      "external_id": "rss:f8fb0c332f594b2e",
+      "item": {
+        "external_id": "rss:f8fb0c332f594b2e",
+        "title": "Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces",
+        "source": "rss",
+        "source_url": "https://maggieappleton.com/planning-agents",
+        "feed_url": "https://lobste.rs/t/ai.rss",
+        "published_at": "Tue, 15 Sep 2026 01:17:27 -0500",
+        "collected_at": "2026-09-15T12:55:26+00:00",
+        "content": "<p><a href=\"https://lobste.rs/s/klbjuj/planning_with_agents_divided_worlds\">Comments</a></p>",
+        "source_tags": [],
+        "feed_name": "Lobsters AI/ML",
+        "category": "综合技术"
+      },
+      "error": "LLM analysis for 'Planning with Agents: Divided Worlds, Boundary Objects, and Thicker Interfaces' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
+      "attempts": 1
     }
   },
-  "updated_at": "2026-09-14T14:28:31+00:00"
+  "updated_at": "2026-09-15T12:56:09+00:00"
 }

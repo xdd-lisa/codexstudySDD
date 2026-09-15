@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "097a8ee15aed47ba",
+  "title": "A Letter from a Machine Learning Engineer",
+  "source": "rss",
+  "source_url": "https://nemin.hu/llm-letter/index.html",
+  "published_at": "2026-09-14T12:58:22-05:00",
+  "collected_at": "2026-09-15T12:55:26+00:00",
+  "summary": "该条目标题为《一封来自机器学习工程师的信》，但页面内容仅包含一个指向 Lobste.rs 评论页面的链接，缺少正文或任何实质性信息，无法据此评估文章观点或技术深度。",
+  "score": 2.0,
+  "tags": [
+    "machine-learning",
+    "blog-post",
+    "link-only"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
