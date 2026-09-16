@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a2e5ed30f828effe",
+  "title": "Model Training Incidents are Negligence",
+  "source": "rss",
+  "source_url": "https://taggart-tech.com/lying",
+  "published_at": "2026-09-15T08:55:32-05:00",
+  "collected_at": "2026-09-16T12:52:12+00:00",
+  "summary": "文章标题为《模型训练事故属于过失》，主张AI模型训练过程中发生的各类事故应被认定为疏忽与过失行为，而非单纯的技术意外。内容来源为lobste.rs的评论讨论帖，正文仅提供评论入口链接，没有可读取的实质性论述。",
+  "score": 4.0,
+  "tags": [
+    "ai",
+    "machine-learning",
+    "negligence",
+    "model-training",
+    "lobsters"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "760c1924c32c89f9",
+  "title": "VersusControl/devops-ai-guidelines",
+  "source": "github",
+  "source_url": "https://github.com/VersusControl/devops-ai-guidelines",
+  "published_at": "2026-09-16T12:05:57+00:00",
+  "collected_at": "2026-09-16T12:52:04+00:00",
+  "summary": "该项目面向 DevOps 从业者，提供 AI 入门学习路径、实用技巧与企业级实践指南，涵盖从基础到落地的完整内容，帮助团队在运维与交付流程中引入人工智能能力。",
+  "score": 7.5,
+  "tags": [
+    "devops",
+    "ai",
+    "guidelines",
+    "learning-path",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
