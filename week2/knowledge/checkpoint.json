@@ -294,7 +294,8 @@
     "github:versuscontrol/devops-ai-guidelines": "760c1924c32c89f9",
     "rss:85af40ff0fbaba8c": "a2e5ed30f828effe",
     "rss:b6e6985e19325ade": "6d03ca72033aebf2",
-    "rss:f8fb0c332f594b2e": "40579207c6f62d36"
+    "rss:f8fb0c332f594b2e": "40579207c6f62d36",
+    "github:ljungang/awesome-video-reasoning-landscape": "49fec0db6c7016b1"
   },
   "failed": {
     "github:twinnydotdev/twinny": {
@@ -387,5 +388,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-09-16T12:52:46+00:00"
+  "updated_at": "2026-09-17T12:48:40+00:00"
 }

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "49fec0db6c7016b1",
+  "title": "LJungang/Awesome-Video-Reasoning-Landscape",
+  "source": "github",
+  "source_url": "https://github.com/LJungang/Awesome-Video-Reasoning-Landscape",
+  "published_at": "2026-09-17T12:37:48+00:00",
+  "collected_at": "2026-09-17T12:48:35+00:00",
+  "summary": "该项目是视频推理领域的开源综述仓库，整理最新任务、范式与基准，使用 Python，目前约 191 星，适合作为研究入门与资料索引。",
+  "score": 7.5,
+  "tags": [
+    "video-reasoning",
+    "survey",
+    "awesome-list",
+    "benchmarks",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
