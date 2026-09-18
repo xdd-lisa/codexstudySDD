@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4125856a50a0d8cc",
+  "title": "twinnydotdev/twinny",
+  "source": "github",
+  "source_url": "https://github.com/twinnydotdev/twinny",
+  "published_at": "2026-09-18T12:05:33+00:00",
+  "collected_at": "2026-09-18T12:23:44+00:00",
+  "summary": "Twinny 是一款面向 Visual Studio Code 的免费 AI 代码补全插件，支持本地或 API 托管模型，可作为 GitHub Copilot 的开源替代方案，使用 TypeScript 开发，GitHub 星标约 3650。",
+  "score": 8.0,
+  "tags": [
+    "vscode",
+    "ai-code-completion",
+    "typescript",
+    "open-source",
+    "copilot-alternative"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -295,41 +295,10 @@
     "rss:85af40ff0fbaba8c": "a2e5ed30f828effe",
     "rss:b6e6985e19325ade": "6d03ca72033aebf2",
     "rss:f8fb0c332f594b2e": "40579207c6f62d36",
-    "github:ljungang/awesome-video-reasoning-landscape": "49fec0db6c7016b1"
+    "github:ljungang/awesome-video-reasoning-landscape": "49fec0db6c7016b1",
+    "github:twinnydotdev/twinny": "4125856a50a0d8cc"
   },
   "failed": {
-    "github:twinnydotdev/twinny": {
-      "stage": "process",
-      "external_id": "github:twinnydotdev/twinny",
-      "item": {
-        "external_id": "github:twinnydotdev/twinny",
-        "title": "twinnydotdev/twinny",
-        "source": "github",
-        "source_url": "https://github.com/twinnydotdev/twinny",
-        "published_at": "2026-09-13T12:50:07Z",
-        "collected_at": "2026-09-13T12:52:18+00:00",
-        "content": "The most no-nonsense, locally or API-hosted AI code completion plugin for Visual Studio Code - like GitHub Copilot but 100% free. Primary language: TypeScript. GitHub stars: 3638.",
-        "source_tags": [
-          "artificial-intelligence",
-          "code-chat",
-          "code-completion",
-          "code-generation",
-          "codellama",
-          "copilot",
-          "free",
-          "llama2",
-          "llamacpp",
-          "ollama",
-          "ollama-api",
-          "ollama-chat",
-          "private",
-          "symmetry",
-          "vscode-extension"
-        ]
-      },
-      "error": "LLM analysis for 'twinnydotdev/twinny' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
-      "attempts": 1
-    },
     "rss:487c68eded196cae": {
       "stage": "process",
       "external_id": "rss:487c68eded196cae",
@@ -388,5 +357,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-09-17T12:48:40+00:00"
+  "updated_at": "2026-09-18T12:23:50+00:00"
 }
