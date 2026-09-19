@@ -296,7 +296,9 @@
     "rss:b6e6985e19325ade": "6d03ca72033aebf2",
     "rss:f8fb0c332f594b2e": "40579207c6f62d36",
     "github:ljungang/awesome-video-reasoning-landscape": "49fec0db6c7016b1",
-    "github:twinnydotdev/twinny": "4125856a50a0d8cc"
+    "github:twinnydotdev/twinny": "4125856a50a0d8cc",
+    "rss:aaa23732c0390d3c": "3e1dd1f8d6770e09",
+    "rss:d6810b1ba792599d": "2581be1fe72f349e"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -355,7 +357,44 @@
       },
       "error": "LLM analysis for 'Interpreting Pangram' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
       "attempts": 1
+    },
+    "github:polyaxon/polyaxon": {
+      "stage": "process",
+      "external_id": "github:polyaxon/polyaxon",
+      "item": {
+        "external_id": "github:polyaxon/polyaxon",
+        "title": "polyaxon/polyaxon",
+        "source": "github",
+        "source_url": "https://github.com/polyaxon/polyaxon",
+        "published_at": "2026-09-19T11:08:44Z",
+        "collected_at": "2026-09-19T12:05:22+00:00",
+        "content": "AI Infra / AI Orchestration / AI Control Plane Primary language: MDX. GitHub stars: 3731.",
+        "source_tags": [
+          "agents",
+          "artificial-intelligence",
+          "data-science",
+          "deep-learning",
+          "harness",
+          "hyperparameter-optimization",
+          "jupyter",
+          "jupyterlab",
+          "k8s",
+          "keras",
+          "kubernetes",
+          "machine-learning",
+          "mlops",
+          "notebook",
+          "pipelines",
+          "pytorch",
+          "reinforcement-learning",
+          "sandbox",
+          "tensorflow",
+          "workflow"
+        ]
+      },
+      "error": "LLM analysis for 'polyaxon/polyaxon' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 117: Unterminated string starting at)",
+      "attempts": 1
     }
   },
-  "updated_at": "2026-09-18T12:23:50+00:00"
+  "updated_at": "2026-09-19T12:05:43+00:00"
 }

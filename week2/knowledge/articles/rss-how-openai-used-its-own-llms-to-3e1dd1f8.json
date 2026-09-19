@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "3e1dd1f8d6770e09",
+  "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+  "source": "rss",
+  "source_url": "https://spectrum.ieee.org/llms-for-chip-design",
+  "published_at": "2026-09-19T04:52:30-05:00",
+  "collected_at": "2026-09-19T12:05:24+00:00",
+  "summary": "文章介绍OpenAI如何利用自家大型语言模型来辅助设计其Jalapeño芯片，展示了LLM在芯片设计流程中的应用与潜力。",
+  "score": 7.0,
+  "tags": [
+    "openai",
+    "llm",
+    "chip-design",
+    "hardware",
+    "ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "2581be1fe72f349e",
+  "title": "The Age of Wonders and Terrors",
+  "source": "rss",
+  "source_url": "https://scottaaronson.blog/?p=10062",
+  "published_at": "2026-09-18T16:12:17-05:00",
+  "collected_at": "2026-09-19T12:05:24+00:00",
+  "summary": "该条目仅有标题、博客链接和评论链接，缺少正文内容，无法据此判断文章观点与价值。",
+  "score": 2.0,
+  "tags": [
+    "blog",
+    "scott-aaronson",
+    "rss",
+    "link-only"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
