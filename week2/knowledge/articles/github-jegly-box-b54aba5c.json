@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b54aba5c6de3c777",
+  "title": "jegly/Box",
+  "source": "github",
+  "source_url": "https://github.com/jegly/Box",
+  "published_at": "2026-09-20T12:10:41+00:00",
+  "collected_at": "2026-09-20T12:39:42+00:00",
+  "summary": "该项目是 Android 平台上先进的完全离线客户端 AI 套件，使用 Kotlin 开发，目前获得 844 个 GitHub 星标。",
+  "score": 7.5,
+  "tags": [
+    "android",
+    "kotlin",
+    "offline-ai",
+    "client-side",
+    "ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

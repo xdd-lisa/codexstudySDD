@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "41c070cae9d0b3e5",
+  "title": "kicking the tires on jev (TypeSafe's System One model) with 2048",
+  "source": "rss",
+  "source_url": "https://gist.github.com/cablehead/bdf9ad946ceb26d9008976e49c9bfbbb",
+  "published_at": "2026-09-19T07:38:11-05:00",
+  "collected_at": "2026-09-20T12:39:44+00:00",
+  "summary": "该链接指向一个 GitHub Gist，作者尝试用 2048 游戏来试用 TypeSafe 提出的 Jev（System One）模块模型。页面正文仅提供 Lobsters 评论入口，缺少更多说明，实际信息量有限，需要跳转查看代码与讨论。",
+  "score": 5.0,
+  "tags": [
+    "java",
+    "jev",
+    "modules",
+    "2048",
+    "gist"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

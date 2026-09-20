@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b03e856411c0697d",
+  "title": "jingyaogong/minimind",
+  "source": "github",
+  "source_url": "https://github.com/jingyaogong/minimind",
+  "published_at": "2026-09-20T12:37:50+00:00",
+  "collected_at": "2026-09-20T12:39:42+00:00",
+  "summary": "该项目提供从零训练 6400 万参数大语言模型的完整方案，约 2 小时即可完成，使用 Python 实现，GitHub 星标数超过 6 万。",
+  "score": 9.0,
+  "tags": [
+    "llm",
+    "python",
+    "training",
+    "from-scratch",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
