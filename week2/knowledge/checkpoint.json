@@ -301,7 +301,13 @@
     "rss:d6810b1ba792599d": "2581be1fe72f349e",
     "github:jingyaogong/minimind": "b03e856411c0697d",
     "github:jegly/box": "b54aba5c6de3c777",
-    "rss:29cad665048c9a82": "41c070cae9d0b3e5"
+    "rss:29cad665048c9a82": "41c070cae9d0b3e5",
+    "github:openfoodfacts/openfoodfacts-ai": "48db83e860b6f264",
+    "rss:dd13e0aace0f2809": "8891b9d189cbff07",
+    "rss:b1714e61233b2aec": "6d84fb98ba3b24a1",
+    "rss:d00f323f17ea7356": "8100bdd4d0e18a71",
+    "rss:6e2f68447c825977": "957dad81750da0dc",
+    "rss:ee7dfba3c2df4aec": "477308257951754b"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -397,45 +403,7 @@
       },
       "error": "LLM analysis for 'polyaxon/polyaxon' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 117: Unterminated string starting at)",
       "attempts": 1
-    },
-    "rss:6e2f68447c825977": {
-      "stage": "process",
-      "external_id": "rss:6e2f68447c825977",
-      "item": {
-        "external_id": "rss:6e2f68447c825977",
-        "title": "Laya — 33ms Multilingual System 1 Decision Engine",
-        "source": "rss",
-        "source_url": "https://laya.convaiinnovations.com/",
-        "feed_url": "https://lobste.rs/t/ai.rss",
-        "published_at": "Sat, 19 Sep 2026 11:31:05 -0500",
-        "collected_at": "2026-09-20T12:39:44+00:00",
-        "content": "<p><a href=\"https://lobste.rs/s/ojukrw/laya_33ms_multilingual_system_1_decision\">Comments</a></p>",
-        "source_tags": [],
-        "feed_name": "Lobsters AI/ML",
-        "category": "综合技术"
-      },
-      "error": "LLM analysis for 'Laya — 33ms Multilingual System 1 Decision Engine' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 12: Unterminated string starting at)",
-      "attempts": 1
-    },
-    "rss:ee7dfba3c2df4aec": {
-      "stage": "process",
-      "external_id": "rss:ee7dfba3c2df4aec",
-      "item": {
-        "external_id": "rss:ee7dfba3c2df4aec",
-        "title": "I Built Non-Autoregressive Decision Models a Year Ago. Then a Frontier Lab Called It a \"Breakthrough\"",
-        "source": "rss",
-        "source_url": "https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me",
-        "feed_url": "https://lobste.rs/t/ai.rss",
-        "published_at": "Sat, 19 Sep 2026 08:41:57 -0500",
-        "collected_at": "2026-09-20T12:39:44+00:00",
-        "content": "<p><a href=\"https://lobste.rs/s/kaqsr5/i_built_non_autoregressive_decision\">Comments</a></p>",
-        "source_tags": [],
-        "feed_name": "Lobsters AI/ML",
-        "category": "综合技术"
-      },
-      "error": "LLM analysis for 'I Built Non-Autoregressive Decision Models a Year Ago. Then a Frontier Lab Called It a \"Breakthrough\"' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
-      "attempts": 1
     }
   },
-  "updated_at": "2026-09-20T12:40:16+00:00"
+  "updated_at": "2026-09-21T14:35:39+00:00"
 }

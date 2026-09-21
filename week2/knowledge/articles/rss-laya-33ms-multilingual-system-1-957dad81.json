@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "957dad81750da0dc",
+  "title": "Laya — 33ms Multilingual System 1 Decision Engine",
+  "source": "rss",
+  "source_url": "https://laya.convaiinnovations.com/",
+  "published_at": "2026-09-19T11:31:05-05:00",
+  "collected_at": "2026-09-21T14:35:05+00:00",
+  "summary": "该条目仅提供 Laya 项目主页与 Lobste.rs 评论链接，宣称是 33 毫秒级多语言 System 1 决策引擎，但内容中缺乏技术细节、基准数据与可验证信息，因此难以评估其实际价值与可靠性。",
+  "score": 3.0,
+  "tags": [
+    "laya",
+    "decision-engine",
+    "multilingual",
+    "low-latency"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "8100bdd4d0e18a71",
+  "title": "ChatGPT now knows what you do on other websites via ad collector",
+  "source": "rss",
+  "source_url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+  "published_at": "2026-09-20T12:43:10-05:00",
+  "collected_at": "2026-09-21T14:35:05+00:00",
+  "summary": "文章标题指出 ChatGPT 可能通过广告数据收集器了解用户在其他网站上的活动，引发隐私与数据追踪担忧；但正文内容非常有限，仅有评论链接，缺少具体细节与证据。",
+  "score": 4.0,
+  "tags": [
+    "privacy",
+    "chatgpt",
+    "tracking",
+    "advertising"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

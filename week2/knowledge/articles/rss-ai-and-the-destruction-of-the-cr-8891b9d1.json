@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "8891b9d189cbff07",
+  "title": "AI and the Destruction of the Creative Commons",
+  "source": "rss",
+  "source_url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons",
+  "published_at": "2026-09-20T10:07:51+00:00",
+  "collected_at": "2026-09-21T14:35:05+00:00",
+  "summary": "文章探讨人工智能对知识共享与创意共享生态的破坏，认为大规模抓取与生成内容会侵蚀公共创作资源；该链接在Hacker News获232点、275条评论，讨论热度较高。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "creative-commons",
+    "copyright",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

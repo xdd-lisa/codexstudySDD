@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "48db83e860b6f264",
+  "title": "openfoodfacts/openfoodfacts-ai",
+  "source": "github",
+  "source_url": "https://github.com/openfoodfacts/openfoodfacts-ai",
+  "published_at": "2026-09-21T14:35:01+00:00",
+  "collected_at": "2026-09-21T14:35:02+00:00",
+  "summary": "Open Food Facts 的 AI 项目跟踪仓库，汇总其 Python 相关人工智能项目，适合了解该组织在食品数据与 AI 方面的进展。",
+  "score": 6.5,
+  "tags": [
+    "openfoodfacts",
+    "ai",
+    "python",
+    "food-data",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

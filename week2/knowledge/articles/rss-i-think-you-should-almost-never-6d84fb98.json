@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "6d84fb98ba3b24a1",
+  "title": "I think you should almost never use AI to write",
+  "source": "rss",
+  "source_url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+  "published_at": "2026-09-19T16:35:24+00:00",
+  "collected_at": "2026-09-21T14:35:05+00:00",
+  "summary": "该文主张人们几乎不应使用 AI 来写作，认为写作本身是思考与表达的核心过程，交由 AI 代笔会削弱个人能力与真诚表达。文章在 Hacker News 上引发热议，获得 355 分和 168 条评论，讨论涉及 AI 辅助写作的边界与利弊。",
+  "score": 6.5,
+  "tags": [
+    "ai-writing",
+    "writing",
+    "llm",
+    "opinion"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

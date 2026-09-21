@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "477308257951754b",
+  "title": "I Built Non-Autoregressive Decision Models a Year Ago. Then a Frontier Lab Called It a \"Breakthrough\"",
+  "source": "rss",
+  "source_url": "https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me",
+  "published_at": "2026-09-19T08:41:57-05:00",
+  "collected_at": "2026-09-21T14:35:05+00:00",
+  "summary": "这篇文章仅有指向 Lobste.rs 评论页的链接，标题声称作者一年前构建了非自回归决策模型，后来某前沿实验室将其称为“突破”，但正文内容缺失，无法评估具体方法与结论。",
+  "score": 1.5,
+  "tags": [
+    "non-autoregressive",
+    "decision-models",
+    "machine-learning",
+    "link-only"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
