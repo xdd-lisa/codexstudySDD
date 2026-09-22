@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "680b009e86cf9817",
+  "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+  "source": "rss",
+  "source_url": "https://linear.app/now/ci-bottleneck-reworked",
+  "published_at": "2026-09-21T19:23:33+00:00",
+  "collected_at": "2026-09-22T12:52:17+00:00",
+  "summary": "Linear 工程团队撰文分享：随着 AI 编程工具大幅提升代码产出速度，持续集成（CI）流程反而成为开发瓶颈，因此他们重新设计了 CI 架构以跟上节奏。该帖在 Hacker News 上获得 266 分、311 条评论，引发开发者对 AI 时代研发基础设施压力的广泛讨论。",
+  "score": 7.0,
+  "tags": [
+    "ci",
+    "ai-coding",
+    "developer-tools",
+    "devops",
+    "linear"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

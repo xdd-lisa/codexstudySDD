@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "3b3507d83f0e90dc",
+  "title": "A Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data",
+  "source": "rss",
+  "source_url": "https://github.com/volotat/mini-AGI",
+  "published_at": "2026-09-21T12:22:31-05:00",
+  "collected_at": "2026-09-22T12:52:17+00:00",
+  "summary": "该项目展示了一个从零开始训练的持续学习模型，可在8GB显存的笔记本上以批大小为1的数据流运行，目标是探索小型AGI。",
+  "score": 7.0,
+  "tags": [
+    "continual-learning",
+    "low-vram",
+    "github",
+    "machine-learning",
+    "mini-agi"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
