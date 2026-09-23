@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "e21b1a157dc5cfe4",
+  "title": "DeepSeek Elastic Compute (DSec): Sandbox Infrastructure for Effective Agentic Training at Scale",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2609.22978",
+  "published_at": "2026-09-22T19:51:04-05:00",
+  "collected_at": "2026-09-23T13:03:17+00:00",
+  "summary": "该文章介绍 DeepSeek 推出的弹性计算沙箱基础设施 DSec，旨在为大规模智能体训练提供安全、可扩展且高效的执行环境，支持隔离、资源调度与训练加速。",
+  "score": 7.0,
+  "tags": [
+    "deepseek",
+    "agentic-training",
+    "sandbox",
+    "infrastructure",
+    "scalability"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

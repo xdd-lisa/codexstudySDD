@@ -309,7 +309,10 @@
     "rss:6e2f68447c825977": "957dad81750da0dc",
     "rss:ee7dfba3c2df4aec": "477308257951754b",
     "rss:99630c0e5018e4bc": "680b009e86cf9817",
-    "rss:9a611699062b51e5": "3b3507d83f0e90dc"
+    "rss:9a611699062b51e5": "3b3507d83f0e90dc",
+    "github:kong/kong": "56bce697cfa3de99",
+    "github:esa/pagmo2": "10a4ee6935e76b60",
+    "rss:e65d762ff5e7fa9c": "e21b1a157dc5cfe4"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -407,5 +410,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-09-22T12:52:22+00:00"
+  "updated_at": "2026-09-23T13:03:29+00:00"
 }

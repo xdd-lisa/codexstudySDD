@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "10a4ee6935e76b60",
+  "title": "esa/pagmo2",
+  "source": "github",
+  "source_url": "https://github.com/esa/pagmo2",
+  "published_at": "2026-09-23T12:43:19+00:00",
+  "collected_at": "2026-09-23T13:03:16+00:00",
+  "summary": "Pagmo2 是一个用于并行执行全局与局部优化任务的 C++ 平台，基于异步广义岛屿模型，适合科学计算与工程优化。",
+  "score": 8.0,
+  "tags": [
+    "c-plus-plus",
+    "optimization",
+    "parallel-computing",
+    "island-model",
+    "scientific-computing"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
