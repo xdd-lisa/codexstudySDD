@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8aeffc16ffd6f5ba",
+  "title": "vinhnx/VTCode",
+  "source": "github",
+  "source_url": "https://github.com/vinhnx/VTCode",
+  "published_at": "2026-09-24T12:42:59+00:00",
+  "collected_at": "2026-09-24T12:56:17+00:00",
+  "summary": "VTCode 是一个开源 Rust 终端编码代理，主打在终端中辅助编程，当前获得约 855 个 GitHub 星标。",
+  "score": 7.3,
+  "tags": [
+    "rust",
+    "terminal",
+    "coding-agent",
+    "open-source",
+    "cli"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

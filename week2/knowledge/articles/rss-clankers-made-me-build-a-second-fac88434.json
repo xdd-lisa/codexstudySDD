@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "fac88434d398b88c",
+  "title": "Clankers Made Me Build a Second Brain",
+  "source": "rss",
+  "source_url": "https://jadarma.github.io/blog/posts/2026/09/clankers-made-me-build-a-second-brain",
+  "published_at": "2026-09-24T06:34:43-05:00",
+  "collected_at": "2026-09-24T12:56:22+00:00",
+  "summary": "文章讲述作者因使用AI工具（Clankers）受到启发，动手搭建个人第二大脑知识管理系统的经历，并可能涉及工具选择、工作流与思考。",
+  "score": 5.0,
+  "tags": [
+    "second-brain",
+    "knowledge-management",
+    "ai-tools"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

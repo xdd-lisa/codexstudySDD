@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b8d9f4ec6f63154c",
+  "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+  "source": "rss",
+  "source_url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai",
+  "published_at": "2026-09-24T08:23:03+00:00",
+  "collected_at": "2026-09-24T12:56:22+00:00",
+  "summary": "Reddit帖子称Meta下架了一段批评Meta AI眼镜的视频，该视频曾在Meta拍摄；Hacker News上该链接获292分和135条评论，引发对内容审查与平台权力的讨论。",
+  "score": 6.0,
+  "tags": [
+    "meta",
+    "censorship",
+    "ai-glasses",
+    "content-moderation",
+    "reddit"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -312,7 +312,13 @@
     "rss:9a611699062b51e5": "3b3507d83f0e90dc",
     "github:kong/kong": "56bce697cfa3de99",
     "github:esa/pagmo2": "10a4ee6935e76b60",
-    "rss:e65d762ff5e7fa9c": "e21b1a157dc5cfe4"
+    "rss:e65d762ff5e7fa9c": "e21b1a157dc5cfe4",
+    "github:vinhnx/vtcode": "8aeffc16ffd6f5ba",
+    "rss:ed519b9a541146c3": "b8d9f4ec6f63154c",
+    "rss:e6a2c4ea129e43a2": "a124b92a0e6487f6",
+    "rss:3c33b284c4a749c8": "918d27378b4c836e",
+    "rss:ebc569e36ead0ff7": "1157619f73b07089",
+    "rss:88b5513160e1b14c": "fac88434d398b88c"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -410,5 +416,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-09-23T13:03:29+00:00"
+  "updated_at": "2026-09-24T12:56:50+00:00"
 }

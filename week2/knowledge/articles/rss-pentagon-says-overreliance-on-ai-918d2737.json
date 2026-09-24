@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "918d27378b4c836e",
+  "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+  "source": "rss",
+  "source_url": "https://www.bloomberg.com/graphics/2026-iran-school-attack",
+  "published_at": "2026-09-22T19:03:38+00:00",
+  "collected_at": "2026-09-24T12:56:22+00:00",
+  "summary": "彭博社报道称五角大楼表示过度依赖人工智能导致对伊朗一所学校的导弹袭击，此事在 Hacker News 上引发高度关注和大量讨论，涉及军事 AI 风险、问责与伦理问题。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "military",
+    "iran",
+    "ethics"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

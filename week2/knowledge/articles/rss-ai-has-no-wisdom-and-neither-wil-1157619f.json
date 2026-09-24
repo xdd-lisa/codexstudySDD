@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "1157619f73b07089",
+  "title": "AI Has No Wisdom and Neither Will You",
+  "source": "rss",
+  "source_url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you",
+  "published_at": "2026-09-22T12:11:09+00:00",
+  "collected_at": "2026-09-24T12:56:22+00:00",
+  "summary": "文章标题探讨人工智能并不具备智慧，并进一步指出人类若不加以反思也可能同样无法获得真正的智慧。该文在 Hacker News 上引发广泛讨论，获得 383 分和 543 条评论。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "wisdom",
+    "philosophy",
+    "technology"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "a124b92a0e6487f6",
+  "title": "Feds Target AI Critics as \"Foreign Agents\"",
+  "source": "rss",
+  "source_url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+  "published_at": "2026-09-24T00:41:31+00:00",
+  "collected_at": "2026-09-24T12:56:22+00:00",
+  "summary": "文章讨论美国联邦机构将批评人工智能的人士视为“外国代理人”进行针对，引发对言论自由、科技政策审查与政治打压的担忧，并在 Hacker News 上获得 312 分和 322 条评论。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "surveillance",
+    "free-speech",
+    "policy"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
