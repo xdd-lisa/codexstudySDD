@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "6ee798815cdcc570",
+  "title": "tinyhumansai/tinyagents",
+  "source": "github",
+  "source_url": "https://github.com/tinyhumansai/tinyagents",
+  "published_at": "2026-09-25T13:02:09+00:00",
+  "collected_at": "2026-09-25T13:03:00+00:00",
+  "summary": "这是一个用 Rust 编写的轻量级、供应商中立的 AI 代理运行框架，GitHub 上约有 102 颗星，适合希望跨模型提供商构建代理应用的开发者参考与使用。",
+  "score": 7.0,
+  "tags": [
+    "rust",
+    "agent",
+    "llm",
+    "framework",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

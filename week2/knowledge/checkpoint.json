@@ -318,7 +318,11 @@
     "rss:e6a2c4ea129e43a2": "a124b92a0e6487f6",
     "rss:3c33b284c4a749c8": "918d27378b4c836e",
     "rss:ebc569e36ead0ff7": "1157619f73b07089",
-    "rss:88b5513160e1b14c": "fac88434d398b88c"
+    "rss:88b5513160e1b14c": "fac88434d398b88c",
+    "github:tinyhumansai/tinyagents": "6ee798815cdcc570",
+    "rss:647b8cb563eec9c8": "e5a8f0f458eaba58",
+    "rss:332acfe64445f81b": "aefc181709ea32c5",
+    "rss:b3c4239278acc91a": "66fab4504ac61b0c"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -416,5 +420,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-09-24T12:56:50+00:00"
+  "updated_at": "2026-09-25T13:03:26+00:00"
 }

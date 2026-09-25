@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "aefc181709ea32c5",
+  "title": "Goodbye Google",
+  "source": "rss",
+  "source_url": "https://robert.ocallahan.org/2026/09/goodbye-google.html",
+  "published_at": "2026-09-25T00:51:12-05:00",
+  "collected_at": "2026-09-25T13:03:06+00:00",
+  "summary": "这篇文章标题为《Goodbye Google》，但提供的正文内容仅包含一个指向 Lobsters 评论区的链接，没有任何实质性论述或细节，因此无法据此了解作者离开谷歌的具体原因、背景与观点。",
+  "score": 2.0,
+  "tags": [
+    "google",
+    "blog",
+    "link"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

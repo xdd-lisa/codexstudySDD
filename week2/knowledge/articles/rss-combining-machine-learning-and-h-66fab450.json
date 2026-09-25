@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "66fab4504ac61b0c",
+  "title": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
+  "source": "rss",
+  "source_url": "https://machinelearning.apple.com/research/homomorphic-encryption",
+  "published_at": "2026-09-24T08:27:42-05:00",
+  "collected_at": "2026-09-25T13:03:06+00:00",
+  "summary": "苹果研究文章探讨在苹果生态系统中结合机器学习与同态加密，旨在实现隐私保护下的模型推理与数据处理。",
+  "score": 7.0,
+  "tags": [
+    "apple",
+    "machine-learning",
+    "homomorphic-encryption",
+    "privacy",
+    "research"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
