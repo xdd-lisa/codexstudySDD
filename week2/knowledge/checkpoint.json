@@ -322,7 +322,9 @@
     "github:tinyhumansai/tinyagents": "6ee798815cdcc570",
     "rss:647b8cb563eec9c8": "e5a8f0f458eaba58",
     "rss:332acfe64445f81b": "aefc181709ea32c5",
-    "rss:b3c4239278acc91a": "66fab4504ac61b0c"
+    "rss:b3c4239278acc91a": "66fab4504ac61b0c",
+    "github:synalinks/synalinks-skills": "faf25c070690b8e2",
+    "github:google-deepmind/lab2d": "ea9c797081e11bff"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -420,5 +422,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-09-25T13:03:26+00:00"
+  "updated_at": "2026-09-26T12:30:51+00:00"
 }
