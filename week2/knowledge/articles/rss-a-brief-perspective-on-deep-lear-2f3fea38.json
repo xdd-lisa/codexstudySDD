@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "2f3fea387257298a",
+  "title": "A Brief Perspective on Deep Learning Using Common Lisp",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=Yo4eqoRC1o0",
+  "published_at": "2026-09-26T12:34:14-05:00",
+  "collected_at": "2026-09-27T13:21:24+00:00",
+  "summary": "该视频从 Common Lisp 视角简要介绍深度学习，可能讨论用 Lisp 实现或实验神经网络，并附有 Lobste.rs 评论链接。",
+  "score": 5.0,
+  "tags": [
+    "common-lisp",
+    "deep-learning",
+    "neural-networks",
+    "video"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

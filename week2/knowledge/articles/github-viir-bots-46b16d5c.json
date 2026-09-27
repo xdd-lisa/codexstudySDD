@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "46b16d5c90f70aeb",
+  "title": "Viir/bots",
+  "source": "github",
+  "source_url": "https://github.com/Viir/bots",
+  "published_at": "2026-09-27T13:01:36+00:00",
+  "collected_at": "2026-09-27T13:21:22+00:00",
+  "summary": "Viir/bots 是一个用 Elm 编写的开源项目，旨在让 AI 自动玩视频游戏，GitHub 上获得约 220 颗星。",
+  "score": 6.5,
+  "tags": [
+    "elm",
+    "game-ai",
+    "bots",
+    "automation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
