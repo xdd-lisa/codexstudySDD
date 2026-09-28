@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "976b38dbaa651b5f",
+  "title": "GPU Glossary",
+  "source": "rss",
+  "source_url": "https://modal.com/gpu-glossary",
+  "published_at": "2026-09-28T06:43:38-05:00",
+  "collected_at": "2026-09-28T16:07:26+00:00",
+  "summary": "Modal 发布的 GPU 术语表，汇总并解释 GPU 相关概念与术语，适合开发者查阅和快速理解硬件知识。",
+  "score": 7.0,
+  "tags": [
+    "gpu",
+    "glossary",
+    "hardware",
+    "modal",
+    "reference"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -326,7 +326,10 @@
     "github:synalinks/synalinks-skills": "faf25c070690b8e2",
     "github:google-deepmind/lab2d": "ea9c797081e11bff",
     "github:viir/bots": "46b16d5c90f70aeb",
-    "rss:0d7192ec602b6898": "2f3fea387257298a"
+    "rss:0d7192ec602b6898": "2f3fea387257298a",
+    "github:seriousoldman/simulator-controller": "af82a78a2703c57f",
+    "rss:474e6df75982a3d5": "6fc9692e4557b48b",
+    "rss:a14535f8b126f580": "976b38dbaa651b5f"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -424,5 +427,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-09-27T13:21:31+00:00"
+  "updated_at": "2026-09-28T16:07:33+00:00"
 }

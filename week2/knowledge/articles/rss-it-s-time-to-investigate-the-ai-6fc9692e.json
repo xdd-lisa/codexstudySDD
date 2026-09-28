@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "6fc9692e4557b48b",
+  "title": "It’s Time to Investigate the AI Labs",
+  "source": "rss",
+  "source_url": "https://calnewport.com/its-time-to-investigate-the-ai-labs",
+  "published_at": "2026-09-28T08:56:41-05:00",
+  "collected_at": "2026-09-28T16:07:26+00:00",
+  "summary": "卡尔·纽波特在文章中主张，鉴于AI实验室日益增长的影响力与潜在风险，现在应当对它们展开独立调查，并推动更严格的问责与监管。",
+  "score": 7.0,
+  "tags": [
+    "ai-labs",
+    "accountability",
+    "regulation",
+    "technology",
+    "cal-newport"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

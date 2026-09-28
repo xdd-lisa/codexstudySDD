@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "af82a78a2703c57f",
+  "title": "SeriousOldMan/Simulator-Controller",
+  "source": "github",
+  "source_url": "https://github.com/SeriousOldMan/Simulator-Controller",
+  "published_at": "2026-09-28T15:10:09+00:00",
+  "collected_at": "2026-09-28T16:07:18+00:00",
+  "summary": "该项目为模拟赛车提供基于 GPT 的虚拟 AI 维修区团队，使用 AutoHotkey 开发，旨在通过最新 GPT 技术提升赛道体验，目前获得约 444 颗星。",
+  "score": 7.5,
+  "tags": [
+    "sim-racing",
+    "gpt",
+    "autohotkey",
+    "ai-assistant",
+    "pit-crew"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
