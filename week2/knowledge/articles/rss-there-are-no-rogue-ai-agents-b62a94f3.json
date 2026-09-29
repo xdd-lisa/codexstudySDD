@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "b62a94f3911c0d7f",
+  "title": "There are no \"rogue\" AI agents",
+  "source": "rss",
+  "source_url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+  "published_at": "2026-09-27T16:19:46+00:00",
+  "collected_at": "2026-09-29T14:23:25+00:00",
+  "summary": "文章主张不存在所谓“失控”的AI代理，认为相关风险多源于人类设计、部署与治理缺陷，而非AI自主作恶；HN讨论有391点、268条评论，争议集中在责任归属与安全叙事。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "agents",
+    "ethics",
+    "governance"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

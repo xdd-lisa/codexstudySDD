@@ -329,7 +329,15 @@
     "rss:0d7192ec602b6898": "2f3fea387257298a",
     "github:seriousoldman/simulator-controller": "af82a78a2703c57f",
     "rss:474e6df75982a3d5": "6fc9692e4557b48b",
-    "rss:a14535f8b126f580": "976b38dbaa651b5f"
+    "rss:a14535f8b126f580": "976b38dbaa651b5f",
+    "github:zjunlp/datamind": "6352cc4958fe989e",
+    "github:lucidrains/denoising-diffusion-pytorch": "a964efb05dbe6aa4",
+    "github:autowarefoundation/vision_pilot": "070efdbb09cd3000",
+    "rss:15d9a2fe5f20331b": "54b60c2eb49b307d",
+    "rss:31be55ab901abbe6": "6fc9692e4557b48b",
+    "rss:7df5ccd74da81d03": "4cb1d581d00f140e",
+    "rss:5b6ae04a292e0562": "3348dfa624948886",
+    "rss:9a8e98ad30e3126c": "b62a94f3911c0d7f"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -427,5 +435,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-09-28T16:07:33+00:00"
+  "updated_at": "2026-09-29T14:23:56+00:00"
 }

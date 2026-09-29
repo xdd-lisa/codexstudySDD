@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "070efdbb09cd3000",
+  "title": "autowarefoundation/vision_pilot",
+  "source": "github",
+  "source_url": "https://github.com/autowarefoundation/vision_pilot",
+  "published_at": "2026-09-29T13:59:26+00:00",
+  "collected_at": "2026-09-29T14:23:24+00:00",
+  "summary": "Autoware 基金会推出的免费开源 L2 级 ADAS 技术栈，采用端到端 AI 技术，主要使用 C++ 开发，GitHub 获得约 902 颗星。",
+  "score": 7.5,
+  "tags": [
+    "autonomous-driving",
+    "adas",
+    "open-source",
+    "cpp",
+    "end-to-end-ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

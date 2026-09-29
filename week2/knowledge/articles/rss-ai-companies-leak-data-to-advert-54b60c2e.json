@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "54b60c2eb49b307d",
+  "title": "AI companies leak data to advertisers [pdf]",
+  "source": "rss",
+  "source_url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+  "published_at": "2026-09-29T09:03:41+00:00",
+  "collected_at": "2026-09-29T14:23:25+00:00",
+  "summary": "该 PDF 文章讨论 AI 公司可能将用户数据泄露给广告商，并借助追踪器收集提示词等敏感信息；该话题在 Hacker News 上引发热议，获得 267 分和 82 条评论。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "privacy",
+    "advertising",
+    "tracking",
+    "data-leak"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

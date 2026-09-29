@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4cb1d581d00f140e",
+  "title": "The problem is not AI code, but not knowing about system architecture or intent",
+  "source": "rss",
+  "source_url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore",
+  "published_at": "2026-09-28T16:11:42+00:00",
+  "collected_at": "2026-09-29T14:23:25+00:00",
+  "summary": "文章认为真正的问题不在于 AI 生成的代码本身，而在于团队逐渐失去对系统架构、设计意图和整体依赖关系的理解，导致维护与协作困难。该内容在 Hacker News 获得 371 分和 235 条评论，讨论热度较高。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "software-architecture",
+    "intent",
+    "maintainability",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

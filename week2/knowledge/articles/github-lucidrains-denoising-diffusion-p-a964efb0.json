@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a964efb05dbe6aa4",
+  "title": "lucidrains/denoising-diffusion-pytorch",
+  "source": "github",
+  "source_url": "https://github.com/lucidrains/denoising-diffusion-pytorch",
+  "published_at": "2026-09-29T14:13:26+00:00",
+  "collected_at": "2026-09-29T14:23:24+00:00",
+  "summary": "lucidrains 的 Denoising Diffusion PyTorch 是 DDPM 的经典开源实现，代码简洁、可读性强，拥有约 10700 个 GitHub 星标，适合研究与复现扩散模型，但作为教学/研究库，生产部署需额外工程化。",
+  "score": 9.0,
+  "tags": [
+    "diffusion-models",
+    "pytorch",
+    "ddpm",
+    "generative-models",
+    "deep-learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
