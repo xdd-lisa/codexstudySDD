@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "dfc6c72c98344daa",
+  "title": "Text-to-meowdio models",
+  "source": "rss",
+  "source_url": "https://www.kmjn.org/notes/text_to_meowdio_models.html",
+  "published_at": "2026-09-29T11:51:35-05:00",
+  "collected_at": "2026-09-30T14:17:36+00:00",
+  "summary": "这是一篇发布在 kmjn.org 上的简短笔记，标题为“Text-to-meowdio models”，讨论将文本转换为猫叫声的音频生成模型，页面正文内容很少，仅提供了一个指向 Lobste.rs 评论讨论区的链接。",
+  "score": 3.0,
+  "tags": [
+    "text-to-audio",
+    "audio-generation",
+    "machine-learning",
+    "blog-note",
+    "lobsters"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
