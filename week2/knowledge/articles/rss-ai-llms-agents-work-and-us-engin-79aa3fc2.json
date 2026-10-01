@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "79aa3fc242d9315e",
+  "title": "AI: LLMs, Agents, Work, and Us - Engineers. Personal Thoughts",
+  "source": "rss",
+  "source_url": "https://setevoy.substack.com/p/ai-llms-agents-work-and-us-engineers",
+  "published_at": "2026-10-01T08:43:06-05:00",
+  "collected_at": "2026-10-01T14:51:23+00:00",
+  "summary": "作者从 DevOps 工程师的视角，分享了对 vibecoding、AI 智能体以及神经网络在日常工作中应用的看法，并探讨了这些技术对工程师个人职业发展的影响。",
+  "score": 6.5,
+  "tags": [
+    "ai",
+    "llm",
+    "agents",
+    "devops"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

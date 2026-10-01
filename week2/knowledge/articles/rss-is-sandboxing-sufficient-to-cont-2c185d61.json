@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "2c185d617251f33c",
+  "title": "Is sandboxing sufficient to contain rogue agents?",
+  "source": "rss",
+  "source_url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents",
+  "published_at": "2026-10-01T07:16:51-05:00",
+  "collected_at": "2026-10-01T14:51:23+00:00",
+  "summary": "文章标题探讨沙箱是否足以遏制失控的智能体，但当前仅提供评论链接，缺少正文内容，无法深入评估其论证与结论。",
+  "score": 5.0,
+  "tags": [
+    "ai-agents",
+    "sandboxing",
+    "security",
+    "containment"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

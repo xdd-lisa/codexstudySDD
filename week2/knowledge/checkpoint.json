@@ -338,7 +338,13 @@
     "rss:7df5ccd74da81d03": "4cb1d581d00f140e",
     "rss:5b6ae04a292e0562": "3348dfa624948886",
     "rss:9a8e98ad30e3126c": "b62a94f3911c0d7f",
-    "rss:fc557029e916feb1": "dfc6c72c98344daa"
+    "rss:fc557029e916feb1": "dfc6c72c98344daa",
+    "github:axera-tech/ax-samples": "9e2ccdbe3bf17e88",
+    "github:r0f1/datascience": "36d2c3b44be9d56a",
+    "rss:3a78795933e37970": "a340387d281d0de8",
+    "rss:eabee9e2ae6c4446": "f44c9c06a50a6fe6",
+    "rss:3cba8879c960ab35": "79aa3fc242d9315e",
+    "rss:2f3a7983cb825193": "2c185d617251f33c"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -436,5 +442,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-09-30T14:17:43+00:00"
+  "updated_at": "2026-10-01T14:51:41+00:00"
 }

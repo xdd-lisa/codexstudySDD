@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "9e2ccdbe3bf17e88",
+  "title": "AXERA-TECH/ax-samples",
+  "source": "github",
+  "source_url": "https://github.com/AXERA-TECH/ax-samples",
+  "published_at": "2026-10-01T14:30:03+00:00",
+  "collected_at": "2026-10-01T14:51:23+00:00",
+  "summary": "AXERA-TECH 的 AX 系列 AI SoC 示例代码仓库，面向计算机视觉应用，主要使用 CMake 构建，GitHub 获约 304 星。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "computer-vision",
+    "embedded",
+    "cmake",
+    "samples"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

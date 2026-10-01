@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "f44c9c06a50a6fe6",
+  "title": "DraftKings is using AI to behaviorally target chronic gamblers",
+  "source": "rss",
+  "source_url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+  "published_at": "2026-09-29T16:30:48+00:00",
+  "collected_at": "2026-10-01T14:51:23+00:00",
+  "summary": "EFF 报道称 DraftKings 利用人工智能对长期赌徒进行行为定向广告，可能加剧成瘾与伤害，并引发对隐私、算法操纵和监管的担忧。",
+  "score": 8.5,
+  "tags": [
+    "ai",
+    "gambling",
+    "behavioral-advertising",
+    "privacy",
+    "regulation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

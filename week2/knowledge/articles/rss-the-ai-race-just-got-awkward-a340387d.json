@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "a340387d281d0de8",
+  "title": "The AI Race Just Got Awkward",
+  "source": "rss",
+  "source_url": "https://insufferable.dev/posts/the-ai-race-just-got-awkward",
+  "published_at": "2026-09-30T15:50:11+00:00",
+  "collected_at": "2026-10-01T14:51:23+00:00",
+  "summary": "该文章题为《AI 竞赛刚刚变得尴尬》，发布于 insufferable.dev 并经 RSS 抓取，在 Hacker News 上获得 395 分、440 条评论，但所给内容仅有链接与元数据，缺少正文细节，难以对其论点与论证质量作出深入评价。",
+  "score": 5.0,
+  "tags": [
+    "ai",
+    "hacker-news",
+    "rss"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
