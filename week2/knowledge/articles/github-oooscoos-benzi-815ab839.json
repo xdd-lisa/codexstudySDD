@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "815ab839b4709bf3",
+  "title": "oooscoos/Benzi",
+  "source": "github",
+  "source_url": "https://github.com/oooscoos/Benzi",
+  "published_at": "2026-10-03T12:38:42+00:00",
+  "collected_at": "2026-10-03T12:47:00+00:00",
+  "summary": "Benzi 是一个编译器驱动的编码代理，先将代码库编译为可查询的调用、数据流、控制流与类继承映射，再据此读取、解释、运行、修改并验证代码；它还附带运行时追踪器以补充静态分析无法确定的信息，并且该编译器可作为 MCP 服务器使用，项目主语言为 Python。",
+  "score": 6.5,
+  "tags": [
+    "python",
+    "coding-agent",
+    "compiler",
+    "static-analysis",
+    "mcp"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

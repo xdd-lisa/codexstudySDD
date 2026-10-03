@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "47dd063bd53032a2",
+  "title": "bee-san/Ciphey",
+  "source": "github",
+  "source_url": "https://github.com/bee-san/Ciphey",
+  "published_at": "2026-10-03T12:45:20+00:00",
+  "collected_at": "2026-10-03T12:47:00+00:00",
+  "summary": "Ciphey 是一个使用 Rust 编写的自动化解密与解码工具，可在不知道密钥或密码的情况下尝试破解加密、识别编码并破解哈希，已获约 2.16 万星标。",
+  "score": 8.7,
+  "tags": [
+    "rust",
+    "cryptography",
+    "decryption",
+    "hash-cracking",
+    "security"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "0b0fbb2014698572",
+  "title": "SyntheticAutonomicMind/SAM",
+  "source": "github",
+  "source_url": "https://github.com/SyntheticAutonomicMind/SAM",
+  "published_at": "2026-10-03T12:28:15+00:00",
+  "collected_at": "2026-10-03T12:47:00+00:00",
+  "summary": "SyntheticAutonomicMind/SAM 是一个用 Swift 编写的开源 AI 助手项目，主打让每个人都能使用，目前在 GitHub 上获得约 130 颗星。",
+  "score": 6.0,
+  "tags": [
+    "ai-assistant",
+    "swift",
+    "github",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

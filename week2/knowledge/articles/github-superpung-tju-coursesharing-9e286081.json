@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "9e286081c643ecf8",
+  "title": "superpung/TJU-CourseSharing",
+  "source": "github",
+  "source_url": "https://github.com/superpung/TJU-CourseSharing",
+  "published_at": "2026-10-03T12:40:11+00:00",
+  "collected_at": "2026-10-03T12:47:00+00:00",
+  "summary": "天津大学课程共享计划仓库，用于汇总和分享课程资料与学习经验，主要使用 Tcl 语言，GitHub 星标约 988。",
+  "score": 8.0,
+  "tags": [
+    "course-sharing",
+    "tju",
+    "education",
+    "tcl",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
