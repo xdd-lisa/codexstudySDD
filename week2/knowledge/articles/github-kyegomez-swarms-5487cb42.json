@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "5487cb4260100fe8",
+  "title": "kyegomez/swarms",
+  "source": "github",
+  "source_url": "https://github.com/kyegomez/swarms",
+  "published_at": "2026-10-04T13:29:09+00:00",
+  "collected_at": "2026-10-04T13:30:31+00:00",
+  "summary": "Swarms 是一个企业级多智能体编排框架，使用 Python 开发，提供多智能体协作与编排能力，GitHub 星标约 7230。",
+  "score": 8.3,
+  "tags": [
+    "multi-agent",
+    "orchestration",
+    "python",
+    "llm",
+    "framework"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

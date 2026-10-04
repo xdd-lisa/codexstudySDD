@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "e7998846bd78d7e2",
+  "title": "With most information hidden, the game Stratego had stumped AI until now",
+  "source": "rss",
+  "source_url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+  "published_at": "2026-10-02T14:11:24+00:00",
+  "collected_at": "2026-10-04T13:30:34+00:00",
+  "summary": "在信息大多隐藏的棋类游戏 Stratego 中，AI 此前一直难以突破；如今研究者用较低成本训练出的系统终于击败了史上最强的人类 Stratego 玩家。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "stratego",
+    "imperfect-information",
+    "reinforcement-learning",
+    "game-ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

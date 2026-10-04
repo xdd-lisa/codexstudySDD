@@ -348,7 +348,12 @@
     "github:bee-san/ciphey": "47dd063bd53032a2",
     "github:superpung/tju-coursesharing": "9e286081c643ecf8",
     "github:oooscoos/benzi": "815ab839b4709bf3",
-    "github:syntheticautonomicmind/sam": "0b0fbb2014698572"
+    "github:syntheticautonomicmind/sam": "0b0fbb2014698572",
+    "github:obsei/obsei": "444aa3c8f8f0c09d",
+    "github:kyegomez/swarms": "5487cb4260100fe8",
+    "rss:f631caa3ccb34c88": "902a8fe9863c843c",
+    "rss:688682f43b9fa495": "19c69c4646ee9980",
+    "rss:0338ccc6b10fc595": "e7998846bd78d7e2"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -463,7 +468,71 @@
       },
       "error": "LLM analysis for 'AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
       "attempts": 1
+    },
+    "github:jrz97619761/test-model-thing": {
+      "stage": "process",
+      "external_id": "github:jrz97619761/test-model-thing",
+      "item": {
+        "external_id": "github:jrz97619761/test-model-thing",
+        "title": "jrz97619761/test-model-thing",
+        "source": "github",
+        "source_url": "https://github.com/jrz97619761/test-model-thing",
+        "published_at": "2026-10-04T13:26:06Z",
+        "collected_at": "2026-10-04T13:30:31+00:00",
+        "content": "A small proof-of-concept language model (not an LLM) incorporating latent-space prediction, internal state using recurrent trace units, and byte-by-byte output, built with MLX. Primary language: Python. GitHub stars: 312.",
+        "source_tags": [
+          "ai",
+          "apple-silicon",
+          "artificial-intelligence",
+          "bytes",
+          "continual-learning",
+          "jepa",
+          "language-model",
+          "language-models",
+          "latent-space",
+          "machine-learning",
+          "mit-license",
+          "ml",
+          "mlx",
+          "small-language-model",
+          "small-language-models",
+          "test-time-training"
+        ]
+      },
+      "error": "LLM analysis for 'jrz97619761/test-model-thing' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 12: Unterminated string starting at)",
+      "attempts": 1
+    },
+    "github:wh000wh000/awesome-jev-live": {
+      "stage": "process",
+      "external_id": "github:wh000wh000/awesome-jev-live",
+      "item": {
+        "external_id": "github:wh000wh000/awesome-jev-live",
+        "title": "wh000wh000/awesome-jev-live",
+        "source": "github",
+        "source_url": "https://github.com/wh000wh000/awesome-jev-live",
+        "published_at": "2026-10-04T13:23:18Z",
+        "collected_at": "2026-10-04T13:30:31+00:00",
+        "content": "Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours. Primary language: Python. GitHub stars: 164.",
+        "source_tags": [
+          "ai-agents",
+          "artificial-intelligence",
+          "awesome",
+          "awesome-jev",
+          "awesome-list",
+          "calibration",
+          "curated-list",
+          "decision-making",
+          "developer-tools",
+          "jev",
+          "llm-tools",
+          "mcp",
+          "system-one",
+          "typesafe"
+        ]
+      },
+      "error": "LLM analysis for 'wh000wh000/awesome-jev-live' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
+      "attempts": 1
     }
   },
-  "updated_at": "2026-10-03T12:47:27+00:00"
+  "updated_at": "2026-10-04T13:31:08+00:00"
 }

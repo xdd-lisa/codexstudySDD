@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "444aa3c8f8f0c09d",
+  "title": "obsei/obsei",
+  "source": "github",
+  "source_url": "https://github.com/obsei/obsei",
+  "published_at": "2026-10-04T13:29:26+00:00",
+  "collected_at": "2026-10-04T13:30:31+00:00",
+  "summary": "Obsei 是一个低代码 AI 驱动的自动化工具，支持社交监听、AI 告警、品牌形象分析和对比研究等业务场景，主要使用 Python 开发，GitHub 星标约 1431。",
+  "score": 7.5,
+  "tags": [
+    "python",
+    "ai",
+    "automation",
+    "low-code",
+    "social-listening"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "19c69c4646ee9980",
+  "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+  "source": "rss",
+  "source_url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+  "published_at": "2026-10-03T17:44:29+00:00",
+  "collected_at": "2026-10-04T13:30:34+00:00",
+  "summary": "文章报道图灵奖得主、被誉为AI教父的Yann LeCun对人类因AI灭绝持零担忧态度，并批评Anthropic CEO Dario Amodei的相关警告是误导性的。内容还涉及近期所谓AI失控事件，以及Hacker News上围绕该话题的激烈讨论。",
+  "score": 6.5,
+  "tags": [
+    "ai-safety",
+    "yann-lecun",
+    "ai-risk",
+    "debate",
+    "tech-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
