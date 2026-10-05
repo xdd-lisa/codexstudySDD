@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "3fd24d0db1166fc5",
+  "title": "morphik-org/morphik-core",
+  "source": "github",
+  "source_url": "https://github.com/morphik-org/morphik-core",
+  "published_at": "2026-10-05T16:13:58+00:00",
+  "collected_at": "2026-10-05T16:28:00+00:00",
+  "summary": "Morphik Core 是一个开源多模态检索引擎，采用 Python 开发，在 GitHub 上已获得约 3716 颗星，适合构建 RAG 与多模态搜索应用。",
+  "score": 8.4,
+  "tags": [
+    "multimodal-retrieval",
+    "python",
+    "open-source",
+    "rag",
+    "search-engine"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

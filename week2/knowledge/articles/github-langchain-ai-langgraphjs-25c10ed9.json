@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "25c10ed90cf5422c",
+  "title": "langchain-ai/langgraphjs",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/langgraphjs",
+  "published_at": "2026-10-05T16:25:33+00:00",
+  "collected_at": "2026-10-05T16:28:00+00:00",
+  "summary": "LangGraphJS 是 LangChain 团队推出的 TypeScript 框架，用于以图结构构建具备容错能力的语言智能体，适合编排复杂多步 AI 工作流。",
+  "score": 8.5,
+  "tags": [
+    "langchain",
+    "langgraph",
+    "typescript",
+    "ai-agents",
+    "framework"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

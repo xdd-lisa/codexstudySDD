@@ -353,7 +353,11 @@
     "github:kyegomez/swarms": "5487cb4260100fe8",
     "rss:f631caa3ccb34c88": "902a8fe9863c843c",
     "rss:688682f43b9fa495": "19c69c4646ee9980",
-    "rss:0338ccc6b10fc595": "e7998846bd78d7e2"
+    "rss:0338ccc6b10fc595": "e7998846bd78d7e2",
+    "github:langchain-ai/langgraphjs": "25c10ed90cf5422c",
+    "github:zjunlp/lightmem-ego": "9d9432a7faaecb10",
+    "github:agilerl/agilerl": "5707806cdbe47bd8",
+    "github:morphik-org/morphik-core": "3fd24d0db1166fc5"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -534,5 +538,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-04T13:31:08+00:00"
+  "updated_at": "2026-10-05T16:28:11+00:00"
 }

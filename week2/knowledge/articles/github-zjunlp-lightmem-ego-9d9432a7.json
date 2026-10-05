@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "9d9432a7faaecb10",
+  "title": "zjunlp/LightMem-Ego",
+  "source": "github",
+  "source_url": "https://github.com/zjunlp/LightMem-Ego",
+  "published_at": "2026-10-05T16:26:43+00:00",
+  "collected_at": "2026-10-05T16:28:00+00:00",
+  "summary": "这是一个名为 LightMem-Ego 的 GitHub 项目，主要使用 Python 开发，旨在为日常生活提供 AI 记忆功能，并标注为 EMNLP 2026 论文，目前获得约 109 个星标。",
+  "score": 6.5,
+  "tags": [
+    "ai-memory",
+    "python",
+    "research",
+    "emnlp",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
