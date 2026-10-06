@@ -357,7 +357,9 @@
     "github:langchain-ai/langgraphjs": "25c10ed90cf5422c",
     "github:zjunlp/lightmem-ego": "9d9432a7faaecb10",
     "github:agilerl/agilerl": "5707806cdbe47bd8",
-    "github:morphik-org/morphik-core": "3fd24d0db1166fc5"
+    "github:morphik-org/morphik-core": "3fd24d0db1166fc5",
+    "github:csinva/imodels": "0bd022cd6df7c9f5",
+    "github:lab-emi/opendpd": "e20a54458da36662"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -538,5 +540,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-05T16:28:11+00:00"
+  "updated_at": "2026-10-06T14:32:18+00:00"
 }

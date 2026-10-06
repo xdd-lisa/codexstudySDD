@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "0bd022cd6df7c9f5",
+  "title": "csinva/imodels",
+  "source": "github",
+  "source_url": "https://github.com/csinva/imodels",
+  "published_at": "2026-10-06T14:07:02+00:00",
+  "collected_at": "2026-10-06T14:31:40+00:00",
+  "summary": "imodels 是一个与 scikit-learn 兼容的可解释机器学习 Python 包，专注于构建简洁、透明且准确的预测模型，并提供多种可解释模型与 Jupyter Notebook 示例。",
+  "score": 8.5,
+  "tags": [
+    "interpretable-machine-learning",
+    "scikit-learn",
+    "python",
+    "jupyter-notebook",
+    "predictive-modeling"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

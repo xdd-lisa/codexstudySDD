@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "e20a54458da36662",
+  "title": "lab-emi/OpenDPD",
+  "source": "github",
+  "source_url": "https://github.com/lab-emi/OpenDPD",
+  "published_at": "2026-10-06T13:49:37+00:00",
+  "collected_at": "2026-10-06T14:31:40+00:00",
+  "summary": "OpenDPD 是基于 PyTorch 的端到端学习框架，用于功率放大器建模与数字预失真，支持自定义骨干网络、预训练模型和实测数据集，目前获 178 星。",
+  "score": 7.5,
+  "tags": [
+    "pytorch",
+    "digital-pre-distortion",
+    "power-amplifier",
+    "deep-learning",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
