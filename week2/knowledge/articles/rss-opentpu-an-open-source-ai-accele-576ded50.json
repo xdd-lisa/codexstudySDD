@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "576ded508c0bb401",
+  "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+  "source": "rss",
+  "source_url": "https://github.com/FeSens/openTPU",
+  "published_at": "2026-10-06T16:23:25+00:00",
+  "collected_at": "2026-10-07T14:48:03+00:00",
+  "summary": "OpenTPU 是一个开源 AI 加速器项目，由 AI 参与开发，代码托管在 GitHub 上，并在 Hacker News 上获得 323 分、369 条评论，引发较高关注与讨论。",
+  "score": 7.0,
+  "tags": [
+    "ai-hardware",
+    "open-source",
+    "tpu",
+    "accelerator"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "57d4dcff8acff723",
+  "title": "Burn 0.22.0: Faster Builds, Easier Extensions, and Smarter Autotuning",
+  "source": "rss",
+  "source_url": "https://tracel.ai/blog/release-0.22.0",
+  "published_at": "2026-10-06T18:57:25-05:00",
+  "collected_at": "2026-10-07T14:48:03+00:00",
+  "summary": "Burn 0.22.0 发布，带来更快的构建速度、更简单的扩展方式以及更智能的自动调优功能。",
+  "score": 7.0,
+  "tags": [
+    "burn",
+    "rust",
+    "deep-learning",
+    "release",
+    "autotuning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

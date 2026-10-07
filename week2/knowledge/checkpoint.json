@@ -359,7 +359,10 @@
     "github:agilerl/agilerl": "5707806cdbe47bd8",
     "github:morphik-org/morphik-core": "3fd24d0db1166fc5",
     "github:csinva/imodels": "0bd022cd6df7c9f5",
-    "github:lab-emi/opendpd": "e20a54458da36662"
+    "github:lab-emi/opendpd": "e20a54458da36662",
+    "rss:36f2c0a5b469022d": "00427e47df5ef306",
+    "rss:0fdc8305f08ac98a": "576ded508c0bb401",
+    "rss:daafccad02d53922": "57d4dcff8acff723"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -538,7 +541,26 @@
       },
       "error": "LLM analysis for 'wh000wh000/awesome-jev-live' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
       "attempts": 1
+    },
+    "rss:9fed8281069016d6": {
+      "stage": "process",
+      "external_id": "rss:9fed8281069016d6",
+      "item": {
+        "external_id": "rss:9fed8281069016d6",
+        "title": "Best Books/Courses/Channels to Leapfrog on AI/ML Material",
+        "source": "rss",
+        "source_url": "https://lobste.rs/s/xff77a/best_books_courses_channels_leapfrog_on",
+        "feed_url": "https://lobste.rs/t/ai.rss",
+        "published_at": "Wed, 07 Oct 2026 09:12:02 -0500",
+        "collected_at": "2026-10-07T14:48:03+00:00",
+        "content": "<p>Assuming I have been on hibernation since 2018-19 time frame, which materials - books, MOOC courses and YT channels would be recommended for me to get started with understanding all the current progress on AI/ML. Ideally a resource like <a href=\"https://teachyourselfcs.com/\" rel=\"ugc\">TeachYourselfCS</a> that can give structure and roadmap to navigate all the progress/knowledge on the domain would really help.</p> <p>Do we have to take different approaches to understand LLMs vs other type of ML models which have been in large scale deployment/usage from pre-2022/21 time frame?</p> <p>Thanks a lot in advance.</p>",
+        "source_tags": [],
+        "feed_name": "Lobsters AI/ML",
+        "category": "综合技术"
+      },
+      "error": "LLM analysis for 'Best Books/Courses/Channels to Leapfrog on AI/ML Material' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
+      "attempts": 1
     }
   },
-  "updated_at": "2026-10-06T14:32:18+00:00"
+  "updated_at": "2026-10-07T14:48:28+00:00"
 }

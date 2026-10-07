@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "00427e47df5ef306",
+  "title": "Sharing AI progress in mathematics",
+  "source": "rss",
+  "source_url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+  "published_at": "2026-10-06T22:17:21+00:00",
+  "collected_at": "2026-10-07T14:48:03+00:00",
+  "summary": "OpenAI 发布其在数学领域的 AI 进展，提供 GitHub 数学仓库与预印本，并在 Hacker News 引发 1082 分、1136 条评论的热议。",
+  "score": 8.0,
+  "tags": [
+    "openai",
+    "mathematics",
+    "ai",
+    "research",
+    "hackernews"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
