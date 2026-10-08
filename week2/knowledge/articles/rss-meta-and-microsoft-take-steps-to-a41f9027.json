@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "a41f902727221c5e",
+  "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+  "source": "rss",
+  "source_url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai",
+  "published_at": "2026-10-07T18:49:40+00:00",
+  "collected_at": "2026-10-08T14:58:59+00:00",
+  "summary": "该条目来自 Hacker News，标题称 Meta 与微软正采取措施减少员工对 Claude AI 的使用，但正文仅包含原链接与评论链接，缺少具体细节。讨论热度较高，获得约 356 分与 366 条评论，反映出业界对企业内部 AI 工具选型与竞争的关注。",
+  "score": 5.5,
+  "tags": [
+    "ai",
+    "enterprise",
+    "tech-companies",
+    "hackernews"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

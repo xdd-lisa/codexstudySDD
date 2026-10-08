@@ -362,7 +362,13 @@
     "github:lab-emi/opendpd": "e20a54458da36662",
     "rss:36f2c0a5b469022d": "00427e47df5ef306",
     "rss:0fdc8305f08ac98a": "576ded508c0bb401",
-    "rss:daafccad02d53922": "57d4dcff8acff723"
+    "rss:daafccad02d53922": "57d4dcff8acff723",
+    "github:10up/classifai": "61838a6456cd6a08",
+    "rss:e064d988c951319d": "a41f902727221c5e",
+    "rss:4e0f8bb435363b9d": "1e6d0aa6065c4bd5",
+    "rss:d272b7573cd2b256": "e6c07baadad875ee",
+    "rss:726d746d3c5344c6": "fdc7544b028308c4",
+    "rss:9fed8281069016d6": "29b3791610079e4b"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -541,26 +547,7 @@
       },
       "error": "LLM analysis for 'wh000wh000/awesome-jev-live' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
       "attempts": 1
-    },
-    "rss:9fed8281069016d6": {
-      "stage": "process",
-      "external_id": "rss:9fed8281069016d6",
-      "item": {
-        "external_id": "rss:9fed8281069016d6",
-        "title": "Best Books/Courses/Channels to Leapfrog on AI/ML Material",
-        "source": "rss",
-        "source_url": "https://lobste.rs/s/xff77a/best_books_courses_channels_leapfrog_on",
-        "feed_url": "https://lobste.rs/t/ai.rss",
-        "published_at": "Wed, 07 Oct 2026 09:12:02 -0500",
-        "collected_at": "2026-10-07T14:48:03+00:00",
-        "content": "<p>Assuming I have been on hibernation since 2018-19 time frame, which materials - books, MOOC courses and YT channels would be recommended for me to get started with understanding all the current progress on AI/ML. Ideally a resource like <a href=\"https://teachyourselfcs.com/\" rel=\"ugc\">TeachYourselfCS</a> that can give structure and roadmap to navigate all the progress/knowledge on the domain would really help.</p> <p>Do we have to take different approaches to understand LLMs vs other type of ML models which have been in large scale deployment/usage from pre-2022/21 time frame?</p> <p>Thanks a lot in advance.</p>",
-        "source_tags": [],
-        "feed_name": "Lobsters AI/ML",
-        "category": "综合技术"
-      },
-      "error": "LLM analysis for 'Best Books/Courses/Channels to Leapfrog on AI/ML Material' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
-      "attempts": 1
     }
   },
-  "updated_at": "2026-10-07T14:48:28+00:00"
+  "updated_at": "2026-10-08T14:59:32+00:00"
 }

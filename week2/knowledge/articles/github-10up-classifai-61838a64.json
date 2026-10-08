@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "61838a6456cd6a08",
+  "title": "10up/classifai",
+  "source": "github",
+  "source_url": "https://github.com/10up/classifai",
+  "published_at": "2026-10-08T14:34:03+00:00",
+  "collected_at": "2026-10-08T14:58:54+00:00",
+  "summary": "10up/classifai 是一个基于 PHP 的 WordPress 插件，利用人工智能增强内容工作流与互动，目前获得约 712 个 GitHub 星标。",
+  "score": 7.5,
+  "tags": [
+    "wordpress",
+    "artificial-intelligence",
+    "php",
+    "content-management",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

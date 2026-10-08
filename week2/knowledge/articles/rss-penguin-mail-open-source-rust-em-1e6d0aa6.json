@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "1e6d0aa6065c4bd5",
+  "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+  "source": "rss",
+  "source_url": "https://penguin-mail.com/",
+  "published_at": "2026-10-06T21:59:43+00:00",
+  "collected_at": "2026-10-08T14:58:59+00:00",
+  "summary": "Penguin Mail 是一款用 Rust 编写的开源 Linux 邮件客户端，并集成了 AI 功能。该条目来自 Hacker News，获得 235 分和 184 条评论，关注度较高。",
+  "score": 7.0,
+  "tags": [
+    "rust",
+    "email-client",
+    "linux",
+    "open-source",
+    "ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

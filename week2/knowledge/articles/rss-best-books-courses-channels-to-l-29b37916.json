@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "29b3791610079e4b",
+  "title": "Best Books/Courses/Channels to Leapfrog on AI/ML Material",
+  "source": "rss",
+  "source_url": "https://lobste.rs/s/xff77a/best_books_courses_channels_leapfrog_on",
+  "published_at": "2026-10-07T09:12:02-05:00",
+  "collected_at": "2026-10-08T14:59:00+00:00",
+  "summary": "帖子询问从2018-19年后如何系统补课AI/ML，希望获得类似TeachYourselfCS的书籍、MOOC和YouTube频道路线图，并探讨LLM与传统ML学习路径差异。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "machine-learning",
+    "learning-resources",
+    "roadmap",
+    "llm"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

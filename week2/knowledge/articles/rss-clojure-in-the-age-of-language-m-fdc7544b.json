@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "fdc7544b028308c4",
+  "title": "Clojure in the Age of Language Models",
+  "source": "rss",
+  "source_url": "https://yogthos.net/posts/2026-10-07-clojure-llms.html",
+  "published_at": "2026-10-08T00:55:50-05:00",
+  "collected_at": "2026-10-08T14:59:00+00:00",
+  "summary": "该条目仅提供了指向 yogthos.net 博客文章《Clojure in the Age of Language Models》的链接以及 Lobste.rs 的评论区入口，正文内容缺失。从标题推断，文章大概探讨在大型语言模型时代 Clojure 语言的价值、适用场景与前景，但缺乏具体论述可供评估。",
+  "score": 4.0,
+  "tags": [
+    "clojure",
+    "llm",
+    "programming",
+    "blog"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

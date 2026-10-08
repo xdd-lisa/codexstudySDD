@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "e6c07baadad875ee",
+  "title": "Thinking will become a hobby",
+  "source": "rss",
+  "source_url": "https://www.spinellis.gr/blog/20261008?li261008",
+  "published_at": "2026-10-08T07:23:28-05:00",
+  "collected_at": "2026-10-08T14:59:00+00:00",
+  "summary": "文章标题提出“思考将成为一种爱好”，可能探讨在人工智能时代，人类思维活动逐渐从工作必需转变为休闲兴趣，并反思技术对认知与职业的影响。",
+  "score": 6.0,
+  "tags": [
+    "ai",
+    "thinking",
+    "future-of-work",
+    "hobbies",
+    "technology"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
