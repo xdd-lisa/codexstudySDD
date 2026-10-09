@@ -368,7 +368,9 @@
     "rss:4e0f8bb435363b9d": "1e6d0aa6065c4bd5",
     "rss:d272b7573cd2b256": "e6c07baadad875ee",
     "rss:726d746d3c5344c6": "fdc7544b028308c4",
-    "rss:9fed8281069016d6": "29b3791610079e4b"
+    "rss:9fed8281069016d6": "29b3791610079e4b",
+    "github:existence-master/sentient": "05363d9da4833770",
+    "rss:429ce8dfc7a1ff1e": "8e671fda16b4ef2f"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -549,5 +551,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-08T14:59:32+00:00"
+  "updated_at": "2026-10-09T14:44:22+00:00"
 }

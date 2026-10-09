@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "05363d9da4833770",
+  "title": "existence-master/Sentient",
+  "source": "github",
+  "source_url": "https://github.com/existence-master/Sentient",
+  "published_at": "2026-10-09T14:37:16+00:00",
+  "collected_at": "2026-10-09T14:43:41+00:00",
+  "summary": "Sentient 是一个本地优先的个人 AI 助手项目，支持长期任务、真实记忆、主动帮助、语音与多设备接入，可使用本地或云端模型且无需账户，目前约 693 星。",
+  "score": 7.0,
+  "tags": [
+    "ai-assistant",
+    "local-first",
+    "privacy",
+    "python",
+    "automation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

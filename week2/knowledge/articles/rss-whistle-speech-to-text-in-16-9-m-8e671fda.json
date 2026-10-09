@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "8e671fda16b4ef2f",
+  "title": "Whistle: Speech to Text in 16.9 MB",
+  "source": "rss",
+  "source_url": "https://cactuscompute.com/blog/whistle",
+  "published_at": "2026-10-09T00:35:51-05:00",
+  "collected_at": "2026-10-09T14:44:12+00:00",
+  "summary": "该条目仅为指向 Cactus Compute 博客文章《Whistle: Speech to Text in 16.9 MB》的链接，正文内容缺失，仅包含一个 Lobsters 评论链接，因此无法评估其技术细节、方法或实验结果。",
+  "score": 4.0,
+  "tags": [
+    "speech-to-text",
+    "whistle",
+    "model-compression",
+    "lobsters"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
