@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "3a5a32f64a524a9e",
+  "title": "Voxlocal: a minimal voice agent written in Rust",
+  "source": "rss",
+  "source_url": "https://samkhawase.com/blog/voxlocal-minimal-voice-agent",
+  "published_at": "2026-10-10T03:42:06-05:00",
+  "collected_at": "2026-10-10T14:00:38+00:00",
+  "summary": "文章介绍 Voxlocal，一个用 Rust 编写的极简语音代理，可能聚焦本地运行、轻量实现与语音交互。",
+  "score": 7.0,
+  "tags": [
+    "rust",
+    "voice-agent",
+    "local",
+    "minimal"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "c11e380b9fc67e0b",
+  "title": "promptise-com/Foundry",
+  "source": "github",
+  "source_url": "https://github.com/promptise-com/Foundry",
+  "published_at": "2026-10-10T13:44:35+00:00",
+  "collected_at": "2026-10-10T14:00:35+00:00",
+  "summary": "Foundry 是 promptise-com 推出的面向智能体智能的基础层项目，使用 Python 开发，当前在 GitHub 获得约 873 颗星，可作为构建自主智能体应用的底层框架参考。",
+  "score": 7.5,
+  "tags": [
+    "agentic-ai",
+    "python",
+    "framework",
+    "llm",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
