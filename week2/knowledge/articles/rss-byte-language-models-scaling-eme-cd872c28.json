@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "cd872c282baf5f96",
+  "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+  "source": "rss",
+  "source_url": "https://arxiv.org/html/2610.05978v1",
+  "published_at": "2026-10-10T17:25:14-05:00",
+  "collected_at": "2026-10-11T14:25:48+00:00",
+  "summary": "论文挑战语言模型必须依赖分词器的假设，表明标准平坦 Transformer 可直接处理原始字节，并在参数规模扩大时优于子词模型；字节模型自发形成局部抽象，逐字节损失差异大，有利于推测解码，并在字符操作和 OCR 等细粒度任务上显著提升。",
+  "score": 8.5,
+  "tags": [
+    "byte-models",
+    "transformers",
+    "tokenization",
+    "emergent-abstractions",
+    "speculative-decoding"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

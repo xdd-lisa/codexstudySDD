@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "917825c031530956",
+  "title": "Typesafe AI raises $870M at $7.5B",
+  "source": "rss",
+  "source_url": "https://typesafe.ai/blog/series-ai",
+  "published_at": "2026-10-09T17:02:31+00:00",
+  "collected_at": "2026-10-11T14:25:48+00:00",
+  "summary": "Typesafe AI 宣布完成 8.7 亿美元融资，估值达 75 亿美元，Hacker News 上获得 441 分和 350 条评论，引发广泛关注。",
+  "score": 7.5,
+  "tags": [
+    "ai",
+    "funding",
+    "startup",
+    "typesafe"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

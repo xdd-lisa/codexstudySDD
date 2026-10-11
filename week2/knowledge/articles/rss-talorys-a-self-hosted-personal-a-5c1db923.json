@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "5c1db9239c15fa63",
+  "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+  "source": "rss",
+  "source_url": "https://github.com/rociiu/talorys",
+  "published_at": "2026-10-10T10:52:09+00:00",
+  "collected_at": "2026-10-11T14:25:48+00:00",
+  "summary": "Talorys 是一个可自托管的个人 AI 智能体项目，主打在 Cloudflare 免费套餐上运行，降低部署成本与门槛。该帖在 Hacker News 获得 306 分、141 条评论，社区讨论热度较高，关注点可能集中在免费额度限制、隐私与自托管架构。",
+  "score": 6.0,
+  "tags": [
+    "ai-agent",
+    "cloudflare",
+    "self-hosted",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

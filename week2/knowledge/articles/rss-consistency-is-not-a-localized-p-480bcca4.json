@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "480bcca465fd4f55",
+  "title": "Consistency is not a localized property",
+  "source": "rss",
+  "source_url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property",
+  "published_at": "2026-10-10T19:51:28-05:00",
+  "collected_at": "2026-10-11T14:25:48+00:00",
+  "summary": "标题主张一致性不是局部属性，但正文仅含评论链接，缺少实质内容，无法深入评估。",
+  "score": 4.0,
+  "tags": [
+    "consistency",
+    "distributed-systems",
+    "blog-post",
+    "minimal-content"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

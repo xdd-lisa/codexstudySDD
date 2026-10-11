@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4d5b787b8e8a27a2",
+  "title": "whiteducksoftware/flock",
+  "source": "github",
+  "source_url": "https://github.com/whiteducksoftware/flock",
+  "published_at": "2026-10-11T14:24:13+00:00",
+  "collected_at": "2026-10-11T14:25:42+00:00",
+  "summary": "whiteducksoftware/flock 是一个用 Python 开发的声明式、高模块化黑板多智能体系统，拥有约 121 个 GitHub 星标。",
+  "score": 6.5,
+  "tags": [
+    "python",
+    "multi-agent",
+    "blackboard-system",
+    "declarative",
+    "modular"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
