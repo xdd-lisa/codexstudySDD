@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b4a0a91f597dbc74",
+  "title": "patterns-ai-core/langchainrb",
+  "source": "github",
+  "source_url": "https://github.com/patterns-ai-core/langchainrb",
+  "published_at": "2026-10-13T15:10:16+00:00",
+  "collected_at": "2026-10-13T15:19:36+00:00",
+  "summary": "langchainrb 是一个用于在 Ruby 中构建 LLM 驱动应用的开源框架，目前获得约 2001 个 GitHub 星标，适合 Ruby 开发者集成大语言模型能力。",
+  "score": 8.0,
+  "tags": [
+    "ruby",
+    "llm",
+    "langchain",
+    "ai",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

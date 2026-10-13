@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "f8f54832a3dca5f8",
+  "title": "makcedward/nlpaug",
+  "source": "github",
+  "source_url": "https://github.com/makcedward/nlpaug",
+  "published_at": "2026-10-13T14:54:36+00:00",
+  "collected_at": "2026-10-13T15:19:36+00:00",
+  "summary": "nlpaug 是一个面向自然语言处理的数据增强库，支持多种文本增强方法，主要使用 Jupyter Notebook 开发，GitHub 星标约 4667。",
+  "score": 8.5,
+  "tags": [
+    "nlp",
+    "data-augmentation",
+    "jupyter-notebook",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

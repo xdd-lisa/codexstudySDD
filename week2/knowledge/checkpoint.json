@@ -378,7 +378,10 @@
     "rss:1d14c3f3f0e31d9f": "f341a24074bbb709",
     "rss:add47d7d56e86000": "917825c031530956",
     "rss:0e9bb869d01e64d3": "480bcca465fd4f55",
-    "rss:8eb5b587451c8d80": "cd872c282baf5f96"
+    "rss:8eb5b587451c8d80": "cd872c282baf5f96",
+    "github:patterns-ai-core/langchainrb": "b4a0a91f597dbc74",
+    "github:makcedward/nlpaug": "f8f54832a3dca5f8",
+    "rss:23795e81e6dfeda7": "91fd420af71993c9"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -535,9 +538,9 @@
         "title": "wh000wh000/awesome-jev-live",
         "source": "github",
         "source_url": "https://github.com/wh000wh000/awesome-jev-live",
-        "published_at": "2026-10-04T13:23:18Z",
-        "collected_at": "2026-10-04T13:30:31+00:00",
-        "content": "Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours. Primary language: Python. GitHub stars: 164.",
+        "published_at": "2026-10-13T14:54:03Z",
+        "collected_at": "2026-10-13T15:19:36+00:00",
+        "content": "Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours. Primary language: Python. GitHub stars: 300.",
         "source_tags": [
           "ai-agents",
           "artificial-intelligence",
@@ -555,9 +558,9 @@
           "typesafe"
         ]
       },
-      "error": "LLM analysis for 'wh000wh000/awesome-jev-live' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
-      "attempts": 1
+      "error": "LLM analysis for 'wh000wh000/awesome-jev-live' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 12: Unterminated string starting at)",
+      "attempts": 2
     }
   },
-  "updated_at": "2026-10-11T14:26:26+00:00"
+  "updated_at": "2026-10-13T15:19:58+00:00"
 }

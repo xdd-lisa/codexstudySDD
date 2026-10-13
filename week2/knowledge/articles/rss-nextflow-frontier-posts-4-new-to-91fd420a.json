@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "91fd420af71993c9",
+  "title": "Nextflow Frontier posts 4 new top results on BioML-bench",
+  "source": "rss",
+  "source_url": "https://nextflow.com/blog/introducing-nextflow-frontier",
+  "published_at": "2026-10-13T09:52:00-05:00",
+  "collected_at": "2026-10-13T15:19:36+00:00",
+  "summary": "Nextflow Frontier 在 BioML-bench 上发布了四项新的最佳结果，展示其在生物机器学习基准测试中的性能表现。页面提供相关讨论链接。",
+  "score": 5.0,
+  "tags": [
+    "nextflow",
+    "bioml-bench",
+    "benchmark",
+    "machine-learning",
+    "bioinformatics"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
