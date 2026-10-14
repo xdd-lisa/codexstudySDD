@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "40fe8b49d595adaa",
+  "title": "wh000wh000/awesome-jev-live",
+  "source": "github",
+  "source_url": "https://github.com/wh000wh000/awesome-jev-live",
+  "published_at": "2026-10-14T13:00:00+00:00",
+  "collected_at": "2026-10-14T13:07:46+00:00",
+  "summary": "这是一个名为 awesome-jev-live 的 GitHub 仓库，定位为 TypeSafe System One 的证据分级索引，收录 SDK、MCP 工具、智能体、应用与开源模型，覆盖 20 种语言并每 2 小时自动重建，主要语言为 Python，目前获得约 311 颗星。内容偏自动化聚合，实用性有待验证。",
+  "score": 4.0,
+  "tags": [
+    "awesome-list",
+    "mcp",
+    "ai-agents",
+    "python",
+    "llm-tools"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

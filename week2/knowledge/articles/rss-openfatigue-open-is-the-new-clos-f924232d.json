@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "f924232d2eedeb52",
+  "title": "OpenFatigue™ — Open is the new closed",
+  "source": "rss",
+  "source_url": "https://openfatigue.ai/",
+  "published_at": "2026-10-14T06:24:24-05:00",
+  "collected_at": "2026-10-14T13:07:48+00:00",
+  "summary": "该条目标题为“OpenFatigue™ — Open is the new closed”，来自 RSS，正文仅含 Lobsters 评论链接，可能讨论开源疲劳、开放名义下的封闭化以及开放模式被滥用等问题。",
+  "score": 4.0,
+  "tags": [
+    "open-source",
+    "fatigue",
+    "criticism",
+    "lobsters"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

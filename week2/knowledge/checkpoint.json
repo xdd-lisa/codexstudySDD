@@ -381,7 +381,10 @@
     "rss:8eb5b587451c8d80": "cd872c282baf5f96",
     "github:patterns-ai-core/langchainrb": "b4a0a91f597dbc74",
     "github:makcedward/nlpaug": "f8f54832a3dca5f8",
-    "rss:23795e81e6dfeda7": "91fd420af71993c9"
+    "rss:23795e81e6dfeda7": "91fd420af71993c9",
+    "github:wh000wh000/awesome-jev-live": "40fe8b49d595adaa",
+    "rss:5ef022a68929095a": "f924232d2eedeb52",
+    "rss:36798bcb69c55139": "016ccfeafb58bc2d"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -529,38 +532,7 @@
       },
       "error": "LLM analysis for 'jrz97619761/test-model-thing' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 12: Unterminated string starting at)",
       "attempts": 1
-    },
-    "github:wh000wh000/awesome-jev-live": {
-      "stage": "process",
-      "external_id": "github:wh000wh000/awesome-jev-live",
-      "item": {
-        "external_id": "github:wh000wh000/awesome-jev-live",
-        "title": "wh000wh000/awesome-jev-live",
-        "source": "github",
-        "source_url": "https://github.com/wh000wh000/awesome-jev-live",
-        "published_at": "2026-10-13T14:54:03Z",
-        "collected_at": "2026-10-13T15:19:36+00:00",
-        "content": "Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours. Primary language: Python. GitHub stars: 300.",
-        "source_tags": [
-          "ai-agents",
-          "artificial-intelligence",
-          "awesome",
-          "awesome-jev",
-          "awesome-list",
-          "calibration",
-          "curated-list",
-          "decision-making",
-          "developer-tools",
-          "jev",
-          "llm-tools",
-          "mcp",
-          "system-one",
-          "typesafe"
-        ]
-      },
-      "error": "LLM analysis for 'wh000wh000/awesome-jev-live' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 12: Unterminated string starting at)",
-      "attempts": 2
     }
   },
-  "updated_at": "2026-10-13T15:19:58+00:00"
+  "updated_at": "2026-10-14T13:07:59+00:00"
 }
