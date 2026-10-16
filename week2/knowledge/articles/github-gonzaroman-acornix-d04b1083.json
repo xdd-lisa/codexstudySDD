@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "d04b10839005e1cf",
+  "title": "gonzaroman/acornix",
+  "source": "github",
+  "source_url": "https://github.com/gonzaroman/acornix",
+  "published_at": "2026-10-16T12:42:52+00:00",
+  "collected_at": "2026-10-16T12:45:52+00:00",
+  "summary": "Acornix 是一个 Kotlin 编写的原生 Android 应用，支持通过文本、语音或照片借助 AI 生成应用和游戏，并能全屏运行、管理数据及语音控制手机，兼容 Claude、OpenAI、Gemini 等模型。",
+  "score": 7.5,
+  "tags": [
+    "android",
+    "kotlin",
+    "ai",
+    "vibe-coding",
+    "mobile"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "6e4d3e744e9e0fa0",
+  "title": "Lessons learned building Fronteira, an MCP proxy with behavioral guardrails",
+  "source": "rss",
+  "source_url": "https://wiki.alcidesfonseca.com/blog/lessons-learned-building-fronteira",
+  "published_at": "2026-10-16T07:39:23-05:00",
+  "collected_at": "2026-10-16T12:45:56+00:00",
+  "summary": "文章标题介绍构建 Fronteira 的经验，这是一个带行为护栏的 MCP 代理，但提供的内容仅有评论链接，缺乏正文细节，无法评估完整价值。",
+  "score": 5.0,
+  "tags": [
+    "mcp",
+    "proxy",
+    "guardrails",
+    "lessons-learned",
+    "fronteira"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

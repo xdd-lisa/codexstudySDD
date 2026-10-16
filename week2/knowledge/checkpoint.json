@@ -384,7 +384,10 @@
     "rss:23795e81e6dfeda7": "91fd420af71993c9",
     "github:wh000wh000/awesome-jev-live": "40fe8b49d595adaa",
     "rss:5ef022a68929095a": "f924232d2eedeb52",
-    "rss:36798bcb69c55139": "016ccfeafb58bc2d"
+    "rss:36798bcb69c55139": "016ccfeafb58bc2d",
+    "github:gonzaroman/acornix": "d04b10839005e1cf",
+    "github:bessouat40/raglight": "f3bcfa8137062bf0",
+    "rss:92bbd7483a6e4258": "6e4d3e744e9e0fa0"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -532,7 +535,45 @@
       },
       "error": "LLM analysis for 'jrz97619761/test-model-thing' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 12: Unterminated string starting at)",
       "attempts": 1
+    },
+    "rss:c797c77849648e0f": {
+      "stage": "process",
+      "external_id": "rss:c797c77849648e0f",
+      "item": {
+        "external_id": "rss:c797c77849648e0f",
+        "title": "Why are we even doing all this?",
+        "source": "rss",
+        "source_url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
+        "feed_url": "https://lobste.rs/t/ai.rss",
+        "published_at": "Fri, 16 Oct 2026 00:28:29 -0500",
+        "collected_at": "2026-10-16T12:45:56+00:00",
+        "content": "<p><a href=\"https://lobste.rs/s/qvomvk/why_are_we_even_doing_all_this\">Comments</a></p>",
+        "source_tags": [],
+        "feed_name": "Lobsters AI/ML",
+        "category": "综合技术"
+      },
+      "error": "LLM analysis for 'Why are we even doing all this?' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
+      "attempts": 1
+    },
+    "rss:fbd086cdc9d7869f": {
+      "stage": "process",
+      "external_id": "rss:fbd086cdc9d7869f",
+      "item": {
+        "external_id": "rss:fbd086cdc9d7869f",
+        "title": "Neural Networks Are Already Clean",
+        "source": "rss",
+        "source_url": "https://already-clean.goodfire.com/",
+        "feed_url": "https://lobste.rs/t/ai.rss",
+        "published_at": "Thu, 15 Oct 2026 17:25:03 -0500",
+        "collected_at": "2026-10-16T12:45:56+00:00",
+        "content": "<p><a href=\"https://lobste.rs/s/enjlpn/neural_networks_are_already_clean\">Comments</a></p>",
+        "source_tags": [],
+        "feed_name": "Lobsters AI/ML",
+        "category": "综合技术"
+      },
+      "error": "LLM analysis for 'Neural Networks Are Already Clean' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
+      "attempts": 1
     }
   },
-  "updated_at": "2026-10-14T13:07:59+00:00"
+  "updated_at": "2026-10-16T12:46:33+00:00"
 }

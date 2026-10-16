@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "f3bcfa8137062bf0",
+  "title": "Bessouat40/RAGLight",
+  "source": "github",
+  "source_url": "https://github.com/Bessouat40/RAGLight",
+  "published_at": "2026-10-16T12:17:05+00:00",
+  "collected_at": "2026-10-16T12:45:52+00:00",
+  "summary": "RAGLight 是一个模块化的检索增强生成框架，支持灵活接入不同 LLM、嵌入模型和向量存储，并提供 MCP 集成，方便连接外部工具与数据源，使用 Python 编写，GitHub 星标约 673。",
+  "score": 7.5,
+  "tags": [
+    "rag",
+    "python",
+    "llm",
+    "vector-store",
+    "mcp"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
