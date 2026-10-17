@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "61ac108a17c79367",
+  "title": "Why Math Dumped OpenAI",
+  "source": "rss",
+  "source_url": "https://raymyers.org/post/math-dumped-openai",
+  "published_at": "2026-10-16T11:38:47-05:00",
+  "collected_at": "2026-10-17T11:47:09+00:00",
+  "summary": "文章讨论数学界或数学基准为何与 OpenAI 分道扬镳，涉及 AI 数学能力、评测可信度与研究方法争议。",
+  "score": 5.0,
+  "tags": [
+    "openai",
+    "mathematics",
+    "ai-evaluation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

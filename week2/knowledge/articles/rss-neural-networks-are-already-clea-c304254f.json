@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "c304254f82ae473d",
+  "title": "Neural Networks Are Already Clean",
+  "source": "rss",
+  "source_url": "https://already-clean.goodfire.com/",
+  "published_at": "2026-10-15T17:25:03-05:00",
+  "collected_at": "2026-10-17T11:47:09+00:00",
+  "summary": "文章围绕“神经网络本已干净”这一观点展开，讨论模型内部表征与可解释性，可能主张无需按传统方式额外清洗网络。",
+  "score": 6.0,
+  "tags": [
+    "neural-networks",
+    "interpretability",
+    "machine-learning",
+    "ai-safety"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
