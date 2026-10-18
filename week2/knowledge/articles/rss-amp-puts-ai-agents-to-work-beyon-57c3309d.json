@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "57c3309db5bedcde",
+  "title": "Amp puts AI agents to work beyond code with OpenAI models",
+  "source": "rss",
+  "source_url": "https://openai.com/index/amp-beyond-coding",
+  "published_at": "2026-10-14T12:00:00+00:00",
+  "collected_at": "2026-10-18T12:12:48+00:00",
+  "summary": "Amp 借助 GPT-6 Astra、Ultrafast、GPT-Live-1 及 ChatGPT 登录，将 AI 代理能力从编程扩展到更广泛的任务场景。",
+  "score": 7.5,
+  "tags": [
+    "ai-agents",
+    "openai",
+    "amp",
+    "gpt-6"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

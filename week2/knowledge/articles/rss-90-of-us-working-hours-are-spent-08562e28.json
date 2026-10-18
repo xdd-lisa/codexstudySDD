@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "08562e287debb5d5",
+  "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+  "source": "rss",
+  "source_url": "https://www.mercor.com/research/labor-index/benchmark-map",
+  "published_at": "2026-10-16T17:08:38+00:00",
+  "collected_at": "2026-10-18T12:12:47+00:00",
+  "summary": "Mercor研究指出，美国工作总时长的约90%用于AI基准测试覆盖不足的任务，说明现有评测与实际劳动需求存在显著差距。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "benchmarks",
+    "labor",
+    "productivity"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "9e63539289a31c86",
+  "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+  "source": "rss",
+  "source_url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+  "published_at": "2026-10-16T00:00:00+00:00",
+  "collected_at": "2026-10-18T12:12:48+00:00",
+  "summary": "两名工程师借助 Codex 在数周内推出 Stack Overflow for Agents，其 ChatGPT 插件推动代理创建量最高增长 10 倍。",
+  "score": 7.5,
+  "tags": [
+    "chatgpt",
+    "codex",
+    "agents",
+    "product-growth"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

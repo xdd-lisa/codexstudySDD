@@ -389,7 +389,17 @@
     "github:bessouat40/raglight": "f3bcfa8137062bf0",
     "rss:92bbd7483a6e4258": "6e4d3e744e9e0fa0",
     "rss:814a24d1a5cf4061": "61ac108a17c79367",
-    "rss:fbd086cdc9d7869f": "c304254f82ae473d"
+    "rss:fbd086cdc9d7869f": "c304254f82ae473d",
+    "rss:3628281e92c0590b": "08562e287debb5d5",
+    "rss:9732b2763df5a67a": "9732b2763df5a67a",
+    "rss:b6756c0a180ee554": "b6756c0a180ee554",
+    "rss:9e63539289a31c86": "9e63539289a31c86",
+    "rss:32165ee6af8945a5": "32165ee6af8945a5",
+    "rss:a60f4a701f887ae8": "a60f4a701f887ae8",
+    "rss:94eadcab22c41e35": "94eadcab22c41e35",
+    "rss:57c3309db5bedcde": "57c3309db5bedcde",
+    "rss:004cd593adabcd24": "004cd593adabcd24",
+    "rss:a8b8c31de898145e": "a8b8c31de898145e"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -558,5 +568,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-17T11:47:14+00:00"
+  "updated_at": "2026-10-18T12:13:10+00:00"
 }

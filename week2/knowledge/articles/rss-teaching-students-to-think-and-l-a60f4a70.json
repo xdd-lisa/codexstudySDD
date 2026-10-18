@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a60f4a701f887ae8",
+  "title": "Teaching students to think and learn through questions",
+  "source": "rss",
+  "source_url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+  "published_at": "2026-10-15T13:00:00+00:00",
+  "collected_at": "2026-10-18T12:12:48+00:00",
+  "summary": "OpenAI 在教师节推出巴西葡萄牙语版“AI for Educators”，并介绍 Study Mode 如何通过提问帮助教师支持学生主动、分步学习。",
+  "score": 7.0,
+  "tags": [
+    "education",
+    "ai",
+    "teachers",
+    "study-mode",
+    "brazil"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

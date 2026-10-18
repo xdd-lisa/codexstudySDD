@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "32165ee6af8945a5",
+  "title": "Bringing GPT-Rosalind to academic research labs",
+  "source": "rss",
+  "source_url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+  "published_at": "2026-10-15T19:00:00+00:00",
+  "collected_at": "2026-10-18T12:12:48+00:00",
+  "summary": "OpenAI 推出 Rosalind 学术计划，为符合条件的学术实验室提供 GPT-Rosalind 及相关工具的赞助访问权限，以推动生命科学研究。",
+  "score": 7.0,
+  "tags": [
+    "openai",
+    "academic-research",
+    "life-sciences",
+    "gpt-rosalind"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

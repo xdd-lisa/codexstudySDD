@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "9732b2763df5a67a",
+  "title": "How Itaú is building generative AI for its entire customer base",
+  "source": "rss",
+  "source_url": "https://openai.com/index/itau-generative-ai",
+  "published_at": "2026-10-16T19:00:00+00:00",
+  "collected_at": "2026-10-18T12:12:48+00:00",
+  "summary": "Itaú 通过 ia.i 对话界面和 IARA 治理平台，在巴西高度监管的金融行业中面向客户与员工推进 AI First 战略，落地生成式 AI。",
+  "score": 7.5,
+  "tags": [
+    "generative-ai",
+    "banking",
+    "ai-governance",
+    "customer-service"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

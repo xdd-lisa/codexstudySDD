@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "b6756c0a180ee554",
+  "title": "Benefit Street Partners answers questions faster with Codex",
+  "source": "rss",
+  "source_url": "https://openai.com/index/benefit-street-partners",
+  "published_at": "2026-10-16T00:00:00+00:00",
+  "collected_at": "2026-10-18T12:12:48+00:00",
+  "summary": "Benefit Street Partners 的 Anant Kumar 借助 Codex 构建贷款估值比较和信贷协议分析工具，并通过代码审查加快后续响应。",
+  "score": 7.5,
+  "tags": [
+    "codex",
+    "finance",
+    "credit-analysis",
+    "developer-tools"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
