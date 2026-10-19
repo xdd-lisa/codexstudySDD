@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "370d8453b070a7bf",
+  "title": "Timestral: Mistral's time-series foundation models",
+  "source": "rss",
+  "source_url": "https://mistral.ai/news/timestral",
+  "published_at": "2026-10-19T06:47:04-05:00",
+  "collected_at": "2026-10-19T15:02:41+00:00",
+  "summary": "Mistral 发布 Timestral 时间序列基础模型，面向时序预测等任务，但页面仅提供评论链接，缺少技术细节。",
+  "score": 6.5,
+  "tags": [
+    "mistral",
+    "time-series",
+    "foundation-models",
+    "ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "5186e84dd6009b75",
+  "title": "Kolibri: A Sovereign Open-Weight Model",
+  "source": "rss",
+  "source_url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model",
+  "published_at": "2026-10-04T02:57:55-05:00",
+  "collected_at": "2026-10-19T15:02:41+00:00",
+  "summary": "标题显示 Aleph Alpha 发布 Kolibri，一个强调主权与开放权重的模型；但正文内容缺失，仅有评论链接，可获取信息有限。",
+  "score": 5.0,
+  "tags": [
+    "ai",
+    "open-weight",
+    "sovereign-ai",
+    "aleph-alpha"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
