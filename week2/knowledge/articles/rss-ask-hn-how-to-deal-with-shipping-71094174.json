@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "71094174f326b71b",
+  "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+  "source": "rss",
+  "source_url": "https://news.ycombinator.com/item?id=50151036",
+  "published_at": "2026-10-19T11:24:34+00:00",
+  "collected_at": "2026-10-20T13:04:32+00:00",
+  "summary": "讨论 Meta 工程师对 AI 生成代码成为黑箱的焦虑，以及工程师如何在交付速度、代码理解、审查测试和长期可维护性之间取舍。",
+  "score": 8.5,
+  "tags": [
+    "ai-coding",
+    "software-engineering",
+    "code-review",
+    "maintainability",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
