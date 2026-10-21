@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8cb6c85df80acd40",
+  "title": "darkdevil3610/100-AI-Machine-learning-Deep-learning-Computer-vision-NLP",
+  "source": "github",
+  "source_url": "https://github.com/darkdevil3610/100-AI-Machine-learning-Deep-learning-Computer-vision-NLP",
+  "published_at": "2026-10-21T13:15:48+00:00",
+  "collected_at": "2026-10-21T13:16:07+00:00",
+  "summary": "该仓库汇集了100多个机器学习、深度学习、计算机视觉和自然语言处理项目代码，适合作为学习与实战参考，拥有约425个星标。",
+  "score": 7.0,
+  "tags": [
+    "machine-learning",
+    "deep-learning",
+    "computer-vision",
+    "nlp",
+    "projects"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

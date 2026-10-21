@@ -402,7 +402,10 @@
     "rss:a8b8c31de898145e": "a8b8c31de898145e",
     "rss:ff1d42eb27ba2043": "370d8453b070a7bf",
     "rss:e3b96615ac8a99fa": "5186e84dd6009b75",
-    "rss:71094174f326b71b": "71094174f326b71b"
+    "rss:71094174f326b71b": "71094174f326b71b",
+    "github:darkdevil3610/100-ai-machine-learning-deep-learning-computer-vision-nlp": "8cb6c85df80acd40",
+    "github:xlang-ai/osworld": "ffbef51b3785b7ab",
+    "github:salikhussain71-code/pakgov-rag-project": "cbe72109166ed037"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -571,5 +574,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-20T13:04:35+00:00"
+  "updated_at": "2026-10-21T13:16:15+00:00"
 }

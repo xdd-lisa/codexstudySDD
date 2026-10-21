@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ffbef51b3785b7ab",
+  "title": "xlang-ai/OSWorld",
+  "source": "github",
+  "source_url": "https://github.com/xlang-ai/OSWorld",
+  "published_at": "2026-10-21T12:58:50+00:00",
+  "collected_at": "2026-10-21T13:16:07+00:00",
+  "summary": "OSWorld 是 NeurIPS 2024 发布的多模态智能体基准，用于在真实计算机环境中评测开放式任务，提供 Python 实现，GitHub 星标约 3229。",
+  "score": 8.5,
+  "tags": [
+    "benchmark",
+    "multimodal-agents",
+    "computer-use",
+    "python",
+    "neurips-2024"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

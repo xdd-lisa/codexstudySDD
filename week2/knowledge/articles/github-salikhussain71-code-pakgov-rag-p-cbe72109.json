@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "cbe72109166ed037",
+  "title": "salikhussain71-code/PAKGOV-RAG-project",
+  "source": "github",
+  "source_url": "https://github.com/salikhussain71-code/PAKGOV-RAG-project",
+  "published_at": "2026-10-21T12:58:19+00:00",
+  "collected_at": "2026-10-21T13:16:07+00:00",
+  "summary": "该项目是面向巴基斯坦政府与法律文件的双语乌尔都语-英语检索增强生成研究项目，包含OCR、混合检索、引用依据与评估，使用Python，获约130星。",
+  "score": 7.5,
+  "tags": [
+    "rag",
+    "bilingual",
+    "urdu",
+    "legal-documents",
+    "ocr"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
