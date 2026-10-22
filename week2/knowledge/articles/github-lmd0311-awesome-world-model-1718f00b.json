@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "1718f00b2fc4b7ba",
+  "title": "LMD0311/Awesome-World-Model",
+  "source": "github",
+  "source_url": "https://github.com/LMD0311/Awesome-World-Model",
+  "published_at": "2026-10-22T13:05:24+00:00",
+  "collected_at": "2026-10-22T13:14:45+00:00",
+  "summary": "该项目收集自动驾驶、机器人等领域的世界模型相关论文，GitHub 获约 2288 星，适合作为研究资料索引。",
+  "score": 7.5,
+  "tags": [
+    "awesome-list",
+    "world-models",
+    "autonomous-driving",
+    "robotics",
+    "paper-collection"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

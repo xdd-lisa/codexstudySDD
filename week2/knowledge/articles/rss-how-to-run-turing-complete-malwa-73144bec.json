@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "73144bec7f413503",
+  "title": "How to Run Turing-Complete Malware in PyTorch's Backward Pass",
+  "source": "rss",
+  "source_url": "https://elonlit.com/scrivings/how-to-run-turing-complete-malware-in-pytorchs-backward-pass",
+  "published_at": "2026-10-21T16:06:35-05:00",
+  "collected_at": "2026-10-22T13:14:52+00:00",
+  "summary": "文章探讨 PyTorch 反向传播（backward pass）因自定义 autograd 机制具备图灵完备性，可被滥用来在训练或推理过程中执行任意恶意代码，并分析其安全风险与防护思路。",
+  "score": 8.0,
+  "tags": [
+    "pytorch",
+    "autograd",
+    "security",
+    "malware",
+    "turing-complete"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

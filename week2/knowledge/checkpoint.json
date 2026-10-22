@@ -405,7 +405,11 @@
     "rss:71094174f326b71b": "71094174f326b71b",
     "github:darkdevil3610/100-ai-machine-learning-deep-learning-computer-vision-nlp": "8cb6c85df80acd40",
     "github:xlang-ai/osworld": "ffbef51b3785b7ab",
-    "github:salikhussain71-code/pakgov-rag-project": "cbe72109166ed037"
+    "github:salikhussain71-code/pakgov-rag-project": "cbe72109166ed037",
+    "github:generated-computers/locals": "c696d822824b88a2",
+    "github:lmd0311/awesome-world-model": "1718f00b2fc4b7ba",
+    "rss:647d92afd672161c": "7067eadac3a0d563",
+    "rss:7a09bfd2427e3fcf": "73144bec7f413503"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -574,5 +578,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-21T13:16:15+00:00"
+  "updated_at": "2026-10-22T13:15:01+00:00"
 }
