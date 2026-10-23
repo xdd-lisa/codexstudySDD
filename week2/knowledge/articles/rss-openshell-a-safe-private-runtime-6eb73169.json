@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "6eb73169f84ce43f",
+  "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+  "source": "rss",
+  "source_url": "https://github.com/NVIDIA/OpenShell",
+  "published_at": "2026-10-22T17:44:06+00:00",
+  "collected_at": "2026-10-23T12:53:27+00:00",
+  "summary": "NVIDIA 开源 OpenShell，为大规模自主 AI 代理提供安全、私密的运行时环境，在 Hacker News 上获得较高关注。",
+  "score": 8.5,
+  "tags": [
+    "ai-agents",
+    "runtime",
+    "security",
+    "privacy",
+    "nvidia"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "5c3a0e99056f092c",
+  "title": "codecentric/c4-genai-suite",
+  "source": "github",
+  "source_url": "https://github.com/codecentric/c4-genai-suite",
+  "published_at": "2026-10-23T12:53:08+00:00",
+  "collected_at": "2026-10-23T12:53:27+00:00",
+  "summary": "codecentric/c4-genai-suite 是一个已归档的 TypeScript GenAI 套件，GitHub 获 174 星，适合参考但不再维护。",
+  "score": 5.0,
+  "tags": [
+    "typescript",
+    "genai",
+    "archived",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

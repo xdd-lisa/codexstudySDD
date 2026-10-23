@@ -409,7 +409,11 @@
     "github:generated-computers/locals": "c696d822824b88a2",
     "github:lmd0311/awesome-world-model": "1718f00b2fc4b7ba",
     "rss:647d92afd672161c": "7067eadac3a0d563",
-    "rss:7a09bfd2427e3fcf": "73144bec7f413503"
+    "rss:7a09bfd2427e3fcf": "73144bec7f413503",
+    "github:codecentric/c4-genai-suite": "5c3a0e99056f092c",
+    "github:jiangnangenius/floe-agent": "84fb8dab236c3c43",
+    "rss:a3f440eb159e057c": "6eb73169f84ce43f",
+    "rss:1c2ab619489851c2": "c4ef979d44385fe4"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -578,5 +582,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-22T13:15:01+00:00"
+  "updated_at": "2026-10-23T12:53:37+00:00"
 }

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "84fb8dab236c3c43",
+  "title": "JiangNanGenius/floe-agent",
+  "source": "github",
+  "source_url": "https://github.com/JiangNanGenius/floe-agent",
+  "published_at": "2026-10-23T12:45:40+00:00",
+  "collected_at": "2026-10-23T12:53:27+00:00",
+  "summary": "面向 iOS/iPadOS 与 Android 的开源设备端 AI 智能体工作区，支持 Linux 环境、代码执行、本地模型与 BYOK 云 AI，iPad 优先。",
+  "score": 7.5,
+  "tags": [
+    "ai-agent",
+    "on-device",
+    "ios",
+    "swift",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
