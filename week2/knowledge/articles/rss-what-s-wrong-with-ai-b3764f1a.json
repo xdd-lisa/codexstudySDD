@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "b3764f1a79cb2990",
+  "title": "What's wrong with AI?",
+  "source": "rss",
+  "source_url": "https://homepage.farm/ai.html",
+  "published_at": "2026-10-24T07:09:40-05:00",
+  "collected_at": "2026-10-24T12:16:19+00:00",
+  "summary": "该条目仅提供标题和评论链接，未包含正文内容，无法判断文章对 AI 问题的具体论述，信息不足。",
+  "score": 2.0,
+  "tags": [
+    "ai",
+    "critique",
+    "incomplete-content"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

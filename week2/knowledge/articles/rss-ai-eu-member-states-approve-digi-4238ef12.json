@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4238ef120285d29a",
+  "title": "AI: EU Member States approve “digital expropriation” of Europeans for AI companies",
+  "source": "rss",
+  "source_url": "https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies",
+  "published_at": "2026-10-23T08:04:23-05:00",
+  "collected_at": "2026-10-24T12:16:19+00:00",
+  "summary": "欧洲联盟成员国据称批准了有利于AI公司的政策，被批评为对欧洲人数据的“数字征收”，涉及隐私与数据保护争议。",
+  "score": 7.0,
+  "tags": [
+    "eu",
+    "ai",
+    "privacy",
+    "data-protection",
+    "policy"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

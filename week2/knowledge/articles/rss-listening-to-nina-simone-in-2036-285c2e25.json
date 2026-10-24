@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "285c2e252a71ddae",
+  "title": "Listening to Nina Simone in 2036",
+  "source": "rss",
+  "source_url": "https://punkx.org/jackdoe/nina.html",
+  "published_at": "2026-10-24T05:02:51-05:00",
+  "collected_at": "2026-10-24T12:16:19+00:00",
+  "summary": "作者昨晚思考这个世界，快速写了一篇短篇小说，写作过程感到诡异，并认为它可能发展成一款不错的电子游戏。",
+  "score": 3.0,
+  "tags": [
+    "fiction",
+    "short-story",
+    "future",
+    "music",
+    "video-game"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

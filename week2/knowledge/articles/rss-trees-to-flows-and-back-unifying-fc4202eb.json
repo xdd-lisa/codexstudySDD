@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "fc4202eb49607e6f",
+  "title": "Trees to Flows and Back: Unifying Decision Trees and Diffusion Models",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2605.00414",
+  "published_at": "2026-10-19T07:15:11-05:00",
+  "collected_at": "2026-10-24T12:16:19+00:00",
+  "summary": "文章标题提出在决策树与扩散模型之间建立统一框架，探索从树到流以及反向转换；但抓取内容仅有评论链接，缺少摘要、方法和实验细节。",
+  "score": 6.0,
+  "tags": [
+    "decision-trees",
+    "diffusion-models",
+    "generative-models",
+    "machine-learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

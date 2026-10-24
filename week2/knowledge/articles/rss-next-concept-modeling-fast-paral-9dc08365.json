@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "9dc08365b01ed845",
+  "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2610.14162",
+  "published_at": "2026-10-23T12:25:34-05:00",
+  "collected_at": "2026-10-24T12:16:19+00:00",
+  "summary": "该条目仅提供 arXiv 论文标题与 Lobsters 评论链接，缺少摘要和正文内容，无法评估其方法细节与实验效果。",
+  "score": 5.0,
+  "tags": [
+    "arxiv",
+    "text-generation",
+    "language-modeling",
+    "parallel-decoding"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
