@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "da610ac91303e57c",
+  "title": "deathbyknowledge/gsv",
+  "source": "github",
+  "source_url": "https://github.com/deathbyknowledge/gsv",
+  "published_at": "2026-10-25T12:32:39+00:00",
+  "collected_at": "2026-10-25T12:47:55+00:00",
+  "summary": "一个用 TypeScript 编写的未来感个人助理项目，目前获得约 125 个 GitHub 星标。",
+  "score": 6.5,
+  "tags": [
+    "typescript",
+    "personal-assistant",
+    "ai",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

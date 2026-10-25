@@ -418,7 +418,8 @@
     "rss:0953822f3c60813f": "285c2e252a71ddae",
     "rss:c21ac290e3552409": "9dc08365b01ed845",
     "rss:bf3f50d4936891b1": "4238ef120285d29a",
-    "rss:f4e820bacd39db63": "fc4202eb49607e6f"
+    "rss:f4e820bacd39db63": "fc4202eb49607e6f",
+    "github:deathbyknowledge/gsv": "da610ac91303e57c"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -587,5 +588,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-24T12:16:37+00:00"
+  "updated_at": "2026-10-25T12:47:58+00:00"
 }
