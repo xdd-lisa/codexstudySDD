@@ -419,7 +419,8 @@
     "rss:c21ac290e3552409": "9dc08365b01ed845",
     "rss:bf3f50d4936891b1": "4238ef120285d29a",
     "rss:f4e820bacd39db63": "fc4202eb49607e6f",
-    "github:deathbyknowledge/gsv": "da610ac91303e57c"
+    "github:deathbyknowledge/gsv": "da610ac91303e57c",
+    "github:polyaxon/polyaxon": "7016275d9e92e3fe"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -477,43 +478,6 @@
         "category": "综合技术"
       },
       "error": "LLM analysis for 'Interpreting Pangram' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 1: Expecting value)",
-      "attempts": 1
-    },
-    "github:polyaxon/polyaxon": {
-      "stage": "process",
-      "external_id": "github:polyaxon/polyaxon",
-      "item": {
-        "external_id": "github:polyaxon/polyaxon",
-        "title": "polyaxon/polyaxon",
-        "source": "github",
-        "source_url": "https://github.com/polyaxon/polyaxon",
-        "published_at": "2026-09-19T11:08:44Z",
-        "collected_at": "2026-09-19T12:05:22+00:00",
-        "content": "AI Infra / AI Orchestration / AI Control Plane Primary language: MDX. GitHub stars: 3731.",
-        "source_tags": [
-          "agents",
-          "artificial-intelligence",
-          "data-science",
-          "deep-learning",
-          "harness",
-          "hyperparameter-optimization",
-          "jupyter",
-          "jupyterlab",
-          "k8s",
-          "keras",
-          "kubernetes",
-          "machine-learning",
-          "mlops",
-          "notebook",
-          "pipelines",
-          "pytorch",
-          "reinforcement-learning",
-          "sandbox",
-          "tensorflow",
-          "workflow"
-        ]
-      },
-      "error": "LLM analysis for 'polyaxon/polyaxon' remained invalid after 3 attempts: LLM analysis is not valid JSON (line 1, column 117: Unterminated string starting at)",
       "attempts": 1
     },
     "rss:4f8a5da5350b4c45": {
@@ -588,5 +552,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-25T12:47:58+00:00"
+  "updated_at": "2026-10-26T14:37:06+00:00"
 }

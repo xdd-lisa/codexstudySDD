@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "7016275d9e92e3fe",
+  "title": "polyaxon/polyaxon",
+  "source": "github",
+  "source_url": "https://github.com/polyaxon/polyaxon",
+  "published_at": "2026-10-26T14:22:41+00:00",
+  "collected_at": "2026-10-26T14:36:33+00:00",
+  "summary": "Polyaxon 是面向 AI/ML 的开源编排与控制平面，支持在 Kubernetes 上管理实验、流水线和模型训练，项目知名度较高，但仓库当前以 MDX 文档内容为主。",
+  "score": 8.0,
+  "tags": [
+    "ai-orchestration",
+    "mlops",
+    "kubernetes",
+    "control-plane",
+    "open-source"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
