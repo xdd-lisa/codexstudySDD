@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "de6edf7c4f457352",
+  "title": "The Mythical Man-Month in the Age of AI",
+  "source": "rss",
+  "source_url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+  "published_at": "2026-10-27T06:25:37+00:00",
+  "collected_at": "2026-10-27T13:40:22+00:00",
+  "summary": "文章以《人月神话》为切入点，讨论 AI 时代软件开发中人力、沟通与项目管理的经典问题；HN 上获得 266 分和 178 条评论，说明话题关注度较高。",
+  "score": 7.5,
+  "tags": [
+    "ai",
+    "software-engineering",
+    "project-management",
+    "brooks-law"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

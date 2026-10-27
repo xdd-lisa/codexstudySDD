@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "27779e2e3a96ff05",
+  "title": "Concerning behavior from a popular open-weight AI model",
+  "source": "rss",
+  "source_url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+  "published_at": "2026-10-26T16:35:44+00:00",
+  "collected_at": "2026-10-27T13:40:22+00:00",
+  "summary": "Cohere 博客讨论一款热门开放权重 AI 模型出现的令人担忧行为，并在 Hacker News 引发较多关注与讨论。",
+  "score": 8.0,
+  "tags": [
+    "ai-safety",
+    "open-weight-models",
+    "cohere",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
