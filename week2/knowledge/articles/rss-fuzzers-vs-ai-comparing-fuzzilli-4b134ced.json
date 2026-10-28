@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "4b134cedffabe49d",
+  "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+  "source": "rss",
+  "source_url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+  "published_at": "2026-10-27T14:08:23-05:00",
+  "collected_at": "2026-10-28T14:34:24+00:00",
+  "summary": "文章比较了传统模糊测试工具 Fuzzilli 与 AI 模型 BigSleep 在 JavaScript 引擎漏洞发现上的表现，分析两者各自的优势与局限。",
+  "score": 8.5,
+  "tags": [
+    "fuzzing",
+    "ai",
+    "javascript-engine",
+    "vulnerability-discovery",
+    "project-zero"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

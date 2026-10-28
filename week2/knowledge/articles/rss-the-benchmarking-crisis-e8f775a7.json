@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "e8f775a7f6697f89",
+  "title": "The Benchmarking Crisis",
+  "source": "rss",
+  "source_url": "http://databasearchitects.blogspot.com/2026/10/the-benchmarking-crisis.html",
+  "published_at": "2026-10-28T03:32:09-05:00",
+  "collected_at": "2026-10-28T14:34:24+00:00",
+  "summary": "文章讨论数据库与系统研究中的基准测试危机，指出评测方法、结果可复现性和比较公平性等问题，并呼吁更严谨的基准规范。",
+  "score": 7.0,
+  "tags": [
+    "benchmarking",
+    "databases",
+    "research",
+    "reproducibility",
+    "evaluation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

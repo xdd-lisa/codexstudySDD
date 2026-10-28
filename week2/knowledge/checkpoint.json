@@ -422,7 +422,10 @@
     "github:deathbyknowledge/gsv": "da610ac91303e57c",
     "github:polyaxon/polyaxon": "7016275d9e92e3fe",
     "rss:746c6a37ef67d8e0": "de6edf7c4f457352",
-    "rss:eeb373f9f47610ff": "27779e2e3a96ff05"
+    "rss:eeb373f9f47610ff": "27779e2e3a96ff05",
+    "github:lofcz/llmtornado": "1883bd1a9af58468",
+    "rss:6879b4c7d0da09e1": "e8f775a7f6697f89",
+    "rss:53e73e6d18a4d3fe": "4b134cedffabe49d"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -554,5 +557,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-27T13:40:28+00:00"
+  "updated_at": "2026-10-28T14:34:31+00:00"
 }

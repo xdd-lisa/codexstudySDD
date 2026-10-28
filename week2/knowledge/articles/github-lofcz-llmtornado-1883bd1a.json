@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "1883bd1a9af58468",
+  "title": "lofcz/LLMTornado",
+  "source": "github",
+  "source_url": "https://github.com/lofcz/LLMTornado",
+  "published_at": "2026-10-28T14:34:11+00:00",
+  "collected_at": "2026-10-28T14:34:23+00:00",
+  "summary": "面向 .NET 的 AI 代理构建库，内置 30 多个连接器，使用 C# 开发，便于快速集成多种大模型服务。",
+  "score": 7.5,
+  "tags": [
+    "dotnet",
+    "csharp",
+    "ai-agents",
+    "llm",
+    "connectors"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
