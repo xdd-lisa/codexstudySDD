@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "871d193932e07498",
+  "title": "Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5",
+  "source": "rss",
+  "source_url": "https://divagr.com/blog/qwenputer",
+  "published_at": "2026-10-29T05:00:04-05:00",
+  "collected_at": "2026-10-29T14:41:49+00:00",
+  "summary": "该条目仅包含标题与评论链接，称 Qwenputer 是在 Qwen3.5 内运行的全功能确定性 RISC-V CPU，但正文内容缺失，无法核实细节。",
+  "score": 4.0,
+  "tags": [
+    "risc-v",
+    "cpu",
+    "qwen",
+    "llm"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -425,7 +425,9 @@
     "rss:eeb373f9f47610ff": "27779e2e3a96ff05",
     "github:lofcz/llmtornado": "1883bd1a9af58468",
     "rss:6879b4c7d0da09e1": "e8f775a7f6697f89",
-    "rss:53e73e6d18a4d3fe": "4b134cedffabe49d"
+    "rss:53e73e6d18a4d3fe": "4b134cedffabe49d",
+    "github:getstream/awesome-ai-news": "01cc7db72f6474c6",
+    "rss:4da9bd5b1b250aff": "871d193932e07498"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -557,5 +559,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-28T14:34:31+00:00"
+  "updated_at": "2026-10-29T14:41:57+00:00"
 }
