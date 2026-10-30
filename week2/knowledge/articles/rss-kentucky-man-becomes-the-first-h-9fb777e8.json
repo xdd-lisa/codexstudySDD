@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "9fb777e852af1046",
+  "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+  "source": "rss",
+  "source_url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai",
+  "published_at": "2026-10-28T13:41:30+00:00",
+  "collected_at": "2026-10-30T14:37:26+00:00",
+  "summary": "肯塔基州一名人文主义者成为首个因宗教信仰获得免用AI豁免的人，相关讨论在Hacker News上引发大量关注。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "religion",
+    "policy",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

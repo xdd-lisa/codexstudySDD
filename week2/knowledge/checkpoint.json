@@ -427,7 +427,9 @@
     "rss:6879b4c7d0da09e1": "e8f775a7f6697f89",
     "rss:53e73e6d18a4d3fe": "4b134cedffabe49d",
     "github:getstream/awesome-ai-news": "01cc7db72f6474c6",
-    "rss:4da9bd5b1b250aff": "871d193932e07498"
+    "rss:4da9bd5b1b250aff": "871d193932e07498",
+    "rss:e72cba3c9c38d1e6": "2cf1fb795ba0396c",
+    "rss:bbe63657ae38fa44": "9fb777e852af1046"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -559,5 +561,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-29T14:41:57+00:00"
+  "updated_at": "2026-10-30T14:37:32+00:00"
 }

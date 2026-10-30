@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "2cf1fb795ba0396c",
+  "title": "We ran AI agent swarms in Minecraft and Mindustry",
+  "source": "rss",
+  "source_url": "https://labs.ycombinator.com/projects/games/index.html",
+  "published_at": "2026-10-29T21:40:28+00:00",
+  "collected_at": "2026-10-30T14:37:26+00:00",
+  "summary": "YC Labs 项目展示在 Minecraft 和 Mindustry 中运行 AI 智能体集群，Hacker News 获 342 分和 139 条评论。",
+  "score": 7.0,
+  "tags": [
+    "ai-agents",
+    "minecraft",
+    "mindustry",
+    "swarm-intelligence",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
