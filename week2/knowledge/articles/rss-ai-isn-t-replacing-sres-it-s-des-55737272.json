@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "55737272f83db8f2",
+  "title": "AI isn't replacing SREs, it's deskilling them",
+  "source": "rss",
+  "source_url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+  "published_at": "2026-10-30T15:52:18+00:00",
+  "collected_at": "2026-10-31T13:55:55+00:00",
+  "summary": "文章探讨AI在站点可靠性工程中的应用，认为AI不会取代SRE，而是通过自动化日常任务导致技能退化，引发对运维专业能力与工具依赖的反思。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "sre",
+    "deskilling",
+    "devops",
+    "automation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

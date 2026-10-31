@@ -429,7 +429,12 @@
     "github:getstream/awesome-ai-news": "01cc7db72f6474c6",
     "rss:4da9bd5b1b250aff": "871d193932e07498",
     "rss:e72cba3c9c38d1e6": "2cf1fb795ba0396c",
-    "rss:bbe63657ae38fa44": "9fb777e852af1046"
+    "rss:bbe63657ae38fa44": "9fb777e852af1046",
+    "github:f/prompts.chat": "1643157b768c76e7",
+    "github:lucidrains/dreamer4": "2ca27747447a08a0",
+    "rss:a62fa66e0563b3ff": "28168c91138a1b41",
+    "rss:22123fcf5f025a9a": "55737272f83db8f2",
+    "rss:e9389c7989c07ccc": "e0c84334b11dc893"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -561,5 +566,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-10-30T14:37:32+00:00"
+  "updated_at": "2026-10-31T13:56:07+00:00"
 }

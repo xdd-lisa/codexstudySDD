@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "e0c84334b11dc893",
+  "title": "Building fine-grained version control for agents with Rust and Durable Objects",
+  "source": "rss",
+  "source_url": "https://delta.dev/blog/fine-grained-version-control-for-agents",
+  "published_at": "2026-10-30T11:50:44-05:00",
+  "collected_at": "2026-10-31T13:55:56+00:00",
+  "summary": "文章介绍如何用 Rust 和 Cloudflare Durable Objects 为 AI 代理构建细粒度版本控制系统。",
+  "score": 7.0,
+  "tags": [
+    "rust",
+    "durable-objects",
+    "version-control",
+    "ai-agents",
+    "cloudflare"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

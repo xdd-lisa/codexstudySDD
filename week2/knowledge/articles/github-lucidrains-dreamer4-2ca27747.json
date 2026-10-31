@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "2ca27747447a08a0",
+  "title": "lucidrains/dreamer4",
+  "source": "github",
+  "source_url": "https://github.com/lucidrains/dreamer4",
+  "published_at": "2026-10-31T13:05:51+00:00",
+  "collected_at": "2026-10-31T13:55:54+00:00",
+  "summary": "lucidrains 对 Dreamer 系列最新工作的 Python 实现，获得约 219 个 GitHub 星标，适合强化学习与世界模型方向的研究者参考，但项目成熟度仍需结合代码和文档进一步评估。",
+  "score": 7.5,
+  "tags": [
+    "python",
+    "reinforcement-learning",
+    "world-models",
+    "dreamer",
+    "pytorch"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

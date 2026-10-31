@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "28168c91138a1b41",
+  "title": "Proton's CEO Cancels AI 'Re-Interviews'",
+  "source": "rss",
+  "source_url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews",
+  "published_at": "2026-10-30T17:24:45+00:00",
+  "collected_at": "2026-10-31T13:55:55+00:00",
+  "summary": "Proton 首席执行官取消用 AI 对员工进行“重新面试”的计划，此举此前引发了对隐私、伦理与招聘公平性的争议。",
+  "score": 7.0,
+  "tags": [
+    "proton",
+    "ai",
+    "privacy",
+    "employment",
+    "tech"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
