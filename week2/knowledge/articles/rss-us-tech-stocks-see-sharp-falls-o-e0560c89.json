@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "e0560c89dba7252f",
+  "title": "US tech stocks see sharp falls over AI cost fears",
+  "source": "rss",
+  "source_url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+  "published_at": "2026-10-30T16:13:02+00:00",
+  "collected_at": "2026-11-01T14:33:46+00:00",
+  "summary": "该报道聚焦美国科技股因人工智能成本担忧而大幅下跌，相关讨论在 Hacker News 上获得较高关注。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "tech-stocks",
+    "market",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

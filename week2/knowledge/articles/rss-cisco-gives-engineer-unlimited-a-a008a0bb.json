@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a008a0bb5a2e614e",
+  "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+  "source": "rss",
+  "source_url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs",
+  "published_at": "2026-10-30T14:08:20+00:00",
+  "collected_at": "2026-11-01T14:33:46+00:00",
+  "summary": "Fortune报道称Cisco总裁Jeetu Patel让一名27岁工程师获得无限AI token，用于重写遗留代码；Hacker News讨论热度较高，获得310分和382条评论。",
+  "score": 7.0,
+  "tags": [
+    "cisco",
+    "ai",
+    "legacy-code",
+    "engineering",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

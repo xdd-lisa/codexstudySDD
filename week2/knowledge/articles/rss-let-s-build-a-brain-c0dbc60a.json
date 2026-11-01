@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "c0dbc60a187ea55e",
+  "title": "Let’s Build a Brain",
+  "source": "rss",
+  "source_url": "https://aatishb.com/myriad/lets-build-a-brain",
+  "published_at": "2026-10-31T10:09:27-05:00",
+  "collected_at": "2026-11-01T14:33:47+00:00",
+  "summary": "页面标题为 Let’s Build a Brain，但抓取内容仅包含评论链接，无法获取正文细节，因此难以评估文章质量。",
+  "score": 4.0,
+  "tags": [
+    "neuroscience",
+    "interactive",
+    "limited-content"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
