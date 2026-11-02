@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "967be99077d13f07",
+  "title": "The AI cost of JavaScript frameworks",
+  "source": "rss",
+  "source_url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+  "published_at": "2026-11-01T06:06:19+00:00",
+  "collected_at": "2026-11-02T17:29:22+00:00",
+  "summary": "文章讨论 JavaScript 框架在 AI 辅助开发中的隐性成本，可能涉及框架体积、上下文 token 消耗以及对 AI 编码工具效果的影响。",
+  "score": 7.0,
+  "tags": [
+    "javascript",
+    "frameworks",
+    "ai",
+    "web-development",
+    "performance"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -437,7 +437,9 @@
     "rss:e9389c7989c07ccc": "e0c84334b11dc893",
     "rss:a978be25460079f9": "e0560c89dba7252f",
     "rss:195a952f4a47184f": "a008a0bb5a2e614e",
-    "rss:673c0a947603bd70": "c0dbc60a187ea55e"
+    "rss:673c0a947603bd70": "c0dbc60a187ea55e",
+    "rss:1cdc8a079a33060d": "79ffda0a470cc0fd",
+    "rss:92bd7004a5e8f161": "967be99077d13f07"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -569,5 +571,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-01T14:33:55+00:00"
+  "updated_at": "2026-11-02T17:29:27+00:00"
 }

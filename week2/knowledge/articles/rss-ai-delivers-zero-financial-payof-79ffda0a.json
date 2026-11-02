@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "79ffda0a470cc0fd",
+  "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+  "source": "rss",
+  "source_url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+  "published_at": "2026-11-01T22:10:45+00:00",
+  "collected_at": "2026-11-02T17:29:22+00:00",
+  "summary": "Apollo经济学家表示，多数企业在AI上尚未获得任何财务回报，尽管相关投资与讨论持续升温；该观点引发Hacker News大量讨论。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "economy",
+    "business",
+    "technology"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
