@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "d6a1199972fe48c2",
+  "title": "An easy way to try local AI with braindead-local-intelligence",
+  "source": "rss",
+  "source_url": "https://dataswamp.org/~solene/2026-11-01-braindead-local-intelligence.html",
+  "published_at": "2026-11-01T14:26:47-06:00",
+  "collected_at": "2026-11-03T15:30:53+00:00",
+  "summary": "文章标题介绍通过 braindead-local-intelligence 轻松尝试本地 AI，但抓取内容仅包含评论链接，缺少具体步骤与细节。",
+  "score": 5.0,
+  "tags": [
+    "local-ai",
+    "llm",
+    "tooling"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

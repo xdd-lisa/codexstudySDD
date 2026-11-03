@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "cfa6cb4709bc075b",
+  "title": "iffse/pay-respects",
+  "source": "github",
+  "source_url": "https://github.com/iffse/pay-respects",
+  "published_at": "2026-11-03T15:23:12+00:00",
+  "collected_at": "2026-11-03T15:30:50+00:00",
+  "summary": "用 Rust 编写的命令行建议工具，可作为 command-not-found 与 thefuck 的替代品，目前约 735 星，适合提升终端纠错效率。",
+  "score": 7.0,
+  "tags": [
+    "rust",
+    "cli",
+    "command-not-found",
+    "thefuck",
+    "productivity"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

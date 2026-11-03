@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "aff0d6b25bb90c0f",
+  "title": "Dataojitori/nocturne_memory",
+  "source": "github",
+  "source_url": "https://github.com/Dataojitori/nocturne_memory",
+  "published_at": "2026-11-03T15:28:50+00:00",
+  "collected_at": "2026-11-03T15:30:50+00:00",
+  "summary": "nocturne_memory 是面向 MCP Agent 的轻量级、可回滚且可视化长期记忆服务器，以图结构持久化记忆替代向量 RAG，支持跨模型、会话和工具使用，并可作为 OpenClaw 的替代方案，采用 Python 实现，GitHub 约 1413 星。",
+  "score": 8.5,
+  "tags": [
+    "mcp",
+    "long-term-memory",
+    "graph-database",
+    "python",
+    "ai-agents"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

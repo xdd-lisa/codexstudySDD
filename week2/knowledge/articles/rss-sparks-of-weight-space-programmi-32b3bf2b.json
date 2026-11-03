@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "32b3bf2b225f3d4c",
+  "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+  "source": "rss",
+  "source_url": "https://rikiyat.github.io/blog/weight-space-programming",
+  "published_at": "2026-11-02T13:24:33-06:00",
+  "collected_at": "2026-11-03T15:30:53+00:00",
+  "summary": "文章探讨大语言模型能否原生读取和写入神经网络权重，并由此引出“权重空间编程”的可能性与局限。",
+  "score": 6.0,
+  "tags": [
+    "llm",
+    "neural-networks",
+    "weight-space",
+    "programming"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

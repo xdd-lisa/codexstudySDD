@@ -439,7 +439,12 @@
     "rss:195a952f4a47184f": "a008a0bb5a2e614e",
     "rss:673c0a947603bd70": "c0dbc60a187ea55e",
     "rss:1cdc8a079a33060d": "79ffda0a470cc0fd",
-    "rss:92bd7004a5e8f161": "967be99077d13f07"
+    "rss:92bd7004a5e8f161": "967be99077d13f07",
+    "github:dataojitori/nocturne_memory": "aff0d6b25bb90c0f",
+    "github:iffse/pay-respects": "cfa6cb4709bc075b",
+    "github:juiceboxxgames/utsuwa": "ea9b179e9704e82f",
+    "rss:5806a635bfaf9114": "32b3bf2b225f3d4c",
+    "rss:455a6d8591de6ca4": "d6a1199972fe48c2"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -571,5 +576,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-02T17:29:27+00:00"
+  "updated_at": "2026-11-03T15:31:06+00:00"
 }

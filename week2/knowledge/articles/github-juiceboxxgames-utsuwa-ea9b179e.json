@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "ea9b179e9704e82f",
+  "title": "JuiceBoxxGames/utsuwa",
+  "source": "github",
+  "source_url": "https://github.com/JuiceBoxxGames/utsuwa",
+  "published_at": "2026-11-03T15:19:14+00:00",
+  "collected_at": "2026-11-03T15:30:50+00:00",
+  "summary": "Utsuwa 是一个开源的虚拟 AI 伴侣平台，定位为 Grok Companion 的替代品，支持 AI 角色随互动学习成长，并可选加入日式恋爱模拟机制。项目使用 TypeScript 开发，在 GitHub 获得约 143 颗星，适合关注 AI 陪伴与角色养成方向的开发者参考。",
+  "score": 6.0,
+  "tags": [
+    "ai-companion",
+    "typescript",
+    "open-source",
+    "dating-sim",
+    "virtual-waifu"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
