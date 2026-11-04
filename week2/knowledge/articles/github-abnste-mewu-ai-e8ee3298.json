@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "e8ee32981d772d54",
+  "title": "abnste/mewu_ai",
+  "source": "github",
+  "source_url": "https://github.com/abnste/mewu_ai",
+  "published_at": "2026-11-04T15:42:49+00:00",
+  "collected_at": "2026-11-04T15:48:58+00:00",
+  "summary": "基于 Rust 的跨平台开源 AI 屏幕协作工具，支持圈选问答、离线 OCR、原位翻译与录屏标注，功能实用但社区规模较小。",
+  "score": 7.5,
+  "tags": [
+    "rust",
+    "ai",
+    "ocr",
+    "translation",
+    "screen-capture"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

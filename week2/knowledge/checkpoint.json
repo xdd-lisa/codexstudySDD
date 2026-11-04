@@ -444,7 +444,8 @@
     "github:iffse/pay-respects": "cfa6cb4709bc075b",
     "github:juiceboxxgames/utsuwa": "ea9b179e9704e82f",
     "rss:5806a635bfaf9114": "32b3bf2b225f3d4c",
-    "rss:455a6d8591de6ca4": "d6a1199972fe48c2"
+    "rss:455a6d8591de6ca4": "d6a1199972fe48c2",
+    "github:abnste/mewu_ai": "e8ee32981d772d54"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -576,5 +577,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-03T15:31:06+00:00"
+  "updated_at": "2026-11-04T15:49:01+00:00"
 }
