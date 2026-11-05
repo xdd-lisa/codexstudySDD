@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "35eaf0d06c77e9dd",
+  "title": "Google will turn off search for schools that reject AI",
+  "source": "rss",
+  "source_url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+  "published_at": "2026-11-03T15:25:47+00:00",
+  "collected_at": "2026-11-05T15:50:50+00:00",
+  "summary": "据纽约时报报道，谷歌将停止向拒绝采用其AI工具的学校提供搜索服务，此举引发外界对科技巨头利用核心服务向教育机构施压以推动AI进校园的争议。",
+  "score": 6.0,
+  "tags": [
+    "google",
+    "education",
+    "ai",
+    "search",
+    "tech-policy"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

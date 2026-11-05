@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "d7d9a2a25df6ba53",
+  "title": "Ask HN: What's your current AI agentic setup?",
+  "source": "rss",
+  "source_url": "https://news.ycombinator.com/item?id=50366117",
+  "published_at": "2026-11-04T14:37:22+00:00",
+  "collected_at": "2026-11-05T15:50:50+00:00",
+  "summary": "这是 Hacker News 上关于个人 AI 智能体工作流的讨论帖，询问订阅、模型来源、编码工具、编排框架和代理平台的使用情况，评论丰富，适合了解当前开发者实践快照。",
+  "score": 8.0,
+  "tags": [
+    "ai-agents",
+    "developer-tools",
+    "workflow",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

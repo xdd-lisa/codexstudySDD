@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "857e942cc1110bf4",
+  "title": "AI is forcing us to pay off 40 years of technical debt",
+  "source": "rss",
+  "source_url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+  "published_at": "2026-11-04T11:52:17+00:00",
+  "collected_at": "2026-11-05T15:50:50+00:00",
+  "summary": "文章讨论AI在网络安全领域的应用如何迫使我们偿还过去四十年积累的技术债，并以PHP2Shell漏洞为例说明老旧系统的安全风险与维护压力。",
+  "score": 7.5,
+  "tags": [
+    "ai",
+    "cybersecurity",
+    "technical-debt",
+    "vulnerability"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

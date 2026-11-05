@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "d9baac35fc093331",
+  "title": "Full-stack verification is the new trend",
+  "source": "rss",
+  "source_url": "https://wiki.alcidesfonseca.com/blog/full-stack-verification-is-the-new-trend",
+  "published_at": "2026-11-05T06:24:36-06:00",
+  "collected_at": "2026-11-05T15:50:50+00:00",
+  "summary": "文章标题提出全栈验证正成为新趋势，但当前内容仅包含评论链接，缺少正文细节，难以全面评估其论证与价值。",
+  "score": 4.0,
+  "tags": [
+    "verification",
+    "software-engineering",
+    "full-stack",
+    "trends"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

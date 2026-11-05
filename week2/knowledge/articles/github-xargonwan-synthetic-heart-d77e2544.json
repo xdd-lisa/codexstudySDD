@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "d77e2544b2212625",
+  "title": "XargonWan/Synthetic_Heart",
+  "source": "github",
+  "source_url": "https://github.com/XargonWan/Synthetic_Heart",
+  "published_at": "2026-11-05T15:50:10+00:00",
+  "collected_at": "2026-11-05T15:50:46+00:00",
+  "summary": "该项目是一个用 Python 构建的模块化数字实体基础设施，包含记忆、意志和插件式动作机制，目前获得约 112 颗星。",
+  "score": 6.0,
+  "tags": [
+    "python",
+    "ai-agent",
+    "modular",
+    "plugin-system",
+    "memory"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

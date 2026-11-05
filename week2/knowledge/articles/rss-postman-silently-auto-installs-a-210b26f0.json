@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "210b26f029f33a3e",
+  "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+  "source": "rss",
+  "source_url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+  "published_at": "2026-11-03T17:22:37+00:00",
+  "collected_at": "2026-11-05T15:50:50+00:00",
+  "summary": "Postman 被指静默自动安装 AI 插件并试图共享全部 API 数据，引发用户对隐私、数据安全和软件透明度的担忧。",
+  "score": 8.5,
+  "tags": [
+    "postman",
+    "privacy",
+    "ai",
+    "security"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

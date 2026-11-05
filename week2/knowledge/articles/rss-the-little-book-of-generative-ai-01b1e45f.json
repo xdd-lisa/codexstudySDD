@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "01b1e45f222dec5e",
+  "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2605.29713",
+  "published_at": "2026-11-03T21:40:53+00:00",
+  "collected_at": "2026-11-05T15:50:50+00:00",
+  "summary": "这是一本关于生成式人工智能基础、以直观方式讲解数学原理的入门读物，在 Hacker News 上获得 388 分和 60 条评论，讨论热度较高。",
+  "score": 8.0,
+  "tags": [
+    "generative-ai",
+    "mathematics",
+    "arxiv",
+    "book",
+    "education"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

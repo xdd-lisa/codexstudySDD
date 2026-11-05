@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "f7735096343ce811",
+  "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+  "source": "rss",
+  "source_url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+  "published_at": "2026-11-03T21:26:44+00:00",
+  "collected_at": "2026-11-05T15:50:50+00:00",
+  "summary": "报道称美国科技巨头与AI相关的隐性债务在半年内激增90%，达到3.2万亿美元，反映AI基础设施扩张背后的财务风险。",
+  "score": 7.5,
+  "tags": [
+    "ai",
+    "debt",
+    "tech-giants",
+    "finance"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

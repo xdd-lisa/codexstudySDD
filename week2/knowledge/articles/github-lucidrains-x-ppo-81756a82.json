@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "81756a82af0c7c5a",
+  "title": "lucidrains/x-ppo",
+  "source": "github",
+  "source_url": "https://github.com/lucidrains/x-ppo",
+  "published_at": "2026-11-05T15:43:51+00:00",
+  "collected_at": "2026-11-05T15:50:46+00:00",
+  "summary": "该项目是基于 PyTorch 的 PPO 算法实现，主要使用 Python 编写，GitHub 获约 129 星，适合作为强化学习算法的学习与参考代码。",
+  "score": 6.5,
+  "tags": [
+    "pytorch",
+    "reinforcement-learning",
+    "ppo",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
