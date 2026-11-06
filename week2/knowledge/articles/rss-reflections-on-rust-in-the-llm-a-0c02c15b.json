@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "0c02c15be43dfbff",
+  "title": "Reflections on Rust in the LLM Age",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
+  "published_at": "2026-11-05T11:32:18-06:00",
+  "collected_at": "2026-11-06T15:25:37+00:00",
+  "summary": "该视频讨论在大语言模型时代下 Rust 语言的定位、挑战与机遇，但页面仅提供评论链接，缺少具体内容细节。",
+  "score": 6.0,
+  "tags": [
+    "rust",
+    "llm",
+    "programming",
+    "video"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
