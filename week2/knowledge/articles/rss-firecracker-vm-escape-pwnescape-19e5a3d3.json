@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "19e5a3d3b856bd20",
+  "title": "Firecracker VM Escape: PwnEscape Part 2",
+  "source": "rss",
+  "source_url": "https://pwn.ai/blog/firecracker-escape",
+  "published_at": "2026-11-07T02:44:02-06:00",
+  "collected_at": "2026-11-07T14:26:28+00:00",
+  "summary": "文章介绍 Firecracker 虚拟机逃逸系列 PwnEscape 的第二部分，聚焦漏洞利用过程与安全影响。",
+  "score": 8.0,
+  "tags": [
+    "firecracker",
+    "virtualization",
+    "security",
+    "vm-escape",
+    "exploit"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

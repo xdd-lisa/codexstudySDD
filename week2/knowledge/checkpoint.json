@@ -457,7 +457,12 @@
     "rss:eb9f5de1fda11d29": "210b26f029f33a3e",
     "rss:07acf06c4f8c6303": "35eaf0d06c77e9dd",
     "rss:77c8d60f15a400cc": "d9baac35fc093331",
-    "rss:5d0560dfc7e24314": "0c02c15be43dfbff"
+    "rss:5d0560dfc7e24314": "0c02c15be43dfbff",
+    "github:lucidrains/rotary-embedding-torch": "42197a588aa987c8",
+    "github:csinva/csinva.github.io": "a6564fa937b3aee4",
+    "rss:ddbf6519f2e58a55": "e0c8b4541e0b5e8b",
+    "rss:bf2abcc12c82a793": "2bae9b1f767db094",
+    "rss:eedc911ce4cfec55": "19e5a3d3b856bd20"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -589,5 +594,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-06T15:25:39+00:00"
+  "updated_at": "2026-11-07T14:26:41+00:00"
 }

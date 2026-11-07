@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "e0c8b4541e0b5e8b",
+  "title": "AI is dramatically accelerating AI research",
+  "source": "rss",
+  "source_url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+  "published_at": "2026-11-06T20:27:23+00:00",
+  "collected_at": "2026-11-07T14:26:28+00:00",
+  "summary": "文章标题指出AI正在显著加速AI研究，Hacker News条目获得337分和305条评论，显示出较高关注度与讨论热度。",
+  "score": 8.0,
+  "tags": [
+    "ai-research",
+    "hacker-news",
+    "discussion",
+    "technology"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

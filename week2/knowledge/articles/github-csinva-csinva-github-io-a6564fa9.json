@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "a6564fa937b3aee4",
+  "title": "csinva/csinva.github.io",
+  "source": "github",
+  "source_url": "https://github.com/csinva/csinva.github.io",
+  "published_at": "2026-11-07T14:05:53+00:00",
+  "collected_at": "2026-11-07T14:26:09+00:00",
+  "summary": "该仓库是个人学术网站源码，汇集 AI 幻灯片、论文笔记、课程笔记、博客与研究综述，内容偏教育与知识分享，适合学习参考。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "education",
+    "notes",
+    "website",
+    "html"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

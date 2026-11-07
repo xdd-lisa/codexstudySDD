@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "2bae9b1f767db094",
+  "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+  "source": "rss",
+  "source_url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+  "published_at": "2026-11-05T23:09:57+00:00",
+  "collected_at": "2026-11-07T14:26:28+00:00",
+  "summary": "马克·库班称Facebook明知故犯地投放AI深度伪造诈骗广告，相关文件显示此类欺诈收入达160亿美元。",
+  "score": 7.0,
+  "tags": [
+    "facebook",
+    "ai-deepfakes",
+    "scam-ads",
+    "fraud",
+    "mark-cuban"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

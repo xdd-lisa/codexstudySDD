@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "42197a588aa987c8",
+  "title": "lucidrains/rotary-embedding-torch",
+  "source": "github",
+  "source_url": "https://github.com/lucidrains/rotary-embedding-torch",
+  "published_at": "2026-11-07T14:09:33+00:00",
+  "collected_at": "2026-11-07T14:26:09+00:00",
+  "summary": "该项目用 PyTorch 实现了 Roformer 论文中的旋转位置嵌入，代码简洁，适合在 Transformer 模型中复用。",
+  "score": 7.5,
+  "tags": [
+    "pytorch",
+    "rotary-embeddings",
+    "transformer",
+    "python"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
