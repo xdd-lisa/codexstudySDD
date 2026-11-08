@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "f0b9e9cb1b057ca4",
+  "title": "mehmetkahya0/AI-Catalog",
+  "source": "github",
+  "source_url": "https://github.com/mehmetkahya0/AI-Catalog",
+  "published_at": "2026-11-08T13:58:59+00:00",
+  "collected_at": "2026-11-08T14:35:47+00:00",
+  "summary": "该项目是一个大型 AI 模型与工具目录，汇总了多个领域的 AI 平台和资源，适合作为查找与筛选 AI 工具的参考清单。",
+  "score": 6.0,
+  "tags": [
+    "ai",
+    "catalog",
+    "curated-list",
+    "resources",
+    "html"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

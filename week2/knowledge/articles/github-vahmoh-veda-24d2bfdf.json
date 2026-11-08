@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "24d2bfdfaeb65e49",
+  "title": "vahmoh/Veda",
+  "source": "github",
+  "source_url": "https://github.com/vahmoh/Veda",
+  "published_at": "2026-11-08T14:24:36+00:00",
+  "collected_at": "2026-11-08T14:35:47+00:00",
+  "summary": "Veda 是一个以 Rust 开发的“智能体原生”操作系统项目，目前 GitHub 获得约 104 颗星，公开信息较少，适合关注其后续进展。",
+  "score": 5.5,
+  "tags": [
+    "rust",
+    "operating-system",
+    "ai-agents",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "3bf8c2e4c75f2cce",
+  "title": "Catching prompt injections hidden in PDFs",
+  "source": "rss",
+  "source_url": "https://tomclancy.info/joshua-judges-ruth.html",
+  "published_at": "2026-11-07T13:34:01-06:00",
+  "collected_at": "2026-11-08T14:35:59+00:00",
+  "summary": "页面仅提供 Lobsters 评论链接，未展示关于检测 PDF 中隐藏提示注入的具体内容，信息量有限。",
+  "score": 2.0,
+  "tags": [
+    "prompt-injection",
+    "pdf",
+    "security"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

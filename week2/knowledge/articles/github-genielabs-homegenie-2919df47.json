@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "2919df4772c0a08a",
+  "title": "genielabs/HomeGenie",
+  "source": "github",
+  "source_url": "https://github.com/genielabs/HomeGenie",
+  "published_at": "2026-11-08T14:31:05+00:00",
+  "collected_at": "2026-11-08T14:35:47+00:00",
+  "summary": "HomeGenie 是一个用 JavaScript 开发的开源智能家居平台，主打完全本地运行的代理式 AI 与可编程自动化，GitHub 获约 459 星，适合重视隐私和可定制性的用户。",
+  "score": 7.0,
+  "tags": [
+    "smart-home",
+    "local-ai",
+    "agentic-ai",
+    "javascript",
+    "automation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

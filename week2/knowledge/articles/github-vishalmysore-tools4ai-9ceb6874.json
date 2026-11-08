@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "9ceb6874fb8c324f",
+  "title": "vishalmysore/Tools4AI",
+  "source": "github",
+  "source_url": "https://github.com/vishalmysore/Tools4AI",
+  "published_at": "2026-11-08T14:34:25+00:00",
+  "collected_at": "2026-11-08T14:35:47+00:00",
+  "summary": "Tools4AI 是一个纯 Java 的智能体框架，支持 Gemini、OpenAI、LocalAI 和 Anthropic，可将提示转换为 REST、Java 方法、Shell 脚本或 Swagger API 调用，并集成 Selenium 与图像 AI 操作，GitHub 约 191 星。",
+  "score": 6.5,
+  "tags": [
+    "java",
+    "ai-agents",
+    "llm",
+    "automation",
+    "selenium"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

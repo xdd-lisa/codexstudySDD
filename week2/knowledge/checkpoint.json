@@ -462,7 +462,12 @@
     "github:csinva/csinva.github.io": "a6564fa937b3aee4",
     "rss:ddbf6519f2e58a55": "e0c8b4541e0b5e8b",
     "rss:bf2abcc12c82a793": "2bae9b1f767db094",
-    "rss:eedc911ce4cfec55": "19e5a3d3b856bd20"
+    "rss:eedc911ce4cfec55": "19e5a3d3b856bd20",
+    "github:vishalmysore/tools4ai": "9ceb6874fb8c324f",
+    "github:genielabs/homegenie": "2919df4772c0a08a",
+    "github:vahmoh/veda": "24d2bfdfaeb65e49",
+    "github:mehmetkahya0/ai-catalog": "f0b9e9cb1b057ca4",
+    "rss:f3bb8a6471fe7433": "3bf8c2e4c75f2cce"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -594,5 +599,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-07T14:26:41+00:00"
+  "updated_at": "2026-11-08T14:36:13+00:00"
 }
