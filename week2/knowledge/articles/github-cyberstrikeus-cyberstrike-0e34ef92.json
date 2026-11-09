@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "0e34ef926ae78613",
+  "title": "CyberStrikeus/CyberStrike",
+  "source": "github",
+  "source_url": "https://github.com/CyberStrikeus/CyberStrike",
+  "published_at": "2026-11-09T17:37:18+00:00",
+  "collected_at": "2026-11-09T17:52:02+00:00",
+  "summary": "该项目是开源的AI驱动进攻性安全测试框架，使用TypeScript开发，拥有约3480颗GitHub星标，面向自动化渗透测试场景，适合安全研究与授权测试，但需注意合规使用。",
+  "score": 7.5,
+  "tags": [
+    "ai-security",
+    "penetration-testing",
+    "offensive-security",
+    "typescript",
+    "automation"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

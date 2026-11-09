@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "01bc182bcadfaaf2",
+  "title": "basetenlabs/truss",
+  "source": "github",
+  "source_url": "https://github.com/basetenlabs/truss",
+  "published_at": "2026-11-09T17:40:47+00:00",
+  "collected_at": "2026-11-09T17:52:02+00:00",
+  "summary": "Truss 是 Baseten 推出的开源工具，旨在以最简单的方式将 AI/ML 模型部署到生产环境，主要使用 Python，适合模型服务与 MLOps 场景。",
+  "score": 7.0,
+  "tags": [
+    "machine-learning",
+    "model-serving",
+    "python",
+    "deployment",
+    "mlops"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -467,7 +467,9 @@
     "github:genielabs/homegenie": "2919df4772c0a08a",
     "github:vahmoh/veda": "24d2bfdfaeb65e49",
     "github:mehmetkahya0/ai-catalog": "f0b9e9cb1b057ca4",
-    "rss:f3bb8a6471fe7433": "3bf8c2e4c75f2cce"
+    "rss:f3bb8a6471fe7433": "3bf8c2e4c75f2cce",
+    "github:basetenlabs/truss": "01bc182bcadfaaf2",
+    "github:cyberstrikeus/cyberstrike": "0e34ef926ae78613"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -599,5 +601,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-08T14:36:13+00:00"
+  "updated_at": "2026-11-09T17:52:10+00:00"
 }
