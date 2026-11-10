@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "dab987be36e106a4",
+  "title": "I'm not convinced the AI bubble exists",
+  "source": "rss",
+  "source_url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
+  "published_at": "2026-11-08T23:44:36+00:00",
+  "collected_at": "2026-11-10T15:51:34+00:00",
+  "summary": "文章质疑“AI泡沫”论，认为当前AI投资与炒作未必构成泡沫；Hacker News讨论热度很高（559分、953条评论），观点争议性强。",
+  "score": 6.0,
+  "tags": [
+    "ai",
+    "bubble",
+    "technology",
+    "hacker-news",
+    "discussion"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

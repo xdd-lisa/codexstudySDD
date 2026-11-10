@@ -469,7 +469,8 @@
     "github:mehmetkahya0/ai-catalog": "f0b9e9cb1b057ca4",
     "rss:f3bb8a6471fe7433": "3bf8c2e4c75f2cce",
     "github:basetenlabs/truss": "01bc182bcadfaaf2",
-    "github:cyberstrikeus/cyberstrike": "0e34ef926ae78613"
+    "github:cyberstrikeus/cyberstrike": "0e34ef926ae78613",
+    "rss:25615c0b29107503": "dab987be36e106a4"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -601,5 +602,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-09T17:52:10+00:00"
+  "updated_at": "2026-11-10T15:51:37+00:00"
 }
