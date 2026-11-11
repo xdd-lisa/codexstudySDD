@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "9836df3492903c3f",
+  "title": "Apple has new Mac app coming to make running local AI models easy",
+  "source": "rss",
+  "source_url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy",
+  "published_at": "2026-11-10T21:25:03+00:00",
+  "collected_at": "2026-11-11T15:39:43+00:00",
+  "summary": "苹果将推出新的 Mac 应用，让用户在本地运行 AI 模型更加简单，该消息在 Hacker News 上获得大量关注和讨论。",
+  "score": 8.0,
+  "tags": [
+    "apple",
+    "local-ai",
+    "mac-app",
+    "ai-models"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

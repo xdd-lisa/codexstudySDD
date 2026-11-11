@@ -470,7 +470,13 @@
     "rss:f3bb8a6471fe7433": "3bf8c2e4c75f2cce",
     "github:basetenlabs/truss": "01bc182bcadfaaf2",
     "github:cyberstrikeus/cyberstrike": "0e34ef926ae78613",
-    "rss:25615c0b29107503": "dab987be36e106a4"
+    "rss:25615c0b29107503": "dab987be36e106a4",
+    "github:rodrigo-arenas/sklearn-genetic-opt": "f467f669174318a9",
+    "rss:f789e2ecd24dddb1": "89492780ac63551d",
+    "rss:aee5b6cb134b10b8": "9836df3492903c3f",
+    "rss:9ae908aae7beaabd": "db8fc49499210140",
+    "rss:584e3279f56a40d1": "03feaa4868e76bcc",
+    "rss:daa16a119712fe11": "6a62c89ab9cae00a"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -602,5 +608,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-10T15:51:37+00:00"
+  "updated_at": "2026-11-11T15:40:02+00:00"
 }

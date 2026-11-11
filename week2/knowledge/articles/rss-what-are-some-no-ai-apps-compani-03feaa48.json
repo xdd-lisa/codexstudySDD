@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "03feaa4868e76bcc",
+  "title": "What are some \"No AI\" apps/companies/resources you know of?",
+  "source": "rss",
+  "source_url": "https://lobste.rs/s/nld6x3/what_are_some_no_ai_apps_companies",
+  "published_at": "2026-11-11T07:13:51-06:00",
+  "collected_at": "2026-11-11T15:39:44+00:00",
+  "summary": "Lobsters 用户发帖征集明确避开 AI 的应用、公司和资源列表，并举例 Rebel Tech Alliance，强调只想收集链接和相关社区，不展开 AI 利弊讨论。",
+  "score": 5.0,
+  "tags": [
+    "no-ai",
+    "resources",
+    "community",
+    "lobsters"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

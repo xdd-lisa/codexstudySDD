@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "db8fc49499210140",
+  "title": "AI usage generates a fragile codebase",
+  "source": "rss",
+  "source_url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase",
+  "published_at": "2026-11-10T10:25:58+00:00",
+  "collected_at": "2026-11-11T15:39:43+00:00",
+  "summary": "文章标题主张使用 AI 生成代码会导致代码库更脆弱，Hacker News 上相关讨论热度较高，获得 614 分和 576 条评论。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "software-engineering",
+    "code-quality",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

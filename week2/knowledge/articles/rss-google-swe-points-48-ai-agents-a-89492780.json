@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "89492780ac63551d",
+  "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+  "source": "rss",
+  "source_url": "https://pietromiotti.com/latest/maya-site?maya",
+  "published_at": "2026-11-11T12:05:22+00:00",
+  "collected_at": "2026-11-11T15:39:43+00:00",
+  "summary": "标题称谷歌工程师用48个AI智能体分析NASA激光雷达数据，72小时内发现未标注的玛雅金字塔，但正文仅有链接和讨论热度，缺少可验证细节。",
+  "score": 3.0,
+  "tags": [
+    "ai",
+    "lidar",
+    "maya",
+    "archaeology",
+    "unverified"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

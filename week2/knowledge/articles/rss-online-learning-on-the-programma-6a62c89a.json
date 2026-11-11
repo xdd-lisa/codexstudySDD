@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "6a62c89ab9cae00a",
+  "title": "Online learning on the programmable dataplane (2022)",
+  "source": "rss",
+  "source_url": "https://theses.gla.ac.uk/83235/3/2022SimpsonPhD.pdf",
+  "published_at": "2026-11-10T14:22:46-06:00",
+  "collected_at": "2026-11-11T15:39:44+00:00",
+  "summary": "该博士论文探讨在可编程数据平面上实现在线学习，面向网络内计算与自适应流量处理，并讨论相关系统设计、实现与部署挑战。",
+  "score": 7.0,
+  "tags": [
+    "programmable-dataplane",
+    "online-learning",
+    "networking",
+    "phd-thesis"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
