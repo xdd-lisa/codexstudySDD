@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "56ecd1765267312a",
+  "title": "AI Security Issues Are Social Engineering Issues",
+  "source": "rss",
+  "source_url": "https://www.oblomovka.com/wp/2026/11/11/ai-security-issues-are-social-engineering-issues",
+  "published_at": "2026-11-12T08:41:38-06:00",
+  "collected_at": "2026-11-12T16:22:54+00:00",
+  "summary": "文章主张 AI 安全问题的核心并非单纯技术漏洞，而是社会工程问题，强调应从人的信任、操纵与欺骗角度理解并防范相关风险。",
+  "score": 7.5,
+  "tags": [
+    "ai-security",
+    "social-engineering",
+    "security"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

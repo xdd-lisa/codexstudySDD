@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "1c56d4ad316f6f01",
+  "title": "Explorer-Dong/open-csai-wiki",
+  "source": "github",
+  "source_url": "https://github.com/Explorer-Dong/open-csai-wiki",
+  "published_at": "2026-11-12T15:55:23+00:00",
+  "collected_at": "2026-11-12T16:22:54+00:00",
+  "summary": "这是一个开源的中文 CS/AI 知识库，涵盖基础知识、数据结构与算法、软件开发和大模型等体系化笔记，适合作为学习与复习资料。",
+  "score": 6.5,
+  "tags": [
+    "knowledge-base",
+    "computer-science",
+    "ai",
+    "notes"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "6306dd7d3968f97b",
+  "title": "Writing a SIGGRAPH paper from scratch",
+  "source": "rss",
+  "source_url": "https://alexandergoslin.me/writing-a-siggraph-paper-from-scratch",
+  "published_at": "2026-11-11T10:34:08-06:00",
+  "collected_at": "2026-11-12T16:22:54+00:00",
+  "summary": "文章主题是从零开始撰写一篇SIGGRAPH论文，可能涵盖选题、研究推进、写作组织与投稿策略，但提供的正文内容较少，仅有评论链接。",
+  "score": 6.5,
+  "tags": [
+    "siggraph",
+    "academic-writing",
+    "research",
+    "computer-graphics"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

@@ -476,7 +476,12 @@
     "rss:aee5b6cb134b10b8": "9836df3492903c3f",
     "rss:9ae908aae7beaabd": "db8fc49499210140",
     "rss:584e3279f56a40d1": "03feaa4868e76bcc",
-    "rss:daa16a119712fe11": "6a62c89ab9cae00a"
+    "rss:daa16a119712fe11": "6a62c89ab9cae00a",
+    "github:explorer-dong/open-csai-wiki": "1c56d4ad316f6f01",
+    "rss:d2faf141a089dfd2": "1df6a00742e99b5a",
+    "rss:1ff5a8e93d7ecc59": "e1a63159b802e819",
+    "rss:bfa1527828db1084": "56ecd1765267312a",
+    "rss:74c66397cab8fd43": "6306dd7d3968f97b"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -608,5 +613,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-11T15:40:02+00:00"
+  "updated_at": "2026-11-12T16:23:06+00:00"
 }
