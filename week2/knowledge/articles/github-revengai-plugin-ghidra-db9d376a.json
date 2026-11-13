@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "db9d376a7295b557",
+  "title": "RevEngAI/plugin-ghidra",
+  "source": "github",
+  "source_url": "https://github.com/RevEngAI/plugin-ghidra",
+  "published_at": "2026-11-11T10:30:33+00:00",
+  "collected_at": "2026-11-13T15:43:55+00:00",
+  "summary": "RevEng.AI 的 Ghidra 插件，使用 Java 开发，提供逆向工程辅助功能，GitHub 获 202 星。",
+  "score": 7.5,
+  "tags": [
+    "ghidra",
+    "reverse-engineering",
+    "java",
+    "plugin",
+    "reveng-ai"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

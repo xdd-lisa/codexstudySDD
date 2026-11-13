@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "fca505743bb9dd49",
+  "title": "e-means: 10x faster k-means at equal loss",
+  "source": "rss",
+  "source_url": "https://e-means.github.io/",
+  "published_at": "2026-11-13T02:37:31-06:00",
+  "collected_at": "2026-11-13T15:43:56+00:00",
+  "summary": "文章标题称 e-means 在损失相同的情况下将 k-means 加速 10 倍，但提供的内容仅为评论链接，缺少具体方法与实验细节，无法进一步评估。",
+  "score": 5.0,
+  "tags": [
+    "k-means",
+    "clustering",
+    "performance",
+    "machine-learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
