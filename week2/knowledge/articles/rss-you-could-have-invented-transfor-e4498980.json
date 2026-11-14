@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "e44989809c18965e",
+  "title": "You could have invented transformers from memory",
+  "source": "rss",
+  "source_url": "https://alexwang.ai/posts/associative-memory",
+  "published_at": "2026-11-13T22:49:47-06:00",
+  "collected_at": "2026-11-14T14:34:37+00:00",
+  "summary": "该条目仅提供文章标题、链接和评论入口，正文内容未在抓取结果中显示；标题暗示文章可能从联想记忆角度讲解 Transformer 的构造思路。",
+  "score": 5.0,
+  "tags": [
+    "transformers",
+    "associative-memory",
+    "machine-learning",
+    "blog"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

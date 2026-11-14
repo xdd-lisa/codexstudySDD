@@ -483,7 +483,10 @@
     "rss:bfa1527828db1084": "56ecd1765267312a",
     "rss:74c66397cab8fd43": "6306dd7d3968f97b",
     "github:revengai/plugin-ghidra": "db9d376a7295b557",
-    "rss:1960fe14b3957c6d": "fca505743bb9dd49"
+    "rss:1960fe14b3957c6d": "fca505743bb9dd49",
+    "github:the-osint-toolbox/ai-resources": "d119392f34e9dea0",
+    "rss:bed44ae02872a9b7": "01b1e45f222dec5e",
+    "rss:20a077fae83e5e6b": "e44989809c18965e"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -615,5 +618,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-13T15:44:02+00:00"
+  "updated_at": "2026-11-14T14:34:44+00:00"
 }

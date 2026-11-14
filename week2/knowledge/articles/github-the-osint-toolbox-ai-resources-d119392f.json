@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "d119392f34e9dea0",
+  "title": "The-Osint-Toolbox/AI-Resources",
+  "source": "github",
+  "source_url": "https://github.com/The-Osint-Toolbox/AI-Resources",
+  "published_at": "2026-11-13T08:03:15+00:00",
+  "collected_at": "2026-11-14T14:34:32+00:00",
+  "summary": "该仓库汇集面向 OSINT 的 AI 工具资源，适合情报搜集与开源调查人员参考；当前约 178 个 GitHub 星标，规模较小但主题实用。",
+  "score": 6.5,
+  "tags": [
+    "osint",
+    "ai",
+    "resources",
+    "github"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
