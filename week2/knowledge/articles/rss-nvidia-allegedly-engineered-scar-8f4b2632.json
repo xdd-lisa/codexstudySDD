@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8f4b2632f43363d7",
+  "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+  "source": "rss",
+  "source_url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+  "published_at": "2026-11-14T02:52:59+00:00",
+  "collected_at": "2026-11-15T15:01:51+00:00",
+  "summary": "报道称英伟达涉嫌通过资助AI初创公司购买其GPU来人为制造稀缺，相关指控引发Hacker News热议，讨论涉及市场竞争与反垄断担忧。",
+  "score": 7.0,
+  "tags": [
+    "nvidia",
+    "ai",
+    "gpus",
+    "antitrust",
+    "startups"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

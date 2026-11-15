@@ -486,7 +486,10 @@
     "rss:1960fe14b3957c6d": "fca505743bb9dd49",
     "github:the-osint-toolbox/ai-resources": "d119392f34e9dea0",
     "rss:bed44ae02872a9b7": "01b1e45f222dec5e",
-    "rss:20a077fae83e5e6b": "e44989809c18965e"
+    "rss:20a077fae83e5e6b": "e44989809c18965e",
+    "rss:0a79d1ea38bf13d6": "8f4b2632f43363d7",
+    "rss:ce342fc25bdad367": "12990af15e181ab9",
+    "rss:f678979499e2b707": "b53103b0ebf97fd2"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -618,5 +621,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-14T14:34:44+00:00"
+  "updated_at": "2026-11-15T15:01:58+00:00"
 }

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "b53103b0ebf97fd2",
+  "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+  "published_at": "2026-11-13T15:08:44+00:00",
+  "collected_at": "2026-11-15T15:01:51+00:00",
+  "summary": "这是 Jonathan Blow 讨论“AI 已能写代码，为何软件体验仍未明显改变”的视频，在 Hacker News 获得 474 分和 718 条评论，引发对 AI 编程实际效果的讨论。",
+  "score": 7.0,
+  "tags": [
+    "ai-coding",
+    "software-engineering",
+    "jonathan-blow",
+    "video",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
