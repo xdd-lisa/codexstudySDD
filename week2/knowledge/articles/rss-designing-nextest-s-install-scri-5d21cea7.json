@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "5d21cea7eb27aedc",
+  "title": "Designing nextest's install scripts",
+  "source": "rss",
+  "source_url": "https://sunshowers.io/posts/nextest-install-scripts",
+  "published_at": "2026-11-15T18:14:56-06:00",
+  "collected_at": "2026-11-16T17:32:27+00:00",
+  "summary": "文章讨论 nextest 安装脚本的设计思路，重点在于提升跨平台安装的可靠性、安全性与用户体验。",
+  "score": 7.0,
+  "tags": [
+    "rust",
+    "nextest",
+    "install-scripts",
+    "software-design"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
