@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "bdc902021b0e8f87",
+  "title": "The-Art-of-Hacking/h4cker",
+  "source": "github",
+  "source_url": "https://github.com/The-Art-of-Hacking/h4cker",
+  "published_at": "2026-11-17T17:07:19+00:00",
+  "collected_at": "2026-11-17T17:07:32+00:00",
+  "summary": "该仓库由Omar Santos维护，汇集数千个道德黑客、漏洞研究、数字取证、AI安全等学习资源，适合安全从业者系统学习与实战参考。",
+  "score": 9.0,
+  "tags": [
+    "cybersecurity",
+    "ethical-hacking",
+    "resources",
+    "vulnerability-research",
+    "education"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

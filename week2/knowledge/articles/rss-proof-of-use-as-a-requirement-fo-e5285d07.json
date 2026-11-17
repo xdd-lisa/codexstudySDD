@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "e5285d074d2cb0c1",
+  "title": "\"Proof of use\" as a requirement for open source contributions?",
+  "source": "rss",
+  "source_url": "https://lobste.rs/s/ki1l5r/proof_use_as_requirement_for_open_source",
+  "published_at": "2026-11-16T16:25:45-06:00",
+  "collected_at": "2026-11-17T17:07:33+00:00",
+  "summary": "开源维护者提议以“使用证明”作为接收贡献的门槛，要求提交者展示依赖项目或生产环境使用情况，以过滤AI生成的低声价值PR，并优先处理真实用户的问题。",
+  "score": 7.0,
+  "tags": [
+    "open-source",
+    "maintainers",
+    "ai-slop",
+    "contribution-policy",
+    "proof-of-use"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
