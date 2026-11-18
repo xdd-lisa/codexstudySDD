@@ -493,7 +493,10 @@
     "rss:b35a4ab09d4fbeb6": "5d21cea7eb27aedc",
     "github:the-art-of-hacking/h4cker": "bdc902021b0e8f87",
     "rss:92d85990869a2c8a": "7a703136e0b3bb1d",
-    "rss:56e857746c558f19": "e5285d074d2cb0c1"
+    "rss:56e857746c558f19": "e5285d074d2cb0c1",
+    "rss:dcb85dd423a529a5": "6663bdbb07465939",
+    "rss:4be44fd404c39003": "d00fc92468416949",
+    "rss:1322d0a68a780a07": "f054d70d5a7a452e"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -625,5 +628,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-17T17:07:40+00:00"
+  "updated_at": "2026-11-18T16:45:14+00:00"
 }

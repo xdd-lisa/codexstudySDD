@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "f054d70d5a7a452e",
+  "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+  "source": "rss",
+  "source_url": "https://energy-based-reasoners.github.io/",
+  "published_at": "2026-11-18T08:45:20-06:00",
+  "collected_at": "2026-11-18T16:45:07+00:00",
+  "summary": "该页面主张将循环推理器建模为基于能量的模型，通过能量最小化进行迭代推理，并讨论其优势与设计。",
+  "score": 7.0,
+  "tags": [
+    "energy-based-models",
+    "recurrent-networks",
+    "reasoning",
+    "machine-learning"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

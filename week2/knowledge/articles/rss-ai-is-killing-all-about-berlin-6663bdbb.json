@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "6663bdbb07465939",
+  "title": "AI is killing All About Berlin",
+  "source": "rss",
+  "source_url": "https://nicolasbouliane.com/blog/death-by-ai",
+  "published_at": "2026-11-18T06:47:26+00:00",
+  "collected_at": "2026-11-18T16:45:07+00:00",
+  "summary": "作者讲述AI摘要与生成内容如何侵蚀独立实用网站All About Berlin的流量与生计，并反思搜索生态和内容创作的未来。",
+  "score": 8.0,
+  "tags": [
+    "ai",
+    "search",
+    "independent-web",
+    "content"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

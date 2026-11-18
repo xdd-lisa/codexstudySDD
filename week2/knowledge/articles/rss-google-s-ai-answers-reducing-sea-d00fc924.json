@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "d00fc92468416949",
+  "title": "Google's AI answers reducing search traffic by 40%",
+  "source": "rss",
+  "source_url": "https://revscope.co/blog/search-seo-geo-2026",
+  "published_at": "2026-11-18T00:17:58+00:00",
+  "collected_at": "2026-11-18T16:45:07+00:00",
+  "summary": "标题声称谷歌AI回答使搜索流量下降40%，但提供内容仅为链接和HN讨论元数据，缺少原始数据与方法说明，结论需谨慎看待。",
+  "score": 5.0,
+  "tags": [
+    "google",
+    "ai-search",
+    "seo",
+    "traffic",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
