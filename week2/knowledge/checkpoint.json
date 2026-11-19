@@ -496,7 +496,9 @@
     "rss:56e857746c558f19": "e5285d074d2cb0c1",
     "rss:dcb85dd423a529a5": "6663bdbb07465939",
     "rss:4be44fd404c39003": "d00fc92468416949",
-    "rss:1322d0a68a780a07": "f054d70d5a7a452e"
+    "rss:1322d0a68a780a07": "f054d70d5a7a452e",
+    "github:taovietducofficial/opentechnotes": "1c99d4d42a2623b9",
+    "rss:60ecc788102d4643": "e97319d8730a2e80"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -628,5 +630,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-18T16:45:14+00:00"
+  "updated_at": "2026-11-19T16:51:40+00:00"
 }

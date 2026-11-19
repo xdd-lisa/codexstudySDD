@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "1c99d4d42a2623b9",
+  "title": "taovietducofficial/OpenTechNotes",
+  "source": "github",
+  "source_url": "https://github.com/taovietducofficial/OpenTechNotes",
+  "published_at": "2026-11-19T15:56:10+00:00",
+  "collected_at": "2026-11-19T16:51:35+00:00",
+  "summary": "OpenTechNotes 是一个免费 IT 知识库，汇总基础知识与实战经验，内容简洁易懂并持续更新；GitHub 约 114 星，适合作为学习参考资料。",
+  "score": 6.0,
+  "tags": [
+    "it-notes",
+    "documentation",
+    "learning-resources",
+    "vietnamese"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
