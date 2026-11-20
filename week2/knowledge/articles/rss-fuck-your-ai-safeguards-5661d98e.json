@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "5661d98e657c1ecf",
+  "title": "Fuck Your AI Safeguards",
+  "source": "rss",
+  "source_url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards",
+  "published_at": "2026-11-19T16:30:18+00:00",
+  "collected_at": "2026-11-20T16:27:01+00:00",
+  "summary": "一篇讨论AI安全防护措施的文章，标题带有强烈批评意味，并在Hacker News引发大量讨论（580分、237条评论）。",
+  "score": 7.0,
+  "tags": [
+    "ai",
+    "safeguards",
+    "critique",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

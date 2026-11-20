@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "3381c1b46b2b81fa",
+  "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+  "source": "rss",
+  "source_url": "https://architectlabs.com/blog/frostbite",
+  "published_at": "2026-11-20T10:01:41+00:00",
+  "collected_at": "2026-11-20T16:27:01+00:00",
+  "summary": "文章介绍名为 Frostbite 的新 CPU 架构，声称由 AI 完成发现、设计和验证；HN 讨论热度很高，但其方法细节、验证范围和可复现性仍需进一步审视。",
+  "score": 6.5,
+  "tags": [
+    "ai",
+    "cpu-architecture",
+    "hardware-design",
+    "verification"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

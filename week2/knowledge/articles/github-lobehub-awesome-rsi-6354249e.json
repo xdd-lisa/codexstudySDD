@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "6354249ede65dfe8",
+  "title": "lobehub/awesome-rsi",
+  "source": "github",
+  "source_url": "https://github.com/lobehub/awesome-rsi",
+  "published_at": "2026-11-20T14:50:27+00:00",
+  "collected_at": "2026-11-20T16:26:51+00:00",
+  "summary": "lobehub/awesome-rsi 是一个围绕递归自我改进（RSI）的精选研究地图，涵盖模型、智能体、评测基准、自动化 AI 研发与安全等方向，适合作为该领域资料索引。",
+  "score": 7.5,
+  "tags": [
+    "awesome-list",
+    "recursive-self-improvement",
+    "ai-safety",
+    "research"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

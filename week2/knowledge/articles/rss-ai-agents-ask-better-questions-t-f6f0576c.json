@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "f6f0576c6cc397f3",
+  "title": "AI agents ask better questions than KPMG accountants in audit trial",
+  "source": "rss",
+  "source_url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg",
+  "published_at": "2026-11-18T15:49:34+00:00",
+  "collected_at": "2026-11-20T16:27:01+00:00",
+  "summary": "报道称，在一项审计试验中，AI 代理提出的问题比 KPMG 会计师更出色；该话题在 Hacker News 上引发热议，获得 492 分和 261 条评论。",
+  "score": 7.5,
+  "tags": [
+    "ai-agents",
+    "auditing",
+    "kpmg",
+    "hacker-news"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

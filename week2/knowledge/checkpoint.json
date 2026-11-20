@@ -498,7 +498,13 @@
     "rss:4be44fd404c39003": "d00fc92468416949",
     "rss:1322d0a68a780a07": "f054d70d5a7a452e",
     "github:taovietducofficial/opentechnotes": "1c99d4d42a2623b9",
-    "rss:60ecc788102d4643": "e97319d8730a2e80"
+    "rss:60ecc788102d4643": "e97319d8730a2e80",
+    "github:yihong1120/construction-hazard-detection": "8a3943ca4cccf93a",
+    "github:lobehub/awesome-rsi": "6354249ede65dfe8",
+    "rss:0543ecd77e37d312": "3381c1b46b2b81fa",
+    "rss:ff1e1fb2a23a1379": "5661d98e657c1ecf",
+    "rss:9c140093e46f3cf7": "f6f0576c6cc397f3",
+    "rss:e422981852c2a880": "b90df0b3de54426b"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -630,5 +636,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-19T16:51:40+00:00"
+  "updated_at": "2026-11-20T16:27:14+00:00"
 }

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "8a3943ca4cccf93a",
+  "title": "yihong1120/Construction-Hazard-Detection",
+  "source": "github",
+  "source_url": "https://github.com/yihong1120/Construction-Hazard-Detection",
+  "published_at": "2026-11-19T23:09:52+00:00",
+  "collected_at": "2026-11-20T16:26:51+00:00",
+  "summary": "该项目使用 YOLO 进行目标检测，识别未戴安全帽、未穿安全背心以及靠近机械车辆的工人等施工隐患，并用 HDBSCAN 聚类安全锥坐标生成监控区域，通过后处理提升检测精度。",
+  "score": 7.0,
+  "tags": [
+    "computer-vision",
+    "object-detection",
+    "construction-safety",
+    "python",
+    "yolo"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

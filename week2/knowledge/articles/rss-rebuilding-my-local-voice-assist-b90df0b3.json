@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "b90df0b3de54426b",
+  "title": "Rebuilding my local voice assistant pipeline",
+  "source": "rss",
+  "source_url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+  "published_at": "2026-11-19T13:50:25-06:00",
+  "collected_at": "2026-11-20T16:27:02+00:00",
+  "summary": "文章介绍作者如何重构本地语音助手处理流水线，涉及语音识别、意图处理与响应等环节的本地化实现。",
+  "score": 7.0,
+  "tags": [
+    "voice-assistant",
+    "local-first",
+    "pipeline",
+    "speech-recognition"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}
