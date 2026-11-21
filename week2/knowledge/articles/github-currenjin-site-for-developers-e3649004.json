@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "e3649004ac5a15c3",
+  "title": "currenjin/site-for-developers",
+  "source": "github",
+  "source_url": "https://github.com/currenjin/site-for-developers",
+  "published_at": "2026-11-21T15:17:40+00:00",
+  "collected_at": "2026-11-21T15:41:29+00:00",
+  "summary": "这是一个面向开发者的网站收藏项目，号称开发者的第一个书签，主要使用 Python，GitHub 星标约 1224。",
+  "score": 7.0,
+  "tags": [
+    "developer-tools",
+    "bookmarks",
+    "python",
+    "curated-list"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

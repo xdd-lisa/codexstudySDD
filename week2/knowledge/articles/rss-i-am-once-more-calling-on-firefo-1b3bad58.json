@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "1b3bad580afb2b40",
+  "title": "I am once more calling on Firefox to stop shipping AI slop",
+  "source": "rss",
+  "source_url": "https://lobste.rs/s/hgguqc/i_am_once_more_calling_on_firefox_stop",
+  "published_at": "2026-11-21T09:24:10-06:00",
+  "collected_at": "2026-11-21T15:41:30+00:00",
+  "summary": "作者批评 Firefox 在界面中不断加入 AI 风格元素，尤其是 URL 输入框的发光加载进度条，认为其过度吸引注意力、无视用户偏好，并呼吁停止这类设计。",
+  "score": 6.0,
+  "tags": [
+    "firefox",
+    "ui",
+    "ai",
+    "browser",
+    "design"
+  ],
+  "status": "draft",
+  "analysis": {
+    "provider": "deepseek",
+    "model": "deepseek-flash"
+  }
+}

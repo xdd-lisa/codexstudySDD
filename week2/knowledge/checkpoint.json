@@ -504,7 +504,9 @@
     "rss:0543ecd77e37d312": "3381c1b46b2b81fa",
     "rss:ff1e1fb2a23a1379": "5661d98e657c1ecf",
     "rss:9c140093e46f3cf7": "f6f0576c6cc397f3",
-    "rss:e422981852c2a880": "b90df0b3de54426b"
+    "rss:e422981852c2a880": "b90df0b3de54426b",
+    "github:currenjin/site-for-developers": "e3649004ac5a15c3",
+    "rss:529ae5e1238aa75f": "1b3bad580afb2b40"
   },
   "failed": {
     "rss:487c68eded196cae": {
@@ -636,5 +638,5 @@
       "attempts": 1
     }
   },
-  "updated_at": "2026-11-20T16:27:14+00:00"
+  "updated_at": "2026-11-21T15:41:35+00:00"
 }
